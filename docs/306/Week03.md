@@ -45,7 +45,7 @@
 
 Transport systems are complex **sociotechnical systems**.
 
-A set of rulesdcognitive routines, shared beliefs, social norms and conventions, regulations, industry standards, protocols, contracts, laws and so forthdthat fulfil a societal function (e.g., everyday mobility) and thereby condition the practices through which the technology, infrastructure, markets, cultural values, user practices, maintenance and repair, regulation and formal knowledge that make up sociotechnical systems are reproduced.
+A set of rules, cognitive routines, shared beliefs, social norms and conventions, regulations, industry standards, protocols, contracts, laws, and so forth that fulfill a societal function (e.g., everyday mobility) and thereby condition the practices through which the technology, infrastructure, markets, cultural values, user practices, maintenance and repair, regulation, and formal knowledge that make up sociotechnical systems are reproduced.
 
 Addressing these physical (e.g., infrastructure, maintenance) and cyber (e.g., technology such as traffic control systems) aspects and their intertwined connections demands a collaborative multidisciplinary approach, which is arguably at its most relevant when attempting to design and apply complex CPS engineering concepts.
 
