@@ -4,9 +4,9 @@ import { defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
   bundler: viteBundler(),
-  base: '/se/',
+  base: '/Se/',
   theme: defaultTheme({
-    logo: '/se/images/logo.png',
+    logo: '/Se/images/logo.png',
     navbar: false,
     sidebar: {
       '/': [

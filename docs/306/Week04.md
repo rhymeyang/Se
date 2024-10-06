@@ -202,6 +202,3 @@ system.
 + Humanevehicle interaction and riding comfort will also be the goals of autonomous driving system, as well as of all the autonomous functions.
 
 
-```shell
-mv '/Users/vicky/Library/Application Support/typora-user-images/image-20241006005711604.png' /Users/vicky/Documents/StClair/VueBook/semester/docs/.vuepress/public/images/306/32.png
-```
