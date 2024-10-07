@@ -87,7 +87,7 @@ NIST Cloud Computing Reference Architecture. F. Liu, J. Tong, J. Mao, R. Bohn, J
 
 ### China’s smart cities’ project
 
-![image-20241005221127532](/images/306/12.png)
+![image-20241005221127532](/images/306/13.png)
 
 ### SOFTWARE ARCHITECTURE ASPECTS
 

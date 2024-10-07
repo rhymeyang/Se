@@ -17,6 +17,13 @@ export default defineUserConfig({
           ],
         },
         {
+          text: 'CYB300 Automobility Cybersecurity Engineering Standards',
+          collapsable: true,
+          children: [
+            { text: "Tara PPT", link: '/300/01_Tara.md' },
+          ],
+        },
+        {
           text: 'CYB306 Cyber-Physical Vehicle System Security',
           collapsable: true,
           children: [
