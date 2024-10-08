@@ -15,7 +15,11 @@ Cybersecurity System Audits
 ## Introduction to IT Management Practices
 + IT management practices are important for ensuring the smooth functioning of IT services within an organization.
 + The primary IT services—development, operations, and support—are supported by secondary management practices.
-+ These secondary activities include personnel management, which deals with hiring and training employees; sourcing, which determines where and how work is performed; third-party service delivery management, which oversees external services; and change management, which governs IT system changes.
++ These secondary activities include:
+  + personnel management, which deals with hiring and training employees; 
+  + sourcing, which determines where and how work is performed; 
+  + third-party service delivery management, which oversees external services; 
+  + and change management, which governs IT system changes.
 + Additionally, there are practices like financial management, quality management, portfolio management, controls management, security management, and performance and capacity management, all of which ensure IT services meet business needs.
 
 
@@ -156,7 +160,7 @@ improve efficiencies, or comply with emerging regulations.
 
 ## Typical IT Organization Structure
 
-pic 2-5
+![image-20241007211605455](/images/308/w0501.png)
 
 ## Succession Planning in Organizational Structure
 + Succession planning is an essential strategy for managing unexpected changes in leadership.
@@ -170,7 +174,7 @@ pic 2-5
 + The bidirectional flow of communication is crucial for maintaining transparency, accountability, and operational efficiency.
 + It also fosters a culture of collaboration, where employees at all levels feel empowered to contribute to the organization’s success while adhering to established processes and controls.
 
-pic 2-6
+![image-20241007211726312](/images/308/w0502.png)
 
 ## Roles and Responsibilities
 + In an IT organization, roles and responsibilities encompass various dimensions, including positions on the org chart, job titles and duties, and expectations regarding the use and protection of assets.
@@ -283,7 +287,7 @@ pic 2-6
 
 ## Segregation of Duties
 
-table 2-2
+![image-20241007211835758](/images/308/w0503.png)
 
 ## Mitigating Segregation of Duties Issues
 + When Segregation of Duties (SOD) issues are identified, management must decide how to mitigate them.

@@ -38,7 +38,8 @@ export default defineUserConfig({
           text: 'CYB308 Cybersecurity System Audits',
           collapsable: true,
           children: [
-            { text: "Week05", link: '/308/Week05.md' },
+            { text: "Week 04", link: '/308/Week04.md' },
+            { text: "Week 05", link: '/308/Week05.md' },
           ],
         },
       ]
