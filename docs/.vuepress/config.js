@@ -24,6 +24,18 @@ export default defineUserConfig({
           ],
         },
         {
+          text: 'CYB304 Project Management For Cybersecurity In Automobility ',
+          collapsable: true,
+          children: [
+            { text: "Unit 1 Introduction", link: '/304/101_Introduction.md' },
+            { text: "Unit 1 Frameworks", link: '/304/102_Frameworks.md' },
+            { text: "Unit 1 Methodologies", link: '/304/103_Methodologies.md' },
+            { text: "Unit 1 Standards", link: '/304/104_Standards.md' },
+            { text: "Unit 1 Reqirements", link: '/304/105_Reqirements.md' },
+            { text: "Unit 2 Scheduling", link: '/304/201_Scheduling.md' },
+          ],
+        },
+        {
           text: 'CYB306 Cyber-Physical Vehicle System Security',
           collapsable: true,
           children: [
