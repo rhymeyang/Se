@@ -135,15 +135,15 @@ Prompt: "How do you see the unique challenges of automobility cybersecurity infl
 
 Homework: Challenges in Automobility Cybersecurity Projects
 
-1. Howcanthegrowingcomplexityofconnectedvehiclesystems(withmultiplemicrochipsandECUs)makeitmoredifficulttomanagecybersecuritywithina project’s constraints of budget, time, and scope?
-2. InwhatwaysmighttheuseofOver-the-Air(OTA)updatesposeuniquecybersecurityriskstoautomobilityprojects,andhowshouldprojectmanagersaccountfor these risks during the planning phase?
-3. Howdosupplychainvulnerabilitiesaffectautomobilitycybersecurity,especiallywhenrelyingonthird-partycomponents?Whatstepscanaprojectmanagertake to ensure security throughout the supply chain?
-4. Consideringtherapidpaceoftechnologicaladvancements,howcanprojectmanagersbalancetheneedfortimelydeliveryofautomotivecybersecurityfeatures while ensuring long-term security and compliance?
-5. Howdothelegalandcompliancerequirements,suchasUNECEWP.29,impacttheschedulingandresourceallocationforautomobilitycybersecurityprojects?
-6. Whatroledoescollaborationbetweendifferentdepartments(e.g.,engineering,IT,legal,andcybersecurityteams)playinmanagingautomobilitycybersecurity risks? How can project managers effectively coordinate across these teams?
-7. WithVehicle-to-Everything(V2X)communicationsbecomingmoreprevalent,whatspecificcybersecurityrisksdothesesystemsintroduce,andhowcanaproject manager ensure these risks are addressed without overburdening the project’s timeline and budget?
-8. HowcanAgileprojectmanagementprinciplesbeappliedeffectivelytocybersecurityprojectsintheautomotiveindustry,giventhatsomesecuritymeasures require longer development and testing cycles?
-9. Giventhecriticalnatureofsafetyinautomotivecybersecurity,howcanaprojectmanagerensurethatqualityisnevercompromisedwhilestillmeetingdeadlines and cost constraints?
+1. How can the growing complexity of connected vehicle systems(with multiple microchips and ECUs)make it more difficult to manage cybersecurity with in a project’s constraints of budget, time, and scope?
+2. In what ways might the use of Over-the-Air(OTA)updates pose unique cybersecurity risks to automobility projects,and how should project managers account for these risks during the planning phase?
+3. How do supply chain vulnerabilities affect automobility cybersecurity,especially when relying on third-party components? What steps can a project manager take to ensure security throughout the supply chain?
+4. Considering the rapid pace of technological advancements,how can project managers balance the need for timely delivery of automotive cyber security features while ensuring long-term security and compliance?
+5. How do the legal and compliance requirements,such as UNECE WP.29, impact the scheduling and resource allocation for automobility cybersecurity projects?
+6. What role does collaboration between differentdepartments(e.g.,engineering,IT,legal,and cybersecurity teams)play in managing automobility cybersecurity risks? How can project managers effectively coordinate across these teams?
+7. With Vehicle-to-Everything(V2X) communicationsbecomingmoreprevalent,what specific cybersecurity risksdo these systems introduce,and how can a project manager ensure these risks are addressed without overburdening the project’s timeline and budget?
+8. How can Agile project management principles be applied effectively to cybersecurity projects in the automotive industry,giventhatsomesecurity measures require longer development and testing cycles?
+9. Given the critical nature of safety in automotive cybersecurity,how can a project manager ensure that quality is never compromised while still meeting deadlines and cost constraints?
 10. As autonomous vehicles become more common, how do you foresee the role of the project manager evolving in automobility cybersecurity, especially in terms of risk management and stakeholder communication?
 11. What are some strategies project managers can use to ensure continuous monitoring and improvement of cybersecurity features post-launch? How do these strategies affect the overall project lifecycle?
 12. How do you think the lessons learned from traditional automotive project management models (like Toyota’s 3M or Ford’s IPDS) can be adapted to effectively manage cybersecurity in modern automobility projects?
