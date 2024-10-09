@@ -23,7 +23,7 @@
   - Emphasizes structured stages: Initiation, Planning, Execution,
     Monitoring & Controlling, and Closing.
   - Key Processes: Scope Management, Risk Management, Quality Control.
-- AgileMethodologiesinCybersecurity:
+- Agile Methodologies in Cybersecurity:
   - Flexibility: Respond quickly to emerging security threats.
   - Scrum and Kanban: Useful in sprints for testing and deploying cybersecurity measures.
   - When to Choose Agile or Waterfall: Discussion of hybrid models for automobility.
@@ -63,42 +63,42 @@
 
 #### Examples in Automobility Cybersecurity:
 
-- Muda:Removingunnecessarystepsinthesecurityapproval process.
-- Muri:Ensuringteamsaren'toverloadedduringcriticalstages like penetration testing or incident response.
-- Mura:Creatingconsistentandstreamlinedproceduresfor cybersecurity updates.
+- Muda: Removing unnecessary steps in the security approval process.
+- Muri: Ensuring teams aren't over loaded during critical stages like penetration testing or incident response.
+- Mura: Creating consistent and streamlined procedures for cybersecurity updates.
 
 ## Other Project Management Models
 
 ### Ford's Integrated Product Development System (IPDS):
 
-- Overview:ForddevelopedIPDStoensurecross-functional teams collaborate efficiently, focusing on concurrent engineering.
-- KeyFeatures:Earlyriskidentification,cross-team collaboration, and product lifecycle focus.
-- ApplicationtoCybersecurity:Emphasizesearly-stagerisk assessment and collaboration between engineering and cybersecurity teams to address vulnerabilities before launch.
+- Overview: Ford developed IPDS to ensure cross-functional teams collaborate efficiently, focusing on concurrent engineering.
+- KeyFeatures: Early risk identification, cross-team collaboration, and product lifecycle focus.
+- Application to Cybersecurity: Emphasizes early-stage risk assessment and collaboration between engineering and cybersecurity teams to address vulnerabilities before launch.
 
 ### GM’s Global Product Development System (GPDS):
 
-- Overview:Aprojectmanagementframeworkthatemphasizes quality, cost, and timing (QCT) from concept to vehicle launch.
-- KeyElements:Productlifecyclemanagement,quality assurance at every stage, and stakeholder involvement.
-- ApplicationtoCybersecurity:Alignswithcontinuous monitoring and testing of vehicle cybersecurity during development and post-launch.
+- Overview: A project management framework that emphasizes quality, cost, and timing (QCT) from concept to vehicle launch.
+- Key Elements: Product lifecycle management, quality assurance at every stage, and stakeholder involvement.
+- Application to Cybersecurity: Aligns with continuous monitoring and testing of vehicle cybersecurity during development and post-launch.
 
 ### Volkswagen’s VW.2025 Strategy:
 
-- FocusonDigitalTransformation:PartofVolkswagen’sshift toward connected and autonomous vehicles, with a focus on Agile and Lean principles.
-- ApplicationtoCybersecurity:Agileprinciplesensurerapid response to emerging cyber threats in connected vehicle systems.
+- Focus on Digital Transformation: Part of Volkswagen’s shift toward connected and autonomous vehicles, with a focus on Agile and Lean principles.
+- Application to Cybersecurity: Agile principles ensure rapid response to emerging cyber threats in connected vehicle systems.
 
 ## Risk Management
 
 ### Key Risks in Automobility Cybersecurity:
 
-- TechnicalRisks:Vulnerabilitiesinsoftwareandhardware,networkbreaches.
-- Legal&ComplianceRisks:Meetingregulatoryrequirements(e.g.,UNECE WP.29 cybersecurity regulations).
-- OperationalRisks:Downtimeduetocyberattacks,coordinationfailures across departments.
+- Technical Risks: Vulnerabilities in software and hardware, network breaches.
+- Legal & Compliance Risks: Meeting regulatory requirements(e.g.,UNECE WP.29 cybersecurity regulations).
+- Operational Risks: Downtime due to cyberattacks, coordination failures across departments.
 
 ### Risk Management Plan:
 
-- RiskIdentification:Whatcouldgowrong?(e.g.,softwarevulnerabilities, human error).
-- RiskAssessment:Rankingrisksbasedonprobabilityandimpact.
-- MitigationStrategies:Proactivemeasures(e.g.,regularsecuritytesting, compliance audits).
+- Risk Identification: What could go wrong?(e.g.,software vulnerabilities, human error).
+- Risk Assessment: Ranking risks based on probability and impact.
+- Mitigation Strategies: Proactive measures(e.g.,regular security testing, compliance audits).
 
 ## Key Takeaways
 
