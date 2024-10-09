@@ -79,32 +79,39 @@ Cons:
 + Less suitable for projects with strict regulatory or compliance requirements, common in the automotive industry.
 
 ## Waterfall vs Agile
-Waterfall:
+**Waterfall**:
 + Best suited for large, complex, and compliance-driven projects.
 + Works well when requirements are static and clearly defined from the outset.
 + Cybersecurity integration happens in later stages, potentially leaving gaps early in the project.
 
-Agile:
+**Agile**:
 + Ideal for dynamic environments where cybersecurity threats evolve rapidly.
 + Enables frequent testing, risk identification, and adjustments during development.
 + Encourages iterative improvements but may lack clear documentation needed for regulatory approval.
 
 ## Tailoring Methodologies
-Waterfall for Regulatory Projects: Tailor Waterfall to ensure compliance with standards like ISO/SAE 21434 and UNECE WP.29, where rigid documentation is necessary.
-Agile for Threat Response: Use Agile for ongoing cybersecurity initiatives like software patches, vulnerability management, and incident response.
-Hybrid Models: Some automobility projects might benefit from a hybrid approach (combining Waterfall and Agile), where fixed stages like compliance testing (Waterfall) coexist with iterative software development (Agile).
+**Waterfall for Regulatory Projects**: Tailor Waterfall to ensure compliance with standards like ISO/SAE 21434 and UNECE WP.29, where rigid documentation is necessary.
+
+**Agile for Threat Response**: Use Agile for ongoing cybersecurity initiatives like software patches, vulnerability management, and incident response.
+
+**Hybrid Models**: Some automobility projects might benefit from a hybrid approach (combining Waterfall and Agile), where fixed stages like compliance testing (Waterfall) coexist with iterative software development (Agile).
 
 ## Discussion
 When is Waterfall more appropriate for automobility cybersecurity projects?
+
 In what scenarios does Agile excel for cybersecurity challenges?
 Can both methodologies be combined for optimal results? How would that work in practice?
+
 What challenges might a project manager face when transitioning between Waterfall and Agile?
 
 ## Case Study
-Scenario: A connected vehicle platform requires regular security patches, while also needing to comply with stringent automotive regulations.
-Waterfall Approach: Review how a Waterfall approach might structure long-term compliance planning and project execution.
-Agile Approach: Explore how Agile sprints would handle continuous security monitoring, threat assessments, and response to emerging vulnerabilities.
-Activity: Discuss each approach, and present which methodology (or hybrid) would be most effective for the project.
+**Scenario**: A connected vehicle platform requires regular security patches, while also needing to comply with stringent automotive regulations.
+
+**Waterfall Approach**: Review how a Waterfall approach might structure long-term compliance planning and project execution.
+
+**Agile Approach**: Explore how Agile sprints would handle continuous security monitoring, threat assessments, and response to emerging vulnerabilities.
+
+**Activity**: Discuss each approach, and present which methodology (or hybrid) would be most effective for the project.
 
 ## Summary / Key Takeaways
 Both Waterfall and Agile have their place in managing automobility cybersecurity projects.

@@ -20,6 +20,8 @@ export default defineUserConfig({
           text: 'CYB300 Automobility Cybersecurity Engineering Standards',
           collapsable: true,
           children: [
+
+            { text: "Schedule", link: '/300/00_index.md' },
             { text: "Tara PPT", link: '/300/01_Tara.md' },
           ],
         },

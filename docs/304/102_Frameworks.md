@@ -20,46 +20,46 @@
 ## Review of PMBOK and Agile in the Context of Cybersecurity
 
 - PMBOK in Cybersecurity:
-  - Emphasizes structured stages: Initiation, Planning, Execution,
+  - **Emphasizes structured stages**: Initiation, Planning, Execution,
     Monitoring & Controlling, and Closing.
-  - Key Processes: Scope Management, Risk Management, Quality Control.
+  - **Key Processes**: Scope Management, Risk Management, Quality Control.
 - Agile Methodologies in Cybersecurity:
-  - Flexibility: Respond quickly to emerging security threats.
-  - Scrum and Kanban: Useful in sprints for testing and deploying cybersecurity measures.
+  - **Flexibility**: Respond quickly to emerging security threats.
+  - **Scrum and Kanban**: Useful in sprints for testing and deploying cybersecurity measures.
   - When to Choose Agile or Waterfall: Discussion of hybrid models for automobility.
 
 ## Project Constraints
 
 - The Triple Constraint (Scope, Time, Cost):
-  - Scope:Definingwhatisincludedintheproject(e.g.,whatsecurity features to implement, what systems to protect).
-  - Time:Workingwithindeadlinesforcomplianceorproductrelease.
-  - Cost:Budgetingforsecuritytools,complianceaudits,andtechnology
+  - **Scope**: Defining what is included in the project(e.g.,what security features to implement, what systems to protect).
+  - **Time**: Working with in deadlines for compliance or product release.
+  - **Cost**: Budgeting for security tools, compliance audits, and technology
     resources.
-- Adding Quality: Cybersecurity cannot afford to compromise on quality, especially with safety-critical systems like autonomous vehicles.
-- Balancing All Four: Case example: Trade-offs between implementing the latest encryption methods and staying within budget.
+- **Adding Quality**: Cybersecurity cannot afford to compromise on quality, especially with safety-critical systems like autonomous vehicles.
+- **Balancing All Four**: Case example: Trade-offs between implementing the latest encryption methods and staying within budget.
 
 ## Project Management Models
 
 ### History Behind These Models
 
-- Lean Origins: Many of these project management models stem from Lean Manufacturing principles developed in Japan, particularly at Toyota, and focus on improving efficiency and reducing waste.
-- Post-WWII Context: These methods emerged as a response to resource constraints and a need for innovative, resource- efficient production methods.
+- **Lean Origins**: Many of these project management models stem from Lean Manufacturing principles developed in Japan, particularly at Toyota, and focus on improving efficiency and reducing waste.
+- **Post-WWII Context**: These methods emerged as a response to resource constraints and a need for innovative, resource- efficient production methods.
 
 ---
 
-- Evolution in the Automotive Sector: As the automotive industry has transitioned toward digitalization and connectivity, these models have been adapted to include elements of software development, cybersecurity, and compliance.
-- Agile in Automotive: More recently, companies have embraced Agile methodologies, especially in developing connected and autonomous vehicle technology, due to the need for iterative testing and quick responses to security vulnerabilities.
+- **Evolution in the Automotive Sector**: As the automotive industry has transitioned toward digitalization and connectivity, these models have been adapted to include elements of software development, cybersecurity, and compliance.
+- **Agile in Automotive**: More recently, companies have embraced Agile methodologies, especially in developing connected and autonomous vehicle technology, due to the need for iterative testing and quick responses to security vulnerabilities.
 
 ### Toyota’s 3M Model:
 
-- 無駄 Muda(Waste):Focusoneliminatingwastefrom processes, such as inefficiencies in cybersecurity testing or redundant security controls.
-- 無理 Muri(Overburden):Preventingoverburdeningofteamsor resources, especially critical in high-stress environments like security operations.
-- 斑 Mura(Unevenness):Avoidinginconsistenciesor irregularities in workflows, which can lead to vulnerabilities in cybersecurity if left unchecked.
+- 無駄 Muda(Waste): Focus on eliminating waste from processes, such as inefficiencies in cybersecurity testing or redundant security controls.
+- 無理 Muri(Overburden): Preventing over burdening of teams or resources, especially critical in high-stress environments like security operations.
+- 斑 Mura(Unevenness): Avoiding inconsistencies or irregularities in workflows, which can lead to vulnerabilities in cybersecurity if left unchecked.
 
 #### History of Toyota’s 3M Model:
 
-- Origins:PartofToyota'sLeanManufacturingprinciples, developed post-WWII, to optimize manufacturing processes.
-- ApplicationtoCybersecurity:Thesameprinciplesof eliminating waste, preventing overburden, and ensuring evenness can be adapted to improve the efficiency and reliability of cybersecurity projects.
+- Origins: Part of Toyota's Lean Manufacturing principles, developed post-WWII, to optimize manufacturing processes.
+- Application to Cybersecurity: The same principles of eliminating waste, preventing overburden, and ensuring evenness can be adapted to improve the efficiency and reliability of cybersecurity projects.
 
 #### Examples in Automobility Cybersecurity:
 
@@ -115,21 +115,21 @@ This broader perspective highlights how traditional automotive project managemen
 
 ### Project Management Tools:
 
-- MS Project: Detailed scheduling, resource allocation for managing cybersecurity projects.
-- Visio: Process mapping for security protocols, data flow diagrams, network infrastructure.
-- Jira/Confluence: Useful for Agile teams, tracking tasks, and collaboration on security updates.
-- GitHub: Version control for security patches and compliance documents.
+- **MS Project**: Detailed scheduling, resource allocation for managing cybersecurity projects.
+- **Visio**: Process mapping for security protocols, data flow diagrams, network infrastructure.
+- **Jira/Confluence**: Useful for Agile teams, tracking tasks, and collaboration on security updates.
+- **GitHub**: Version control for security patches and compliance documents.
 - ### Communication Tools:
-- Slack/Teams: For real-time communication between engineering, IT, legal, and compliance.
-- Trello: Kanban boards for task tracking and assigning security updates.
+- **Slack/Teams**: For real-time communication between engineering, IT, legal, and compliance.
+- **Trello**: Kanban boards for task tracking and assigning security updates.
 
 ### Activity / Discussion
 
-Scenario: “You're managing a project to secure a new autonomous vehicle fleet. What are the most critical risks you would identify, and how would you prioritize addressing them?”
+**Scenario**: “You're managing a project to secure a new autonomous vehicle fleet. What are the most critical risks you would identify, and how would you prioritize addressing them?”
 
-Group Activity: Work in teams (max.3) to outline a basic risk management plan using the tools introduced.
+**Group Activity**: Work in teams (max.3) to outline a basic risk management plan using the tools introduced.
 
-Prompt: "How do you see the unique challenges of automobility cybersecurity influencing project management decisions?"
+**Prompt**: "How do you see the unique challenges of automobility cybersecurity influencing project management decisions?"
 
 ## Q & A
 
