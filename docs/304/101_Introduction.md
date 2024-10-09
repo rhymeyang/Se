@@ -125,6 +125,7 @@
 **Scenario**: A vehicle’s infotainment system, connected to the internet, is hacked, allowing an attacker to gain remote access to the car's critical functions, such as steering, brakes, or engine control.
 
 **Potential Impact**: Hackers could manipulate the car’s driving system, causing accidents, or lock out the driver from accessing the vehicle.
+
 **Mitigation**:
 
 - Implement strong encryption for communication between the vehicle’s systems and external networks.
@@ -145,9 +146,11 @@
 
 ### 3. CAN Bus (Controller Area Network) Exploits
 
-Scenario: An attacker gains physical or wireless access to the vehicle’s CAN bus network, which connects microcontrollers and devices inside the vehicle. They manipulate data between the vehicle’s electronic control units (ECUs).
-Potential Impact: Unauthorized commands could be sent to the vehicle’s critical systems, such as disabling airbags or anti-lock brakes, or altering speed and engine performance.
-Mitigation:
+**Scenario**: An attacker gains physical or wireless access to the vehicle’s CAN bus network, which connects microcontrollers and devices inside the vehicle. They manipulate data between the vehicle’s electronic control units (ECUs).
+
+**Potential Impact**: Unauthorized commands could be sent to the vehicle’s critical systems, such as disabling airbags or anti-lock brakes, or altering speed and engine performance.
+
+**Mitigation**:
 
 - Implement encryption and message authentication for CAN bus
   communications.
@@ -158,9 +161,11 @@ Mitigation:
 
 ### 4. Vehicle-to-Everything (V2X) Communication Vulnerabilities
 
-Scenario: Future vehicles will communicate with other vehicles, road infrastructure, and pedestrians via V2X systems. An attacker could send falsified V2X signals, causing a vehicle to misinterpret road conditions, such as stopping suddenly or accelerating in dangerous situations.
-Potential Impact: Disruption in V2X communications could cause traffic accidents, gridlock, or interfere with autonomous vehicle operations.
-Mitigation:
+**Scenario**: Future vehicles will communicate with other vehicles, road infrastructure, and pedestrians via V2X systems. An attacker could send falsified V2X signals, causing a vehicle to misinterpret road conditions, such as stopping suddenly or accelerating in dangerous situations.
+
+**Potential Impact**: Disruption in V2X communications could cause traffic accidents, gridlock, or interfere with autonomous vehicle operations.
+
+**Mitigation**:
 
 - Encrypt all V2X communications and use digital certificates to authenticate
   messages.
@@ -171,9 +176,11 @@ Mitigation:
 
 ### 5. Supply Chain Vulnerabilities
 
-Scenario: Microchips and controllers supplied by third-party vendors contain pre- installed malware or backdoors, which can be exploited once integrated into the vehicle’s systems.
-Potential Impact: Attackers could gain access to the vehicle's critical systems via vulnerabilities embedded at the manufacturing stage, making it difficult to detect and resolve.
-Mitigation:
+**Scenario**: Microchips and controllers supplied by third-party vendors contain pre- installed malware or backdoors, which can be exploited once integrated into the vehicle’s systems.
+
+**Potential Impact**: Attackers could gain access to the vehicle's critical systems via vulnerabilities embedded at the manufacturing stage, making it difficult to detect and resolve.
+
+**Mitigation**:
 
 - Perform thorough security audits and testing of all third-party components before
   integration.
