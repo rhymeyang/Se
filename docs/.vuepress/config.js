@@ -20,9 +20,18 @@ export default defineUserConfig({
           text: 'CYB300 Automobility Cybersecurity Engineering Standards',
           collapsable: true,
           children: [
-
             { text: "Schedule", link: '/300/00_index.md' },
             { text: "Tara PPT", link: '/300/01_Tara.md' },
+          ],
+        },
+        {
+          text: 'ISO 21434',
+          collapsable: true,
+          children: [
+            { text: "Introduction", link: '/iso/i21434/01_introduction.md' },
+            { text: "Forward", link: '/iso/i21434/02_forward.md' },
+            { text: "Introduction", link: '/iso/i21434/03_introduction.md' },
+            { text: "Content", link: '/iso/i21434/04_content.md' },
           ],
         },
         {

@@ -27,19 +27,13 @@
 
 ## ISO 21434 - Road vehicles — Cybersecurity Engineering
 
-- Specifies engineering requirements for cybersecurity risk
-
-  management
-
+- Specifies engineering requirements for cybersecurity risk management
   - E/E systems in road vehicles
   - Components
   - Interfaces
-
 - Defines a framework
-
   - Minimum Requirements for cybersecurity processes
   - Common language for communicating and managing cybersecurity risk.
-
 - Covers Cybersecurity Management and engineering processes
 
 ## ISO 21434 - Applicability
