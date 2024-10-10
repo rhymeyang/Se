@@ -14,10 +14,10 @@
 
 ## 1. INTRODUCTION
 
-- Sustainable transportation, especially in increasingly urbanised environments, relies on mobility being a flexible service that can respond to changes in the environment as well as the behaviour and needs of users.
-- Delivering such responsiveness requires future transportation systems to be ‘smart’, relying on digital technologies for the acquisition, transmission and analysis of data from physical systems.
-- The systems engineer working in the transport environment faces many challenges alongside the demands of a complex, multiowner environment.
-- The cyber-physical character of transportation projects means that we must deal with network distributed processes and in integrating the variety of design models and analytic techniques used by the many disciplines that collaborate (intentionally or otherwise) in delivering mobility.
+- Sustainable transportation, especially in increasingly urbanized environments, relies on mobility being a flexible service that can respond to changes in the environment as well as the behavior and needs of users.
+- Delivering such responsiveness requires future transportation systems to be "smart," relying on digital technologies for the acquisition, transmission, and analysis of data from physical systems.
+- The systems engineer working in the transport environment faces many challenges alongside the demands of a complex, multi-owner environment.
+- The cyber-physical character of transportation projects means that we must deal with network-distributed processes and in integrating the variety of design models and analytic techniques used by the many disciplines that collaborate (intentionally or otherwise) in delivering mobility.
 
 ## 2. TRANSPORTATION CYBER-PHYSICAL SYSTEMS ENGINEERING
 
