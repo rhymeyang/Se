@@ -35,6 +35,17 @@ export default defineUserConfig({
           ],
         },
         {
+          text: 'CYB302 Automobility Cybersecurity',
+          collapsable: true,
+          children: [
+            { text: "Week 01", link: '/302/Week01.md' },
+            { text: "Week 02", link: '/302/Week02.md' },
+            { text: "Week 03", link: '/302/Week03.md' },
+            { text: "Week 04", link: '/302/Week04.md' },
+            { text: "Week 05", link: '/302/Week05.md' },
+          ],
+        },
+        {
           text: 'CYB304 Project Management For Cybersecurity In Automobility ',
           collapsable: true,
           children: [

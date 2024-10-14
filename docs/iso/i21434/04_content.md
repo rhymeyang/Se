@@ -230,13 +230,13 @@ This document describes cybersecurity engineering from the perspective of a sing
 
 The overall cybersecurity risk management of an organization described in this document applies throughout all lifecycle phases as illustrated in Figure 2.
 
-![image-20241008171025099](/Users/vicky/Library/Application Support/typora-user-images/image-20241008171025099.png)
+![image-20241008171025099](/images/iso21434/iso01.png)
 
 Cybersecurity risk management is applied throughout the supply chain to support cybersecurity engineering. Automotive supply chains exhibit diverse models of collaboration. Not all cybersecurity activities apply to all organizations involved in a specific project. Cybersecurity activities can be tailored to accommodate the needs of a specific situation (see Clause 6). Development partners for a specific item or component agree on the work-split so that the applicable cybersecurity activities are performed (see Clause 7).
 
 Figure 3 shows the relationship between an item, function, component and related terms.
 
-![image-20241008171107646](/Users/vicky/Library/Application Support/typora-user-images/image-20241008171107646.png)
+![image-20241008171107646](/images/iso21434/iso02.png)
 
 
 Clause15 describes modular methods for assessment of cybersecurity risk that are invoked in cybersecurity activities described in other clauses.
