@@ -1,0 +1,29 @@
+What are the steps involved to do Threat Analysis and Risk Assessment as per ISO 21434, Provide a detailed answer with examples. 
+
+The steps involved in Threat Analysis and Risk Assessment (TARA) as per ISO 21434:
+
+1. **Item Definition**
+**Description**: The first step in TARA is to define the "item" being analyzed. This involves identifying the system or component in question, along with its boundaries, functionality, and its interactions with other systems.
+**Example**: If the item is the "vehicle braking control system," it’s important to define how this system functions, including its sensors, software, and how it communicates with the vehicle’s overall control system.
+2. **Asset Identification**
+**Description**: Assets are critical components or data within the item that, if compromised, could lead to negative consequences. Identifying these assets ensures that attention is directed to protecting the most important parts of the system.
+**Example**: In the case of the vehicle braking control system, assets could include:
+The software managing brake commands.
+The sensor data determining road conditions.
+The communication links between the braking system and the vehicle’s ECU.
+3. **Threat Scenario Identification**
+**Description**: Threat scenarios involve identifying possible ways in which an attacker might exploit a vulnerability within the item to affect an asset. Each scenario outlines a potential attack path and the consequences of a successful attack.
+**Example**: A threat scenario could be that an attacker sends fake signals to the braking system, resulting in false braking commands or preventing the brakes from activating when needed.
+4. **Impact Rating**
+**Description**: Each identified threat scenario must be rated based on its impact. Impact is determined by assessing the potential consequences of a successful attack on the asset, which could include risks to safety, operational performance, or financial losses.
+**Example**: If a vulnerability in the braking system is exploited, the impact might be rated as severe, as it could lead to physical harm to the driver and passengers.
+5. **Attack Path Analysis**
+**Description**: This step involves analyzing how an attacker could reach the asset by exploiting vulnerabilities in the system. The analysis focuses on understanding possible attack methods and the paths attackers could use.
+**Example**: The attack path for compromising the braking system could involve intercepting the wireless communication between the braking system and other control systems, allowing unauthorized commands to be inserted.
+6. **Risk Determination**
+**Description**: The overall risk is calculated by combining the likelihood of an attack's success with the impact rating. This helps prioritize which risks require the most immediate attention and resources for mitigation.
+**Example**: The likelihood of an attack on the wireless link might be high, and since the impact is severe, the overall risk level could be rated as critical.
+7. **Risk Treatment Decision**
+**Description**: After determining the risk level, the next step is to decide how to address it. Options include mitigating the risk by applying security controls, accepting the risk, or transferring it (e.g., through insurance).
+**Example**: For the braking system, mitigation might involve implementing stronger encryption for the communication link or adding redundancy to ensure braking commands cannot be easily tampered with.
+This process ensures that cybersecurity risks in vehicles are systematically identified and managed throughout the entire lifecycle of the vehicle.
