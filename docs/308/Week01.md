@@ -22,7 +22,7 @@ Cybersecurity System Audits
 ## ISACA Standards for Auditing
 
 - ITAF (Information Technology Assurance Framework): A comprehensive framework that includes standards, guidelines, and tools for IS auditing.
-- General Standards: These include the principles of audit charter, professional independence, and due professional care.
+- General Standards: These include the **principles of audit charter**, **professional independence**, and **due professional care**.
 - Performance Standards: Focuses on the actual conduct of the audit, including planning, risk assessment, and evidence collection.
 - Reporting Standards: Outlines how to properly document and report audit findings to stakeholders.
 
