@@ -33,8 +33,8 @@ Cybersecurity System Audits
 ## Overview of CISA Certification
 
 - The CISA certification is globally recognized as the leading credential for professionals in the field of information systems (IS) auditing, control, and security.
-- Earning a CISA certification validates your expertise in managing and overseeing IS audit processes, ensuring that organizations' information systems are secure, reliable, and compliant with regulations.
-- Since its inception in 1978, over 129,000 professionals worldwide have earned the CISA certification, making it one of the most respected certifications in the IT industry.
+- Earning a CISA certification **validates** your **expertise** in managing and overseeing IS audit processes, ensuring that organizations' information systems are secure, reliable, and compliant with regulations.
+- Since its **inception** in 1978, over 129,000 professionals worldwide have earned the CISA certification, making it one of the most respected certifications in the IT industry.
 - It represents a commitment to ongoing education and professional excellence in the field of IS auditing.
 
 ## Definition and Purpose of Audit
