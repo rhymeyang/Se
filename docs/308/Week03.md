@@ -150,7 +150,7 @@ The phases includes:
 3. Evaluating
 4. Reporting
 
-![image-20241020002318451](/Uimages/308/w0302.png)
+![image-20241020002318451](/images/308/w0302.png)
 
 ## Gathering Audit Evidence
 

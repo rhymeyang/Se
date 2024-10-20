@@ -80,6 +80,17 @@ export default defineUserConfig({
             { text: "Week 05", link: '/308/Week05.md' },
           ],
         },
+        {
+          text: 'CYB308 TextBook',
+          collapsable: true,
+          children: [
+            { text: "CHAPTER 1 Becoming a CISA", link: '/308B/Chapter01.md' }, 
+            { text: "CHAPTER 2 IT Governance and Management", link: '/308B/Chapter02.md' }, 
+            { text: "CHAPTER 3 The Audit Process", link: '/308B/Chapter03.md' }, 
+            { text: "Week 04", link: '/308B/Chapter04.md' }, 
+            { text: "Week 05", link: '/308B/Chapter05.md' }, 
+          ],
+        },
       ]
     },
   }),
