@@ -96,7 +96,7 @@ Cybersecurity System Audits
 + Organizations opt for outsourcing to handle tasks efficiently and cost-effectively. One reason is variable demand, where workforce needs fluctuate, such as seasonal peaks.
 + High turnover positions, like IT helpdesk roles, are outsourced to reduce the costs of constant training and replacement. Outsourcing also allows organizations to focus on core activities by transferring non-core functions, such as IT support, to external vendors.
 + Financial reasons often motivate outsourcing, such as offshoring to reduce costs by leveraging lower wages in other countries. Finally, outsourcing can ensure complete time coverage by hiring teams in different time zones for 24/7 service.
-+ Objectivity is another benefit, as external personnel can approach tasks like process improvement with impartiality.
++ **Objectivity** is another benefit, as external personnel can approach tasks like process improvement with impartiality.
 + Lastly, outsourcing can lead to reduced costs, especially when offshoring work to countries with lower labor rates, thereby improving the organization's competitive position in the market.
 
 ## Outsourcing Risks
@@ -138,9 +138,9 @@ Cybersecurity System Audits
 
 ## Software Acquisition Models
 + In financial management, one of the key decisions involves software acquisition. Organizations must decide between three main options.
-  + Develop: Building custom applications in-house or using contracted developers.
-  + Purchase: Buying licenses from vendors and deploying software on owned servers.
-  + Rent: Opting for a Software-as-a-Service (SaaS) model where the application is hosted by a third party, and organizations pay based on usage.
+  + **Develop**: Building custom applications in-house or using contracted developers.
+  + **Purchase**: Buying licenses from vendors and deploying software on owned servers.
+  + **Rent**: Opting for a **Software-as-a-Service (SaaS)** model where the application is hosted by a third party, and organizations pay based on usage.
 + Each choice has financial implications, such as development costs, capital investment in servers, or ongoing subscription fees, and the decision also depends on the level of control the organization requires.
 
 ## Quality Management
@@ -267,8 +267,7 @@ improve efficiencies, or comply with emerging regulations.
 + Segregation of Duties (SOD), also known as separation of duties, ensures that no individual has excessive privileges to carry out potentially harmful actions on their own.
 + It introduces checks and balances so that high-value and high-sensitivity tasks are coordinated by two or more authorized individuals.
 + This prevents unauthorized activities like fraud, data manipulation, or exposure.
-+ SOD has long been established in accounting departments to prevent conflicts of interest, but IT departments have only more recently adopted full SOD practices due to scandals in the
-1980s and 1990s, along with regulations like Sarbanes-Oxley.
++ SOD has long been established in accounting departments to prevent conflicts of interest, but IT departments have only more recently adopted full SOD practices due to scandals in the 1980s and 1990s, along with regulations like Sarbanes-Oxley.
 + SOD principles include dividing responsibilities between multiple parties, creating transparency, and ensuring proper authorization for activities.
 + Given the complex nature of modern IT environments, SOD plays a crucial role in protecting sensitive information and ensuring compliance with regulatory standards.
 + SOD principles include dividing responsibilities between multiple parties, creating transparency, and ensuring proper authorization for activities.
