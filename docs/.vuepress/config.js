@@ -60,7 +60,7 @@ export default defineUserConfig({
         },
         {
           text: 'CYB306 Cyber-Physical Vehicle System Security',
-          collapsable: true,
+          collapsable: false,
           children: [
             { text: "Week01", link: '/306/Week01.md' },
             { text: "Week02", link: '/306/Week02.md' },
@@ -71,7 +71,7 @@ export default defineUserConfig({
         },
         {
           text: 'CYB308 Cybersecurity System Audits',
-          collapsable: true,
+          collapsable: false,
           children: [
             { text: "Week 01", link: '/308/Week01.md' }, 
             { text: "Week 02", link: '/308/Week02.md' },

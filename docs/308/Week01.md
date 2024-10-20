@@ -297,7 +297,7 @@ What is the primary purpose of conducting a security audit in a CAV system?
 - C) To protect sensitive data from breaches
 - D) To improve fuel efficiency
 
-### • Question 2:
+### Question 2:
 
 Which type of audit is most crucial for ensuring that a CAV system complies with government regulations?
 
