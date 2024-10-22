@@ -6,7 +6,7 @@ Cybersecurity System Audits
 
 - Introduction
 - Audit Description
-- IS audit function management and its process
+- **IS audit function management** and its process
 - Listing ISACA IS audit and assurance guidelines and standards
 - Risks types and steps to analyze them
 - Describe the internal controls
@@ -17,10 +17,10 @@ Cybersecurity System Audits
 
 ## Introduction
 
-- This chapter focuses on how an audit should be conducted, emphasizing the process rather than regulations, laws, or technical details..
-- It primarily covers the formal audit procedure, marking the start of Domain One, where the audit process truly begins.
-- The audit follows a systematic, scientific approach, where auditors apply procedural and ethical frameworks to assess and evaluate the effectiveness of an organization.
-- This process is guided by the ITAF (Information Technology Assurance Framework) and ISACA's Code of Ethics, both of which aim to enhance the audit profession and facilitates continuous improvement.
+- This chapter **focuses** on **how** an audit should be **conducted**, **emphasizing** the **process** rather than regulations, laws, or technical details..
+- It primarily covers the **formal audit procedure**, **marking the start of Domain One**, where the audit process truly begins.
+- The audit follows a **systematic, scientific approach**, where auditors apply **procedural and ethical frameworks** to assess and evaluate the effectiveness of an organization.
+- This process is guided by the **ITAF (Information Technology Assurance Framework)** and ISACA's Code of Ethics, both of which aim to enhance the audit profession and facilitates continuous improvement.
 
 ![image-20241019141543217](/images/308/w0201.png)
 
@@ -34,27 +34,26 @@ Cybersecurity System Audits
 
 ## ISACA Code of Professional Ethics
 
-- Support the implementation of, and promote compliance with, relevant standards, procedures, and controls for information systems.
-- Perform their duties with due diligence and professional care, following established standards and best practices.
-- Serve stakeholders in a lawful and honest way, upholding high standards of conduct and character, and avoid any actions that could discredit the profession.
-- Protect the privacy and confidentiality of information obtained during their duties, unless legally required to disclose it. Such information must not be used for personal gain or shared with unauthorized parties.
+- **Support the implementation of, and promote compliance with**, relevant standards, procedures, and controls for information systems.
+- Perform their duties with due **diligence and professional care**, following **established standards** and best practices.
+- Serve stakeholders in a lawful and honest way, **upholding high standards** of conduct and character, and avoid any actions that could discredit the profession.
+- Protect the privacy and confidentiality of information obtained during their duties, unless legally required to disclose it. Such information must not be used for **personal gain** or shared with unauthorized parties.
 
-## ISACA Code of Professional Ethics (Contd.,)
+---
 
-- Maintain their competence in their field and only take on tasks they are qualified to complete professionally.
-- Communicate the results of their work to relevant parties, disclosing all significant facts.
+- Maintain their **competence** in their field and only take on tasks they are qualified to complete professionally.
+- Communicate the results of their work to relevant parties, disclosing all **significant facts**.
 - Support the professional education of stakeholders to enhance their understanding of information systems security and control.
 
 > IMPORTANT:
 >
-> Non-compliance with the Code of Professional Ethics may lead to an investigation into the conduct of a member and/or certification holder, potentially resulting in disciplinary action.
+> Non-compliance with the **Code of Professional Ethics** may lead to an investigation into the conduct of a member and/or certification holder, potentially resulting in **disciplinary action**.
 
 ## ISACA IT Audit and Assurance Standards Framework Objective
 
 The objectives of IS audit and assurance standards are to inform:
-
-1. **IS auditors** -> about the minimum level of performance needed to fulfill the professional responsibilities outlined in the code of ethics.
-2. **The management** -> about the profession’s requirements concerning the work conducted by audit practitioners.
+1. **IS auditors** -> about the **minimum** level of performance needed to fulfill the professional responsibilities outlined in the **code of ethics**.
+2. **The management** -> about the profession’s requirements concerning the work conducted by **audit practitioners**.
 3. **The CISA certification holders** -> that failure to adhere to these standards will lead to a review of their conduct by the ISACA board of directors, potentially resulting in disciplinary action.
 
 ## Standards, Guidelines and Practices
@@ -75,54 +74,49 @@ The objectives of IS audit and assurance standards are to inform:
 ## Key Components of Audit Management
 
 - **Audit Charter**
-  - The audit charter is a formal document that defines the authority, scope, and responsibilities of the audit function.
+  - The audit charter is a formal document that defines the **authority**, **scope**, and **responsibilities** of the audit function.
   - It outlines the auditor’s responsibilities and establishes the framework for conducting audits in alignment with organizational objectives.
-
 - **Audit Strategy**
-
   - An audit strategy provides a high-level plan to guide the audit function over time.
   - It aligns the audit function with organizational risks and business objectives and serves as the blueprint for audit activities.
-
 - **Audit Program**
-  - The audit program is a detailed plan for carrying out individual audits.
-  - It includes the scope, objectives, resources, and methodology for each audit, ensuring that audit activities are focused and consistent.
+  - The audit program is a **detailed plan** for carrying out individual audits.
+  - It includes the **scope**, **objectives**, **resources**, and **methodology** for each audit, ensuring that audit activities are focused and consistent.
 
 ## The Audit Charter
 
 - **Purpose of the Audit Charter**
-
-  - The audit charter defines the scope and responsibilities of the audit team.
+  - The audit charter defines the **scope and responsibilities** of the audit team.
   - It ensures that the audit function operates independently and provides sufficient authority to ensure that recommendations are implemented without giving auditors too much control.
-
 - **Roles and Responsibilities**
   - The charter outlines the roles of the audit team, emphasizing adherence to ISACA standards.
-  - It ensures auditors maintain ethical standards and independence, preventing conflicts of interest that could undermine audit integrity.
+  - It ensures auditors maintain ethical standards and independence, preventing conflicts of interest that could **undermine audit integrity**.
 
 ## Introduction to the Audit Program
 
 - **Definition of an Audit Program**
-  - An audit program is the plan that outlines how audits will be conducted within an organization.
-  - It covers scope, objectives, resources, and the procedures used to evaluate controls and form an audit opinion over a set period.
+  - An audit program is the **plan** that **outlines** how audits will be conducted within an organization.
+  - It covers **scope, objectives, resources, and the procedures** used to evaluate controls and form an audit opinion over a set period.
 - **The Role of an Audit Program**
-  - The audit program helps standardize the audit process, ensuring that each audit follows a consistent methodology.
-  - It serves as a guide for auditors, ensuring that all necessary aspects of the audit are covered and adequately resourced.
+  - The audit program helps **standardize** the audit **process**, ensuring that each audit follows a **consistent methodology**.
+  - It serves as a guide for auditors, ensuring that all necessary aspects of the audit are covered and **adequately resourced**.
 
 ## Components of Audit Program
 
 - **Resources and Procedures**
-  - Resources refer to the budget, staff, and tools available for the audit.
-  - Procedures outline the methodology auditors will use to evaluate controls, including steps such as sampling, testing, and documentation.
+  - **Resources** refer to the **budget**, **staff**, and **tools** available for the audit.
+  - Procedures outline the **methodology** auditors will use to **evaluate controls**, including steps such as sampling, testing, and documentation.
 - **Scope and Objectives**
-  - The scope defines the specific areas, systems, or processes to be audited, while the objectives state the purpose of the audit.
-  - Both elements ensure the audit is focused and provides value by addressing key risks and controls.
+  - The **scope** defines the **specific areas, systems, or processes** to be audited, while the **objectives** state the purpose of the audit.
+  - Both elements ensure the audit is **focused** and provides value by addressing key risks and controls.
 
 ## Strategic Audit Planning
 
 - **What is Strategic Audit Planning?**
-  - Strategic audit planning involves identifying future audit activities based on the organization’s goals, risks, and regulatory requirements.
+  - Strategic audit planning involves **identifying future audit activities** based on the organization’s goals, risks, and regulatory requirements.
   - The plan includes estimating the resources necessary to perform these audits, including staffing, tools, and budget allocation.
 - **Why Strategic Planning is Important?**
-  - Without strategic planning, audit activities may become reactive and disorganized.
+  - Without strategic planning, audit activities may become **reactive** and **disorganized**.
   - A well-structured audit plan ensures that audits are aligned with organizational goals and risks, providing timely insights into business processes and controls.
 
 ## Factors Affecting an Audit
@@ -212,13 +206,11 @@ The objectives of IS audit and assurance standards are to inform:
 - Understanding their importance is key for CISA candidates.
 
 1. **Audit Charter (Standard 1001)**
-
-- **Formal Definition of Audit Activities**
-  The audit charter formally defines the scope, authority, and responsibility for audits in an organization.
-  Senior management must support the charter to ensure audits are conducted appropriately.
-- **Significance of the Audit Charter**
-  It sets the foundation for the audit program, ensuring that auditors have clear guidelines and boundaries within which to operate.
-
+   - **Formal Definition of Audit Activities**
+    The audit charter formally defines the scope, authority, and responsibility for audits in an organization.
+    Senior management must support the charter to ensure audits are conducted appropriately.
+   - **Significance of the Audit Charter**
+    It sets the foundation for the audit program, ensuring that auditors have clear guidelines and boundaries within which to operate.
 2. **Professional Independence (Standard 1003)**
    - **Behavioral Independence**
      The IS auditor should maintain professional independence from the auditee, ensuring no conflicts of interest affect the audit’s outcome.
@@ -259,7 +251,7 @@ The objectives of IS audit and assurance standards are to inform:
      IS auditors should follow up on audit findings to ensure management has taken the recommended corrective actions. This step is essential to ensure that issues identified during the audit are addressed effectively.
    - **Timing and Scheduling**
      Follow-up activities should be scheduled at an appropriate time, based on the nature and severity of the audit findings.
-10. **Evidence (Standard 1205)**
+10.  **Evidence (Standard 1205)**
     - **Gathering Audit Evidence**
       IS auditors must collect sufficient and appropriate evidence to draw reasonable conclusions about the effectiveness of controls and procedures. Evidence may include documentation, records, audit logs, and the results of testing procedures.
     - **Evaluating Evidence**
