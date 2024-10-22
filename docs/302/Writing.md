@@ -171,3 +171,70 @@ Each journal has a specific format in which manuscripts must be submitted. It va
 **Godspeed**, and remember that our journals are not only for academicians but for all those who have a message.
 
 Brian F. McCabe, MD, Editor
+
+---
+
+### Slide 1: Title Slide
+
+- **Title:** How to Write a Technical/Scientific Paper
+- **Subtitle:** Key Guidelines for Effective Writing
+- **Presenter:** [Your Name]
+- **Date:** [Presentation Date]
+
+------
+
+### Slide 2: Purpose of Writing a Paper
+
+
+
+- **Objective:** Share findings with a broader audience.
+- **Key Point:** Technical papers are written to inform and contribute to knowledge in a field.
+- **Importance:** Reaching thousands through journal publications and enhancing professional growth
+
+------
+
+### Slide 3: Essential Sections of a Paper
+
+- **Technical Paper Structure:**
+  - **Title:** Draws attention to your work.
+  - **Abstract:** A concise summary of objectives, methods, and findings.
+  - **Introduction:** Sets the context and defines the problem
+- **Scientific Paper Structure:**
+  - **Materials and Methods:** Details for replication.
+  - **Results and Discussion:** Core findings and their implications
+
+------
+
+### Slide 4: Writing Style and Guidelines
+
+- Tips:
+- - Use **passive voice** and avoid subjective language.
+  - Keep **titles** descriptive but concise.
+  - Use precise **figures** that reflect measurement accuracy
+
+------
+
+### Slide 5: Abstract and Introduction
+
+- Abstract:
+  - Keep it brief (150-200 words).
+  - Focus on what was done, how, and the results.
+- Introduction:
+  - Explain the background and the problem.
+  - State the purpose and why it matters
+
+------
+
+### Slide 6: Results and Discussion
+
+- **Results:** Present findings with relevant figures and trends.
+- **Discussion:** Compare theoretical and experimental results, explaining discrepancies.
+- **Focus:** Use clear visuals and ensure consistency
+
+------
+
+### Slide 7: Conclusion and Recommendations
+
+- **Summarize:** Key findings and their implications.
+- **Pronounce Judgment:** State what the study accomplished and future directions.
+- **Next Steps:** Highlight further research opportunities
