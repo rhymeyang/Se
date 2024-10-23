@@ -92,7 +92,7 @@ export default defineUserConfig({
             { text: "Input Controls", link: '/308B/InputControls.md' }, 
             { text: "CHAPTER 5 IT Service Management and Continuity", link: '/308B/Chapter05.md' }, 
             { text: "Business Resilience", link: '/308B/BusinessResilience.md' }, 
-            { text: "Week", link: '/308B/Chapter06.md' }, 
+            { text: "CHAPTER 6 Information Asset Protection", link: '/308B/Chapter06.md' }, 
             { text: "Encryption", link: '/308B/Encryption.md' }, 
             { text: "Appendix A", link: '/308B/AppendixA.md' }, 
             { text: "Appendix B", link: '/308B/AppendixB.md' }, 
@@ -103,8 +103,8 @@ export default defineUserConfig({
     },
   }),
   lang: 'zh-CN',
-  title: "Vivian's Page",
-  description: 'Vivian',
+  title: "Vicky's Page",
+  description: "Vicky's Notes",
 })
 
 
