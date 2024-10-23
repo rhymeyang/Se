@@ -88,8 +88,10 @@ export default defineUserConfig({
             { text: "CHAPTER 1 Becoming a CISA", link: '/308B/Chapter01.md' }, 
             { text: "CHAPTER 2 IT Governance and Management", link: '/308B/Chapter02.md' }, 
             { text: "CHAPTER 3 The Audit Process", link: '/308B/Chapter03.md' }, 
-            { text: "Week 04", link: '/308B/Chapter04.md' }, 
+            { text: "CHAPTER 4 IT Life Cycle Management", link: '/308B/Chapter04.md' }, 
             { text: "Week 05", link: '/308B/Chapter05.md' }, 
+            { text: "Week", link: '/308B/Chapter06.md' }, 
+            { text: "Week", link: '/308B/Chapter07.md' }, 
           ],
         },
       ]

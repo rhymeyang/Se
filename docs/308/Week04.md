@@ -405,15 +405,10 @@ IT standards are official, management-approved statements that define the techno
 ### Types of IT Standards
 
 - **Technology/Product Standards:**
-
   These standards specify what technologies or products are used across the organization, including operating systems, database management systems, and application servers. Consistency in technology reduces complexity and improves support.
-
 - **Protocol Standards:**
-
   These refer to the protocols an organization uses for communication, such as TCP/IP for internal networks or TLS for secure transmissions. Standardized protocols ensure secure, efficient data transmission.
-
 - **Supplier Standards:**
-
   Supplier standards define the vendors from which the organization purchases IT products or services. Standardizing suppliers can result in negotiated discounts and streamlined support.
 
 ## Types of Standards

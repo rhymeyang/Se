@@ -199,10 +199,8 @@ The phases includes:
 ## Reliance on the Work of Other Auditors
 
 - **What?**
-
   - Organizations increasingly rely on the work of other auditors due to a lack of in-house expertise in all technological areas.
   - Outsourcing audits to third-party auditors can fill knowledge gaps but requires careful management and due diligence to ensure external auditors meet necessary standards and compliance.
-
 - **Why?**
   - IT specialization is driving the need for external auditors.
   - Internal auditors may not have the breadth of expertise required to fully evaluate complex IT environments, making third-party services essential.
@@ -210,11 +208,9 @@ The phases includes:
 ## Challenges in Using External Auditors
 
 - **Competence & Independence**
-
   - It's crucial to assess the technical competence of external auditors.
   - They must understand the organization's systems and controls to provide accurate evaluations.
   - Independence from the auditee is vital to avoid conflicts of interest, ensuring objective results.
-
 - **Potential Legal Restrictions**
   - Legal and regulatory frameworks may place restrictions on using third-party auditors for specific audits, especially in regulated industries such as finance or healthcare.
   - Organizations need to be aware of these rules before outsourcing audits.
@@ -245,12 +241,10 @@ The phases includes:
 - CAATs enable auditors to handle large data sets and complex environments.
 - These tools automate data extraction, analysis, and reporting, making it easier for auditors to assess system controls in complex IT environments.
 - Common CAATs include
-
   - database extraction tools,
   - test transactions,
   - code scanning,
   - debugging software.
-
 - Each tool is used to assess different aspects of IT systems, such as transaction processing, code security, and database integrity.
 
 ## Test Transactions in Audit
@@ -316,6 +310,7 @@ For example: In an online banking system, auditors may set up a fictitious custo
   5. list of evidence collected.
 
 It concludes with an auditor's opinion and recommendations.
+
 Also, the findings section of an audit report should provide a detailed analysis of control effectiveness, highlighting both successful controls and deficiencies that need remediation.
 Recommendations should be actionable and aligned with the organization's business objectives.
 
