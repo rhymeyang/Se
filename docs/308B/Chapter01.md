@@ -232,7 +232,7 @@ Each registrant has four hours to take the multiple-choice-question exam. There 
 
 Exam questions are derived from a job practice analysis study conducted by ISACA. The areas selected represent those tasks performed in a CISA’s day-to-day activities and represent the background knowledge required to perform IS audit, control, assurance, and security tasks. More detailed descriptions of the task and knowledge statements can be found at [www.isaca.org/cisajobpractice](http://www.isaca.org/cisajobpractice).
 
-The CISA exam is quite broad in its scope. The exam covers five job practice areas, as shown in [Table 1-1](https://rhymeyang.github.io/S3/308/Chapter01.html#ch1tab1).
+The CISA exam is quite broad in its scope. The exam covers five job practice areas, as shown in [Table 1-1](/images/308b/ch0102.png).
 
 ![Images](/images/308b/ch0102.png)
 
@@ -249,25 +249,16 @@ The CISA certification requires a great deal of knowledge and experience from th
 Consider the following list of tips on tasks and resources for exam preparation. They are listed in sequential order.
 
 - **Read the ISACA Exam Candidate Information Guide** For information on the certification exam and requirements for the current year, see [www.isaca.org/Certification/Pages/Candidates-Guide-for-Exams.aspx](http://www.isaca.org/Certification/Pages/Candidates-Guide-for-Exams.aspx). Be sure to download the correct (usually the most recent) version of the guide.
-
 - **Register** Register to solidify your commitment to moving forward with this professional achievement.
-
 - **Become familiar with the CISA job practice areas** The job practice areas serve as the basis for the exam and requirements. Beginning with the June 2019 exam, the job practice areas have changed. Ensure that your study materials align with the current list at [www.isaca.org/cisajobpractice](http://www.isaca.org/cisajobpractice).
-
-- **Self-assess** Run through the questions in the two practice exams, provided as additional resources with this book; see [Appendix C](https://learning-oreilly-com.org/library/view/cisa-certified-information/9781260458817/appc.xhtml#appc) for more information. You may also go to the ISACA web site for a free 50-question CISA self-assessment.
-
+- **Self-assess** Run through the questions in the two practice exams, provided as additional resources with this book; see [Appendix C](/308B/AppendixC.html) for more information. You may also go to the ISACA web site for a free 50-question CISA self-assessment.
 - **Iterative study** Depending on how much work experience in IS auditing you have already, I suggest you plan your study program to take at least two months but as long as six months. During this time, periodically take practice exams and note your areas of strength and weakness. Once you have identified your weak areas, focus on those areas weekly by rereading the related sections in this book and retaking practice exams, and note your progress.
-
 - **Avoid cramming** We’ve all seen the books on the shelves with titles that involve last-minute cramming. Just one look on the Internet reveals a variety of web sites that cater to teaching individuals how to cram for exams most effectively. There are also research sites claiming that exam cramming can lead to susceptibility to colds and flu, sleep disruptions, overeating, and digestive problems. One thing is certain: many people find that good, steady study habits result in less stress and greater clarity and focus during the exam. Because of the complexity of this exam, I highly recommend the long-term, steady-study option. Study the job practice areas thoroughly. There are many study options. If time permits, investigate the many resources available to you.
 
 - **Find a study group** Many ISACA chapters have formed specific study groups or offer less expensive exam review courses. Contact your local chapter to see if these options are available to you. In addition, be sure to keep your eye on the ISACA web site.
-
 - **Admission ticket** Approximately two to three weeks before the exam, you will receive your admission ticket. Do not write on or lose this ticket. Put it in a safe place, and take note of what time you will need to arrive at the site. Note this on your calendar.
-
 - **Logistics check** Check the Candidate Information Guide and your admission ticket for the exact time you are required to report to the test site. Check the site a few days before the exam—become familiar with the location and tricks to getting there. If you are taking public transportation, be sure that you are looking at the schedule for the day of the exam. If you are driving, know the route and know where to park your vehicle.
-
 - **Pack** Place your admissions ticket and a photo ID in a safe place, ready to go. Your ID must be a current, government-issued photo ID that matches the name on the admission ticket and must not be handwritten. Examples of acceptable forms of ID are passports, driver’s licenses, state IDs, green cards, and national IDs. Make sure you leave food, drinks, laptops, cell phones, and other electronic devices behind, as they are not permitted at the test site. For information on what can and cannot be brought to the exam site, see [www.isaca.org/cisabelongings](http://www.isaca.org/cisabelongings).
-
 - **Notification decision** Decide whether you want your exam results e-mailed to you. You will have the opportunity to consent to e-mail notification of the exam results. If you are fully paid (zero balance on exam fee) and have consented to the e-mail notification, you should receive a single e-mail a few weeks from the date of the exam with your exam results.
 
 - **Sleep** Get a sound night’s sleep before the exam. Research suggests that you should avoid caffeine at least four hours before bedtime, keep a notepad and pen next to the bed to capture late-night thoughts that might keep you awake, eliminate as much noise and light as possible, and keep your room a good temperature for sleeping. In the morning, arise early so as not to rush and subject yourself to additional stress.
@@ -277,9 +268,7 @@ Consider the following list of tips on tasks and resources for exam preparation.
 Consider the following list of tips that can help you on exam day:
 
 - **Arrive early** Check the Candidate Information Guide and your admission ticket for the exact time you are required to report to the test site. The ticket and the Candidate Information Guide explain that you must be at the test site _no later_ than approximately 30 minutes _before_ testing time. If you are late, you may miss your opportunity to take the exam on that day, and you’ll have to reschedule your exam.
-
 - **Observe test center rules** There may be rules about taking breaks. This will be discussed by the examiner along with exam instructions. If at any time during the exam you need something and are unsure as to the rules, be sure to ask first. For information on conduct during the exam, see [www.isaca.org/cisabelongings](http://www.isaca.org/cisabelongings).
-
 - **Answering exam questions** Read questions carefully, but do not try to overanalyze. Remember to select the _best_ solution. There may be several reasonable answers, but one is _better_ than the others.
 
 #### After the Exam
@@ -297,9 +286,7 @@ To apply for certification, you must be able to submit evidence of a passing sco
 To complete the application process, you need to submit the following information:
 
 - **CISA application** Note the exam ID number located in your exam results letter; list the information systems audit, control, security experience, and/or any experience substitutions; and identify which ISACA job practice area(s) the experience pertains to.
-
 - **Verification of Work Experience form(s)** These must be filled out and signed by your immediate supervisor or a person of higher rank in the organization to verify work experience noted on the application. You must fill out a complete set of Work Experience forms for each separate employer.
-
 - **Transcript or letter** If you are using an educational experience waiver, you must submit an original transcript or a letter from the college or university confirming degree status.
 
 As with the exam, after you’ve successfully mailed the application, you must wait approximately eight weeks for processing. If your application is approved, you will receive a package in the mail containing your letter of certification, a certificate, and a copy of the Continuing Education Policy. You can then proudly display your certificate and use the designation (“CISA”) on your CV, résumé, e-mail profile, or business cards.
@@ -317,27 +304,16 @@ The goal of continuing professional education (CPE) requirements is to ensure th
 In order for training and activities to be utilized for CPEs, they must involve technical or managerial training that is directly applicable to IS assessments, audit, controls, or security. The following list of activities has been approved by the CISA certification committee and can count toward your CPE requirements:
 
 - ISACA professional education activities and meetings.
-
 - If you are an ISACA member, you can take _ISACA Journal_ CPE Quizzes online or participate in monthly webcasts. For each webcast, CPEs are rewarded after you pass a quiz.
-
 - Non-ISACA professional education activities and meetings.
-
 - Self-study courses.
-
 - Vendor sales or marketing presentations (ten-hour annual limit).
-
 - Teaching, lecturing, or presenting on subjects related to job practice areas.
-
 - Publication of articles and books related to the profession.
-
 - CISA exam question development and review.
-
 - Passing related professional examinations.
-
 - Participation in ISACA boards or committees (20-hour annual limit per ISACA certification).
-
 - Contributions to the IS audit and control profession (ten-hour annual limit).
-
 - Mentoring (ten-hour annual limit).
 
 For more information on what is accepted as a valid CPE credit, see the continuing professional education policy ([www.isaca.org/cisacpepolicy](http://www.isaca.org/cisacpepolicy)).

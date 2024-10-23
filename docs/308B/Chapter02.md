@@ -64,7 +64,7 @@ Every organization may have a unique mission, objectives, goals, business models
 
 - **COSO** This framework was developed by the Committee of Sponsoring Organizations of the Treadway Commission to combat internal fraud. COSO is a framework of internal controls, mainly targeting financial accounting systems and implicitly underlying relevant IT controls.
 
-These and other frameworks are discussed in greater detail in [Appendix B](https://learning-oreilly-com.org/library/view/cisa-certified-information/9781260458817/appb.xhtml#appb).
+These and other frameworks are discussed in greater detail in [Appendix B](/308B/AppendixB.html).
 
 ##### Digital Transformation
 
@@ -694,9 +694,9 @@ For example, suppose a risk analysis identifies the threat of attack on a public
 
 While security analysts may have the responsibility for documenting vulnerabilities, threats, and risks, it is senior management’s responsibility (through the security steering committee) to formally approve the treatment of risk. Risk treatment is discussed later in this chapter.
 
-**Risk Analysis and Disaster Recovery Planning** Disaster recovery planning (DRP) and business continuity planning (BCP) utilize risk analysis to identify risks that are related to application resilience and the impact of disasters. The risk analysis performed for DRP and BCP is the same risk analysis that is discussed in this chapter—the methods and approach are the same, although the overall objectives are somewhat different. Business continuity planning and disaster recovery planning are discussed in detail in [Chapter 5](https://learning-oreilly-com.org/library/view/cisa-certified-information/9781260458817/ch5.xhtml#ch5).
+**Risk Analysis and Disaster Recovery Planning** Disaster recovery planning (DRP) and business continuity planning (BCP) utilize risk analysis to identify risks that are related to application resilience and the impact of disasters. The risk analysis performed for DRP and BCP is the same risk analysis that is discussed in this chapter—the methods and approach are the same, although the overall objectives are somewhat different. Business continuity planning and disaster recovery planning are discussed in detail in [Chapter 5](/308B/Chapter05.html).
 
-**High-Impact Events** The risk manager is likely to identify one or more high-impact events during the risk analysis. These events, which may be significant enough to threaten the very viability of the organization, require risk treatment that warrants executive management visibility and belongs in the categories of business continuity planning and disaster recovery planning. These topics are discussed in detail in [Chapter 5](https://learning-oreilly-com.org/library/view/cisa-certified-information/9781260458817/ch5.xhtml#ch5).
+**High-Impact Events** The risk manager is likely to identify one or more high-impact events during the risk analysis. These events, which may be significant enough to threaten the very viability of the organization, require risk treatment that warrants executive management visibility and belongs in the categories of business continuity planning and disaster recovery planning. These topics are discussed in detail in [Chapter 5](/308B/Chapter05.html).
 
 #### Risk Treatment
 
@@ -1072,7 +1072,7 @@ Depending on the nature of specific outsourcing arrangements, the preceding acti
 
 **Benchmarking** _Benchmarking_ measures a process to compare its performance and quality against the same process in other organizations. Its purpose is to discover opportunities for improvement that may result in lower costs, fewer resources, and higher quality.
 
-In the context of outsourcing, benchmarking can be used to measure the performance of an outsourced process against the same process performed by other outsourcing firms, as well as to compare it with the same process performed internally by other organizations. The objective is the same: to learn whether a particular outsourcing solution is performing effectively and efficiently. Benchmarking is discussed in further detail in [Chapter 4](https://learning-oreilly-com.org/library/view/cisa-certified-information/9781260458817/ch4.xhtml#ch4).
+In the context of outsourcing, benchmarking can be used to measure the performance of an outsourced process against the same process performed by other outsourcing firms, as well as to compare it with the same process performed internally by other organizations. The objective is the same: to learn whether a particular outsourcing solution is performing effectively and efficiently. Benchmarking is discussed in further detail in [Chapter 4](/308B/Chapter04.html).
 
 ##### Third-Party Service Delivery Management
 
@@ -1084,7 +1084,7 @@ These activities should be included in the SLA or in the contract to ensure that
 
 Service delivery standards related to IT service management are defined in the international standard ISO/IEC 20000:2011. Relevant controls from this standard can be used to impose a standard method for managing service delivery by the service provider.
 
-Third-party risk management (TPRM) is a similar activity with regard to the management of service providers. TPRM is discussed in detail in [Chapter 6](https://learning-oreilly-com.org/library/view/cisa-certified-information/9781260458817/ch6.xhtml#ch6).
+Third-party risk management (TPRM) is a similar activity with regard to the management of service providers. TPRM is discussed in detail in [Chapter 6](/308B/Chapter06.html).
 
 ##### SaaS, IaaS, and PaaS Considerations
 
@@ -1117,7 +1117,7 @@ _Change management_ is a business process that is used to control changes made t
 5. Verify
 6. Back out (when verification of a successful change fails)
 
-Each step in change management includes recordkeeping. Change management is covered in detail in [Chapter 4](https://learning-oreilly-com.org/library/view/cisa-certified-information/9781260458817/ch4.xhtml#ch4).
+Each step in change management includes recordkeeping. Change management is covered in detail in [Chapter 4](/308B/Chapter04.html).
 
 #### Financial Management
 
@@ -1225,7 +1225,7 @@ Controls are generally enacted as a result of one or more of the following:
 
 - **Incidents** A compelling incident or event may prompt an organization to enact controls to prevent similar incidents from recurring.
 
-It is not enough for organizations to develop and implement controls. Organizations need to examine controls periodically to determine whether they are operating properly and ensuring their intended outcomes. The entire discipline of internal and external audit is brought to bear on the subject of control examination and effectiveness. The process and practice of audits is explored in detail in [Chapter 3](https://learning-oreilly-com.org/library/view/cisa-certified-information/9781260458817/ch3.xhtml#ch3) and [Appendix A](https://learning-oreilly-com.org/library/view/cisa-certified-information/9781260458817/appa.xhtml#appa).
+It is not enough for organizations to develop and implement controls. Organizations need to examine controls periodically to determine whether they are operating properly and ensuring their intended outcomes. The entire discipline of internal and external audit is brought to bear on the subject of control examination and effectiveness. The process and practice of audits is explored in detail in [Chapter 3](/308B/Chapter03.html) and [Appendix A](/308B/AppendixA.html).
 
 Well-known control frameworks include the following:
 
@@ -1549,7 +1549,7 @@ The heart of an IT audit is the examination of documentation and records. They t
 
 - **Quality management documents** An IT organization that is committed to quality and improvement will have documents and records to support this objective.
 
-- **Business continuity and disaster recovery documents** These include documents such as the business impact assessment, critical assessment, and statements of impact, as well as evidence of periodic updates to recovery documentation and regular testing. Audits of business continuity and disaster recovery planning are covered in [Chapter 5](https://learning-oreilly-com.org/library/view/cisa-certified-information/9781260458817/ch5.xhtml#ch5).
+- **Business continuity and disaster recovery documents** These include documents such as the business impact assessment, critical assessment, and statements of impact, as well as evidence of periodic updates to recovery documentation and regular testing. Audits of business continuity and disaster recovery planning are covered in [Chapter 5](/308B/Chapter05.html).
 
 Another indication of a healthy governance system is evidence of regular review and update of all of these documents. Often this is found in each document’s modification history, but it may also be present in a separate document management system.
 

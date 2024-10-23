@@ -983,7 +983,7 @@ An auditor cannot just begin an audit. Rather, audits need to be planned events.
 
 +  **Schedule**  The IS auditor needs to develop an audit schedule that will allow enough time for interviews, data collection and analysis, and report generation. However, the schedule could also come in the form of a constraint, meaning the audit must be complete by a certain date. If the IS auditor is given a deadline, he or she will need to see how the audit activities can be made to fit within that period. If the date is too aggressive, the IS auditor will need to discuss the matter with the auditee to make required adjustments in scope, resources, or schedule.
 
-[Appendix A](/308B/Chapter01.html#appa) is devoted to a pragmatic approach to conducting professional audits.
+[Appendix A](/308B/AppendixA.html) is devoted to a pragmatic approach to conducting professional audits.
 
 #### Audit Objectives
 
