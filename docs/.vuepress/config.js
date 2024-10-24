@@ -14,6 +14,7 @@ export default defineUserConfig({
           text: 'Main Pages',
           children: [
             { text: "Basic", link: '/' },
+            { text: "Block Chain", link: '/com/BlockChain.md' },
           ],
         },
         {
