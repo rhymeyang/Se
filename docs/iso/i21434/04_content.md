@@ -373,4 +373,13 @@ to cybersecurity is required, permitted, or prohibited, internal or external to 
 + vulnerability disclosure procedures (see NOTE 5 in 5.4.1); and/or
 + requirements for receiving party on handling of highly sensitive information.
 
-[RC-05-10] The organization should align its information security management of the shared da
+[RC-05-10] The organization should align its information security management of the shared data with other parties in accordance with[RQ-05-09].
+
+
+
+
+
+EXAMPLE Alignment of security classification levels of public, internal, confidential, third-party confidential.
+
+**5.4.4 Management systems
+**
