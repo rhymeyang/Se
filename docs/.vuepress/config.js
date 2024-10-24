@@ -24,6 +24,7 @@ export default defineUserConfig({
             { text: "Schedule", link: '/300/00_index.md' },
             { text: "Tara PPT", link: '/300/01_Tara.md' },
             { text: "MidTerm Notes", link: '/300/01_Notes.md' },
+            { text: "Questions", link: '/300/question.md' },
           ],
         },
         {

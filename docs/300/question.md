@@ -1,0 +1,16 @@
+
+
+| Asset| Asset Function | Cybersecurity Property(CIA) |     I | A |   Damage Scenario |     
+| --------- | -------- | --- | --- | --- | ----- |
+| BT/WLAN                        | Wireless communication                          | X                      | X               | X    | Data communication via Bluetooth/WLAN could be intercepted, leading to unauthorized access or control of the system. |
+| Analog and Digital Radio Tuner | Receives audio broadcast signals                |                        | X               |      | An attacker could manipulate radio content, sending misleading traffic updates or emergency broadcasts. |
+| GPS/GLONASS                    | Navigation and positioning data                 | X                      | X               | X    | GPS data spoofing could mislead navigation, directing the vehicle to incorrect or unsafe routes. |
+| HDMI/USB                       | Multimedia input/output interface               | X                      |                 | X    | Malware introduced via USB could compromise the infotainment system or spread to other vehicle systems. |
+| CAN Transceiver                | Vehicle control network communication           | X                      | X               | X    | CAN bus messages could be intercepted and manipulated, causing unintended vehicle behavior such as braking or acceleration. |
+| LIN Transceiver                | Low-speed vehicle network communication         | X                      | X               | X    | Manipulated LIN signals could disable or alter the behavior of comfort systems like lighting or seat controls. |
+| Ethernet Transceiver           | High-speed in-vehicle communication             | X                      | X               | X    | Network traffic could be intercepted, affecting real-time data exchanges and safety-critical functions. |
+| DSP/Microcontroller            | Main controller handling processing and control | X                      | X               | X    | Compromising the microcontroller could lead to full system control, disabling safety features or controlling media outputs. |
+| Audio Codec (ADC/DAC)          | Audio signal conversion                         |                        | X               |      | Altering audio output could interfere with important auditory cues or navigation instructions. |
+| Human Machine Interface (HMI)  | User interface for controlling the infotainment |                        | X               | X    | HMI compromise could confuse the driver, leading to incorrect input or unresponsiveness in critical situations. |
+| Rear Seat Monitor              | Provides entertainment for rear passengers      |                        | X               | X    | Malicious content could be displayed, or the screen could be disabled, affecting passenger experience. |
+| Analog/Digital Camera          | Captures visual data                            | X                      | X               | X    | Camera feeds could be tampered with, providing incorrect images to the driver or turning off critical safety systems. |
