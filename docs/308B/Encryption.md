@@ -67,7 +67,7 @@ An application firewall is not a replacement for a network firewall. Application
 
 Typical DMZ architectures are shown in [Figure 6-6](#ch6fig6). Organizations with large numbers of Internet-facing servers may use more complex architectures with layers of DMZ networks.
 
-![Images](/images/308b/ch0606.jpeg)
+![Images](/images/308b/ch0606_2.jpeg)
 
 **Figure 6-6** Typical DMZ networks
 
@@ -78,9 +78,7 @@ Typical DMZ architectures are shown in [Figure 6-6](#ch6fig6). Organizations wit
 A honeypot helps an organization better understand some important facts:
 
 - Which attackers are sufficiently interested in the organization’s information to launch an attack against it
-
 - Which available targets attract attackers
-
 - Which tools and techniques are used by the attacker(s)
 
 A security team in the organization can analyze this information and use it to improve defenses on the systems that actually do contain sensitive or valuable information.
@@ -92,7 +90,6 @@ A _honeynet_ is just what the term implies: a network of computers that are all 
 There are two primary types of honeypots and honeynets:
 
 - **High interaction** These are systems that will be partly or entirely unpatched, thereby attracting attackers.
-
 - **Low interaction** These are designed to resemble other production servers in the network. Ordinarily unused, IDSs would trigger alarms if they are accessed, signaling that an intruder may be examining them.
 
 **Change Management and Configuration Management** The protection of sensitive and valuable information—particularly information that is exposed to the Internet—depends upon the integrity of the entire environment. The environment’s integrity can be assured only to the extent to which it is controlled; this means that all minor and major changes made to the environment must be managed through formal change management and configuration management processes.
