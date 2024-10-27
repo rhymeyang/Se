@@ -199,8 +199,3 @@ Fig. 4.8 ECU channels and interfaces
 
 ![image-20241014001245927](/images/302/w0412.png)
 
-
-
-
-
-/images/302/w0402.png

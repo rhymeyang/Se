@@ -42,9 +42,7 @@
 
 - **Objective**: Identify potential threat scenarios that can compromise the identified assets.
 
-- Key Activities
-
-  :
+- Key Activities:
 
   - Perform a threat analysis by identifying possible threat scenarios that could exploit vulnerabilities in the system.
   - Define the attack paths and methods that an attacker might use (e.g., physical access, remote hacking).
@@ -54,9 +52,7 @@
 
 - **Objective**: Assess the potential consequences of each identified threat scenario.
 
-- Key Activities
-
-  :
+- Key Activities:
 
   - Determine the potential impact on the system in terms of safety, financial loss, privacy, operation, or regulatory compliance.
   - Rate the impact level (low, medium, high) based on consequences like system malfunction, data breach, or operational failure.
@@ -66,20 +62,16 @@
 
 - **Objective**: Identify the vulnerabilities that could be exploited by attackers to compromise the system.
 
-- Key Activities
-
-  :
+- Key Activities:
 
   - Evaluate weaknesses in system design, software, hardware, or protocols that could be exploited.
-  - Use industry knowledge, past incidents, and vulnerability databases to identify common and emerging vulnerabilities (e.g., unpatched software, open communication ports).
+- Use industry knowledge, past incidents, and vulnerability databases to identify common and emerging vulnerabilities (e.g., unpatched software, open communication ports).
 
 ### 6. **Attack Feasibility Rating**
 
 - **Objective**: Assess how feasible it is for an attacker to exploit the identified vulnerabilities.
 
-- Key Activities
-
-  :
+- Key Activities:
 
   - Analyze the attacker’s capabilities and required resources (e.g., time, tools, access level).
   - Rate attack feasibility based on complexity, accessibility, knowledge required, and attacker motivation.
@@ -89,9 +81,7 @@
 
 - **Objective**: Evaluate the overall risk for each threat scenario by combining the impact assessment and attack feasibility rating.
 
-- Key Activities
-
-  :
+- Key Activities:
 
   - Calculate the risk based on the combination of impact and feasibility (ISO 21434 uses a risk matrix or similar method).
   - Determine which risks are high, medium, or low based on this combination.
@@ -101,9 +91,7 @@
 
 - **Objective**: Decide how to manage the identified risks (accept, mitigate, transfer, or avoid).
 
-- Key Activities
-
-  :
+- Key Activities:
 
   - For high-risk scenarios, define appropriate cybersecurity controls (e.g., encryption, secure boot, access controls).
   - For medium-risk scenarios, decide whether to accept the risk or apply mitigations.
@@ -113,9 +101,7 @@
 
 - **Objective**: Implement the necessary cybersecurity controls to mitigate the identified risks.
 
-- Key Activities
-
-  :
+- Key Activities:
 
   - Implement security controls in the system design, such as software updates, firewalls, or physical security measures.
   - Ensure that countermeasures protect the system from identified threat scenarios.
@@ -125,20 +111,16 @@
 
 - **Objective**: Evaluate the residual risk after mitigation measures have been applied.
 
-- Key Activities
-
-  :
+- Key Activities:
 
   - Reassess the risk levels after applying cybersecurity controls.
-  - Ensure that residual risks are acceptable or have been properly documented for ongoing management.
+- Ensure that residual risks are acceptable or have been properly documented for ongoing management.
 
 ### 11. **Monitoring and Update (Cybersecurity Lifecycle)**
 
 - **Objective**: Continuously monitor and update the system’s security posture over its lifecycle.
 
-- Key Activities
-
-  :
+- Key Activities:
 
   - Regularly update threat models, vulnerabilities, and risk assessments.
   - Perform regular security audits and penetration testing.
@@ -148,12 +130,10 @@
 
 - **Objective**: Maintain thorough documentation throughout the TARA process for compliance, auditing, and future reference.
 
-- Key Activities
-
-  :
+- Key Activities:
 
   - Document threat scenarios, risk assessments, mitigation decisions, and test results.
-  - Ensure that all cybersecurity measures and justifications are traceable and well-documented.
+- Ensure that all cybersecurity measures and justifications are traceable and well-documented.
 
 ### TARA Framework in ISO 21434:
 
@@ -177,3 +157,58 @@
 - **Risk Levels**: Risks are classified based on the combination of attack feasibility and impact severity.
 - **Lifecycle**: ISO 21434 emphasizes cybersecurity as a continuous process that extends throughout the lifecycle of the vehicle, from development to decommissioning.
 
+
+
+
+
+| **STRIDE Category** | **Analysis of the Scenario** |
+| ------------------- | ---------------------------- |
+|                     |                              |
+
+| **S - Spoofing** | The attacker could spoof the GPS signals or the GPS system itself, making the vehicle’s navigation believe the altered route is accurate, misleading the driver. |
+| ---------------- | ------------------------------------------------------------ |
+|                  |                                                              |
+
+| **T - Tampering** | The attacker tampered with the GPS data, modifying the navigation route to direct the vehicle to an unsafe or unintended destination. |
+| ----------------- | ------------------------------------------------------------ |
+|                   |                                                              |
+
+| **R - Repudiation** | The attacker could deny responsibility for altering the GPS data, and there may be no logging or proof of who manipulated the GPS route or system. |
+| ------------------- | ------------------------------------------------------------ |
+|                     |                                                              |
+
+| **I - Information Disclosure** | The attacker could access the vehicle’s GPS data, tracking the driver’s location, and potentially revealing sensitive information about the driver’s movements. |
+| ------------------------------ | ------------------------------------------------------------ |
+|                                |                                                              |
+
+| **D - Denial of Service** | The attacker could prevent the GPS system from functioning correctly, leaving the driver without navigation or causing confusion by showing no available routes. |
+| ------------------------- | ------------------------------------------------------------ |
+|                           |                                                              |
+
+| **E - Elevation of Privilege** | The attacker might exploit vulnerabilities to gain unauthorized access to the GPS system, which they would not typically be allowed to control or manipulate. |
+| ------------------------------ | ------------------------------------------------------------ |
+|                                |                                                              |
+
+| **S - Spoofing** | The hacker might spoof the identity of legitimate users or services, making the vehicle’s system believe that the braking system was disabled by a trusted entity or service. |
+| ---------------- | ------------------------------------------------------------ |
+|                  |                                                              |
+
+| **T - Tampering** | The attacker directly tampers with the braking system's controls or commands, disabling the brakes and preventing the driver from being able to slow down or stop the vehicle. |
+| ----------------- | ------------------------------------------------------------ |
+|                   |                                                              |
+
+| **R - Repudiation** | The attacker could deny their actions, and there may be insufficient logging or evidence to prove that they were responsible for disabling the braking system. |
+| ------------------- | ------------------------------------------------------------ |
+|                     |                                                              |
+
+| **I - Information Disclosure** | The attacker could gain access to sensitive data related to the braking system’s control, revealing how it functions and exposing vulnerabilities in the system architecture. |
+| ------------------------------ | ------------------------------------------------------------ |
+|                                |                                                              |
+
+| **D - Denial of Service** | Disabling the braking system constitutes a **Denial of Service (DoS)** attack, preventing the driver from using a critical vehicle function that directly impacts their ability to stop. |
+| ------------------------- | ------------------------------------------------------------ |
+|                           |                                                              |
+
+| **E - Elevation of Privilege** | The attacker may have exploited a vulnerability in the vehicle’s software or control system to gain access to privileged functions such as controlling or disabling the brakes. |
+| ------------------------------ | ------------------------------------------------------------ |
+|                                |                                                              |
