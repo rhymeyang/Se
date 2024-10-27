@@ -888,7 +888,7 @@ None.
 - c) if applicable, a joint tailoring of cybersecurity activities in accordance with 6.4.3;
 - d) the information and the work products to be shared;
 
-> **NOTE 1**  The shared information can include:
+> **NOTE 1** The shared information can include:
 >
 > - distribution, reviews and cybersecurity issue feedback mechanism;
 > - information exchange procedures for vulnerabilities and other cybersecurity-related findings, e.g. concerning risk;
@@ -970,11 +970,11 @@ The following information can be considered:
 
 > **NOTE 3** External sources can include:
 
-+ researchers;
-+ commercial or non-commercial sources;
-+ organization’s supply chain;
-+ customers of the organization; and/or
-+ government sources.
+- researchers;
+- commercial or non-commercial sources;
+- organization’s supply chain;
+- customers of the organization; and/or
+- government sources.
 
 **EXAMPLE** Sources for state-of-the-art attack methods.
 
@@ -992,28 +992,25 @@ The following information can be considered:
 
 **[WP-08-03]** Cybersecurity events, resulting from [RQ-08-03]
 
-
 ### 8.4 Cybersecurity event evaluation
 
 #### 8.4.1 Inputs
 
 ##### 8.4.1.1 Prerequisites
 
-
-
 The following information shall be available:
 
-+ cybersecurity events [WP-08-03];
-+ cybersecurity requirements for post-development [WP-10-02], if applicable; and 
-+ configuration information in accordance with [RQ-05-12].
+- cybersecurity events [WP-08-03];
+- cybersecurity requirements for post-development [WP-10-02], if applicable; and
+- configuration information in accordance with [RQ-05-12].
 
 ##### 8.4.1.2 Further supporting information
 
-The following information can be considered: 
+The following information can be considered:
 
-+ item definition [WP-09-01];
-+ cybersecurity specifications [WP-10-01]; 
-+ past vulnerability analyses [WP-08-05].
+- item definition [WP-09-01];
+- cybersecurity specifications [WP-10-01];
+- past vulnerability analyses [WP-08-05].
 
 #### 8.4.2 Requirements and recommendations
 
@@ -1026,6 +1023,7 @@ The following information can be considered:
 > **NOTE 3** Threat scenarios [WP-15-03] can be updated based on the result of this evaluation.
 
 #### 8.4.3 Work products
+
 [WP-08-04] Weaknesses from cybersecurity events, resulting from [RQ-08-04]
 
 ### 8.5 Vulnerability analysis
@@ -1035,29 +1033,31 @@ The following information can be considered:
 ##### 8.5.1.1 Prerequisites
 
 The following information shall be available:
-+ item definition [WP-09-01] or cybersecurity specifications [WP-10-01].
+
+- item definition [WP-09-01] or cybersecurity specifications [WP-10-01].
 
 > **NOTE** The item definition is used if the vulnerability analysis is performed on an item, and the cybersecurity specifications are used if the vulnerability analysis is performed on a component.
 
 ##### 8.5.1.2 Further supporting information
 
 The following information can be considered:
-+ weaknesses from cybersecurity events [WP-08-04];
-+ weaknesses found during product development [WP-10-05];
-+ past vulnerability analyses [WP-08-05];
-   attack paths [WP-15-05];
-+ verification reports [WP-10-04] and [WP-10-07];
-+ information from past cybersecurity incidents.
+
+- weaknesses from cybersecurity events [WP-08-04];
+- weaknesses found during product development [WP-10-05];
+- past vulnerability analyses [WP-08-05];
+  attack paths [WP-15-05];
+- verification reports [WP-10-04] and [WP-10-07];
+- information from past cybersecurity incidents.
 
 #### 8.5.2 Requirements and recommendations
 
 **[RQ-08-05]** Weaknesses shall be analysed to identify vulnerabilities.
+
 > NOTE 1 The analysis can include:
 >
-> + analysis of the architecture;
-> + attack path analysis in accordance with 15.6; and/or
-> + attack feasibility rating in accordance with 15.7.
-
+> - analysis of the architecture;
+> - attack path analysis in accordance with 15.6; and/or
+> - attack feasibility rating in accordance with 15.7.
 
 > NOTE 2 A root cause analysis can be performed to determine any underlying factors that contribute to the possibility of a weakness being a vulnerability.
 
@@ -1065,11 +1065,11 @@ The following information can be considered:
 
 **EXAMPLE 2** The attack feasibility rating is very low for exploiting the weakness and therefore, the weakness is not treated as a vulnerability.
 
-**[RQ-08-06]** A rationale shall be provided for a weakness that is not identified as a vulnerability. 
+**[RQ-08-06]** A rationale shall be provided for a weakness that is not identified as a vulnerability.
 
 #### 8.5.3 Work products
 
-**[WP-08-05]** Vulnerability analysis, resulting from [RQ-08-05] and [RQ-08-06] 
+**[WP-08-05]** Vulnerability analysis, resulting from [RQ-08-05] and [RQ-08-06]
 
 ### 8.6 Vulnerability management
 
@@ -1077,10 +1077,9 @@ The following information can be considered:
 
 ##### 8.6.1.1 Prerequisites
 
-The following information shall be available: 
+The following information shall be available:
 
-+ vulnerability analysis [WP-08-05].
-
+- vulnerability analysis [WP-08-05].
 
 ##### 8.6.1.2 Further supporting information
 
@@ -1090,16 +1089,14 @@ None.
 
 **[RQ-08-07]** Vulnerabilities shall be managed such that for each vulnerability:
 
-+ a) the corresponding cybersecurity risks are assessed and treated in accordance with 15.9 such that no unreasonable risks remain; or
-+ b) the vulnerability is eliminated by applying an available remediation independent of a TARA. 
+- a) the corresponding cybersecurity risks are assessed and treated in accordance with 15.9 such that no unreasonable risks remain; or
+- b) the vulnerability is eliminated by applying an available remediation independent of a TARA.
 
 **EXAMPLE** Patches for open source software.
-
 
 > **NOTE 1** If vulnerability management results in a change to an item or component, change management is applied in accordance with [RQ-05-11].
 
 > **NOTE 2** Information about vulnerabilities can be shared within the context of distributed cybersecurity activities (see 7.4.3, e.g. sharing knowledge of attack paths) and to other interested parties (see 5.4.3).
-
 
 **[RQ-08-08]** If a risk treatment decision in accordance with 15.9 necessitates cybersecurity incident response, then 13.3 shall be applied.
 
@@ -1109,7 +1106,7 @@ None.
 
 **[WP-08-06]** Evidence of managed vulnerabilities, resulting from [RQ-08-07]
 
-## 9 Concept 
+## 9 Concept
 
 ### 9.1 General
 
@@ -1123,9 +1120,9 @@ The cybersecurity concept (see 9.5) consists of cybersecurity requirements and r
 
 The objectives of this clause are to:
 
-+ a) define the item, its operational environment and their interactions in the context of cybersecurity; 
-+ b) specify cybersecurity goals and cybersecurity claims; and
-+ c) specify the cybersecurity concept to achieve cybersecurity goals.
+- a) define the item, its operational environment and their interactions in the context of cybersecurity;
+- b) specify cybersecurity goals and cybersecurity claims; and
+- c) specify the cybersecurity concept to achieve cybersecurity goals.
 
 ### 9.3 Item definition
 
@@ -1138,23 +1135,24 @@ None.
 ##### 9.3.1.2 Further supporting information
 
 The following information can be considered:
-+ existing information regarding the item and the operational environment.
+
+- existing information regarding the item and the operational environment.
 
 **EXAMPLE** In-vehicle E/E system architecture including in-vehicle network, networks external to the vehicle; reference model(s) and the documentation of earlier developments.
 
 #### 9.3.2 Requirements and recommendations
 
-**[RQ-09-01]** The following information on the item shall be identified: 
+**[RQ-09-01]** The following information on the item shall be identified:
 
-+ a) item boundary;
+- a) item boundary;
 
 > **NOTE 1** The item boundary distinguishes the item from its operational environment. The description of the item boundary can include interfaces with other items internal to the vehicle and/or with E/E systems external to the vehicle.
 
-+ b) item functions; and
+- b) item functions; and
 
 > **NOTE 2** This describes the intended behaviour of the item during the lifecycle phases [e.g. product development (testing), production, operations and maintenance, decommissioning] and includes the vehicle functionality that is realized by the item.
 
-+ c) preliminary architecture.
+- c) preliminary architecture.
 
 > **NOTE 3** A description of preliminary architecture can include identification of components of the item and their connections, and external interfaces of the item.
 
@@ -1180,28 +1178,26 @@ The following information can be considered:
 
 ##### 9.4.1.1 Prerequisites
 
-The following information shall be available: 
+The following information shall be available:
 
-+ item definition [WP-09-01].
+- item definition [WP-09-01].
 
 ##### 9.4.1.2 Further supporting information
 
-The following information can be considered: 
+The following information can be considered:
 
-+ cybersecurity events [WP-08-03].
-
-
+- cybersecurity events [WP-08-03].
 
 #### 9.4.2 Requirements and recommendations
 
 [RQ-09-03] An analysis based on the item definition shall be performed that involves:
 
-+ a) asset identification in accordance with 15.3;
-+ b) threat scenario identification in accordance with 15.4;
-+ c) impact rating in accordance with 15.5;
-+  d) attack path analysis in accordance with 15.6;
-+ e) attack feasibility rating in accordance with 15.7; and
-+  f) risk value determination in accordance with 15.8.
+- a) asset identification in accordance with 15.3;
+- b) threat scenario identification in accordance with 15.4;
+- c) impact rating in accordance with 15.5;
+- d) attack path analysis in accordance with 15.6;
+- e) attack feasibility rating in accordance with 15.7; and
+- f) risk value determination in accordance with 15.8.
 
 > **NOTE 1** If the item definition does not provide sufficient information for the analysis, such information can be assumed.
 
@@ -1211,65 +1207,66 @@ The following information can be considered:
 
 **[RQ-09-05]** If the risk treatment decision for a threat scenario includes reducing the risk, then one or more corresponding cybersecurity goals shall be specified.
 
-> **NOTE 3** A cybersecurity goal is a requirement to protect assets against a threat scenario. 
+> **NOTE 3** A cybersecurity goal is a requirement to protect assets against a threat scenario.
 
-> **NOTE 4** If applicable, a CAL can be determined for cybersecurity goals (see Annex E). 
+> **NOTE 4** If applicable, a CAL can be determined for cybersecurity goals (see Annex E).
 
-> **NOTE 5** Cybersecurity goals can be specified for any lifecycle phase of the item. 
+> **NOTE 5** Cybersecurity goals can be specified for any lifecycle phase of the item.
 
 **[RQ-09-06]** If the risk treatment decision for a threat scenario includes:
 
-+  a) sharing the risk; or
-+ b) retaining the risk due to one or more assumptions used during the analysis of [RQ-09-03], then one or more corresponding cybersecurity claims shall be specified.
+- a) sharing the risk; or
+- b) retaining the risk due to one or more assumptions used during the analysis of [RQ-09-03], then one or more corresponding cybersecurity claims shall be specified.
 
 > **NOTE 6** Cybersecurity claims can be considered for cybersecurity monitoring.
 
 **[RQ-09-07]** A verification shall be performed to confirm:
 
-+ a) correctness and completeness of the result of [RQ-09-03] with respect to the item definition;
-+ b) completeness, correctness and consistency of the risk treatment decisions of [RQ-09-04] with respect to the results of [RQ-09-03];
-+ c) completeness, correctness and consistency of the cybersecurity goals of [RQ-09-05] and of the cybersecurity claims of [RQ-09-06] with respect to the risk treatment decisions of [RQ-09-04]; and
-+ d) consistency of all cybersecurity goals of [RQ-09-05] and cybersecurity claims of [RQ-09-06] of the item.
+- a) correctness and completeness of the result of [RQ-09-03] with respect to the item definition;
+- b) completeness, correctness and consistency of the risk treatment decisions of [RQ-09-04] with respect to the results of [RQ-09-03];
+- c) completeness, correctness and consistency of the cybersecurity goals of [RQ-09-05] and of the cybersecurity claims of [RQ-09-06] with respect to the risk treatment decisions of [RQ-09-04]; and
+- d) consistency of all cybersecurity goals of [RQ-09-05] and cybersecurity claims of [RQ-09-06] of the item.
 
 #### 9.4.3 Work products
 
-**[WP-09-02]** TARA, resulting from [RQ-09-03] and [RQ-09-04] 
+**[WP-09-02]** TARA, resulting from [RQ-09-03] and [RQ-09-04]
 
-**[WP-09-03]** Cybersecurity goals, resulting from [RQ-09-05] 
+**[WP-09-03]** Cybersecurity goals, resulting from [RQ-09-05]
 
 **[WP-09-04]** Cybersecurity claims, resulting from [RQ-09-06]
 
-
-**[WP-09-05]** Verification report for cybersecurity goals, resulting from [RQ-09-07] 
+**[WP-09-05]** Verification report for cybersecurity goals, resulting from [RQ-09-07]
 
 ### 9.5 Cybersecurity concept
+
 #### 9.5.1 Inputs
 
 ##### 9.5.1.1 Prerequisites
 
-The following information shall be available: 
+The following information shall be available:
 
-+ item definition [WP-09-01];
-+ cybersecurity goals [WP-09-03]; and
-+ cybersecurity claims [WP-09-04].
+- item definition [WP-09-01];
+- cybersecurity goals [WP-09-03]; and
+- cybersecurity claims [WP-09-04].
 
 ##### 9.5.1.2 Further supporting information
 
-The following information can be considered: 
+The following information can be considered:
 
-+ TARA [WP-09-02].
+- TARA [WP-09-02].
 
 #### 9.5.2 Requirements and recommendations
 
 **[RQ-09-08]** Technical and/or operational cybersecurity controls and their interactions to achieve the
-cybersecurity goals shall be described, taking into account: 
-+ a) dependencies between the functions of the item; and/or 
-+ b) cybersecurity claims.
+cybersecurity goals shall be described, taking into account:
+
+- a) dependencies between the functions of the item; and/or
+- b) cybersecurity claims.
 
 > **NOTE 1** The description can include:
-> 
-> + conditions for achieving cybersecurity goals, e.g. prevention of the compromise, detection and monitoring of the compromise,
-> + functions dedicated to address specific aspects of threat scenarios, e.g. use of a secure communication channel.
+>
+> - conditions for achieving cybersecurity goals, e.g. prevention of the compromise, detection and monitoring of the compromise,
+> - functions dedicated to address specific aspects of threat scenarios, e.g. use of a secure communication channel.
 
 > **NOTE 2** The description can serve to evaluate designs and to determine targets for cybersecurity validation.
 
@@ -1279,30 +1276,29 @@ cybersecurity goals shall be described, taking into account:
 
 > **NOTE 4** Requirements on the operational environment are realized outside of the item but they are included in the cybersecurity validation for the item to confirm whether the corresponding cybersecurity goals are achieved.
 
-> NOTE5 Requirements on other items as part of the operational environment can be cybersecurity
-requirements on those items.
+> **NOTE 5** Requirements on other items as part of the operational environment can be cybersecurity
+> requirements on those items.
 
 **[RQ-09-10]** The cybersecurity requirements shall be allocated to the item, and if applicable to one or
 more of its components.
 
-
 > **NOTE 6** The description of cybersecurity controls complements the specification and allocation of cybersecurity requirements and of requirements on the operational environment, which all together constitute the cybersecurity concept.
 
+**[RQ-09-11]** The results of [RQ-09-08], [RQ-09-09] and [RQ-09-10] shall be verified to confirm:
 
-
-**[RQ-09-11]** The results of [RQ-09-08], [RQ-09-09] and [RQ-09-10] shall be verified to confirm: 
-
-+ a) completeness, correctness, and consistency with respect to cybersecurity goals; and
-+ b) consistency with respect to cybersecurity claims.
+- a) completeness, correctness, and consistency with respect to cybersecurity goals; and
+- b) consistency with respect to cybersecurity claims.
 
 #### 9.5.3 Work products
-**[WP-09-06]** Cybersecurity concept, resulting from [RQ-09-08], [RQ-09-09] and [RQ-09-10] 
+
+**[WP-09-06]** Cybersecurity concept, resulting from [RQ-09-08], [RQ-09-09] and [RQ-09-10]
 
 **[WP-09-07]** Verification report for the cybersecurity concept, resulting from [RQ-09-11]
 
-## 10 Product development 
+## 10 Product development
 
 ### 10.1 General
+
 This clause describes the specification of the cybersecurity requirements and architectural design (see 10.4.1).
 
 Additionally, this clause describes integration and verification activities (see 10.4.2).
@@ -1313,13 +1309,12 @@ Figure 9 illustrates an example of how product development activities can be app
 
 ![image-20241027154210960](/images/iso21434/iso08.png)
 
-
 **Key**
 
 Vertical bi-directional arrows depict verifications against the cybersecurity specification from a higher level of architectural abstraction during design as described in 10.4.1.
 
 Horizontal bi-directional arrows depict verifications of the implemented and integrated component against its cybersecurity specifications as described in 10.4.2.
-  
+
 Figure 9 — Example of product development activities in the V-model
 
 Development approaches or methods that differ from the V-model (e.g. agile software development) can be applied.
@@ -1330,696 +1325,979 @@ CAL can be used to scale the depth and rigour of the activities in this clause a
 
 The objectives of this clause are to:
 
-+ a) define cybersecurity specifications;
+- a) define cybersecurity specifications;
 
 > **NOTE 1** These can include the specification of cybersecurity-related components that are not present in the existing architectural design.
 
-+ b) verify that the defined cybersecurity specifications conform to the cybersecurity specifications from higher levels of architectural abstraction;
-+ c) identify weaknesses in the component; and
-NOTE 2 Vulnerability analysis and management are described in Clause 8.
-+ d) provide evidence that the results of the implementation and integration of components conform to the cybersecurity specifications.
+- b) verify that the defined cybersecurity specifications conform to the cybersecurity specifications from higher levels of architectural abstraction;
+- c) identify weaknesses in the component; and
+  NOTE 2 Vulnerability analysis and management are described in Clause 8.
+- d) provide evidence that the results of the implementation and integration of components conform to the cybersecurity specifications.
 
+### 10.3 Inputs
 
-ISO/SAE 21434:2021(E)
-10.3 Inputs
+#### 10.3.1 Prerequisites
+
 The following information shall be available:
-— cybersecurity specifications from higher levels of architectural abstraction [WP-10-01];
-10.3.1 Prerequisites
-NOTE 1 This can be limited to the information relevant for the component under development, e.g. — cybersecurity requirements allocated to the component under development;
-— external interface specifications of the component under development;
-— information assumed on the operational environment of the component under development.
-NOTE 2 For development at the highest level of architectural abstraction, the cybersecurity concept [WP- 09-06] for the item and the item definition [WP-09-01] are used instead of the cybersecurity specifications from higher levels of architectural abstraction.
-The following information can be considered: — item definition [WP-09-01];
-— cybersecurity concept [WP-09-06];
-— existing architectural design;
-10.3.2 Further supporting information
-— already established cybersecurity controls;
-— known weaknesses and vulnerabilities from reused components.
-10.4 Requirements and recommendations
-10.4.1 Design
-[RQ-10-01] Cybersecurity specifications shall be defined based on:
-a) cybersecurity specifications from higher levels of architectural abstraction;
-b) cybersecurity controls selected for implementation, if applicable; and
-EXAMPLE 1 Use of a separate microcontroller with an embedded hardware trust anchor for secure key store functionality and isolation of the trust anchor regarding non-secure external connections.
-NOTE 1 Cybersecurity controls can be selected from trusted catalogues.
-c) existing architectural design, if applicable.
-NOTE 2 Cybersecurity specifications include the specification of interfaces between sub-components of the defined architectural design related to the fulfilment of the defined cybersecurity requirements, including their usage, static and dynamic aspects.
-NOTE 3 When defining cybersecurity specifications, cybersecurity implications of post-development phases can be considered, e.g. secure management of the key store; deactivation of debug interfaces; procedures to delete personally identifiable information.
-NOTE4 The cybersecurity specifications can include the identification of configuration and calibration parameters relevant for fulfilling the cybersecurity requirements, as well as their settings or permitted range of values, e.g. the correct configuration for the integration of the hardware security module.
-32 © ISO/SAE International 2021 – All rights reserved
-NOTE 5 Capability of a component necessary to implement the cybersecurity controls can be considered, e.g. processor performance, memory resources.
-[RQ-10-02] The defined cybersecurity requirements shall be allocated to components of the architectural design.
-[RQ-10-03] Procedures to ensure cybersecurity after the development of the component shall be specified, if applicable.
-EXAMPLE2 Procedures for correct integration and initialization of cybersecurity controls, as well as maintaining cybersecurity throughout production.
-[RQ-10-04] If design, modelling or programming notations or languages are used for the cybersecurity specifications or their implementation, the following shall be considered when selecting such a notation or language:
-a) an unambiguous and comprehensible definition in both syntax and semantics; b) support for achievement of modularity, abstraction and encapsulation;
-c) support for the use of structured constructs;
-d) support for the use of secure design and implementation techniques;
-e) ability to integrate already existing components; and
-EXAMPLE 3 Library, framework, software component written in another language.
-f) resilience of the language against vulnerabilities due to its improper use. EXAMPLE 4 Resilience against buffer overflows.
-NOTE 6 For software development, implementation includes coding using programming languages.
-[RQ-10-05] Criteria (see [RQ-10-04]) for suitable design, modelling or programming languages for cybersecurity that are not addressed by the language itself shall be covered by design, modelling and coding guidelines, or by the development environment.
-EXAMPLE 5 Use of MISRA C:2012 [17] or CERT C [18] for secure coding in the “C” programming language. EXAMPLE 6 Criteria for suitable design, modelling and programming languages:
-— use of language subsets;
-— enforcement of strong typing; and/or
-— use of defensive implementation techniques.
-[RC-10-06] Established and trusted design and implementation principles should be applied to avoid or minimize the introduction of weaknesses.
-NOTE 7 Examples of design principles for architectural design for cybersecurity are given in NIST Special Publication 800-160 Vol. 1[19], appendix F.1.
-[RQ-10-07] The architectural design defined in [RQ-10-01] shall be analysed to identify weaknesses.
-NOTE 8 Known weaknesses and vulnerabilities from reused components can be considered.
-NOTE 9 Identified weaknesses are analysed for vulnerabilities (see 8.5) and identified vulnerabilities are managed (see 8.6). However, identified weaknesses can be resolved with changes to the architectural design without performing a vulnerability analysis.
-© ISO/SAE International 2021 – All rights reserved 33
-ISO/SAE 21434:2021(E)
 
-ISO/SAE 21434:2021(E)
-[RQ-10-08] The defined cybersecurity specifications shall be verified to ensure completeness, correctness, and consistency with the cybersecurity specifications from higher levels of architectural abstraction.
-NOTE 10 Verification methods can include: — review;
-— analysis;
-— simulation; and/or
-— prototyping.
-10.4.2 Integration and verification
-[RQ-10-09] Integration and verification activities shall verify that the implementation and integration
+- cybersecurity specifications from higher levels of architectural abstraction [WP-10-01];
+  > **NOTE 1** This can be limited to the information relevant for the component under development, e.g.
+  >
+  > - cybersecurity requirements allocated to the component under development;
+  > - external interface specifications of the component under development;
+  > - information assumed on the operational environment of the component under development.
+  >
+  > **NOTE 2** For development at the highest level of architectural abstraction, the cybersecurity concept [WP- 09-06] for the item and the item definition [WP-09-01] are used instead of the cybersecurity specifications from higher levels of architectural abstraction.
+
+#### 10.3.2 Further supporting information
+
+The following information can be considered:
+
+- item definition [WP-09-01];
+- cybersecurity concept [WP-09-06];
+- existing architectural design;
+- already established cybersecurity controls;
+- known weaknesses and vulnerabilities from reused components.
+
+### 10.4 Requirements and recommendations
+
+#### 10.4.1 Design
+
+**[RQ-10-01]** Cybersecurity specifications shall be defined based on:
+
+- a) cybersecurity specifications from higher levels of architectural abstraction;
+- b) cybersecurity controls selected for implementation, if applicable; and
+  **EXAMPLE 1** Use of a separate microcontroller with an embedded hardware trust anchor for secure key store functionality and isolation of the trust anchor regarding non-secure external connections.
+  **NOTE 1** Cybersecurity controls can be selected from trusted catalogues.
+- c) existing architectural design, if applicable.
+
+> **NOTE 2** Cybersecurity specifications include the specification of interfaces between sub-components of the defined architectural design related to the fulfilment of the defined cybersecurity requirements, including their usage, static and dynamic aspects.
+
+> **NOTE 3** When defining cybersecurity specifications, cybersecurity implications of post-development phases can be considered, e.g. secure management of the key store; deactivation of debug interfaces; procedures to delete personally identifiable information.
+
+> **NOTE 4** The cybersecurity specifications can include the identification of configuration and calibration parameters relevant for fulfilling the cybersecurity requirements, as well as their settings or permitted range of values, e.g. the correct configuration for the integration of the hardware security module.
+
+> **NOTE 5** Capability of a component necessary to implement the cybersecurity controls can be considered, e.g. processor performance, memory resources.
+
+**[RQ-10-02]** The defined cybersecurity requirements shall be allocated to components of the architectural design.
+
+**[RQ-10-03]** Procedures to ensure cybersecurity after the development of the component shall be specified, if applicable.
+
+**EXAMPLE2** Procedures for correct integration and initialization of cybersecurity controls, as well as maintaining cybersecurity throughout production.
+
+**[RQ-10-04]** If design, modelling or programming notations or languages are used for the cybersecurity specifications or their implementation, the following shall be considered when selecting such a notation or language:
+
+- a) an unambiguous and comprehensible definition in both syntax and semantics;
+- b) support for achievement of modularity, abstraction and encapsulation;
+- c) support for the use of structured constructs;
+- d) support for the use of secure design and implementation techniques;
+- e) ability to integrate already existing components; and
+  EXAMPLE 3 Library, framework, software component written in another language.
+- f) resilience of the language against vulnerabilities due to its improper use.
+  EXAMPLE 4 Resilience against buffer overflows.
+
+> **NOTE 6** For software development, implementation includes coding using programming languages.
+
+**[RQ-10-05]** Criteria (see [RQ-10-04]) for suitable design, modelling or programming languages for cybersecurity that are not addressed by the language itself shall be covered by design, modelling and coding guidelines, or by the development environment.
+
+**EXAMPLE 5** Use of MISRA C:2012 [17] or CERT C [18] for secure coding in the “C” programming language.
+
+**EXAMPLE 6** Criteria for suitable design, modelling and programming languages:
+
+- use of language subsets;
+- enforcement of strong typing; and/or
+- use of defensive implementation techniques.
+
+**[RC-10-06]** Established and trusted design and implementation principles should be applied to avoid or minimize the introduction of weaknesses.
+
+> **NOTE 7** Examples of design principles for architectural design for cybersecurity are given in NIST Special Publication 800-160 Vol. 1[19], appendix F.1.
+
+**[RQ-10-07]** The architectural design defined in [RQ-10-01] shall be analysed to identify weaknesses.
+
+> **NOTE 8** Known weaknesses and vulnerabilities from reused components can be considered.
+
+> **NOTE 9** Identified weaknesses are analysed for vulnerabilities (see 8.5) and identified vulnerabilities are managed (see 8.6). However, identified weaknesses can be resolved with changes to the architectural design without performing a vulnerability analysis.
+
+**[RQ-10-08]** The defined cybersecurity specifications shall be verified to ensure completeness, correctness, and consistency with the cybersecurity specifications from higher levels of architectural abstraction.
+
+> **NOTE 10** Verification methods can include:
+>
+> - review;
+> - analysis;
+> - simulation; and/or
+> - prototyping.
+
+#### 10.4.2 Integration and verification
+
+**[RQ-10-09]** Integration and verification activities shall verify that the implementation and integration
 of components fulfil the defined cybersecurity specifications.
-[RQ-10-10] The integration and verification activities of [RQ-10-09] shall be specified considering:
-a) the defined cybersecurity specifications;
-b) configurations intended for series production, if applicable;
-c) sufficient capability to support the functionality specified in the defined cybersecurity specifications; and
-d) conformity with the modelling, design and coding guidelines of [RQ-10-05], if applicable. NOTE 1 This can include the vehicle integration and verification.
-NOTE 2 Methods for verification can include:
-— requirements-based test;
-— interface test;
-— resource usage evaluation;
-— verification of the control flow and data flow;
-— dynamic analysis; and/or
-— static analysis.
-NOTE 3 If verification by testing is adopted, test cases and test environments can be selected, considering: — level of integration for testing to achieve the verification objectives;
-— necessity for additional tests during subsequent integration activities based on an analysis of the selected test environment, e.g. due to different bit widths of data words and address words of the target processor for final integration compared to a processor emulation or development environment.
-NOTE 4 Methods for deriving test cases can include: — analysis of requirements;
-— generation and analysis of equivalence classes;
-— boundary value analysis; and/or
-— error guessing based on knowledge or experience.
-34
-© ISO/SAE International 2021 – All rights reserved
 
---```,,,`,```,,`,``,,,`,,,`````,-`-`,,`,,`,`,,`---
-ISO/SAE 21434:2021(E)
-[RQ-10-11] If verification by testing is adopted, test coverage shall be evaluated using defined test coverage metrics to determine sufficiency of the test activities.
-NOTE 5 Standard test coverage metrics can be inadequate for cybersecurity, e.g. statement coverage for software.
-[RC-10-12] Testing should be performed in order to confirm that unidentified weaknesses and vulnerabilities remaining in the component are minimized.
-NOTE 6 Unnecessary functionalities can contain a weakness.
-NOTE 7 Testing methods can include:
-— functional testing;
-— vulnerability scanning;
-— fuzz testing; and/or
-— penetration testing.
-NOTE 8 Identified weaknesses are analysed for vulnerabilities (see 8.5) and identified vulnerabilities are managed (see 8.6). However, identified weaknesses can be resolved with changes to the architectural design without performing a vulnerability analysis.
-[RQ-10-13] If testing in accordance with [RC-10-12] is not performed, then a rationale shall be provided.
-NOTE 9 The rationale can include the following considerations:
-— feasibility to access the attack surface of the component;
-— capabilities to (directly or indirectly) access the component in combination with compromise of other components; and/or
-— simplicity of the component.
-10.5 Work products
-[WP-10-01] Cybersecurity specifications, resulting from [RQ-10-01] and [RQ-10-02]
-[WP-10-02] Cybersecurity requirements for post-development, resulting from [RQ-10-03] [WP-10-03] Documentation of the modelling, design or programming languages and coding guidelines, if applicable, resulting from [RQ-10-04] and [RQ-10-05]
-[WP-10-04] Verification report for the cybersecurity specifications, resulting from [RQ-10-08] [WP-10-05] Weaknesses found during product development, resulting from [RQ-10-07] and [RC- 10-12], if applicable
-[WP-10-06] Integration and verification specification, resulting from [RQ-10-10]
-[WP-10-07] Integration and verification report, resulting from [RQ-10-09], [RQ-10-11] and [RC-10- 12]
-11 Cybersecurity validation
-11.1 General
+**[RQ-10-10]** The integration and verification activities of [RQ-10-09] shall be specified considering:
+
+- a) the defined cybersecurity specifications;
+- b) configurations intended for series production, if applicable;
+- c) sufficient capability to support the functionality specified in the defined cybersecurity specifications; and
+- d) conformity with the modelling, design and coding guidelines of [RQ-10-05], if applicable.
+
+> **NOTE 1** This can include the vehicle integration and verification.
+
+> **NOTE 2** Methods for verification can include:
+>
+> - requirements-based test;
+> - interface test;
+> - resource usage evaluation;
+> - verification of the control flow and data flow;
+> - dynamic analysis; and/or
+> - static analysis.
+
+> **NOTE 3** If verification by testing is adopted, test cases and test environments can be selected, considering: >
+>
+> - level of integration for testing to achieve the verification objectives;
+> - necessity for additional tests during subsequent integration activities based on an analysis of the selected test environment, e.g. due to different bit widths of data words and address words of the target processor for final integration compared to a processor emulation or development environment.
+
+> **NOTE 4** Methods for deriving test cases can include:
+>
+> - analysis of requirements;
+> - generation and analysis of equivalence classes;
+> - boundary value analysis; and/or
+> - error guessing based on knowledge or experience.
+
+**[RQ-10-11]** If verification by testing is adopted, test coverage shall be evaluated using defined test coverage metrics to determine sufficiency of the test activities.
+
+> **NOTE 5** Standard test coverage metrics can be inadequate for cybersecurity, e.g. statement coverage for software.
+
+**[RC-10-12]** Testing should be performed in order to confirm that unidentified weaknesses and vulnerabilities remaining in the component are minimized.
+
+> **NOTE 6** Unnecessary functionalities can contain a weakness.
+
+> **NOTE 7** Testing methods can include:
+>
+> - functional testing;
+> - vulnerability scanning;
+> - fuzz testing; and/or
+> - penetration testing.
+
+> **NOTE 8** Identified weaknesses are analysed for vulnerabilities (see 8.5) and identified vulnerabilities are managed (see 8.6). However, identified weaknesses can be resolved with changes to the architectural design without performing a vulnerability analysis.
+
+**[RQ-10-13]** If testing in accordance with [RC-10-12] is not performed, then a rationale shall be provided.
+
+> **NOTE 9** The rationale can include the following considerations:
+>
+> - feasibility to access the attack surface of the component;
+> - capabilities to (directly or indirectly) access the component in combination with compromise of other components; and/or
+> - simplicity of the component.
+
+### 10.5 Work products
+
+**[WP-10-01]** Cybersecurity specifications, resulting from [RQ-10-01] and [RQ-10-02]
+
+**[WP-10-02]** Cybersecurity requirements for post-development, resulting from [RQ-10-03]
+
+**[WP-10-03]** Documentation of the modelling, design or programming languages and coding guidelines, if applicable, resulting from [RQ-10-04] and [RQ-10-05]
+
+**[WP-10-04]** Verification report for the cybersecurity specifications, resulting from [RQ-10-08]
+
+**[WP-10-05]** Weaknesses found during product development, resulting from [RQ-10-07] and [RC- 10-12], if applicable
+
+**[WP-10-06]** Integration and verification specification, resulting from [RQ-10-10]
+
+**[WP-10-07]** Integration and verification report, resulting from [RQ-10-09], [RQ-10-11] and [RC-10- 12]
+
+## 11 Cybersecurity validation
+
+### 11.1 General
+
 This clause describes activities for cybersecurity validation at the vehicle level for the item (see Figure 9). The item is considered in its operational environment at the vehicle level along with the configurations intended for series production.
-© ISO/SAE International 2021 – All rights reserved 35
- 
-ISO/SAE 21434:2021(E)
-11.2 Objectives
+
+### 11.2 Objectives
+
 The objectives of this clause are to:
-a) validate the cybersecurity goals and cybersecurity claims; b) confirm the item achieves the cybersecurity goals; and
-c) confirm that no unreasonable risks remain.
-11.3 Inputs
+
+- a) validate the cybersecurity goals and cybersecurity claims;
+- b) confirm the item achieves the cybersecurity goals; and
+- c) confirm that no unreasonable risks remain.
+
+### 11.3 Inputs
+
+#### 11.3.1 Prerequisites
+
 The following information shall be available:
-— item definition [WP-09-01];
-— cybersecurity goals [WP-09-03]; and
-— cybersecurity claims [WP-09-04], if applicable.
-11.3.1 Prerequisites
+
+- item definition [WP-09-01];
+- cybersecurity goals [WP-09-03]; and
+- cybersecurity claims [WP-09-04], if applicable.
+
+#### 11.3.2 Further supporting information
+
 The following information can be considered:
-— cybersecurity concept [WP-09-06];
-— work products from product development (see 10.5).
-11.3.2 Further supporting information
- 11.4 Requirements and recommendations
-[RQ-11-01] Validation activities at the vehicle level for the item considering the configurations for
+
+- cybersecurity concept [WP-09-06];
+- work products from product development (see 10.5).
+
+### 11.4 Requirements and recommendations
+
+**[RQ-11-01]** Validation activities at the vehicle level for the item considering the configurations for
 series production shall confirm:
-a) adequacy of the cybersecurity goals with respect to the threat scenarios and corresponding risk;
-NOTE 1 If any risks not addressed by cybersecurity goals are identified during validation, they can be addressed in accordance with 9.4.
-b) achievement of the cybersecurity goals of the item;
-c) validity of the cybersecurity claims; and
-d) validity of the requirements on the operational environment, if applicable.
-NOTE 2 Validation activities can include:
-— confirmation of achievement of cybersecurity goals by reviewing the work products of 9.5 and Clause 10;
-— penetration testing to demonstrate adequacy and achievement of cybersecurity goals; and/or
- — review of all managed risks identified through Clauses 9 and 10.
-NOTE 3 CAL can be used to scale the depth and rigour of the penetration testing (see Annex E).
- NOTE 4 Weaknesses identified during the validation activities of [RQ-11-01] are analysed for vulnerabilities (see 8.5) and identified vulnerabilities are managed (see 8.6).
- [RQ-11-02] A rationale for the selection of validation activities shall be provided.
-36 © ISO/SAE International 2021 – All rights reserved
 
-11.5 Work products
-[WP-11-01] Validation report, resulting from [RQ-11-01] and [RQ-11-02]
-12 Production 12.1 General
+- a) adequacy of the cybersecurity goals with respect to the threat scenarios and corresponding risk;
+  > **NOTE 1** If any risks not addressed by cybersecurity goals are identified during validation, they can be addressed in accordance with 9.4.
+- b) achievement of the cybersecurity goals of the item;
+- c) validity of the cybersecurity claims; and
+- d) validity of the requirements on the operational environment, if applicable.
+
+> **NOTE 2** Validation activities can include:
+>
+> - confirmation of achievement of cybersecurity goals by reviewing the work products of 9.5 and Clause 10;
+> - penetration testing to demonstrate adequacy and achievement of cybersecurity goals; and/or
+> - review of all managed risks identified through Clauses 9 and 10.
+
+> **NOTE 3** CAL can be used to scale the depth and rigour of the penetration testing (see Annex E).
+
+> **NOTE 4** Weaknesses identified during the validation activities of [RQ-11-01] are analysed for vulnerabilities (see 8.5) and identified vulnerabilities are managed (see 8.6).
+
+**[RQ-11-02]** A rationale for the selection of validation activities shall be provided.
+
+### 11.5 Work products
+
+**[WP-11-01]** Validation report, resulting from [RQ-11-01] and [RQ-11-02]
+
+## 12 Production
+
+### 12.1 General
+
 Production covers the manufacturing and assembly of an item or component, including the vehicle level. A production control plan is created to ensure that cybersecurity requirements for post-development are applied to the item or component and to ensure that vulnerabilities cannot be introduced during production.
-12.2 Objectives
+
+### 12.2 Objectives
+
 The objectives of this clause are to:
-a) apply the cybersecurity requirements for post-development; and b) prevent the introduction of vulnerabilities during production.
-12.3 Inputs
+
+- a) apply the cybersecurity requirements for post-development; and
+- b) prevent the introduction of vulnerabilities during production.
+
+### 12.3 Inputs
+
+#### 12.3.1 Prerequisites
+
 The following information shall be available:
-— release for post-development report [WP-06-04]; and
-— cybersecurity requirements for post-development [WP-10-02].
-12.3.1 Prerequisites
+
+- release for post-development report [WP-06-04]; and
+- cybersecurity requirements for post-development [WP-10-02].
+
+#### 12.3.2 Further supporting information
+
 None.
-12.3.2 Further supporting information
-12.4 Requirements and recommendations
-[RQ-12-01] A production control plan shall be created that applies the cybersecurity requirements for
+
+### 12.4 Requirements and recommendations
+
+**[RQ-12-01]** A production control plan shall be created that applies the cybersecurity requirements for
 post-development.
-NOTE 1 The production control plan can be included as part of an overall production plan. [RQ-12-02] The production control plan shall include:
-a) sequence of steps that apply the cybersecurity requirements for post-development; b) production tools and equipment;
-c) cybersecurity controls to prevent unauthorized alteration during production; and
-EXAMPLE 1 Physical controls that prevent physical access to production servers holding software.
-EXAMPLE 2 Logical controls that apply cryptographic techniques and/or access controls.
-d) methods to confirm that the cybersecurity requirements for post-development are met.
-NOTE 2 Methods can include inspection and calibration checks.
-© ISO/SAE International 2021 – All rights reserved 37
-ISO/SAE 21434:2021(E)
 
-ISO/SAE 21434:2021(E)
-NOTE 3 To manufacture an item or component and install the hardware and software, the production process can use privileged access. Such access can introduce vulnerabilities in the item or component if used in an unauthorized manner after production.
-[RQ-12-03] The production control plan shall be implemented.
-12.5 Work products
-[WP-12-01] Production control plan, resulting from [RQ-12-01] and [RQ-12-02]
-13 Operations and maintenance
-13.1 General
+> **NOTE 1** The production control plan can be included as part of an overall production plan.
+
+**[RQ-12-02]** The production control plan shall include:
+
+- a) sequence of steps that apply the cybersecurity requirements for post-development;
+- b) production tools and equipment;
+- c) cybersecurity controls to prevent unauthorized alteration during production; and
+  EXAMPLE 1 Physical controls that prevent physical access to production servers holding software.
+  EXAMPLE 2 Logical controls that apply cryptographic techniques and/or access controls.
+- d) methods to confirm that the cybersecurity requirements for post-development are met.
+  > **NOTE 2** Methods can include inspection and calibration checks.
+
+> **NOTE 3** To manufacture an item or component and install the hardware and software, the production process can use privileged access. Such access can introduce vulnerabilities in the item or component if used in an unauthorized manner after production.
+
+**[RQ-12-03]** The production control plan shall be implemented.
+
+### 12.5 Work products
+
+**[WP-12-01]** Production control plan, resulting from [RQ-12-01] and [RQ-12-02]
+
+## 13 Operations and maintenance
+
+### 13.1 General
+
 This clause describes cybersecurity incident response (see 13.3) and updates (see 13.4) to items or components in the field.
+
 Cybersecurity incident response occurs when an organization invokes it as part of vulnerability management (see 8.6).
+
 Updates are changes made to an item or component during post-development and can include additional information, e.g. technical specifications, integration manuals, user manuals. Organizations can issue updates for various reasons, e.g. addressing vulnerabilities or safety issues, providing functional improvements. The work products concerning updates are documented as work products of other clauses.
+
 Modifications of items or components that are in the concept, product development or production phases are covered by change management (see 5.4.4) instead of this clause.
-13.2 Objectives
+
+### 13.2 Objectives
+
 The objectives of this clause are to:
-a) determine and implement remedial actions for cybersecurity incidents; and
-b) maintain cybersecurity during and after updates to items or components after production until their end of cybersecurity support.
-13.3 Cybersecurity incident response
-13.3.1 Inputs
-13.3.1.1 Prerequisites
+
+- a) determine and implement remedial actions for cybersecurity incidents; and
+- b) maintain cybersecurity during and after updates to items or components after production until their end of cybersecurity support.
+
+### 13.3 Cybersecurity incident response
+
+#### 13.3.1 Inputs
+
+##### 13.3.1.1 Prerequisites
+
 None.
-13.3.1.2 Further supporting information
+
+##### 13.3.1.2 Further supporting information
+
 The following information can be considered:
-— cybersecurity information related to the vulnerability that caused the cybersecurity incident response;
-— vulnerability analysis [WP-08-05].
-   38
---```,,,`,```,,`,
-© ISO/SAE International 2021 – All rights reserved
 
---```,,,`,```,,`,``,,,`,,,`````,-`-`,,`,,`,`,,`---
-13.3.2 Requirements and recommendations
-[RQ-13-01] For each cybersecurity incident, a cybersecurity incident response plan shall be created that includes:
-a) remedial actions;
-NOTE 1 Remedial actions are determined by vulnerability management in 8.6.
-b) a communication plan;
-NOTE 2 The creation of a communication plan can involve internal interested parties, e.g. marketing or public relations, product development teams, legal, customer relations, quality management, purchasing. NOTE 3 A communication plan can include identification of internal and external communication partners (e.g. development, researchers, the general public, authorities) and development of specific information for these audiences.
-c) assigned responsibilities for the remedial actions;
-NOTE 4 Those responsible can have:
-— expertise in affected items or components, including legacy items and components;
-— organizational knowledge (e.g. business processes, communications, purchasing, legal); and/or — decision authority.
-d) a procedure for recording new cybersecurity information relevant to the cybersecurity incident; NOTE 5 New cybersecurity information can be collected in accordance with 8.3, e.g. information on:
-— affected components;
-— related incidents and vulnerabilities;
-— forensic data such as data logs, crash sensor data; and/or
-— end-user complaints.
-e) a method for determining progress;
-EXAMPLE Measures of progress are:
-— percentage of affected items or components that are remediated; and/or
-— percentage of items or components affected by remedial actions.
-f) criteria for closure of the cybersecurity incident response; and
-g) actions for the closure.
-[RQ-13-02] The cybersecurity incident response plan shall be implemented.
-13.3.3 Work products
-[WP-13-01] Cybersecurity incident response plan, resulting from [RQ-13-01]
-© ISO/SAE International 2021 – All rights reserved 39
-ISO/SAE 21434:2021(E)
+- cybersecurity information related to the vulnerability that caused the cybersecurity incident response;
+- vulnerability analysis [WP-08-05].
 
-ISO/SAE 21434:2021(E)
-13.4 Updates
-13.4.1 Inputs
-13.4.1.1 Prerequisites
+#### 13.3.2 Requirements and recommendations
+
+**[RQ-13-01]** For each cybersecurity incident, a cybersecurity incident response plan shall be created that includes:
+
+- a) remedial actions;
+  > **NOTE 1** Remedial actions are determined by vulnerability management in 8.6.
+- b) a communication plan;
+  > NOTE 2 The creation of a communication plan can involve internal interested parties, e.g. marketing or public relations, product development teams, legal, customer relations, quality management, purchasing.
+  > NOTE 3 A communication plan can include identification of internal and external communication partners (e.g. development, researchers, the general public, authorities) and development of specific information for these audiences.
+- c) assigned responsibilities for the remedial actions;
+  > **NOTE 4** Those responsible can have:
+  >
+  > - expertise in affected items or components, including legacy items and components;
+  > - organizational knowledge (e.g. business processes, communications, purchasing, legal); and/or
+  > - decision authority.
+- d) a procedure for recording new cybersecurity information relevant to the cybersecurity incident;
+  > **NOTE 5** New cybersecurity information can be collected in accordance with 8.3, e.g. information on:
+  >
+  > - affected components;
+  > - related incidents and vulnerabilities;
+  > - forensic data such as data logs, crash sensor data; and/or
+  > - end-user complaints.
+- e) a method for determining progress;
+  EXAMPLE Measures of progress are:
+  - percentage of affected items or components that are remediated; and/or
+  - percentage of items or components affected by remedial actions.
+- f) criteria for closure of the cybersecurity incident response; and
+- g) actions for the closure.
+
+**[RQ-13-02]** The cybersecurity incident response plan shall be implemented.
+
+#### 13.3.3 Work products
+
+**[WP-13-01]** Cybersecurity incident response plan, resulting from [RQ-13-01]
+
+### 13.4 Updates
+
+#### 13.4.1 Inputs
+
+##### 13.4.1.1 Prerequisites
+
 The following information shall be available:
-— release for post-development report [WP-06-04].
-13.4.1.2 Further supporting information
+
+- release for post-development report [WP-06-04].
+
+##### 13.4.1.2 Further supporting information
+
 The following information can be considered:
-— cybersecurity incident response plan [WP-13-01];
-— cybersecurity requirements for post-development [WP-10-02] relevant to the update.
-13.4.2 Requirements and recommendations
-[RQ-13-03] Updates and update-related capabilities within the vehicle shall be developed in accordance with this document.
-13.4.3 Work products
+
+- cybersecurity incident response plan [WP-13-01];
+- cybersecurity requirements for post-development [WP-10-02] relevant to the update.
+
+#### 13.4.2 Requirements and recommendations
+
+**[RQ-13-03]** Updates and update-related capabilities within the vehicle shall be developed in accordance with this document.
+
+#### 13.4.3 Work products
+
 None.
-14 End of cybersecurity support and decommissioning
-14.1 General
+
+## 14 End of cybersecurity support and decommissioning
+
+### 14.1 General
+
 Decommissioning is different from end of cybersecurity support. An organization can end cybersecurity support for an item or component, but that item or component can still function as designed in the field. Both decommissioning and end of cybersecurity support can present cybersecurity implications, but those implications are considered separately.
+
 Decommissioning can occur without the organization’s knowledge and in such a way that decommissioning procedures cannot be enforced, therefore the act of decommissioning is out of scope of this document.
+
 End of cybersecurity support and decommissioning are considered in the concept and product development phases.
---```,,,`,```,,`,``,,,`,,,`````,-`-`,,`,,`,`,,`---
-14.2 Objectives
-The objectives of this clause are to:
-a) communicate the end of cybersecurity support; and
-b) enable decommissioning of items and components with regard to cybersecurity.
-14.3 End of cybersecurity support
-14.3.1 Inputs
-None.
-40 © ISO/SAE International 2021 – All rights reserved
 
-14.3.2 Requirements and recommendations
-[RQ-14-01] A procedure shall be created to communicate to customers when an organization decides
+### 14.2 Objectives
+
+The objectives of this clause are to:
+
+- a) communicate the end of cybersecurity support; and
+- b) enable decommissioning of items and components with regard to cybersecurity.
+
+### 14.3 End of cybersecurity support
+
+#### 14.3.1 Inputs
+
+None.
+
+#### 14.3.2 Requirements and recommendations
+
+**[RQ-14-01]** A procedure shall be created to communicate to customers when an organization decides
 to end cybersecurity support for an item or component.
-NOTE1 These communications can be handled under contract requirements between suppliers and
-Communication to vehicle owners can be delivered by an announcement.
-14.3.3 Work products
-[WP-14-01] Procedures to communicate the end of cybersecurity support, resulting from [RQ-14-
-customers. NOTE 2
+
+> **NOTE 1** These communications can be handled under contract requirements between suppliers and
+> Communication to vehicle owners can be delivered by an announcement.
+
+> **NOTE 2** Communication to vehicle owners can be delivered by an announcement.
+
+#### 14.3.3 Work products
+
+**[WP-14-01]** Procedures to communicate the end of cybersecurity support, resulting from [RQ-14-
+customers.
 01]
-14.4 Decommissioning
-14.4.1 Inputs
+
+### 14.4 Decommissioning
+
+#### 14.4.1 Inputs
+
+##### 14.4.1.1 Prerequisites
+
 The following information shall be available:
-— cybersecurity requirements for post-development [WP-10-02].
-14.4.1.1 Prerequisites
+
+- cybersecurity requirements for post-development [WP-10-02].
+
+##### 14.4.1.2 Further supporting information
+
 None.
-14.4.1.2 Further supporting information
-14.4.2 Requirements and recommendations
-[RQ-14-02] The cybersecurity requirements for post-development with regard to decommissioning
+
+#### 14.4.2 Requirements and recommendations
+
+**[RQ-14-02]** The cybersecurity requirements for post-development with regard to decommissioning
 shall be made available.
-NOTE Appropriate documentation (e.g. instructions, user manuals) relating to such requirements can enable decommissioning with regard to cybersecurity.
+
+> **NOTE** Appropriate documentation (e.g. instructions, user manuals) relating to such requirements can enable decommissioning with regard to cybersecurity.
+
+#### 14.4.3 Work products
+
 None.
-14.4.3 Work products
-15 Threat analysis and risk assessment methods 15.1 General
+
+## 15 Threat analysis and risk assessment methods
+
+### 15.1 General
+
 This clause describes methods to determine the extent to which a road user can be impacted by a threat scenario. These methods and their work products are collectively known as a threat analysis and risk assessment (TARA) and are performed from the viewpoint of affected road users. The methods defined in this clause are generic modules that can be invoked systematically, and from any point in the lifecycle of an item or component:
-— asset identification (see 15.3);
-— threat scenario identification (see 15.4); — impact rating (see 15.5);
-— attack path analysis (see 15.6);
-ISO/SAE 21434:2021(E)
-    © ISO/SAE International 2021 – All rights reserved 41
 
-ISO/SAE 21434:2021(E)
-— attack feasibility rating (see 15.7);
-— risk value determination (see 15.8); and
-— risk treatment decision (see 15.9).
+- asset identification (see 15.3);
+- threat scenario identification (see 15.4);
+- impact rating (see 15.5);
+- attack path analysis (see 15.6);
+- attack feasibility rating (see 15.7);
+- risk value determination (see 15.8); and
+- risk treatment decision (see 15.9).
+
 Because these are generic modules, the work products defined in this clause are documented as parts of work products produced by other clauses.
+
 See Annex H for an illustration of these methods with a practical example.
+
 Organization specific scales for impact rating, attack feasibility rating and risk value determination can be applied and mapped to the corresponding scales defined in this document.
-15.2 Objectives
+
+### 15.2 Objectives
+
 The objectives of this clause are to:
-a) identify assets, their cybersecurity properties and their damage scenarios;
-b) identify threat scenarios;
-c) determine the impact rating of damage scenarios;
-d) identify the attack paths that realize threat scenarios;
-e) determine the ease with which attack paths can be exploited;
-f) determine the risk values of threat scenarios; and
-g) select appropriate risk treatment options for threat scenarios.
-15.3 Asset identification
-15.3.1 Inputs
---```,,,`,```,,`,``,,,`,,,`````,-`-`,,`,,`,`,,`---
-15.3.1.1 Prerequisites
-The following information shall be available:
-— item definition [WP-09-01].
-15.3.1.2 Further supporting information
-The following information can be considered:
-— cybersecurity specifications [WP-10-01].
-15.3.2 Requirements and recommendations
-[RQ-15-01] Damage scenarios shall be identified.
-NOTE 1 A damage scenario can include:
-— relation between the functionality of the item and the adverse consequence; — description of harm to the road user; and/or
-— relevant assets.
-    42
-© ISO/SAE International 2021 – All rights reserved
 
-ISO/SAE 21434:2021(E) [RQ-15-02] Assets with cybersecurity properties whose compromise leads to a damage scenario shall
+- a) identify assets, their cybersecurity properties and their damage scenarios;
+- b) identify threat scenarios;
+- c) determine the impact rating of damage scenarios;
+- d) identify the attack paths that realize threat scenarios;
+- e) determine the ease with which attack paths can be exploited;
+- f) determine the risk values of threat scenarios; and
+- g) select appropriate risk treatment options for threat scenarios.
+
+### 15.3 Asset identification
+
+#### 15.3.1 Inputs
+
+##### 15.3.1.1 Prerequisites
+
+The following information shall be available:
+
+- item definition [WP-09-01].
+
+##### 15.3.1.2 Further supporting information
+
+The following information can be considered:
+
+- cybersecurity specifications [WP-10-01].
+
+#### 15.3.2 Requirements and recommendations
+
+**[RQ-15-01]** Damage scenarios shall be identified.
+
+> NOTE 1 A damage scenario can include:
+>
+> - relation between the functionality of the item and the adverse consequence;
+> - description of harm to the road user; and/or
+> - relevant assets.
+
+**[RQ-15-02]** Assets with cybersecurity properties whose compromise leads to a damage scenario shall
 be identified.
-NOTE 2 The identification of assets can be based on: — analysing the item definition;
-— performing an impact rating;
-— deriving assets from threat scenarios; and/or
-— using predefined catalogues.
-EXAMPLE 1 The asset is personal information (customer personal preferences) stored in an infotainment system and its cybersecurity property is confidentiality. The damage scenario is disclosure of the personal information without the customer’s consent resulting from the loss of confidentiality.
-EXAMPLE2 The asset is data communication of the braking function and its cybersecurity property is integrity. The damage scenario is collision with following vehicle (rear-end collision) caused by unintended full braking when the vehicle is travelling at high speed.
-15.3.3 Work products
-[WP-15-01] Damage scenarios, resulting from [RQ-15-01]
-[WP-15-02] Assets with cybersecurity properties, resulting from [RQ-15-02]
-15.4 Threat scenario identification
-15.4.1 Inputs
-The following shall be available: — item definition [WP-09-01].
-15.4.1.1 Prerequisites
-The following information can be considered:
-— cybersecurity specifications [WP-10-01];
-— damage scenarios [WP-15-01];
-— assets with cybersecurity properties [WP-15-02].
-15.4.1.2 Further supporting information
-[RQ-15-03] Threat scenarios shall be identified and include:
-15.4.2 Requirements and recommendations
-— targeted asset;
-— compromised cybersecurity property of the asset; and
-— cause of compromise of the cybersecurity property.
-NOTE 1 Further information can be included or associated with a threat scenario, e.g. damage scenarios, technical interdependencies between assets, attackers, methods, tools, and attack surfaces.
-NOTE 2 The method for threat scenario identification can use group discussion and/or systematic approaches, for example:
-© ISO/SAE International 2021 – All rights reserved 43
 
-ISO/SAE 21434:2021(E)
-— elicitation of malicious use cases resulting from reasonably foreseeable misuse and/or abuse;
-— threat modelling approaches based on frameworks such as EVITA [20], TVRA [21], PASTA [22], STRIDE (spoofing, tampering, repudiation, information disclosure, denial of service, elevation of privilege).
-NOTE 3 A damage scenario can correspond to multiple threat scenarios and a threat scenario can lead to multiple damage scenarios.
-EXAMPLE Spoofing of CAN messages for the braking ECU leads to loss of integrity of the CAN messages and thereby to loss of integrity of the braking function.
-15.4.3 Work products
-[WP-15-03] Threat scenarios, resulting from [RQ-15-03]
-15.5 Impact rating
-15.5.1 Inputs
-The following shall be available: — damage scenarios [WP-15-01].
-15.5.1.1 Prerequisites
+> **NOTE 2** The identification of assets can be based on:
+>
+> - analysing the item definition;
+> - performing an impact rating;
+> - deriving assets from threat scenarios; and/or
+> - using predefined catalogues.
+
+**EXAMPLE 1** The asset is personal information (customer personal preferences) stored in an infotainment system and its cybersecurity property is confidentiality. The damage scenario is disclosure of the personal information without the customer’s consent resulting from the loss of confidentiality.
+
+**EXAMPLE 2** The asset is data communication of the braking function and its cybersecurity property is integrity. The damage scenario is collision with following vehicle (rear-end collision) caused by unintended full braking when the vehicle is travelling at high speed.
+
+#### 15.3.3 Work products
+
+**[WP-15-01]** Damage scenarios, resulting from [RQ-15-01]
+
+**[WP-15-02]** Assets with cybersecurity properties, resulting from [RQ-15-02]
+
+### 15.4 Threat scenario identification
+
+#### 15.4.1 Inputs
+
+##### 15.4.1.1 Prerequisites
+
+The following shall be available:
+
+- item definition [WP-09-01].
+
+##### 15.4.1.2 Further supporting information
+
 The following information can be considered:
-— item definition [WP-09-01];
-— assets with cybersecurity properties [WP-15-02].
-15.5.1.2 Further supporting information
-15.5.2 Requirements and recommendations
-[RQ-15-04] The damage scenarios shall be assessed against potential adverse consequences for road
+
+- cybersecurity specifications [WP-10-01];
+- damage scenarios [WP-15-01];
+- assets with cybersecurity properties [WP-15-02].
+
+#### 15.4.2 Requirements and recommendations
+
+**[RQ-15-03]** Threat scenarios shall be identified and include:
+
+- targeted asset;
+- compromised cybersecurity property of the asset; and
+- cause of compromise of the cybersecurity property.
+
+> **NOTE 1** Further information can be included or associated with a threat scenario, e.g. damage scenarios, technical interdependencies between assets, attackers, methods, tools, and attack surfaces.
+
+> **NOTE 2** The method for threat scenario identification can use group discussion and/or systematic approaches, for example:
+>
+> - elicitation of malicious use cases resulting from reasonably foreseeable misuse and/or abuse;
+> - threat modelling approaches based on frameworks such as EVITA [20], TVRA [21], PASTA [22], STRIDE (spoofing, tampering, repudiation, information disclosure, denial of service, elevation of privilege).
+
+> **NOTE 3** A damage scenario can correspond to multiple threat scenarios and a threat scenario can lead to multiple damage scenarios.
+
+**EXAMPLE** Spoofing of CAN messages for the braking ECU leads to loss of integrity of the CAN messages and thereby to loss of integrity of the braking function.
+
+#### 15.4.3 Work products
+
+**[WP-15-03]** Threat scenarios, resulting from [RQ-15-03]
+
+### 15.5 Impact rating
+
+#### 15.5.1 Inputs
+
+##### 15.5.1.1 Prerequisites
+
+The following shall be available:
+
+- damage scenarios [WP-15-01].
+
+##### 15.5.1.2 Further supporting information
+
+The following information can be considered:
+
+- item definition [WP-09-01];
+- assets with cybersecurity properties [WP-15-02].
+
+#### 15.5.2 Requirements and recommendations
+
+**[RQ-15-04]** The damage scenarios shall be assessed against potential adverse consequences for road
 users in the impact categories of safety, financial, operational, and privacy (S, F, O, P) respectively.
-NOTE 1 This document does not provide relationships (e.g. weighting) between different impact categories.
-NOTE 2 Additional impact categories can be considered.
-NOTE 3 If additional impact categories are considered, then the rationale and explanation of these categories can be shared in the supply chain in accordance with Clause 7.
-[RQ-15-05] The impact rating of a damage scenario shall be determined for each impact category to be one of the following:
- — severe;
-— major;
-— moderate; or
-— negligible.
-NOTE 4 Financial, operational and privacy related impacts can be rated in accordance with tables given in Annex F.
-[RQ-15-06] Safety related impact ratings shall be derived from ISO 26262-3:2018, 6.4.3. NOTE 5 Table F.1 in Annex F can be used for mapping safety impact criteria to impact ratings.
-   44 © ISO/SAE International 2021 – All rights reserved
 
-ISO/SAE 21434:2021(E)
-NOTE 6 Evaluation for functional safety can be reused for this purpose.
-[PM-15-07] If a damage scenario results in an impact rating and an argument can be made that every impact of another impact category is considered less critical, then further analysis for that other impact category may be omitted.
-EXAMPLE The safety impact of a damage scenario is rated “severe”, consequently financial impact of that damage scenario is not further analysed.
-15.5.3 Work products
-[WP-15-04] Impact ratings with associated impact categories, resulting from [RQ-15-04] to [RQ- 15-06]
-15.6 Attack path analysis
---```,,,`,```,,`,``,,,`,,,`````,-`-`,,`,,`,`,,`---
-15.6.1 Inputs
-15.6.1.1 Prerequisites
+> **NOTE 1** This document does not provide relationships (e.g. weighting) between different impact categories.
+
+> **NOTE 2** Additional impact categories can be considered.
+
+> **NOTE 3** If additional impact categories are considered, then the rationale and explanation of these categories can be shared in the supply chain in accordance with Clause 7.
+
+**[RQ-15-05]** The impact rating of a damage scenario shall be determined for each impact category to be one of the following:
+
+- severe;
+- major;
+- moderate; or
+- negligible.
+
+> **NOTE 4** Financial, operational and privacy related impacts can be rated in accordance with tables given in Annex F.
+
+**[RQ-15-06]** Safety related impact ratings shall be derived from ISO 26262-3:2018, 6.4.3.
+
+> **NOTE 5** Table F.1 in Annex F can be used for mapping safety impact criteria to impact ratings.
+
+> **NOTE 6** Evaluation for functional safety can be reused for this purpose.
+
+**[PM-15-07]** If a damage scenario results in an impact rating and an argument can be made that every impact of another impact category is considered less critical, then further analysis for that other impact category may be omitted.
+
+**EXAMPLE** The safety impact of a damage scenario is rated “severe”, consequently financial impact of that damage scenario is not further analysed.
+
+#### 15.5.3 Work products
+
+**[WP-15-04]** Impact ratings with associated impact categories, resulting from [RQ-15-04] to [RQ- 15-06]
+
+### 15.6 Attack path analysis
+
+#### 15.6.1 Inputs
+
+##### 15.6.1.1 Prerequisites
+
 The following information shall be available:
-— item definition [WP-09-01] or cybersecurity specifications [WP-10-01]; and
-NOTE The item definition is used if the attack path analysis is performed on an item, and the cybersecurity specifications are used if the attack path analysis is performed on a component.
-— threat scenarios [WP-15-03].
-15.6.1.2 Further supporting information
-The following information can be considered:
-— weaknesses from cybersecurity events [WP-08-04];
-— weaknesses found during product development [WP-10-05];
-— architectural design;
-— previously identified attack paths [WP-15-05], if available;
-— vulnerability analysis [WP-08-05].
-15.6.2 Requirements and recommendations
-[RQ-15-08] The threat scenarios shall be analysed to identify attack paths.
-NOTE 1 An attack path analysis can be based on:
-— top-down approaches that deduce attack paths by analysing the different ways in which a threat scenario could be realised, e.g. attack trees, attack graphs; and/or
-— bottom-up approaches that build attack paths from the vulnerabilities identified.
-NOTE 2 If a partial attack path does not lead to the realization of a threat scenario, the analysis of this partial attack path can be stopped.
-© ISO/SAE International 2021 – All rights reserved 45
 
-ISO/SAE 21434:2021(E)
-[RQ-15-09] An attack path shall be associated with the threat scenarios that can be realized by the attack path.
-NOTE 3 In early stages of product development, attack paths are often incomplete or imprecise as specific implementation details are not yet known to be able to identify specific vulnerabilities. During product development, the attack paths can be updated as more information becomes available, e.g. after a vulnerability analysis.
-EXAMPLE
-— Threat scenario: spoofing of CAN messages for the braking ECU leads to loss of integrity of the CAN messages and thereby to loss of integrity of the braking function.
-— Attack path realizing the above threat scenario:
-i. the telematics ECU is compromised via the cellular interface;
-ii. the gateway ECU is compromised via CAN communication from the telematics ECU;
-iii. the gateway ECU forwards malicious braking request signals (unwanted rapid deceleration).
-15.6.3 Work products
-[WP-15-05] Attack paths, resulting from [RQ-15-08] and [RQ-15-09]
-15.7 Attack feasibility rating
-15.7.1 Inputs
-The following information shall be available: — attack paths [WP-15-05].
-15.7.1.1 Prerequisites
-The following information can be considered: — architectural design;
-— vulnerability analysis [WP-08-05].
-15.7.2 Requirements and recommendations
-[RQ-15-10] For each attack path, the attack feasibility rating shall be determined as described in
-15.7.1.2 Further supporting information
-Table 1.
+- item definition [WP-09-01] or cybersecurity specifications [WP-10-01]; and
+  > **NOTE** The item definition is used if the attack path analysis is performed on an item, and the cybersecurity specifications are used if the attack path analysis is performed on a component.
+- threat scenarios [WP-15-03].
+
+##### 15.6.1.2 Further supporting information
+
+The following information can be considered:
+
+- weaknesses from cybersecurity events [WP-08-04];
+- weaknesses found during product development [WP-10-05];
+- architectural design;
+- previously identified attack paths [WP-15-05], if available;
+- vulnerability analysis [WP-08-05].
+
+#### 15.6.2 Requirements and recommendations
+
+**[RQ-15-08]** The threat scenarios shall be analysed to identify attack paths.
+
+> **NOTE 1** An attack path analysis can be based on:
+>
+> - top-down approaches that deduce attack paths by analysing the different ways in which a threat scenario could be realised, e.g. attack trees, attack graphs; and/or
+> - bottom-up approaches that build attack paths from the vulnerabilities identified.
+
+> **NOTE 2** If a partial attack path does not lead to the realization of a threat scenario, the analysis of this partial attack path can be stopped.
+
+**[RQ-15-09]** An attack path shall be associated with the threat scenarios that can be realized by the attack path.
+
+> **NOTE 3** In early stages of product development, attack paths are often incomplete or imprecise as specific implementation details are not yet known to be able to identify specific vulnerabilities. During product development, the attack paths can be updated as more information becomes available, e.g. after a vulnerability analysis.
+
+**EXAMPLE**
+
+- Threat scenario: spoofing of CAN messages for the braking ECU leads to loss of integrity of the CAN messages and thereby to loss of integrity of the braking function.
+- Attack path realizing the above threat scenario:
+  - i. the telematics ECU is compromised via the cellular interface;
+  - ii. the gateway ECU is compromised via CAN communication from the telematics ECU;
+  - iii. the gateway ECU forwards malicious braking request signals (unwanted rapid deceleration).
+
+#### 15.6.3 Work products
+
+**[WP-15-05]** Attack paths, resulting from [RQ-15-08] and [RQ-15-09]
+
+### 15.7 Attack feasibility rating
+
+#### 15.7.1 Inputs
+
+##### 15.7.1.1 Prerequisites
+
+The following information shall be available:
+
+- attack paths [WP-15-05].
+
+#### 15.7.2 Requirements and recommendations
+
+The following information can be considered:
+
+- architectural design;
+- vulnerability analysis [WP-08-05].
+
+##### 15.7.1.2 Further supporting information
+
+[RQ-15-10] For each attack path, the attack feasibility rating shall be determined as described in Table 1.
 Table 1 — Attack feasibility ratings and respective descriptions
-    The attack path can be accomplished utilizing low effort.
-The attack path can be accomplished utilizing medium effort. The attack path can be accomplished utilizing high effort.
-The attack path can be accomplished utilizing very high effort.
-Description
- High Medium Low Very low
-        46
-© ISO/SAE International 2021 – All rights reserved
-Attack feasibility rating
- 
-[RC-15-11] The attack feasibility rating method should be defined based on one of the following approaches:
-a) attack potential-based approach;
-b) CVSS-based approach; or
-c) attack vector-based approach.
-NOTE 1 Selection of the approach can depend upon the phase in the lifecycle and available information.
-[RC-15-12] If an attack potential-based approach is used, the attack feasibility rating should be determined based on core factors including:
-a) elapsed time;
-b) specialist expertise;
-c) knowledge of the item or component;
-d) window of opportunity; and
-e) equipment.
-NOTE 2 The core attack potential factors can be derived from ISO/IEC 18045 [23].
-NOTE 3 G.2 provides guidelines on determining attack feasibility based on attack potential.
-[RC-15-13] If a CVSS-based approach is used, the attack feasibility rating should be determined based on the exploitability metrics of the base metric group, including:
-a) attack vector;
-b) attack complexity;
-c) privileges required; and
-d) user interaction.
-NOTE 4 G.3 provides guidelines on determining attack feasibility based on a CVSS-based approach.
-[RC-15-14] If an attack vector-based approach is used, the attack feasibility rating should be determined based on evaluating the predominant attack vector (cf. CVSS [24] 2.1.1) of the attack path.
-NOTE 5 G.4 provides guidelines on determining attack feasibility based on an attack vector-based approach. NOTE 6 During the early stages of development (e.g. concept phase), when there is insufficient information to
-identify specific attack paths, an attack vector-based approach can be suitable to estimate attack feasibility.
-15.7.3 Work products
-[WP-15-06] Attack feasibility ratings, resulting from [RQ-15-10]
-15.8 Risk value determination
-15.8.1 Inputs
-The following information shall be available: — threat scenarios [WP-15-03];
-© ISO/SAE International 2021 – All rights reserved 47
-15.8.1.1 Prerequisites
-ISO/SAE 21434:2021(E)
 
-ISO/SAE 21434:2021(E)
-— impact ratings with associated impact categories [WP-15-04]; and
-— attack feasibility ratings [WP-15-06].
+| Attack feasibility rating | Description                                                     |
+| ------------------------- | --------------------------------------------------------------- |
+| High                      | The attack path can be accomplished utilizing low effort.       |
+| Medium                    | The attack path can be accomplished utilizing medium effort.    |
+| Low                       | The attack path can be accomplished utilizing high effort.      |
+| Very low                  | The attack path can be accomplished utilizing very high effort. |
+
+**[RC-15-11]** The attack feasibility rating method should be defined based on one of the following approaches:
+
+- a) attack potential-based approach;
+- b) CVSS-based approach; or
+- c) attack vector-based approach.
+
+> **NOTE 1** Selection of the approach can depend upon the phase in the lifecycle and available information.
+
+**[RC-15-12] **If an attack potential-based approach is used, the attack feasibility rating should be determined based on core factors including:
+
+- a) elapsed time;
+- b) specialist expertise;
+- c) knowledge of the item or component;
+- d) window of opportunity; and
+- e) equipment.
+
+> **NOTE 2** The core attack potential factors can be derived from ISO/IEC 18045 [23].
+
+> **NOTE 3** G.2 provides guidelines on determining attack feasibility based on attack potential.
+
+**[RC-15-13]** If a CVSS-based approach is used, the attack feasibility rating should be determined based on the exploitability metrics of the base metric group, including:
+
+- a) attack vector;
+- b) attack complexity;
+- c) privileges required; and
+- d) user interaction.
+
+> **NOTE 4** G.3 provides guidelines on determining attack feasibility based on a CVSS-based approach.
+
+**[RC-15-14]** If an attack vector-based approach is used, the attack feasibility rating should be determined based on evaluating the predominant attack vector (cf. CVSS [24] 2.1.1) of the attack path.
+
+> **NOTE 5** G.4 provides guidelines on determining attack feasibility based on an attack vector-based approach.
+
+> **NOTE 6** During the early stages of development (e.g. concept phase), when there is insufficient information to
+> identify specific attack paths, an attack vector-based approach can be suitable to estimate attack feasibility.
+
+#### 15.7.3 Work products
+
+**[WP-15-06]** Attack feasibility ratings, resulting from [RQ-15-10]
+
+### 15.8 Risk value determination
+
+#### 15.8.1 Inputs
+
+##### 15.8.1.1 Prerequisites
+
+The following information shall be available:
+
+- threat scenarios [WP-15-03];
+- impact ratings with associated impact categories [WP-15-04]; and
+- attack feasibility ratings [WP-15-06].
+
+##### 15.8.1.2 Further supporting information
+
 None.
-15.8.1.2 Further supporting information
-15.8.2 Requirements and recommendations
-[RQ-15-15] For each threat scenario the risk value shall be determined from the impact of the
+
+#### 15.8.2 Requirements and recommendations
+
+**[RQ-15-15]** For each threat scenario the risk value shall be determined from the impact of the
 associated damage scenarios and the attack feasibility of the associated attack paths.
-NOTE 1 If a threat scenario corresponds to more than one damage scenario and/or an associated damage scenario has impacts in more than one impact category, a separate risk value can be determined separately for each of those impact ratings.
-NOTE 2 If the threat scenario corresponds to more than one attack path, the associated attack feasibility ratings can be appropriately aggregated, e.g. the threat scenario is assigned the maximum of the attack feasibility ratings of the corresponding attack paths.
-[RQ-15-16] The risk value of a threat scenario shall be a value between (and including) 1 and 5, where a value of 1 represents minimal risk.
-EXAMPLE Methods for risk value determination: — risk matrices;
-— risk formulas.
-15.8.3 Work products
-[WP-15-07] Risk values, resulting from [RQ-15-15] and [RQ-15-16]
-15.9 Risk treatment decision
-15.9.1 Inputs
-The following information shall be available: — item definition [WP-09-01];
-— threat scenarios [WP-15-03]; and
-— risk values [WP-15-07].
-15.9.1.1 Prerequisites
+
+> **NOTE 1** If a threat scenario corresponds to more than one damage scenario and/or an associated damage scenario has impacts in more than one impact category, a separate risk value can be determined separately for each of those impact ratings.
+
+> **NOTE 2** If the threat scenario corresponds to more than one attack path, the associated attack feasibility ratings can be appropriately aggregated, e.g. the threat scenario is assigned the maximum of the attack feasibility ratings of the corresponding attack paths.
+
+**[RQ-15-16]** The risk value of a threat scenario shall be a value between (and including) 1 and 5, where a value of 1 represents minimal risk.
+
+**EXAMPLE** Methods for risk value determination:
+
+- risk matrices;
+- risk formulas.
+
+#### 15.8.3 Work products
+
+**[WP-15-07]** Risk values, resulting from [RQ-15-15] and [RQ-15-16]
+
+### 15.9 Risk treatment decision
+
+#### 15.9.1 Inputs
+
+##### 15.9.1.1 Prerequisites
+
+The following information shall be available:
+
+- item definition [WP-09-01];
+- threat scenarios [WP-15-03]; and
+- risk values [WP-15-07].
+
+##### 15.9.1.2 Further supporting information
+
 The following information can be considered:
-— cybersecurity specifications [WP-10-01];
-— previous risk treatment decisions of the item or component, or of similar items or components; — impact ratings with associated impact categories [WP-15-04];
-— attack paths [WP-15-05];
-— attack feasibility ratings [WP-15-06].
-48
-15.9.1.2 Further supporting information
-© ISO/SAE International 2021 – All rights reserved
 
-15.9.2 Requirements and recommendations
-[RQ-15-17] For each threat scenario, considering its risk values, one or more of the following risk
-treatment option(s) shall be determined: a) avoiding the risk;
-EXAMPLE 1 Avoiding the risk by removing the risk sources, deciding not to start or continue with the activity that gives rise to the risk.
-b) reducing the risk; c) sharing the risk;
-EXAMPLE 2 Sharing risk through contracts or transferring risk by buying insurance.
-d) retaining the risk.
-NOTE The rationales for retaining the risk and sharing the risk are recorded as cybersecurity claims and are subject to cybersecurity monitoring and vulnerability management in accordance with Clause 8.
-15.9.3 Work products
-[WP-15-08] Risk treatment decisions, resulting from [RQ-15-17]
-ISO/SAE 21434:2021(E)
- © ISO/SAE International 2021 – All rights reserved 49
+- cybersecurity specifications [WP-10-01];
+- previous risk treatment decisions of the item or component, or of similar items or components;
+- impact ratings with associated impact categories [WP-15-04];
+- attack paths [WP-15-05];
+- attack feasibility ratings [WP-15-06].
 
-ISO/SAE 21434:2021(E)
-Annex A
-(informative)
-Summary of cybersecurity activities and work products
-A.1 General
+#### 15.9.2 Requirements and recommendations
+
+**[RQ-15-17]** For each threat scenario, considering its risk values, one or more of the following risk treatment option(s) shall be determined:
+
+- a) avoiding the risk;
+  **EXAMPLE 1** Avoiding the risk by removing the risk sources, deciding not to start or continue with the activity that gives rise to the risk.
+- b) reducing the risk;
+- c) sharing the risk;
+  EXAMPLE 2 Sharing risk through contracts or transferring risk by buying insurance.
+- d) retaining the risk.
+
+> **NOTE** The rationales for retaining the risk and sharing the risk are recorded as cybersecurity claims and are subject to cybersecurity monitoring and vulnerability management in accordance with Clause 8.
+
+#### 15.9.3 Work products
+
+**[WP-15-08]** Risk treatment decisions, resulting from [RQ-15-17]
+
+# Annex A(informative)
+
+## Summary of cybersecurity activities and work products
+
+### A.1 General
+
 Table A.1 provides a summary of the cybersecurity activities and their corresponding work products. This can help the organization to manage these activities, to ensure coverage of the cybersecurity activities, and to understand the potential workload of the project. The activities during the concept and product development phases are defined in the cybersecurity plan. The work products of these activities are thus in the scope of a cybersecurity assessment. All work products listed from Clause 15 are documented as work products in other clauses.
-A.2 Overview of cybersecurity activities and work products
+
+### A.2 Overview of cybersecurity activities and work products
+
 Table A.1 — Cybersecurity activities and work products of this document
-Organizational cybersecurity management
-5.4.1 Cybersecurity governance
-[WP-05-01] Cybersecurity policy, rules and processes
-5.4.2 Cybersecurity culture
-[WP-05-01] Cybersecurity policy, rules and processes [WP-05-02] Evidence of competence management, awareness management and continuous improvement
-5.4.3 Information sharing
-[WP-05-01] Cybersecurity policy, rules and processes
-5.4.4 Management systems
-[WP-05-03] Evidence of the organization’s management systems 5.4.5 Tool management
-[WP-05-04] Evidence of tool management
-5.4.6 Information security management [WP-05-03] Evidence of the organization’s management systems 5.4.7 Organizational cybersecurity audit
-[WP-05-05]
-Organizational cybersecurity audit report
-Project dependent cybersecurity management
-6.4.1 Cybersecurity responsibilities
-[WP-06-01]
-Cybersecurity plan
-6.4.2 Cybersecurity planning
-Cybersecurity plan
-[WP-06-01]
-6.4.3 Tailoring
-Cybersecurity plan
-[WP-06-01]
-6.4.4 Reuse
---```,,,`,```,,`,``,,,`,,,`````,-`-`,,`,,`,`,,`---
-[WP-06-01]
-Cybersecurity plan
-6.4.5 Component out-of-context
-Cybersecurity plan
-[WP-06-01]
-6.4.6 Off-the-shelf component
-Cybersecurity plan
-[WP-06-01]
-[WP-06-02]
-6.4.7 Cybersecurity case
-Cybersecurity case
-6.4.8 Cybersecurity assessment
-[WP-06-03]
-Cybersecurity assessment report
-6.4.9 Release for post-development
-[WP-06-04] Release for post-development report
-Distributed cybersecurity activities
-7.4.1 Supplier capability
-None
-7.4.2 Request for quotation
-None
-7.4.3 Alignment of responsibilities
-[WP-07-01] Cybersecurity interface agreement
-Continual cybersecurity activities
-   Sub-clauses
- Work products
-                                                                     50
-© ISO/SAE International 2021 – All rights reserved
 
-8.3 Cybersecurity monitoring
-[WP-08-01] Sources for cybersecurity information [WP-08-02] Triggers Work products
-Table A.1 (continued)
-ISO/SAE 21434:2021(E)
-   Sub-clauses
-    8.4 Cybersecurity event evaluation 8.5 Vulnerability analysis
-8.6 Vulnerability management
-[WP-08-03] Cybersecurity events
-[WP-08-04] Weaknesses from cybersecurity events [WP-08-05] Vulnerability analysis
-9.3 Item definition
-9.4 Cybersecurity goals
-[WP-09-01]
-[WP-09-02]
-[WP-09-03]
-[WP-09-04]
-[WP-09-05]
-[WP-09-06]
-[WP-09-07] Verification report of cybersecurity concept Product development phase
-[WP-08-06]
-Evidence of managed vulnerabilities
-    Item definition
-TARA
-Cybersecurity goals
-Cybersecurity claims
-Verification report for cybersecurity goals Cybersecurity concept
-   Concept phase
-      9.5 Cybersecurity concept 10.4.1 Design
-[WP-10-01] Cybersecurity specifications
-[WP-10-02] Cybersecurity requirements for post-development [WP-10-03] Documentation of the modelling, design, or programming languages and coding guidelines
-[WP-10-04] Verification report for the cybersecurity specifications [WP-10-05] Weaknesses found during product development [WP-10-05] Weaknesses found during product development [WP-10-06] Integration and verification specification
-[WP-10-07] Integration and verification report
-[WP-11-01] Validation report
-      10.4.2 Integration and verification Clause 11 Cybersecurity validation
-   Clause 12 Production
-13.3 Cybersecurity incident response 13.4 Updates
-14.3 End of cybersecurity support
-[WP-12-01] Production control plan
-   Post-development phases
-[WP-13-01] Cybersecurity incident response plan
-  None
-   [WP-14-01] Procedures to communicate the end of cybersecurity
-        14.4 Decommissioning 15.3 Asset identification
-support
-None
-Damage scenarios
-Assets with cybersecurity properties
- [ W P -1 5 - 0 1] [ W P -1 5 - 0 2 ]
-   Threat analysis and risk assessment methods
-    15.4 Threat scenario identification 15.5 Impact rating
-15.6 Attack path analysis
-15.7 Attack feasibility rating
-[ W P -1 5 - 0 3 ] [WP-15-04] [WP-15-05] [WP-15-06] [WP-15-07] [WP-15-08]
-Threat scenarios
-Impact ratings with associated impact categories Attack paths
-Attack feasibility ratings
-Risk values
-Risk treatment decisions
-      15.8 Risk value determination 15.9 Risk treatment decision
-            © ISO/SAE International 2021 – All rights reserved
-51
+| **Sub-clauses **                         | **Work products **                                                                                                                                       |
+| ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Organizational cybersecurity management  |                                                                                                                                                          |
+| 5.4.1 Cybersecurity governance           | [WP-05-01] Cybersecurity policy, rules and processes                                                                                                     |
+| 5.4.2 Cybersecurity culture              | [WP-05-01] Cybersecurity policy, rules and processes <br />[WP-05-02] Evidence of competence management, awareness management and continuous improvement |
+| 5.4.3 Information sharing                | [WP-05-01] Cybersecurity policy, rules and processes                                                                                                     |
+| 5.4.4 Management systems                 | [WP-05-03] Evidence of the organization’s management systems                                                                                             |
+| 5.4.5 Tool management                    | [WP-05-04] Evidence of tool management                                                                                                                   |
+| 5.4.6 Information security management    | [WP-05-03] Evidence of the organization’s management systems                                                                                             |
+| 5.4.7 Organizational cybersecurity audit | [WP-05-05] Organizational cybersecurity audit report                                                                                                     |
 
-ISO/SAE 21434:2021(E)
-Annex B (informative)
-Examples of cybersecurity culture
+| **Sub-clauses **                           | **Work products **                             |
+| --------------- | ------------------ |
+| Project dependent cybersecurity management |                                                |
+| 6.4.1 Cybersecurity responsibilities       | [WP-06-01] Cybersecurity plan                  |
+| 6.4.2 Cybersecurity planning               | [WP-06-01] Cybersecurity plan                  |
+| 6.4.3 Tailoring                            | [WP-06-01] Cybersecurity plan                  |
+| 6.4.4 Reuse                                | [WP-06-01] Cybersecurity plan                  |
+| 6.4.5 Component out-of-context             | [WP-06-01] Cybersecurity plan                  |
+| 6.4.6 Off-the-shelf component              | [WP-06-01] Cybersecurity plan                  |
+| 6.4.7 Cybersecurity case                   | [WP-06-02] Cybersecurity case                  |
+| 6.4.8 Cybersecurity assessment             | [WP-06-03] Cybersecurity assessment report     |
+| 6.4.9 Release for post-development         | [WP-06-04] Release for post-development report |
+
+| **Sub-clauses **                           | **Work products **                             |
+| --------------- | ------------------ |
+| Distributed cybersecurity activities |                 |
+| 7.4.1 Supplier capability     | None    |
+| 7.4.2 Request for quotation    | None    |
+| 7.4.3 Alignment of responsibilities    | [WP-07-01] Cybersecurity interface agreement    |
+
+
+
+| **Sub-clauses **                           | **Work products **                             |
+| --------------- | ------------------ |
+| Continual cybersecurity activities |                 |
+| 8.3 Cybersecurity monitoring    | [WP-08-01] Sources for cybersecurity information [WP-08-02] Triggers [WP-08-03] Cybersecurity events  |
+| 8.4 Cybersecurity event evaluation     | [WP-08-04] Weaknesses from cybersecurity events    |
+| 8.5 Vulnerability analysis    | [WP-08-05] Vulnerability analysis    |
+| 8.6 Vulnerability management    | [WP-08-06] Evidence of managed vulnerabilities    |
+
+
+
+| **Sub-clauses **                           | **Work products **                             |
+| --------------- | ------------------ |
+| Concept phase |                 |
+| 9.3 Item definition     | [WP-09-01] Item definition    |
+| 9.4 Cybersecurity goals    | [WP-09-02] TARA  [WP-09-03] Cybersecurity goals [WP-09-04] Cybersecurity claims [WP-09-05] Verification report for cybersecurity goals |
+| 9.5 Cybersecurity concept     | [WP-09-06] Cybersecurity concept [WP-09-07] Verification report of cybersecurity concept     |
+
+
+
+| **Sub-clauses **          | **Work products **                                           |
+| ------------------------- | ------------------------------------------------------------ |
+| Product development phase |                                                              |
+| 10.4.1 Design             | [WP-10-01] Cybersecurity specifications <br />[WP-10-02] Cybersecurity requirements for post-development <br />[WP-10-03] Documentation of the modelling, design, or programming languages and coding guidelines<br />[WP-10-04] Verification report for the cybersecurity specifications<br />[WP-10-05] Weaknesses found during product development |
+| 10.4.2 Integration and verification | [WP-10-05] Weaknesses found during product development <br />[WP-10-06] Integration and verification specification <br />[WP-10-07] Integration and verification report                                             |
+| Clause 11 Cybersecurity validation  | [WP-11-01] Validation report     |
+
+
+
+| **Sub-clauses **          | **Work products **                                           |
+| ------------------------- | ----------- |
+| Post-development phases|               |
+| Clause 12 Production    | [WP-12-01] Production control plan |
+| 13.3 Cybersecurity incident response  | [WP-13-01] Cybersecurity incident response plan |
+| 13.4 Updates | None        |
+| 14.3 End of cybersecurity support | [WP-14-01] Procedures to communicate the end of cybersecurity support |
+| 14.4 Decommissioning | None      |
+
+
+
+| **Sub-clauses **          | **Work products **                                           |
+| ------------------------- | ----------- |
+| Threat analysis and risk assessment methods|               |
+| 15.3 Asset identification | [WP-15-01] Damage scenarios [WP-15-02] Assets with cybersecurity properties |
+| 15.4 Threat scenario identification | [WP-15-03] Threat scenarios |
+| 15.5 Impact rating | [WP-15-04] Impact ratings with associated impact categories |
+| 15.6 Attack path analysis|   [WP-15-05] Attack paths |
+| 15.7 Attack feasibility rating     | [WP-15-06] Attack feasibility ratings |
+| 15.8 Risk value determination   | [WP-15-07]  Risk values |
+| 15.9 Risk treatment decision  | [WP-15-08] Risk treatment decisions|
+
+# Annex B (informative)
+
+## Examples of cybersecurity culture
+
 Table B.1 provides examples of weak and strong cybersecurity culture.
---```,,,`,``
-Table B.1 — Examples of weak and strong cybersecurity culture
-Examples indicative of a
-strong cybersecurity culture
-The process ensures that accountability for decisions related to cybersecurity is traceable.
-Cybersecurity and safety have the highest priority. The reward system supports and motivates the effective achievement of cybersecurity and penalizes those who take shortcuts that jeopardize cybersecurity. Cybersecurity personnel act as role models with a good sense for appropriateness and practical implementation that leads to trust in their actions by the entire organization. The process provides adequate checks and balances, e.g. the appropriate degree of independence in cybersecurity assessment.
-Proactive attitude towards cybersecurity, e.g.:
-— cybersecurity issues are discovered and resolved from the earliest stage in the product lifecycle (cybersecurity by design);
-— the organization is prepared to react fast to vulnerabilities or incidents in the field.
-The required resources for cybersecurity are allocated. Skilled resources have the competence commensurate with the activity assigned.
- Examples indicative of a
-weak cybersecurity culture `,,`,``,,,`,,,`````,-`-`,,`,,`,`,,`---
-Accountability for decisions related to cybersecurity is not traceable.
-Performance (of the implemented functionality or feature), cost or schedule take precedence over cybersecurity. The reward system favours cost and schedule over cy- bersecurity.
-Cybersecurity personnel force inappropriate and very strict adherence to cybersecurity without considering specific needs of projects/activities.
-Personnel assessing cybersecurity and its governing processes are influenced unduly by those responsible for executing the processes.
-Passive attitude towards cybersecurity, e.g.:
-— heavy dependence on testing at the end of the development;
-— not being prepared for potential weaknesses or incidents in the field;
-— management reacting only when there is a cybersecurity incident in production, in the field or if there is a lot of attention in the media about competitor products.
-The required resources for cybersecurity are not allocated.
-                     52
-© ISO/SAE International 2021 – All rights reserved
 
-— Dissenter is ostracized or labelled as “not a team player” (e.g. uncooperative, intransigent, toxic person).
-The supporting communication and decision-making chan- nels exist and the management encourages their usage:
-Table B.1 (continued)
-ISO/SAE 21434:2021(E)
-   Examples indicative of a weak cybersecurity culture
-Examples indicative of a strong cybersecurity culture
-— “Groupthink” confirmation bias (i.e. uncritical acceptance or conformity to prevailing points of view).
-The process uses diversity to its advantage:
-     — “Stacking the deck” (i.e. choose members to ensure desired outcome) when forming review groups to prevent potential dissention.
-— intellectual diversity is sought, valued and integrated in all processes;
-— behaviour which counters the use of diversity is discouraged and penalized.
- — Dissent reflects negatively on performance reviews.
-— self-disclosure is encouraged;
-— Minority dissenter is labelled or treated as a “troublemaker”, “not a team player” or a “whistle- blower” (i.e. agitator, undesirable or a snitch).
-— responsible disclosure by anyone (internal or external) of potential vulnerability is encouraged;
-— Employees who express concerns fear repercussion.
-— the discovery and resolution process continues in the field, in manufacturing and in development of other products.
-No systematic continuous improvement processes, learn- ing cycles or other forms of lessons learned.
-Continuous improvement is integral to all processes. Defined, traceable, and controlled processes are followed.
-    Processes are ad hoc or implicit.
-  © ISO/SAE International 2021 – All rights reserved
-53
+Table B.1 — Examples of weak and strong cybersecurity culture
+
+
+
+| **Examples indicative of a weak cybersecurity culture**      | **Examples indicative of a strong cybersecurity culture**    |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Accountability for decisions related to cybersecurity is not traceable. | The process ensures that accountability for decisions related to cybersecurity is traceable. |
+| Performance (of the implemented functionality or feature), cost or schedule take precedence over cybersecurity. | Cybersecurity and safety have the highest priority.          |
+| The reward system favours cost and schedule over cybersecurity. | The reward system supports and motivates the effective achievement of cybersecurity and penalizes those who take shortcuts that jeopardize cybersecurity. |
+| Cybersecurity personnel force inappropriate and very strict adherence to cybersecurity without considering specific needs of projects/activities. | Cybersecurity personnel act as role models with a good sense for appropriateness and practical implementation that leads to trust in their actions by the entire organization. |
+| Personnel assessing cybersecurity and its governing processes are influenced unduly by those responsible for executing the processes. | The process provides adequate checks and balances, e.g. the appropriate degree of independence in cybersecurity assessment. |
+| Passive attitude towards cybersecurity, e.g.: <br />+ heavy dependence on testing at the end of the development; <br />+ not being prepared for potential weaknesses or incidents in the field; <br />+ management reacting only when there is a cybersecurity incident in production, in the field or if there is a lot of attention in the media about competitor products. | Proactive attitude towards cybersecurity, e.g.:<br />+ cybersecurity issues are discovered and resolved from the earliest stage in the product lifecycle (cybersecurity by design);<br />+ the organization is prepared to react fast to vulnerabilities or incidents in the field. |
+| The required resources for cybersecurity are not allocated.  | The required resources for cybersecurity are allocated. Skilled resources have the competence commensurate with the activity assigned. |
+
+
+
+
+| **Sub-clauses **          | **Work products **                                           |
+| ------------------------- | ----------- |
+| Threat analysis and risk assessment methods|               |
+| 7.4.1                     | None    |
+| 7.4.1                     | None    |
+| 7.4.1                     | None    |
+| 7.4.1                     | None    |
+| 7.4.1                     | None    |
+| 7.4.1                     | None    |
+| 7.4.1                     | None    |
+| 7.4.1                     | None    |
+| 7.4.1                     | None    |
+| 7.4.1                     | None    |
+| 7.4.1                     | None    |
+| 7.4.1                     | None    |
+                                                       |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## End
