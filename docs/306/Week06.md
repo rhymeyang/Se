@@ -236,5 +236,3 @@ This allows for the quick code and device prototyping and better change tracking
 - As the requirements for data storage and processing change, the data infrastructure behind the TCPS will adapt with it and lead to even more efficient and effective systems.
 - IaC will allow TCPS to automatically adapt to changes in demand and will allow for faster iteration and debugging when updating the underlying infrastructure.
 - This will allow the people working on these systems to focus more on innovating and less on maintaining and managing the current systems.
-
-/images/306/w0601.png

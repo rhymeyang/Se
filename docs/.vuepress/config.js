@@ -72,8 +72,8 @@ export default defineUserConfig({
             { text: "Week03", link: '/306/Week03.md' },
             { text: "Week04", link: '/306/Week04.md' },
             { text: "Week05", link: '/306/Week05.md' },
-            { text: "Week06", link: '/306/Week06.md' },
-            { text: "Week07", link: '/306/Week07.md' },
+            { text: "Chapter 6", link: '/306/Week06.md' },
+            { text: "Chapter 7", link: '/306/Week07.md' },
           ],
         },
         {
