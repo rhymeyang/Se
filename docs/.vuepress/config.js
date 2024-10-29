@@ -61,6 +61,8 @@ export default defineUserConfig({
             { text: "Unit 1 Standards", link: '/304/104_Standards.md' },
             { text: "Unit 1 Reqirements", link: '/304/105_Reqirements.md' },
             { text: "Unit 2 Scheduling", link: '/304/201_Scheduling.md' },
+            { text: "Unit 2 Scheduling 2", link: '/304/202_Scheduling.md' },
+            { text: "Unit 2 Trends", link: '/304/203_Trends.md' },
           ],
         },
         {
