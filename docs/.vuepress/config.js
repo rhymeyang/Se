@@ -45,7 +45,7 @@ export default defineUserConfig({
             { text: "Week 02", link: '/302/Week02.md' },
             { text: "Week 03", link: '/302/Week03.md' },
             { text: "Week 04", link: '/302/Week04.md' },
-            { text: "Week 05", link: '/302/Week05.md' },
+            { text: "Chapter 5 - AUTOSAR Embedded Security in Vehicles", link: '/302/Week05.md' },
             { text: "Week 06", link: '/302/Week06.md' },
             { text: "Week 07", link: '/302/Week07.md' },
             { text: "How to Write", link: '/302/Writing.md' },
