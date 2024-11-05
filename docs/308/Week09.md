@@ -5,19 +5,19 @@
 - To establish a comprehensive framework for managing the development
 - Implementation
 - Testing
-- MaintenanceofITsystems
-- Ensuringefficientoperations
-- Enhancedquality
+- Maintenance of IT systems
+- Ensuring efficient operations
+- Enhanced quality
 - Risk mitigation
 - Compliance adherence
 - Continuous improvement throughout the IT lifecycle.
 
 ## Overview of Business Processes and IT Integration
 
-- **BusinessProcessesinOrganizations:**
-  Organizations use business processes to manage tasks related to software development, maintenance, and IT infrastructure. These processes offer control over key activities, like software acquisition and management, ensuring efficient project execution.
-- **EvolutionofBusinessApplications:**
-  Earlier, organizations custom-built software in-house and managed it on-premises. Today, Software-as-a-Service (SaaS) applications are more common, with integrations and minimal in- house development, shifting focus from software development life cycle to system acquisition life cycle.
+- **Business Processes in Organizations:**
+  Organizations use **business processes** to manage tasks related to software development, maintenance, and IT infrastructure. These processes offer **control** over **key activities**, like software acquisition and management, ensuring efficient project execution.
+- **Evolution of Business Applications:**
+  Earlier, organizations custom-built software in-house and managed it on-premises. Today, Software-as-a-Service(SaaS) applications are more common, with integrations and minimal in-house development, shifting focus from software development life cycle to system acquisition life cycle.
 - **Implications for IT Infrastructure:**
   This transformation necessitates a lifecycle management approach similar to software development, as business processes are often complex and interlinked with applications.
 
