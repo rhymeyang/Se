@@ -14,6 +14,7 @@ export default defineUserConfig({
           text: 'Main Pages',
           children: [
             { text: "Basic", link: '/' },
+            { text: "General", link: '/com/general.md' },
             { text: "Block Chain", link: '/com/BlockChain.md' },
           ],
         },
@@ -64,6 +65,19 @@ export default defineUserConfig({
             { text: "Unit 2 Scheduling 2", link: '/304/202_Scheduling.md' },
             { text: "Unit 2 Trends", link: '/304/203_Trends.md' },
             { text: "Unit 2 Risk", link: '/304/204_Risk.md' },
+          ],
+        },
+        {
+          text: 'Project Manager',
+          collapsable: false,
+          children: [
+            { text: "Resource", link: '/pm/00.md' },
+            { text: "Intrduction", link: '/pm/01_Introduction.md' },
+            { text: "First Things", link: '/pm/02_FirstThings.md' },
+            { text: "Project Plan", link: '/pm/03_ProjectPlan.md' },
+            { text: "Project Schedule", link: '/pm/04_ProjectSchedule.md' },
+            { text: "Agile", link: '/pm/05_Agile.md' },
+            { text: "Resource", link: '/pm/00.md' },
           ],
         },
         {

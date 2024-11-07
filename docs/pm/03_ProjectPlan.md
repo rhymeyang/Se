@@ -206,84 +206,78 @@ Project Budget/Schedule
 
 some 15% according to experience, and depends on situation
 
-
-
 Ch03-Risk Information Form Template.docx
 
 create rish information sheet
 
-
 ## Create a risk management plan
 
 ### Evaluate Rish
-+ How likely?
-+ How serious?
+
+- How likely?
+- How serious?
 
 |             |       |          |        |
 | ----------- | ----- | -------- | ------ |
 | Probability | 1 low | 3 medium | 5 high |
 | Impact      | 1 low | 3 medium | 5 high |
 
-+ Unlikely and not serious  `1 x 1 = 1`
-+ Medium likely and serious `3 x 3 = 9`
-+ Very likely and serious `5 x 5 = 25`
+- Unlikely and not serious `1 x 1 = 1`
+- Medium likely and serious `3 x 3 = 9`
+- Very likely and serious `5 x 5 = 25`
 
 ### Avoid Rish
 
-+ Changing project scope
+- Changing project scope
 
 ### Mitigate Rish
 
-+ Reducing impact
+- Reducing impact
 
 ### Transfer Risk
 
-+ Handing risk to someone else
+- Handing risk to someone else
 
 ---
 
-+ Your response to the risk should reflect the impact of the risk.
-+ Review and update the risk management plan regularly
+- Your response to the risk should reflect the impact of the risk.
+- Review and update the risk management plan regularly
 
 Ch03 - Risk log template.xlsx
 
 ## Set up a communication plan
 
-+ identify your audiences(who should know)
-+ Who, What, How
-  + Who - management
-    + What - objective
-    + How - Project plan, Status reports, Expenditures, Closeout report
-  + Who - Sponsor
-    + What - Objective
-    + How - Weekly 1:1
-  + Who - Functional managers
-    + What - Skill sets, Milestones, Constraints, Schedules
-    + How - Bi-weekly email
-  + Who - Team
-    + What - Assignments, Upcoming tasks, Changes, Best Practices
-    + How - Weekly emails
+- identify your audiences(who should know)
+- Who, What, How
+  - Who - management
+    - What - objective
+    - How - Project plan, Status reports, Expenditures, Closeout report
+  - Who - Sponsor
+    - What - Objective
+    - How - Weekly 1:1
+  - Who - Functional managers
+    - What - Skill sets, Milestones, Constraints, Schedules
+    - How - Bi-weekly email
+  - Who - Team
+    - What - Assignments, Upcoming tasks, Changes, Best Practices
+    - How - Weekly emails
 
 ### Communication Distribution
 
-+ Frequency
-+ Fromat (face to face, email)
-
-
+- Frequency
+- Fromat (face to face, email)
 
 ## Develop a quality plan
 
 ### Quality
 
-+ Meeting customer's requirements on time and within budget
-+ Conforming deliverables to specifications
-
-
+- Meeting customer's requirements on time and within budget
+- Conforming deliverables to specifications
 
 ![image-20241029004337095](/images/pm/03_11.png)
 
-+ Quality Standard(can't be lower)
-+ Longer scheduling Increased cost(can't be higher)
+- Quality Standard(can't be lower)
+- Longer scheduling Increased cost(can't be higher)
 
 ### Quality Assurance Plan
 
@@ -293,15 +287,13 @@ Processes needed to meet quality standards
 
 Measure and monitor quality of final deliverables
 
-+ Acceptance test
-+ Inspection
-+ Peer review
-+ Walk-through
-+ Audit
+- Acceptance test
+- Inspection
+- Peer review
+- Walk-through
+- Audit
 
 Tools for quality improvement
-
-
 
 Cost-Effective Diagrams(Fish-bone diagrams)
 
@@ -315,11 +307,85 @@ Develop Quality Management Plan
 
 Ch03 - Quality.pdf
 
-
 ## How to set up a change
+
+1. Identify what you want to control
+   1. Components
+      1. Project scope
+      2. Requirements
+      3. Schedule
+      4. Project plan
+   2. Baseline documents(control version)
+      1. requirements approved by stakeholders is the baseline
+      2. New requirement
+         1. Change management process
+            1. Decide whether to accept the change or deny it.
+         2. decided by Change Review Board
+            1. made up with key stakeholders
+2. Define a change management process
+   1. depends on
+      1. Company culture
+      2. Project size
+   2. Components
+      1. Receive change request
+      2. Evaluate change request
+         1. Effect, Cost, Impact, Risk
+      3. Change review board reviews evaluated change requests
+         1. accpet or reject
+         2. ask for more detail or revision
+      4. Track change request
+   3. Result
+      1. Update baseline document to reflect the change
+   4. Additional Considerations
+      1. Setting thresholds
+         1. project manager can decide small change
+      2. Emergency changes
+
+![image-20241105234456915](/images/pm/03_14.png)
+
+- Ch03 - CR Form.pdf
+- Ch03 - Change Solution.pdf
 
 ## How to plan procurement
 
+procurement plan
+
+1. Identify purchase needs
+   1. Skills
+   2. Additional resources
+   3. Products
+   4. Materials
+2. Document procurement processes
+   1. Identify vendors
+   2. Select vendors
+   3. Manage contracts
+3. Describe the make-or-buy decision process
+   1. Understand needs
+   2. Determine if products are available
+   3. Determine suitability
+4. List potential vendors
+   1. Describe research
+   2. Criteria for list
+
+### Procurement Plan
+
+- Find out what to do first
+- Give yourself a confidence boost
+- Build a growth mindset for happiness
+- Create balance and overcome burnout
+
 ## How to obtain approval to procceed
 
+- face-to-face sign off meeting is more effective
+
+arrange specific meeting for approval
+
+### Plan Approval
+
+- Present plan
+- Ask for signatures
+  - after present, once agreed
+
 ## Challenge: Change
+
+Ch 03 - Chapter 03 CR Form.pdf
