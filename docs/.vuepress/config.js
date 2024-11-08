@@ -72,6 +72,7 @@ export default defineUserConfig({
           collapsable: false,
           children: [
             { text: "Resource", link: '/pm/00.md' },
+            { text: "Gantt Charts", link: '/pm/00_gantt.md' },
             { text: "Intrduction", link: '/pm/01_Introduction.md' },
             { text: "First Things", link: '/pm/02_FirstThings.md' },
             { text: "Project Plan", link: '/pm/03_ProjectPlan.md' },
