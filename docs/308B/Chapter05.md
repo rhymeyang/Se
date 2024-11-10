@@ -46,14 +46,10 @@ All of the activities that take place in an IT department should be managed and 
 
 Management is ultimately responsible for all activities that take place in an IS operations department. The primary high-level management activities that govern IS operations are
 
-- **Development of processes and procedures**
-  - Every repetitive activity performed by any operations personnel should be documented in the form of a _process_ or _procedure_. This means that documents that describe each step of every process and procedure need to be developed, reviewed, approved by management, and made available to operations staff.
-- **Development of standards**
-  - From the way that operations perform tasks to the brands and technologies used, _standards_ drive consistency in everything that IS operations does.
-- **Resource allocation**
-  - Management is responsible for allocating resources that support IS operations, including manpower, technology, and budget. Resource allocation should align with the organization’s mission, goals, and objectives.
-- **Process management**
-  - All IS operations processes should be measured and managed. This will ensure that processes are being performed properly, accurately, and within time and budget targets.
+- **Development of processes and procedures**<br/>Every repetitive activity performed by any operations personnel should be documented in the form of a _process_ or _procedure_. This means that documents that describe each step of every process and procedure need to be developed, reviewed, approved by management, and made available to operations staff.
+- **Development of standards**<br/>From the way that operations perform tasks to the brands and technologies used, _standards_ drive consistency in everything that IS operations does.
+- **Resource allocation**<br/>Management is responsible for allocating resources that support IS operations, including manpower, technology, and budget. Resource allocation should align with the organization’s mission, goals, and objectives.
+- **Process management**<br/>All IS operations processes should be measured and managed. This will ensure that processes are being performed properly, accurately, and within time and budget targets.
 
 #### IT Service Management
 
@@ -99,13 +95,9 @@ In ITIL terminology, if the incident has been experienced before and its root ca
 
 If the root cause of the incident is not known, the incident may be escalated to a _problem_, which is discussed in the next section.
 
----
-
 ##### IT Infrastructure Library, Not Just for the United Kingdom
 
 Although ITIL has its roots in the U.K., it has very much become an international standard. This is due in part to ITIL being adopted by the International Organization for Standardization (ISO)/International Electrotechnical Commission (IEC), in the ISO/IEC 20000 standard, and because IT management practices are becoming more standardized and mature.
-
----
 
 ##### Problem Management
 
@@ -131,18 +123,12 @@ The main purpose of change management is to ensure that all proposed changes to 
 
 A typical change management process is a formal “waterfall” process that includes the following steps:
 
-- **1.** **Proposal or request**
-  - The person or group performing the change announces the proposed change. Typically, a change proposal contains a description of the change, the change procedure, the IT components that are expected to be affected by the change, a verification procedure to ensure that the change was applied properly, a back-out procedure in the event the change cannot be applied (or failed verification), and the results of tests that were performed in a test environment. The proposal should be distributed to all stakeholders several days prior to its review.
-- **2.** **Review**
-  - This is typically a meeting or discussion about the proposed change, where the personnel who will be performing the change can discuss the change and answer stakeholders’ questions. Since the change proposal was sent out earlier, each stakeholder should have had an opportunity to read about the proposed change in advance of the review. Stakeholders can discuss any aspect of the change during the review. The stakeholders may agree to approve the change, or they may request that it be deferred or that some aspect of the proposed change be altered.
-- **3.** **Approval**
-  - When a change has been formally approved in the review step, the person or group responsible for change management recordkeeping will record the approval, including the names of the individuals who consented to the change. If, however, a change has been deferred or denied, the person or group that proposed the change will need to make alterations to the proposed change so that it will be acceptable, or they can withdraw the change altogether.
-- **4.** **Implementation**
-  - The actual change is implemented per the procedure described in the change proposal. Here, the personnel identified as the change implementers perform the actual change to the IT system(s) identified in the approved change procedure.
-- **5.** **Verification**
-  - After the implementers have completed the change, they will perform the verification procedure to make sure that the change was implemented correctly and that it produces the desired result. Generally, the verification procedure will include one or more steps that include the gathering of evidence (and directions for confirming a correct versus an incorrect change) that shows the change is correct. This evidence will be filed with other records related to the change and may be useful in the future if there is any problem with the system where this change is suspected as a part of the root cause.
-- **6.** **Post-change review**
-  - Some or all changes in an IT organization will be reviewed after the change is implemented. In this activity, the personnel who made the change discuss the change with other stakeholders to learn more about the change and whether any updates or future changes may be needed.
+- **1.** **Proposal or request**<br/>The person or group performing the change announces the proposed change. Typically, a change proposal contains a description of the change, the change procedure, the IT components that are expected to be affected by the change, a verification procedure to ensure that the change was applied properly, a back-out procedure in the event the change cannot be applied (or failed verification), and the results of tests that were performed in a test environment. The proposal should be distributed to all stakeholders several days prior to its review.
+- **2.** **Review**<br/>This is typically a meeting or discussion about the proposed change, where the personnel who will be performing the change can discuss the change and answer stakeholders’ questions. Since the change proposal was sent out earlier, each stakeholder should have had an opportunity to read about the proposed change in advance of the review. Stakeholders can discuss any aspect of the change during the review. The stakeholders may agree to approve the change, or they may request that it be deferred or that some aspect of the proposed change be altered.
+- **3.** **Approval**<br/>When a change has been formally approved in the review step, the person or group responsible for change management recordkeeping will record the approval, including the names of the individuals who consented to the change. If, however, a change has been deferred or denied, the person or group that proposed the change will need to make alterations to the proposed change so that it will be acceptable, or they can withdraw the change altogether.
+- **4.** **Implementation**<br/>The actual change is implemented per the procedure described in the change proposal. Here, the personnel identified as the change implementers perform the actual change to the IT system(s) identified in the approved change procedure.
+- **5.** **Verification**<br/> After the implementers have completed the change, they will perform the verification procedure to make sure that the change was implemented correctly and that it produces the desired result. Generally, the verification procedure will include one or more steps that include the gathering of evidence (and directions for confirming a correct versus an incorrect change) that shows the change is correct. This evidence will be filed with other records related to the change and may be useful in the future if there is any problem with the system where this change is suspected as a part of the root cause.
+- **6.** **Post-change review**<br/>Some or all changes in an IT organization will be reviewed after the change is implemented. In this activity, the personnel who made the change discuss the change with other stakeholders to learn more about the change and whether any updates or future changes may be needed.
 
 These activities should be part of the duties of a _change control board_, a group of stakeholders from IT and every group that is affected by changes in IT applications and supporting infrastructure.
 
@@ -150,18 +136,12 @@ These activities should be part of the duties of a _change control board_, a gro
 >
 > The change management process is similar to the system development life cycle (SDLC) in that it consists of life cycle activities that systematically enact changes to an IT environment.
 
-- **Change Management Records**
-  - Most or all of the activities related to a change should include updates to business records so that all of the facts related to each change are captured for future reference. In even the smallest IT organization, there are too many changes taking place over time to expect that anyone will be able to recall facts about each change later on. Records that are related to each change serve as a permanent record.
-- **Emergency Changes**
-  - Though most changes can be planned in advance using the change management process described here, there are times when IT systems need to be changed right away. Most change management processes include a process for emergency changes that details most of the steps in the nonemergency change management process, but they are performed in a different order. The steps for emergency changes are
-    - **Emergency approval**
-      - When an emergency situation arises, the staff members attending to the emergency should still seek management approval for the proposed change. This approval may be done by phone, in person, or in writing (typically, e-mail). If the approval was by phone or in person, e-mail or other follow-up communication is usually performed. Certain members of management should be designated in advance who can approve these emergency changes.
-    - **Implementation**
-      - Staff members perform the change.
-    - **Verification**
-      - Staff members verify that the change produced the expected result. This may involve other staff members from other departments or end users.
-    - **Review**
-      - The emergency change is formally reviewed. This review may be performed alongside nonemergency changes with the change control board, the same group of individuals who discuss nonemergency changes.
+- **Change Management Records**<br/>Most or all of the activities related to a change should include updates to business records so that all of the facts related to each change are captured for future reference. In even the smallest IT organization, there are too many changes taking place over time to expect that anyone will be able to recall facts about each change later on. Records that are related to each change serve as a permanent record.
+- **Emergency Changes**<br/> Though most changes can be planned in advance using the change management process described here, there are times when IT systems need to be changed right away. Most change management processes include a process for emergency changes that details most of the steps in the nonemergency change management process, but they are performed in a different order. The steps for emergency changes are
+  - **Emergency approval**<br/> When an emergency situation arises, the staff members attending to the emergency should still seek management approval for the proposed change. This approval may be done by phone, in person, or in writing (typically, e-mail). If the approval was by phone or in person, e-mail or other follow-up communication is usually performed. Certain members of management should be designated in advance who can approve these emergency changes.
+  - **Implementation** <br/>Staff members perform the change.
+  - **Verification**<br/>Staff members verify that the change produced the expected result. This may involve other staff members from other departments or end users.
+  - **Review**<br/> The emergency change is formally reviewed. This review may be performed alongside nonemergency changes with the change control board, the same group of individuals who discuss nonemergency changes.
 
 Like nonemergency changes, emergency changes should be fully documented with records made available for future reference.
 
@@ -323,12 +303,9 @@ Many organizations perform several types of security monitoring as a part of the
 
 A critical portion of an IT organization’s function is the services it renders to organization personnel to facilitate their access and use of IT systems and applications. Operational models for supporting end-user computing include
 
-- **Organization-provided hardware and software**
-  - The organization provides all computing devices (typically, laptop or desktop computers and perhaps mobile computing devices such as tablets or smartphones) and software.
-- **Personnel-provided hardware and software**
-  - The organization provides network infrastructure and instructions on how end users may configure their computing devices to access the organization’s IT applications and systems. Some organizations provide a stipend to its personnel to pay for all or part of the costs of end-user computers.
-- **Hybrid models**
-  - Many organizations employ a hybrid of the organization and personnel models. Often, an organization provides laptop or desktop computers, and employees are permitted to access e-mail and some organization applications via personally owned devices such as home computers, tablets, and smartphones.
+- **Organization-provided hardware and software**<br/>The organization provides all computing devices (typically, laptop or desktop computers and perhaps mobile computing devices such as tablets or smartphones) and software.
+- **Personnel-provided hardware and software**<br/>The organization provides network infrastructure and instructions on how end users may configure their computing devices to access the organization’s IT applications and systems. Some organizations provide a stipend to its personnel to pay for all or part of the costs of end-user computers.
+- **Hybrid models**<br/>Many organizations employ a hybrid of the organization and personnel models. Often, an organization provides laptop or desktop computers, and employees are permitted to access e-mail and some organization applications via personally owned devices such as home computers, tablets, and smartphones.
 
 Usually the organization will employ enterprise management tools to facilitate efficient and consistent management of end-user computers. Typically, end-user computers are “locked down,” which limits the amount of and types of configuration changes that end users may perform on their devices, including
 
@@ -349,16 +326,11 @@ In most organizations, application source code is highly sensitive. It may be co
 
 A software program library often exists as an information system with a user interface and several functions, including the following:
 
-- **Access and authorization controls**
-  - The program library should uniquely identify all individuals who attempt to access it and authenticate them with means that are commensurate with the sensitivity of the application. The program library should be able to manage different roles or levels of access so that each person is able to perform only the functions that they are authorized to perform. Also, the program library should be able to restrict access to different modules or applications stored within it; for example, source code that is more sensitive (such as the code related to access control or data encryption) should be accessible by fewer personnel than less sensitive source code.
-- **Program check-out**
-  - This means that an authorized user is able to access some portion of application source code, presumably to make a modification or perform analysis. Check-out permits the user to make a copy of the source code module that might be stored elsewhere in the program library or on another computer. Often, check-out is permitted only upon management approval, or it may be integrated with a defect tracking system so that a developer is permitted to check out a piece of source code only if there is a defect in the program that has been assigned to the particular developer. When source code is checked out, the program library typically “locks” that section of source code so that another developer is not able to also check it out—thus preventing a “collision” where two developers are making changes to the same section of code at the same time.
-- **Program check-in**
-  - This function enables an authorized user to return a section of application source code to the program library. A program library will usually permit only the person who checked out a section of code to check it back in. If the user who is checking in the code section made modifications to it, the program library will process those changes and may perform a number of additional functions, including version control and code scanning. If the section of code being checked in was locked, the program library will either automatically unlock it or ask the user whether it should remain locked if, for example, additional changes are to be made.
-- **Version control**
-  - This function enables the program library to manage changes to the source code by tracking the changes that are made to it each time it is checked in. Each time a source code module is modified, an incremented “version number” is assigned. This enables the program library to recall any prior version of a source code module at any time in the future. This can be useful during program troubleshooting or investigations into a particular programmer’s actions.
-- **Code analysis**
-  - Some program library systems can perform different types of code analysis when source code is checked in. This may include a security scan that will examine the code for vulnerabilities or a scan that will determine whether the checked-in module complies with the organization’s coding policies and standards.
+- **Access and authorization controls**<br/>The program library should uniquely identify all individuals who attempt to access it and authenticate them with means that are commensurate with the sensitivity of the application. The program library should be able to manage different roles or levels of access so that each person is able to perform only the functions that they are authorized to perform. Also, the program library should be able to restrict access to different modules or applications stored within it; for example, source code that is more sensitive (such as the code related to access control or data encryption) should be accessible by fewer personnel than less sensitive source code.
+- **Program check-out**<br/>This means that an authorized user is able to access some portion of application source code, presumably to make a modification or perform analysis. Check-out permits the user to make a copy of the source code module that might be stored elsewhere in the program library or on another computer. Often, check-out is permitted only upon management approval, or it may be integrated with a defect tracking system so that a developer is permitted to check out a piece of source code only if there is a defect in the program that has been assigned to the particular developer. When source code is checked out, the program library typically “locks” that section of source code so that another developer is not able to also check it out—thus preventing a “collision” where two developers are making changes to the same section of code at the same time.
+- **Program check-in**<br/>This function enables an authorized user to return a section of application source code to the program library. A program library will usually permit only the person who checked out a section of code to check it back in. If the user who is checking in the code section made modifications to it, the program library will process those changes and may perform a number of additional functions, including version control and code scanning. If the section of code being checked in was locked, the program library will either automatically unlock it or ask the user whether it should remain locked if, for example, additional changes are to be made.
+- **Version control**<br/>This function enables the program library to manage changes to the source code by tracking the changes that are made to it each time it is checked in. Each time a source code module is modified, an incremented “version number” is assigned. This enables the program library to recall any prior version of a source code module at any time in the future. This can be useful during program troubleshooting or investigations into a particular programmer’s actions.
+- **Code analysis**<br/>Some program library systems can perform different types of code analysis when source code is checked in. This may include a security scan that will examine the code for vulnerabilities or a scan that will determine whether the checked-in module complies with the organization’s coding policies and standards.
 
 These controls enable an organization to have a high degree of control over the integrity and, hence, quality and security of its software applications.
 
@@ -420,20 +392,13 @@ Arguably the most important activity in data management is planning. As with mos
 
 The _data life cycle_ is the set of activities that take place throughout the use of data in an organization. The phases of the data life cycle are
 
-- **Planning**
-  - Prior to the creation or acquisition of data, the organization needs to understand its structure, its sensitivity and value, its use, and its eventual destruction.
-- **Design**
-  - This is the actual process of creating the structure and protection of data. Typical activities at this stage include the creation of a database schema and configuration of physical and logical storage systems that will store databases.
-- **Build/acquire**
-  - In this phase, data is created or imported from another system.
-- **Operations**
-  - In this phase, data is processed, shared, and used.
-- **Monitoring**
-  - This includes examination of the data itself as well as activities related to the access and use of data to ensure that the data retains its quality and that it is protected from misuse and harm.
-- **Archival**
-  - This is related to any long-term storage of data for legal or historical purposes.
-- **Disposal**
-  - This is related to the discarding or erasure process that takes place at the end of the useful life of a set of data.
+- **Planning**<br/>Prior to the creation or acquisition of data, the organization needs to understand its structure, its sensitivity and value, its use, and its eventual destruction.
+- **Design**<br/>This is the actual process of creating the structure and protection of data. Typical activities at this stage include the creation of a database schema and configuration of physical and logical storage systems that will store databases.
+- **Build/acquire**<br/>In this phase, data is created or imported from another system.
+- **Operations**<br/>In this phase, data is processed, shared, and used.
+- **Monitoring**<br/>This includes examination of the data itself as well as activities related to the access and use of data to ensure that the data retains its quality and that it is protected from misuse and harm.
+- **Archival**<br/>This is related to any long-term storage of data for legal or historical purposes.
+- **Disposal**<br/>This is related to the discarding or erasure process that takes place at the end of the useful life of a set of data.
 
 > **NOTE**
 >
@@ -443,12 +408,9 @@ The _data life cycle_ is the set of activities that take place throughout the us
 
 _Data quality management_ encompasses several activities to ensure the confidentiality, integrity, and completeness of data. Activities in data quality management include
 
-- **Application controls**
-  - Measures to ensure that applications enforce the integrity and completeness of data. This topic is covered in [Chapter 4](/308B/Chapter04.html).
-- **Systems development**
-  - Measures to ensure that applications that are developed or acquired enforce the integrity and completeness of data. This topic is covered in [Chapter 4](/308B/Chapter04.html).
-- **Systems integrity**
-  - Measures to ensure that information systems enforce the confidentiality and integrity of data. This topic is covered in [Chapter 6](/308B/Chapter06.html).
+- **Application controls**<br/>Measures to ensure that applications enforce the integrity and completeness of data. This topic is covered in [Chapter 4](/308B/Chapter04.html).
+- **Systems development**<br/>Measures to ensure that applications that are developed or acquired enforce the integrity and completeness of data. This topic is covered in [Chapter 4](/308B/Chapter04.html).
+- **Systems integrity**<br/>Measures to ensure that information systems enforce the confidentiality and integrity of data. This topic is covered in [Chapter 6](/308B/Chapter06.html).
 
 ### Information Systems Hardware
 
@@ -466,57 +428,34 @@ Computers are manufactured for a variety of purposes and contexts and are used f
 
 From a business perspective, computers are classified according to their size and portability. In this regard, the types of computers are
 
-- **Supercomputer**
-  - These are the largest computers in terms of the number and/or power of their central processing units (CPUs). Supercomputers are generally employed for scientific applications such as weather and climate forecasting, seismology, and other computer-intensive applications.
-- **Mainframe**
-  - These business workhorse computers are designed to run large, complex applications that operate on enormous databases or support vast numbers of users. When computing began, mainframes were the _only_ kind of computer; most of the other types were derived from the mainframe. Today, mainframes are still commonly used for larger financial transaction systems and other large-scale applications such as airline reservation systems.
-- **Midrange**
-  - These computers are not as large and powerful as mainframe computers, but they are larger or more powerful than small servers. There are no hard distinctions between these sizes of computers, but only vague, rough guidelines.
-- **Server**
-  - If mainframe computers are the largest business servers, the ordinary _server_ is the smallest. In terms of its hardware complement and physical appearance, a server can be indistinguishable from a user’s desktop computer.
-- **Blade server**
-  - In this style of hardware design, servers are modules that plug in to a cabinet. Each module contains all of the internal components of a stand-alone computer. The cabinet itself will contain power supplies and network connectors.
-- **Virtual server**
-  - This is a cloud-based server that exists in a hypervisor environment, whether in an on-premises private cloud or a public cloud.
-- **Appliance**
-  - This type of computer typically comes with one or more tools or applications preinstalled. The term “appliance” is sometimes used to connote the fact that little or no maintenance is required on the system.
-- **Desktop**
-  - This is a computer that is used by an individual worker. Its size makes it fairly easy to move from place to place, but it is not considered portable. The desktop computers of today are more powerful in many ways than the mainframe computers of a few decades ago. Desktop computers used to be called _microcomputers_, but the term is seldom used now.
-- **Laptop/notebook**
-  - This computer is portable in every sense of the word. It is self-contained, equipped with a battery, and folds for storage and transport. Functionally, desktop and laptop computers are nearly identical: they may run the same operating system and programs.
-- **Mobile**
-  - These computers come in the form of smartphones and tablet devices.
-- **Embedded**
-  - These computers are built into products such as televisions, automobiles, medical devices, and many other industrial and consumer devices.
+- **Supercomputer**<br/>These are the largest computers in terms of the number and/or power of their central processing units (CPUs). Supercomputers are generally employed for scientific applications such as weather and climate forecasting, seismology, and other computer-intensive applications.
+- **Mainframe**<br/>These business workhorse computers are designed to run large, complex applications that operate on enormous databases or support vast numbers of users. When computing began, mainframes were the _only_ kind of computer; most of the other types were derived from the mainframe. Today, mainframes are still commonly used for larger financial transaction systems and other large-scale applications such as airline reservation systems.
+- **Midrange**<br/>These computers are not as large and powerful as mainframe computers, but they are larger or more powerful than small servers. There are no hard distinctions between these sizes of computers, but only vague, rough guidelines.
+- **Server**<br/>If mainframe computers are the largest business servers, the ordinary _server_ is the smallest. In terms of its hardware complement and physical appearance, a server can be indistinguishable from a user’s desktop computer.
+- **Blade server**<br/>In this style of hardware design, servers are modules that plug in to a cabinet. Each module contains all of the internal components of a stand-alone computer. The cabinet itself will contain power supplies and network connectors.
+- **Virtual server**<br/>This is a cloud-based server that exists in a hypervisor environment, whether in an on-premises private cloud or a public cloud.
+- **Appliance**<br/>This type of computer typically comes with one or more tools or applications preinstalled. The term “appliance” is sometimes used to connote the fact that little or no maintenance is required on the system.
+- **Desktop**<br/>This is a computer that is used by an individual worker. Its size makes it fairly easy to move from place to place, but it is not considered portable. The desktop computers of today are more powerful in many ways than the mainframe computers of a few decades ago. Desktop computers used to be called _microcomputers_, but the term is seldom used now.
+- **Laptop/notebook**<br/>This computer is portable in every sense of the word. It is self-contained, equipped with a battery, and folds for storage and transport. Functionally, desktop and laptop computers are nearly identical: they may run the same operating system and programs.
+- **Mobile**<br/>These computers come in the form of smartphones and tablet devices.
+- **Embedded**<br/>These computers are built into products such as televisions, automobiles, medical devices, and many other industrial and consumer devices.
 
 ##### Uses for Computers
 
 Aside from the sizes and types of computers discussed in the previous section, computers may also be used for several reasons, including
 
-- **Application server**
-  - This computer—usually a mainframe, midrange, or server—runs application-server software. An application server contains one or more application programs that run on behalf of users. Data used by an application server may be stored on a database server that contains a database management system.
-- **Web server**
-  - This is a server that runs a web server program to make web pages available to users. A web server will usually contain both the web server software and the content (“pages”) that are requested by and sent to users’ web browser programs. A web server can also be linked to an application server or database server to permit the display of business information, such as order forms, reports, and so on.
-- **Database server**
-  - Also a mainframe, midrange, or small server, a database server runs specialized database management software that controls the storage and processing of large amounts of data that resides in one or more databases.
-- **Gateway**
-  - A server that performs some manner of data transformation—for instance, converting messages from one format to another—between two applications.
-- **File server**
-  - This computer is used to provide a central location for the storage of commonly used files. File servers may be used by application servers or by a user community.
-- **Print server**
-  - In an environment that uses shared printers, a print server is typically used to receive print requests from users or applications and store them temporarily until they are ready to be printed.
-- **Production server/test server**
-  - The terms _production server_ and _test server_ denote whether a server supports actual business use (a production server) or is a separate server that can be used to test new programs or configurations (a test server). Most organizations will have at least one test server for every type of production server so that any new programs, configurations, patches, or settings can be tested on a test server, with little or no risk of disrupting actual business operations.
-- **Thick client**
-  - A thick client is a user’s computer (of the desktop or laptop variety) that contains a fully functional operating system and one or more application programs. Purists will argue that a thick client is _only_ a thick client if the system contains one or more software application client programs. This is a reasonable distinction between a thick client and a workstation, described later.
-- **Thin client**
-  - A thin client is a user’s workstation that contains a minimal operating system and little or no data storage. Thin-client computers are often used in businesses where users run only application programs that can be executed on central servers and data is displayed on the thin client’s screen. A thin client may be a desktop or laptop computer with thin-client software installed, or it may be a specialized computer with no local storage other than flash memory.
-- **Workstation**
-  - This is a user’s laptop or desktop computer. For example, a PC running the Windows operating system and using Microsoft Office word processor and spreadsheet programs, a Firefox browser, and Skype messenger would be considered a workstation.
-- **Virtual desktop**
-  - This workstation operating system physically resides on a central server that is displayed by and used on a user’s desktop computer.
-- **Mobile device**
-  - A user’s smartphone or tablet device is considered a mobile device. Indeed, the lines between laptops and tablets are blurring as larger tablets, particularly with companion keyboards, function like laptops. And, laptop operating systems are appearing on larger tablet devices.
+- **Application server**<br/>This computer—usually a mainframe, midrange, or server—runs application-server software. An application server contains one or more application programs that run on behalf of users. Data used by an application server may be stored on a database server that contains a database management system.
+- **Web server**<br/>This is a server that runs a web server program to make web pages available to users. A web server will usually contain both the web server software and the content (“pages”) that are requested by and sent to users’ web browser programs. A web server can also be linked to an application server or database server to permit the display of business information, such as order forms, reports, and so on.
+- **Database server**<br/>Also a mainframe, midrange, or small server, a database server runs specialized database management software that controls the storage and processing of large amounts of data that resides in one or more databases.
+- **Gateway**<br/>A server that performs some manner of data transformation—for instance, converting messages from one format to another—between two applications.
+- **File server**<br/>This computer is used to provide a central location for the storage of commonly used files. File servers may be used by application servers or by a user community.
+- **Print server**<br/>In an environment that uses shared printers, a print server is typically used to receive print requests from users or applications and store them temporarily until they are ready to be printed.
+- **Production server/test server**<br/>The terms _production server_ and _test server_ denote whether a server supports actual business use (a production server) or is a separate server that can be used to test new programs or configurations (a test server). Most organizations will have at least one test server for every type of production server so that any new programs, configurations, patches, or settings can be tested on a test server, with little or no risk of disrupting actual business operations.
+- **Thick client**<br/>A thick client is a user’s computer (of the desktop or laptop variety) that contains a fully functional operating system and one or more application programs. Purists will argue that a thick client is _only_ a thick client if the system contains one or more software application client programs. This is a reasonable distinction between a thick client and a workstation, described later.
+- **Thin client**<br/>A thin client is a user’s workstation that contains a minimal operating system and little or no data storage. Thin-client computers are often used in businesses where users run only application programs that can be executed on central servers and data is displayed on the thin client’s screen. A thin client may be a desktop or laptop computer with thin-client software installed, or it may be a specialized computer with no local storage other than flash memory.
+- **Workstation**<br/>This is a user’s laptop or desktop computer. For example, a PC running the Windows operating system and using Microsoft Office word processor and spreadsheet programs, a Firefox browser, and Skype messenger would be considered a workstation.
+- **Virtual desktop**<br/>This workstation operating system physically resides on a central server that is displayed by and used on a user’s desktop computer.
+- **Mobile device**<br/> A user’s smartphone or tablet device is considered a mobile device. Indeed, the lines between laptops and tablets are blurring as larger tablets, particularly with companion keyboards, function like laptops. And, laptop operating systems are appearing on larger tablet devices.
 
 > **NOTE**
 >
@@ -527,8 +466,6 @@ Aside from the sizes and types of computers discussed in the previous section, c
 Computers made since the 1960s share common characteristics in their hardware architecture: They have one or more central processing units, a bus (or more than one), main memory, and secondary storage. They also have some means for communicating with other computers or with humans, usually through communications adaptors.
 
 This section describes computer hardware in detail.
-
----
 
 ##### Mobile Devices, the New and Disruptive Endpoint
 
@@ -545,8 +482,6 @@ Mobile devices are a different matter entirely. They are turning all of the rule
 
 IS auditors need to understand how organizations are addressing the mobile device dilemma.
 
----
-
 ##### Central Processing Unit
 
 The central processing unit, or CPU, is the main hardware component of a computer system. The CPU is the component that executes instructions in computer programs.
@@ -559,22 +494,16 @@ The CPU in modern computers is wholly contained in a single large-scale integrat
 
 **Figure 5-2** A CPU that is plugged into a computer circuit board (Image courtesy of Fir0002/Flagstaffotos)
 
-- **CPU Architectures**
-  - A number of architectures dominate the design of CPUs. Two primary architectures that are widely used commercially are
-    - **CISC (complex instruction set computer)**
-      - This CPU design has a comprehensive instruction set, and many instructions can be performed in a single cycle. This design philosophy claims superior performance over RISC. Well-known CISC CPUs include Intel x86, VAX, PDP-11, Motorola 68000, and System/360.
-    - **RISC (reduced instruction set computer)**
-      - This CPU design uses a smaller instruction set (meaning fewer instructions in its “vocabulary”), with the idea that a small instruction set will lead to a simpler microprocessor design and better computer performance. Well-known RISC CPUs include Alpha, MIPS, PowerPC, and SPARC. Few of these are produced today, but they are still found in some environments.
+- **CPU Architectures**<br/>A number of architectures dominate the design of CPUs. Two primary architectures that are widely used commercially are
+  - **CISC (complex instruction set computer)**<br/>This CPU design has a comprehensive instruction set, and many instructions can be performed in a single cycle. This design philosophy claims superior performance over RISC. Well-known CISC CPUs include Intel x86, VAX, PDP-11, Motorola 68000, and System/360.
+  - **RISC (reduced instruction set computer)**<br/>This CPU design uses a smaller instruction set (meaning fewer instructions in its “vocabulary”), with the idea that a small instruction set will lead to a simpler microprocessor design and better computer performance. Well-known RISC CPUs include Alpha, MIPS, PowerPC, and SPARC. Few of these are produced today, but they are still found in some environments.
 
 Another aspect of CPUs that is often discussed is the power requirements. Typically, the CPUs that are used for laptop computers and mobile devices are known as low-power CPUs, while other CPUs are used in desktop, server, and mainframe systems, where performance and speed are more important considerations than power consumption.
 
-- **Computer CPU Architectures**
-  - Early computers had a single CPU. However, it became clear that many computing tasks could be performed more efficiently if computers had more than one CPU to perform them. Some of the ways that computers have implemented CPUs are
-    - **Single CPU** In this design, the computer has a single CPU. This simplest design is still prevalent, particularly among small servers and personal computers.
-    - **Multiple CPUs**
-      - A computer design can accommodate multiple CPUs, from as few as 2 to as many as 128 or more. There are two designs for multi-CPU computers: symmetric and asymmetric. In the symmetric design, all CPUs are equal in terms of how the overall computer’s architecture uses them. In the asymmetric design, one CPU is the “master.” Virtually all multi-CPU computers made today are symmetric.
-    - **Multicore CPUs**
-      - A change in the design of CPUs themselves has led to multicore CPUs, in which two or more central processors occupy a single CPU chip. The benefit of multicore design is the ability for software code to be executed in parallel, leading to improved performance. Many newer servers and personal computers are equipped with multicore CPUs, and some are equipped with multiple multicore CPUs.
+- **Computer CPU Architectures**<br/>Early computers had a single CPU. However, it became clear that many computing tasks could be performed more efficiently if computers had more than one CPU to perform them. Some of the ways that computers have implemented CPUs are
+  - **Single CPU** <br/>In this design, the computer has a single CPU. This simplest design is still prevalent, particularly among small servers and personal computers.
+  - **Multiple CPUs**<br/>A computer design can accommodate multiple CPUs, from as few as 2 to as many as 128 or more. There are two designs for multi-CPU computers: symmetric and asymmetric. In the symmetric design, all CPUs are equal in terms of how the overall computer’s architecture uses them. In the asymmetric design, one CPU is the “master.” Virtually all multi-CPU computers made today are symmetric.
+  - **Multicore CPUs**<br/>A change in the design of CPUs themselves has led to multicore CPUs, in which two or more central processors occupy a single CPU chip. The benefit of multicore design is the ability for software code to be executed in parallel, leading to improved performance. Many newer servers and personal computers are equipped with multicore CPUs, and some are equipped with multiple multicore CPUs.
 
 ##### Bus
 
@@ -584,18 +513,12 @@ Most computers also utilize electrical connectors that permit the addition of sm
 
 Several industry standards for computer buses have been developed. Notable standards include
 
-- **Universal Serial Bus (USB)**
-  - This standard is used to connect external peripherals such as external storage devices, printers, and mobile devices. USB operates at data rates up to 40.0 Gbit/sec. USB is discussed in more detail later in this chapter.
-- **Serial ATA (SATA)**
-  - This standard is used mainly to connect mass storage devices such as hard disk drives, optical drives, and solid-state drives.
-- **PCI Express (PCIe)**
-  - This bus standard replaced older standards such as PCI and PCI-X and employs data rates from 250 Mbyte/sec to 128 Gbyte/sec.
-- **Thunderbolt**
-  - This hardware interface standard is a combination of PCI Express and DisplayPort (DP) in a single serial signal.
-- **PC Card**
-  - Formerly known as _PCMCIA_, the PC Card bus is prevalent in laptop computers and is commonly used for the addition of specialized communication devices.
-- **ExpressCard**
-  - Also developed by the PCMCIA, this bus standard replaces the PC Card standard.
+- **Universal Serial Bus (USB)**<br/>This standard is used to connect external peripherals such as external storage devices, printers, and mobile devices. USB operates at data rates up to 40.0 Gbit/sec. USB is discussed in more detail later in this chapter.
+- **Serial ATA (SATA)**<br/>This standard is used mainly to connect mass storage devices such as hard disk drives, optical drives, and solid-state drives.
+- **PCI Express (PCIe)**<br/>This bus standard replaced older standards such as PCI and PCI-X and employs data rates from 250 Mbyte/sec to 128 Gbyte/sec.
+- **Thunderbolt**<br/> This hardware interface standard is a combination of PCI Express and DisplayPort (DP) in a single serial signal.
+- **PC Card**<br/> Formerly known as _PCMCIA_, the PC Card bus is prevalent in laptop computers and is commonly used for the addition of specialized communication devices.
+- **ExpressCard**<br/>Also developed by the PCMCIA, this bus standard replaces the PC Card standard.
 
 It is not uncommon for a computer to have more than one bus. For instance, many PCs have an additional front-side bus (FSB), which connects the CPU to a memory controller hub, as well as a high-speed graphics bus, a memory bus, and the low pin count (LPC) bus that is used for low-speed peripherals such as parallel and serial ports, keyboard, and mouse.
 
@@ -605,23 +528,17 @@ A computer’s _main storage_ is used for short-term storage of information. Mai
 
 A computer uses its main storage for several purposes:
 
-- **Operating system**
-  - The computer’s running operating system uses main storage to store information about running programs, open files, logged-in users, in-use devices, active processes, and so on.
-- **Buffers**
-  - Operating systems and programs will set aside a portion of memory as a “scratch pad” that can be used temporarily to store information retrieved from hard disks or information that is being sent to a printer or other device. Buffers are also used by network adaptors to store incoming and outgoing information temporarily.
-- **Storage of program code**
-  - Any program that the computer is currently executing will be stored in main storage so that the CPU can quickly access and read any portion of the program as needed. Note that the program in main storage is only a _working copy_ of the program, used by the computer to reference instructions quickly in the program.
-- **Storage of program variables**
-  - When a program is being run, it will store intermediate results of calculations and other temporary data. This information is stored in main storage, where the program can quickly reference portions of it as needed.
+- **Operating system**<br/>The computer’s running operating system uses main storage to store information about running programs, open files, logged-in users, in-use devices, active processes, and so on.
+- **Buffers**<br/>Operating systems and programs will set aside a portion of memory as a “scratch pad” that can be used temporarily to store information retrieved from hard disks or information that is being sent to a printer or other device. Buffers are also used by network adaptors to store incoming and outgoing information temporarily.
+- **Storage of program code**<br/> Any program that the computer is currently executing will be stored in main storage so that the CPU can quickly access and read any portion of the program as needed. Note that the program in main storage is only a _working copy_ of the program, used by the computer to reference instructions quickly in the program.
+- **Storage of program variables**<br/> When a program is being run, it will store intermediate results of calculations and other temporary data. This information is stored in main storage, where the program can quickly reference portions of it as needed.
 
 Main storage is typically _volatile_. This means that the information stored in main storage should be considered temporary. If electric power were suddenly removed from the computer, the contents of main storage would vanish and would not be easily recovered, if at all.
 
 Different technologies are used in computers for main storage:
 
-- **DRAM (dynamic RAM)**
-  - In the most common form of semiconductor memory, data is stored in capacitors that require periodic refreshing to keep them charged—hence the term _dynamic_.
-- **SRAM (static RAM)**
-  - This form of semiconductor memory does not require periodic refresh cycles like DRAM.
+- **DRAM (dynamic RAM)**<br/>In the most common form of semiconductor memory, data is stored in capacitors that require periodic refreshing to keep them charged—hence the term _dynamic_.
+- **SRAM (static RAM)**<br/> This form of semiconductor memory does not require periodic refresh cycles like DRAM.
 
 A typical semiconductor memory module is shown in [Figure 5-3](/images/308b/ch0503.jpeg).
 
@@ -643,16 +560,11 @@ Secondary storage represents an economic and performance tradeoff from primary s
 
 A computer uses secondary storage for several purposes:
 
-- **Program storage**
-  - The programs that the computer executes are contained in secondary storage. When a computer begins to execute a program, it makes a working copy of the program in primary storage.
-- **Data storage**
-  - Information read into, created by, or used by computer programs is often stored in secondary storage. Secondary storage is usually used when information is needed for use at a later time.
-- **Computer operating system**
-  - The set of programs and device drivers that are used to control and manage the use of the computer is stored in secondary storage.
-- **Temporary files**
-  - Many computer programs need to store information for temporary use that may exceed the capacity of main memory. Secondary storage is often used for this purpose. For example, a user wants to print a data file onto a nearby laser printer; software on the computer will transform the stored data file into a format that is used by the laser printer to make a readable copy of the file; this “print file” is stored in secondary storage temporarily until the printer has completed printing the file for the user, and then the file is deleted.
-- **Virtual memory**
-  - This is a technique for creating a main memory space that is physically larger than the actual available main memory. Virtual memory (which should not be confused with virtualization) is discussed in detail later in this chapter in the section “Computer Operating Systems.”
+- **Program storage**<br/>The programs that the computer executes are contained in secondary storage. When a computer begins to execute a program, it makes a working copy of the program in primary storage.
+- **Data storage**<br/>Information read into, created by, or used by computer programs is often stored in secondary storage. Secondary storage is usually used when information is needed for use at a later time.
+- **Computer operating system**<br/>The set of programs and device drivers that are used to control and manage the use of the computer is stored in secondary storage.
+- **Temporary files**<br/> Many computer programs need to store information for temporary use that may exceed the capacity of main memory. Secondary storage is often used for this purpose. For example, a user wants to print a data file onto a nearby laser printer; software on the computer will transform the stored data file into a format that is used by the laser printer to make a readable copy of the file; this “print file” is stored in secondary storage temporarily until the printer has completed printing the file for the user, and then the file is deleted.
+- **Virtual memory**<br/> This is a technique for creating a main memory space that is physically larger than the actual available main memory. Virtual memory (which should not be confused with virtualization) is discussed in detail later in this chapter in the section “Computer Operating Systems.”
 
 While secondary storage is usually implemented with hard disk drives, many newer systems use semiconductor flash memory in solid-state drives (SSDs). Flash is a nonvolatile semiconductor memory that can be rewritten and requires no electric power to preserve stored data.
 
@@ -664,16 +576,11 @@ _Firmware_ is special-purpose storage that is used to store the instructions nee
 
 Read-only memory (ROM) technology is often used to store a computer’s firmware. Several available ROM technologies are in use, including
 
-- **ROM**
-  - The earliest forms of ROM are considered permanent and can never be modified. The permanency of ROM makes it secure, but it can be difficult to carry out field upgrades. For this reason ROM is not often used.
-- **PROM (programmable read-only memory)**
-  - This is also a permanent and unchangeable form of storage. A PROM chip can be programmed only once, and it must be replaced if the firmware needs to be updated.
-- **EPROM (erasable programmable read-only memory)**
-  - This type of memory can be written to with a special programming device and then erased and rewritten at a later time. EPROM chips are erased by shining ultraviolet (UV) light through a quartz window on the chip; the quartz window is usually covered with a foil label, although sometimes an EPROM chip does not have a window at all, which effectively makes it a PROM device.
-- **EEPROM (electrically erasable programmable read-only memory)**
-  - This is similar to EPROM, except that no UV light source is required to erase and reprogram the EEPROM chip; instead, signals from the computer in which the EEPROM chip is stored can be used to reprogram or update the EEPROM. Thus, EEPROM was one of the first types of firmware that could be updated by the computer on which it was installed.
-- **Flash**
-  - This memory is erasable, reprogrammable, and functionally similar to EEPROM, in that the contents of flash memory can be altered by the computer that it is installed in. Flash memory is the technology used in popular portable storage devices such as USB memory devices, Secure Digital (SD) cards, Compact Flash, and Memory Stick.
+- **ROM**<br/> The earliest forms of ROM are considered permanent and can never be modified. The permanency of ROM makes it secure, but it can be difficult to carry out field upgrades. For this reason ROM is not often used.
+- **PROM (programmable read-only memory)**<br/>This is also a permanent and unchangeable form of storage. A PROM chip can be programmed only once, and it must be replaced if the firmware needs to be updated.
+- **EPROM (erasable programmable read-only memory)**<br/> This type of memory can be written to with a special programming device and then erased and rewritten at a later time. EPROM chips are erased by shining ultraviolet (UV) light through a quartz window on the chip; the quartz window is usually covered with a foil label, although sometimes an EPROM chip does not have a window at all, which effectively makes it a PROM device.
+- **EEPROM (electrically erasable programmable read-only memory)**<br/>This is similar to EPROM, except that no UV light source is required to erase and reprogram the EEPROM chip; instead, signals from the computer in which the EEPROM chip is stored can be used to reprogram or update the EEPROM. Thus, EEPROM was one of the first types of firmware that could be updated by the computer on which it was installed.
+- **Flash**<br/>This memory is erasable, reprogrammable, and functionally similar to EEPROM, in that the contents of flash memory can be altered by the computer that it is installed in. Flash memory is the technology used in popular portable storage devices such as USB memory devices, Secure Digital (SD) cards, Compact Flash, and Memory Stick.
 
 A well-known use for firmware is the ROM-based BIOS (basic input/output system) on Intel-based personal computers.
 
@@ -681,26 +588,21 @@ A well-known use for firmware is the ROM-based BIOS (basic input/output system) 
 
 Regardless of their specific purpose, computers nearly always must have some means for accepting input data from some external source as well as for sending output data to some external destination. Whether this input and output are continuous or infrequent, computers usually have one or more methods for transferring data. These methods include
 
-- **Input/output (I/O) devices**
-  - Most computers have external connectors to permit the attachment of devices such as keyboards, mice, monitors, scanners, printers, and cameras. The electrical signal and connector-type standards include PS/2 (for keyboards and mice), USB, parallel, serial, and Thunderbolt. Some types of computers lack these external connectors; instead, special adaptor cards can be plugged into a computer’s bus connector. Early computers required reprogramming and/or reconfiguration when external devices were connected, but newer computers are designed to recognize when an external device is connected or disconnected and will adjust automatically.
-- **Networking**
-  - A computer can be connected to a local or wide area data network. Then, one of a multitude of means for inbound and outbound data transfer can be configured that will use the networking capability. Some computers will have built-in connectors or adaptors, but others will require the addition of internal or external adaptors that plug into bus connectors such as PC Card, ExpressCard, PCI, or USB.
+- **Input/output (I/O) devices**<br/>Most computers have external connectors to permit the attachment of devices such as keyboards, mice, monitors, scanners, printers, and cameras. The electrical signal and connector-type standards include PS/2 (for keyboards and mice), USB, parallel, serial, and Thunderbolt. Some types of computers lack these external connectors; instead, special adaptor cards can be plugged into a computer’s bus connector. Early computers required reprogramming and/or reconfiguration when external devices were connected, but newer computers are designed to recognize when an external device is connected or disconnected and will adjust automatically.
+- **Networking**<br/> A computer can be connected to a local or wide area data network. Then, one of a multitude of means for inbound and outbound data transfer can be configured that will use the networking capability. Some computers will have built-in connectors or adaptors, but others will require the addition of internal or external adaptors that plug into bus connectors such as PC Card, ExpressCard, PCI, or USB.
 
 ##### Multicomputer Architectures
 
 Organizations that use several computers have a lot of available choices. Not so long ago, organizations that required several servers would purchase individual server computers. Now there are choices that can help to improve performance and reduce capital, including
 
-- **Blade computers**
-  - This architecture consists of a main chassis component that is equipped with a central power supply, cooling, network, and console connectors, with several slots that are fitted with individual CPU modules. The advantage of blade architecture is the lower-than-usual unit cost for each server module, since it consists of only a circuit board. The costs of power supply, cooling, and so on, are amortized among all of the blades. A typical blade system is shown in [Figure 5-5](/images/308b/ch0505.jpeg).
+- **Blade computers**<br/> This architecture consists of a main chassis component that is equipped with a central power supply, cooling, network, and console connectors, with several slots that are fitted with individual CPU modules. The advantage of blade architecture is the lower-than-usual unit cost for each server module, since it consists of only a circuit board. The costs of power supply, cooling, and so on, are amortized among all of the blades. A typical blade system is shown in [Figure 5-5](/images/308b/ch0505.jpeg).
 
 ![Images](/images/308b/ch0505.jpeg)
 
 **Figure 5-5** Blade computer architecture (Image courtesy of Robert Kloosterhuis)
 
-- **Grid computing**
-  - The term _grid computing_ describes a large number of loosely coupled computers that are used to solve a common task. Computers in a grid may be in close proximity to each other or scattered over a wide geographic area. Grid computing is a viable alternative to supercomputers for solving computationally intensive problems.
-- **Server clusters**
-  - A _cluster_ is a tightly coupled collection of computers that is used to solve a common task. In a cluster, one or more servers actively perform tasks, while zero or more computers may be in a “standby” state, ready to assume active duty should the need arise. Clusters usually give the appearance of a single computer to the perspective of outside systems. Clusters usually operate in one of two modes: _active-active_ and _active-passive_. In active-active mode, all servers perform tasks; in active-passive mode, some servers are in a standby state, waiting to become active in an event called a _failover_, which usually occurs when one of the active servers has become incapacitated.
+- **Grid computing**<br/>The term _grid computing_ describes a large number of loosely coupled computers that are used to solve a common task. Computers in a grid may be in close proximity to each other or scattered over a wide geographic area. Grid computing is a viable alternative to supercomputers for solving computationally intensive problems.
+- **Server clusters**<br/> A _cluster_ is a tightly coupled collection of computers that is used to solve a common task. In a cluster, one or more servers actively perform tasks, while zero or more computers may be in a “standby” state, ready to assume active duty should the need arise. Clusters usually give the appearance of a single computer to the perspective of outside systems. Clusters usually operate in one of two modes: _active-active_ and _active-passive_. In active-active mode, all servers perform tasks; in active-passive mode, some servers are in a standby state, waiting to become active in an event called a _failover_, which usually occurs when one of the active servers has become incapacitated.
 
 These options give organizations the freedom to develop a computer architecture that will meet their needs in terms of performance, availability, flexibility, and cost.
 
@@ -730,16 +632,11 @@ A server with running virtual machines is depicted in [Figure 5-6](/images/308b/
 
 Many security issues need to be considered in a virtualization environment, including
 
-- **Access control**
-  - Access to virtualization management and monitoring functions should be restricted to those personnel who require it.
-- **Resource allocation**
-  - A virtualization environment needs to be carefully configured so that each virtual machine is given the resources it requires to function correctly and perform adequately.
-- **Logging and monitoring**
-  - Virtual environments need to be carefully monitored so that any sign of security compromise will be quickly recognized and acted on.
-- **Hardening**
-  - Virtual environments need to be configured so that only necessary services and features are enabled, and all unnecessary services and features are either disabled or removed.
-- **Vulnerability management**
-  - Virtualization environments need to be monitored as closely as operating systems and other software so that the IT organization is aware of newly discovered security vulnerabilities and available patches.
+- **Access control**<br/> Access to virtualization management and monitoring functions should be restricted to those personnel who require it.
+- **Resource allocation**<br/> A virtualization environment needs to be carefully configured so that each virtual machine is given the resources it requires to function correctly and perform adequately.
+- **Logging and monitoring**<br/> Virtual environments need to be carefully monitored so that any sign of security compromise will be quickly recognized and acted on.
+- **Hardening**<br/> Virtual environments need to be configured so that only necessary services and features are enabled, and all unnecessary services and features are either disabled or removed.
+- **Vulnerability management**<br/> Virtualization environments need to be monitored as closely as operating systems and other software so that the IT organization is aware of newly discovered security vulnerabilities and available patches.
 
 #### Hardware Maintenance
 
@@ -759,18 +656,12 @@ Automated hardware monitoring tools can be used to keep a continuous watch on th
 
 Hardware monitoring capabilities may vary among different makes of computer systems, but can include any or all of the following:
 
-- **CPU**
-  - Monitoring will indicate whether the system’s CPU is operating properly and whether its temperature is within normal range.
-- **Power supply**
-  - Monitoring will show whether the power supply is operating properly, including input voltage, output voltage and current, cooling fans, and temperature.
-- **Internal components**
-  - Monitoring will specify whether other internal components such as storage devices, memory, chipsets, controllers, adaptors, and cooling fans are operating properly and within normal temperature ranges.
-- **Resource utilization**
-  - Monitoring will measure the amount of resources in use, including CPU, memory, disk storage, and network utilization.
-- **Asset management**
-  - Many monitoring systems can track the assets that are present in the environment, giving management an electronic asset inventory capability.
-- **External environment**
-  - Monitoring is usually considered incomplete unless the surrounding environment is also monitored. This usually includes temperature, humidity, the presence of water, and vibration in locales where earthquakes are common. Monitoring can also include video surveillance and access door alarms.
+- **CPU**<br/>Monitoring will indicate whether the system’s CPU is operating properly and whether its temperature is within normal range.
+- **Power supply**<br/>Monitoring will show whether the power supply is operating properly, including input voltage, output voltage and current, cooling fans, and temperature.
+- **Internal components**<br/> Monitoring will specify whether other internal components such as storage devices, memory, chipsets, controllers, adaptors, and cooling fans are operating properly and within normal temperature ranges.
+- **Resource utilization**<br/>Monitoring will measure the amount of resources in use, including CPU, memory, disk storage, and network utilization.
+- **Asset management**<br/> Many monitoring systems can track the assets that are present in the environment, giving management an electronic asset inventory capability.
+- **External environment**<br/> Monitoring is usually considered incomplete unless the surrounding environment is also monitored. This usually includes temperature, humidity, the presence of water, and vibration in locales where earthquakes are common. Monitoring can also include video surveillance and access door alarms.
 
 Centralized monitoring environments typically utilize the local area network for transmitting information from systems to a central console. Many monitoring consoles have the ability to send alert messages to the personnel who manage the systems being monitored. Often, reports can show monitoring statistics over time so that personnel can identify trends that could be indications of impending failure.
 
@@ -788,18 +679,12 @@ This section discusses computer operating systems, data communications, file sys
 
 Computer operating systems (which are generally known as operating systems, or OSs) are large, general-purpose programs that are used to control computer hardware and facilitate the use of software applications. Operating systems perform the following functions:
 
-- **Access to peripheral devices**
-  - The operating system controls and manages access to all devices and adaptors that are connected to the computer. This includes storage devices, display devices, and communications adaptors.
-- **Storage management**
-  - The operating system provides for the orderly storage of information on storage hardware. For example, operating systems provide file system management for the storage of files and directories on SSDs or hard drives.
-- **Process management**
-  - Operating systems facilitate the existence of multiple processes, some of which will be computer applications and tools. Operating systems ensure that each process has private memory space and is protected from interference and eavesdropping by other processes.
-- **Resource allocation**
-  - Operating systems facilitate the sharing of resources on a computer such as memory, communications, and display devices.
-- **Communication**
-  - Operating systems facilitate communications with users via peripheral devices and also with other computers through networking. Operating systems typically have drivers and tools to facilitate network communications.
-- **Security**
-  - Operating systems restrict access to protected resources through process, user, and device authentication.
+- **Access to peripheral devices**<br/>The operating system controls and manages access to all devices and adaptors that are connected to the computer. This includes storage devices, display devices, and communications adaptors.
+- **Storage management**<br/>The operating system provides for the orderly storage of information on storage hardware. For example, operating systems provide file system management for the storage of files and directories on SSDs or hard drives.
+- **Process management**<br/>Operating systems facilitate the existence of multiple processes, some of which will be computer applications and tools. Operating systems ensure that each process has private memory space and is protected from interference and eavesdropping by other processes.
+- **Resource allocation**<br/> Operating systems facilitate the sharing of resources on a computer such as memory, communications, and display devices.
+- **Communication**<br/>Operating systems facilitate communications with users via peripheral devices and also with other computers through networking. Operating systems typically have drivers and tools to facilitate network communications.
+- **Security**<br/>Operating systems restrict access to protected resources through process, user, and device authentication.
 
 Examples of popular operating systems include Linux, Solaris, macOS, Android, iOS, Chrome OS, and Microsoft Windows.
 
@@ -833,29 +718,19 @@ It can also be said that a file system is a special-purpose database designed fo
 
 Modern file systems employ a storage hierarchy that consists of two main elements:
 
-- **Directories**
-  - A _directory_ is a structure that is used to store files. A file system may contain one or more directories, each of which may contain files and subdirectories. The topmost directory in a file system is usually called the “root” directory. A file system may exist as a hierarchy of information, in the same way that a building can contain several file rooms, each of which contains several file cabinets, which contain drawers that contain dividers, folders, and documents. Directories are sometimes called _folders_ in some computing environments.
-- **Files**
-  - A _file_ is a sequence of zero or more characters that are stored as a logical whole. A file may be a document, spreadsheet, image, sound file, computer program, or data that is used by a program. A file can be small as zero characters in length (an empty file) or as large as many gigabytes (trillions of characters). A file occupies units of storage on storage media (which could be a hard disk, SSD, or flash memory device, for example) that may be called blocks or sectors; however, the file system hides these underlying details from the user so that the file may be known simply by its name, the directory in which it resides, and its contents.
+- **Directories**<br/> A _directory_ is a structure that is used to store files. A file system may contain one or more directories, each of which may contain files and subdirectories. The topmost directory in a file system is usually called the “root” directory. A file system may exist as a hierarchy of information, in the same way that a building can contain several file rooms, each of which contains several file cabinets, which contain drawers that contain dividers, folders, and documents. Directories are sometimes called _folders_ in some computing environments.
+- **Files**<br/> A _file_ is a sequence of zero or more characters that are stored as a logical whole. A file may be a document, spreadsheet, image, sound file, computer program, or data that is used by a program. A file can be small as zero characters in length (an empty file) or as large as many gigabytes (trillions of characters). A file occupies units of storage on storage media (which could be a hard disk, SSD, or flash memory device, for example) that may be called blocks or sectors; however, the file system hides these underlying details from the user so that the file may be known simply by its name, the directory in which it resides, and its contents.
 
 Well-known file systems in use today include
 
-- **FAT (File Allocation Table)**
-  - This file system has been used in MS-DOS and early versions of Microsoft Windows, and FAT is often used as the file system on portable media devices such as flash drives. Versions of FAT include FAT12, FAT16, and FAT32. FAT does not support security access controls, including specifying access permissions to files and directories. FAT also does not include any journaling features, making it more vulnerable to corruption if power is removed during write operations.
-- **NTFS (NT File System)**
-  - This is used in newer versions of Windows, including desktop and server editions. NTFS supports file- and directory-based access control and file system journaling (the process of recording changes made to a file system; this aids in file system recovery).
-- **EXT3**
-  - This journaled file system is used by the Linux operating system.
-- **HFS (Hierarchical File System)**
-  - This file system is used on computers running the Apple macOS operating system.
-- **APFS (Apple File System)**
-  - This file system is used on computers running the Apple macOS operating system.
-- **Resilient File System (ReFS)**
-  - This file system is used on Windows Server 2012 and later versions and is intended to become the replacement for NTFS.
-- **ISO/IEC 9660**
-  - This file system is used by CD-ROM and DVD-ROM media.
-- **UDF (Universal Disk Format)**
-  - This optical media file system is considered a replacement for ISO/IEC 9660. UDF is widely used on rewritable optical media.
+- **FAT (File Allocation Table)**<br/> This file system has been used in MS-DOS and early versions of Microsoft Windows, and FAT is often used as the file system on portable media devices such as flash drives. Versions of FAT include FAT12, FAT16, and FAT32. FAT does not support security access controls, including specifying access permissions to files and directories. FAT also does not include any journaling features, making it more vulnerable to corruption if power is removed during write operations.
+- **NTFS (NT File System)**This is used in newer versions of Windows, including desktop and server editions. NTFS supports file- and directory-based access control and file system journaling (the process of recording changes made to a file system; this aids in file system recovery).
+- **EXT3**<br/> This journaled file system is used by the Linux operating system.
+- **HFS (Hierarchical File System)**<br/> This file system is used on computers running the Apple macOS operating system.
+- **APFS (Apple File System)**<br/> This file system is used on computers running the Apple macOS operating system.
+- **Resilient File System (ReFS)**<br/> This file system is used on Windows Server 2012 and later versions and is intended to become the replacement for NTFS.
+- **ISO/IEC 9660**<br/> This file system is used by CD-ROM and DVD-ROM media.
+- **UDF (Universal Disk Format)**<br/>This optical media file system is considered a replacement for ISO/IEC 9660. UDF is widely used on rewritable optical media.
 
 #### Database Management Systems
 
@@ -875,13 +750,11 @@ DBMSs also employ a data manipulation language (DML) that is used to insert, del
 
 There are three principal types of DBMSs in use today: relational, object, and hierarchical. Each is described in this section.
 
-- **Relational Database Management Systems**
-  - Relational database management systems (RDBMSs) represent the most popular model used for DBMSs. A relational database permits the design of a structured, logical representation of information.
+**Relational Database Management Systems**<br/> Relational database management systems (RDBMSs) represent the most popular model used for DBMSs. A relational database permits the design of a structured, logical representation of information.
 
 Many relational databases are accessed and updated through the SQL (Structured Query Language) computer language. Standardized in ISO/IEC and ANSI standards, SQL is used in many popular relational DBMS products, including Oracle Database, Microsoft SQL Server, MySQL, and IBM DB2.
 
-- **RDBMS Basic Concepts**
-  - A relational database consists of one or more _tables_. A table can be thought of as a simple list of records, like lines in a data file. The records in a table are often called _rows_. The different data items that appear in each row are usually called _fields_.
+**RDBMS Basic Concepts**<br/>A relational database consists of one or more _tables_. A table can be thought of as a simple list of records, like lines in a data file. The records in a table are often called _rows_. The different data items that appear in each row are usually called _fields_.
 
 A table often has a _primary key_. This is simply one of the table’s fields whose values are unique in the table. For example, a table of healthcare patient names can include each patient’s identification number, which can be made the primary key for the table.
 
@@ -909,19 +782,14 @@ SELECT Salesperson.Name, count(*) AS Orders FROM Salesperson JOIN Salesperson_Nu
 
 This query will produce a list of salespersons and the number of orders they have sold.
 
-- **Relational Database Security**
-  - Relational databases in commercial applications need to have some security features. Three primary security features are
-    - **Access controls**
-      - Most relational databases have access controls at the table and field levels. This means that a database can permit or deny a user the ability to read data from or write data to a specific table or even a specific field. To enforce access controls, the database needs to authenticate users so that it knows the identity of each user making access requests. DBMSs employ a data control language (DCL) to control access to data in a database.
-    - **Encryption**
-      - Sensitive data such as financial or medical records may need to be encrypted. Some relational databases provide field-level database encryption that permits a user or application to specify certain fields that should be encrypted. Encryption protects the data by making it difficult to read if an intruder is able to obtain the contents of the database by some illicit means.
-    - **Audit logging**
-      - DBMSs provide audit logging features that permit an administrator or auditor to view some or all activities that take place in a database. Audit logging can show precisely the activities that take place, including details of database changes and the user who made those changes. The audit logs themselves can be protected so that they resist tampering, which can make it difficult for someone to make changes to data and erase their tracks.
+- **Relational Database Security**<br/>Relational databases in commercial applications need to have some security features. Three primary security features are
+  - **Access controls**<br/>Most relational databases have access controls at the table and field levels. This means that a database can permit or deny a user the ability to read data from or write data to a specific table or even a specific field. To enforce access controls, the database needs to authenticate users so that it knows the identity of each user making access requests. DBMSs employ a data control language (DCL) to control access to data in a database.
+  - **Encryption**<br/>Sensitive data such as financial or medical records may need to be encrypted. Some relational databases provide field-level database encryption that permits a user or application to specify certain fields that should be encrypted. Encryption protects the data by making it difficult to read if an intruder is able to obtain the contents of the database by some illicit means.
+  - **Audit logging**<br/>DBMSs provide audit logging features that permit an administrator or auditor to view some or all activities that take place in a database. Audit logging can show precisely the activities that take place, including details of database changes and the user who made those changes. The audit logs themselves can be protected so that they resist tampering, which can make it difficult for someone to make changes to data and erase their tracks.
 
 Database administrators can also create _views_, which are virtual tables created via stored queries. Views can simplify viewing data by aggregating or filtering data. They can improve security by exposing only certain records or fields to users.
 
-- **NoSQL**
-  - NoSQL DBMSs are nonrelational and designed to support large, sometimes disparate data sets across multiple systems. Several types of NoSQL databases are in use, including Column, Document, Key-Value, and Graph.
+**NoSQL**<br/>NoSQL DBMSs are nonrelational and designed to support large, sometimes disparate data sets across multiple systems. Several types of NoSQL databases are in use, including Column, Document, Key-Value, and Graph.
 
 The motivation for the use of NoSQL databases is primarily applicability and usefulness: relational databases are not always the best choice for a DBMS in every application.
 
@@ -971,8 +839,8 @@ Because some utilities are used to observe or make changes to access controls or
 
 Because many utilities are readily available, simply posting a policy will not prevent their use. Instead, strict access controls should be established so that unauthorized users who do obtain utilities would derive little or no use from them. These controls are typically implemented through one of two methods:
 
-- **Remove local administrator privileges** from end users on their workstations so that they are unable to install software packages or change the configuration of their workstations’ operating systems.
-- **Employ software whitelisting software** that prohibits all but strictly permitted software programs from running on users’ workstations.
+- **Remove local administrator privileges** <br/>from end users on their workstations so that they are unable to install software packages or change the configuration of their workstations’ operating systems.
+- **Employ software whitelisting software** <br/>that prohibits all but strictly permitted software programs from running on users’ workstations.
 
 #### Software Licensing
 
