@@ -165,21 +165,16 @@ These activities should be part of the duties of a _change control board_, a gro
 
 Like nonemergency changes, emergency changes should be fully documented with records made available for future reference.
 
-- **Linkage to Problem and Incident Management**
-  - Often, changes are made as a result of an incident or problem. Emergency and nonemergency changes should reference specific incidents or problems so that those incidents and problems may be properly closed once verification of their resolution has been completed.
+**Linkage to Problem and Incident Management**<br/>Often, changes are made as a result of an incident or problem. Emergency and nonemergency changes should reference specific incidents or problems so that those incidents and problems may be properly closed once verification of their resolution has been completed.
 
 ##### Configuration Management
 
 _Configuration management_ (CM) is the process of recording the configuration of IT systems. Each configuration setting is known in ITSM parlance as a _configuration item_ (CI). CIs usually include the following:
 
-- **Hardware complement**
-  - This includes the hardware specifications of each system (such as CPU speed, amount of memory, firmware version, adaptors, and peripherals).
-- **Hardware configuration**
-  - Settings at the hardware level may include boot settings, adaptor configuration, and firmware settings.
-- **Operating system version and configuration**
-  - This includes versions, patches, and many operating system configuration items that have an impact on system performance and functionality.
-- **Software versions and configuration**
-  - Software components such as database management systems, application servers, and integration interfaces often have many configuration settings of their own.
+- **Hardware complement**<br/>This includes the hardware specifications of each system (such as CPU speed, amount of memory, firmware version, adaptors, and peripherals).
+- **Hardware configuration**<br/>Settings at the hardware level may include boot settings, adaptor configuration, and firmware settings.
+- **Operating system version and configuration**<br/>This includes versions, patches, and many operating system configuration items that have an impact on system performance and functionality.
+- **Software versions and configuration**<br/>Software components such as database management systems, application servers, and integration interfaces often have many configuration settings of their own.
 
 Organizations that have many IT systems may automate the CM function with tools that are used to record and change configuration settings automatically. These tools help to streamline IT operations and make it easier for IT systems to be more consistent with one another. The database of system configurations is called a _configuration management database_ (CMDB).
 
@@ -193,34 +188,25 @@ _Release management_ is the ITIL term used to describe the portion of the SDLC w
 
 The release process is used for several types of changes to a system, including the following:
 
-- **Incidents and problem resolution**
-  - Casually known as _bug fixes_, these types of changes are done in response to an incident or problem, where it has been determined that a change to application software is the appropriate remedy.
-- **Enhancements**
-  - New functions in an application are created and implemented. These enhancements may have been requested by customers, or they may be a part of the long-range vision on the part of the designers of the software program.
-- **Subsystem patches and changes**
-  - Changes in lower layers in an application environment may require a level of testing that is similar to what is used when changes are made to the application itself. Examples of changes are patches, service packs, and version upgrades to operating systems, database management systems, application servers, and middleware.
+- **Incidents and problem resolution**<br/>Casually known as _bug fixes_, these types of changes are done in response to an incident or problem, where it has been determined that a change to application software is the appropriate remedy.
+- **Enhancements**<br/>New functions in an application are created and implemented. These enhancements may have been requested by customers, or they may be a part of the long-range vision on the part of the designers of the software program.
+- **Subsystem patches and changes**<br/>Changes in lower layers in an application environment may require a level of testing that is similar to what is used when changes are made to the application itself. Examples of changes are patches, service packs, and version upgrades to operating systems, database management systems, application servers, and middleware.
 
 The release process is a sequential process—that is, each change that is proposed to an information system will be taken through each step in the release management process. In many applications, changes are usually assembled into a “package” for process efficiency purposes: it is more effective to discuss and manage groups of changes than it would be to manage individual changes.
 
 The steps in a typical release process are preceded by typical SDLC process steps:
 
-- **1.** **Feasibility study**
-  - This study seeks to determine the expected benefits of a program, project, or change to a system.
-- **2.** **Requirements definition**
-  - Each software change is described in terms of a feature description and requirements. The _feature description_ is a high-level description of a change to software that may explain the change in business terms. _Requirements_ are the detailed statements that describe a change in enough detail for a developer to make changes and additions to application code that will provide the desired functionality. Often, end users will be involved in the development of requirements so that they may verify that the proposed software change is really what they desire.
-- **3.** **Design**
-  - After requirements have been developed, a programmer/analyst or application designer will create a formal design. For an existing software application, this will usually involve changes to existing design documents and diagrams, but new applications will need to be created from scratch or copied from similar designs and modified. Regardless, the design will have a sufficient level of detail to permit a programmer or software engineer to complete development without having to discern the meaning of requirements or design.
-- **4.** **Development** When the requirements definition and design have been completed, reviewed, and approved, programmers, software engineers, or other IT engineers begin development. This involves actual coding in the chosen computer language with approved development tools, as well as the creation or update to ancillary components, such as a database design or application programming interface (API). Developers will often perform their own _unit testing_, where they test individual modules and sections of the application code to make sure that it works properly. In other cases, development will consist of planned configuration changes, patch application, or module upgrades made to an information system.
-- **5.** **Testing** When the developers have finished coding and unit testing (or other engineers have completed their initial work), a more formal and comprehensive test phase is performed. Here, analysts, dedicated software or systems testers, and perhaps end users, will test all of the new and changed functionality to confirm whether it is performing according to requirements. Depending on the nature of the changes, some amount of _regression testing_ is also performed; this means that functions that were confirmed to be working properly in prior releases are tested again to make sure that they continue to work as expected. Testing is performed according to formal, written test plans designed to confirm that every requirement is fulfilled. Formal test scripts are used, and the results of all tests should be recorded and archived. The testing that users perform is usually called _user acceptance testing_ (UAT). Often, automated test tools are used, which can make testing more accurate and efficient. After testing is completed, a formal review and approval are required before the process is allowed to continue.
-- **6.** **Implementation** When testing has been completed, the changes are implemented on production systems. Here, developers hand off the completed software or system changes to operations personnel, who install it according to instructions created by developers. This could also involve the use of tools to make changes to data and database design, operating systems, or network devices, to accommodate changes in the system. When changes are completed and tested, the release itself is carried out with these last two steps:
-  - **a.** **Release preparation** When UAT and regression testing have been completed, reviewed, and approved, a release management team will begin to prepare the new or changed system for release. Depending upon the complexity of the system and of the change itself, release preparation may involve not only software (or another component) installation but also the installation or change to database design, operating systems, network devices, and perhaps even customer data. Hence, the release may involve the development (or engineering) and testing of data conversion tools and other programs that are required so that the new or changed system will operate properly. As with testing and other phases, full records of testing and implementation of release preparation details need to be captured and archived.
-  - **b.** **Release deployment** When release preparation is completed (and perhaps reviewed and approved), the release is installed on the target system(s). Personnel deploying the release will follow the release procedure, which may involve the use of tools that will make changes to the target system at the operating system, database, or other level; any required data manipulation or migration; and the installation of the actual software. The release procedure will also include verification steps that will be used to confirm the correct installation of all components.
-- **7.** **Post-Implementation** After system changes have been implemented, a post-implementation review takes place to examine matters of system adequacy, security, ROI, and any issues encountered during implementation.
+- **1.** **Feasibility study**<br/>This study seeks to determine the expected benefits of a program, project, or change to a system.
+- **2.** **Requirements definition**<br/>Each software change is described in terms of a feature description and requirements. The _feature description_ is a high-level description of a change to software that may explain the change in business terms. _Requirements_ are the detailed statements that describe a change in enough detail for a developer to make changes and additions to application code that will provide the desired functionality. Often, end users will be involved in the development of requirements so that they may verify that the proposed software change is really what they desire.
+- **3.** **Design**<br/>After requirements have been developed, a programmer/analyst or application designer will create a formal design. For an existing software application, this will usually involve changes to existing design documents and diagrams, but new applications will need to be created from scratch or copied from similar designs and modified. Regardless, the design will have a sufficient level of detail to permit a programmer or software engineer to complete development without having to discern the meaning of requirements or design.
+- **4.** **Development** <br/>When the requirements definition and design have been completed, reviewed, and approved, programmers, software engineers, or other IT engineers begin development. This involves actual coding in the chosen computer language with approved development tools, as well as the creation or update to ancillary components, such as a database design or application programming interface (API). Developers will often perform their own _unit testing_, where they test individual modules and sections of the application code to make sure that it works properly. In other cases, development will consist of planned configuration changes, patch application, or module upgrades made to an information system.
+- **5.** **Testing** <br/>When the developers have finished coding and unit testing (or other engineers have completed their initial work), a more formal and comprehensive test phase is performed. Here, analysts, dedicated software or systems testers, and perhaps end users, will test all of the new and changed functionality to confirm whether it is performing according to requirements. Depending on the nature of the changes, some amount of _regression testing_ is also performed; this means that functions that were confirmed to be working properly in prior releases are tested again to make sure that they continue to work as expected. Testing is performed according to formal, written test plans designed to confirm that every requirement is fulfilled. Formal test scripts are used, and the results of all tests should be recorded and archived. The testing that users perform is usually called _user acceptance testing_ (UAT). Often, automated test tools are used, which can make testing more accurate and efficient. After testing is completed, a formal review and approval are required before the process is allowed to continue.
+- **6.** **Implementation** <br/>When testing has been completed, the changes are implemented on production systems. Here, developers hand off the completed software or system changes to operations personnel, who install it according to instructions created by developers. This could also involve the use of tools to make changes to data and database design, operating systems, or network devices, to accommodate changes in the system. When changes are completed and tested, the release itself is carried out with these last two steps:
+  - **a.** **Release preparation** <br/>When UAT and regression testing have been completed, reviewed, and approved, a release management team will begin to prepare the new or changed system for release. Depending upon the complexity of the system and of the change itself, release preparation may involve not only software (or another component) installation but also the installation or change to database design, operating systems, network devices, and perhaps even customer data. Hence, the release may involve the development (or engineering) and testing of data conversion tools and other programs that are required so that the new or changed system will operate properly. As with testing and other phases, full records of testing and implementation of release preparation details need to be captured and archived.
+  - **b.** **Release deployment** <br/>When release preparation is completed (and perhaps reviewed and approved), the release is installed on the target system(s). Personnel deploying the release will follow the release procedure, which may involve the use of tools that will make changes to the target system at the operating system, database, or other level; any required data manipulation or migration; and the installation of the actual software. The release procedure will also include verification steps that will be used to confirm the correct installation of all components.
+- **7.** **Post-Implementation** <br/>After system changes have been implemented, a post-implementation review takes place to examine matters of system adequacy, security, ROI, and any issues encountered during implementation.
 
----
-
-- **Utilizing a Gate Process**
-  - Many organizations utilize a “gate process” approach in their release management process. This means that each step of the process undergoes formal review and approval before the next step is allowed to begin. For example, a formal design review will be performed and attended by end users, personnel who created requirements and feature description documents, developers, and management. If the design is approved, development may begin. But if there are questions or concerns raised in the design review, the design may need to be modified and reviewed again before development is allowed to begin.
+**Utilizing a Gate Process**<br/>Many organizations utilize a “gate process” approach in their release management process. This means that each step of the process undergoes formal review and approval before the next step is allowed to begin. For example, a formal design review will be performed and attended by end users, personnel who created requirements and feature description documents, developers, and management. If the design is approved, development may begin. But if there are questions or concerns raised in the design review, the design may need to be modified and reviewed again before development is allowed to begin.
 
 Agile processes utilize gates as well, although the flow of agile processes is often parallel rather than sequential. The concept of formal reviews is the same, regardless of the SDLC process in use.
 
@@ -251,27 +237,16 @@ _Capacity management_ is a set of activities that confirms that sufficient capac
 
 Capacity management is not just a concern for current needs; it must also consider future needs. This is attained through several activities, including
 
-- **Periodic measurements**
-  - Systems and processes need to be regularly measured so that trends in usage can be used to predict future capacity needs.
-- **Considering planned changes**
-  - Planned changes to processes and IT systems may have an impact on predicted workload.
-- **Understanding long-term strategies**
-  - Changes in the organization, including IT systems, business processes, and organizational objectives, may have an impact on workloads, requiring more (or less) capacity than would be extrapolated through simpler trend analysis.
-- **Changes in technology**
-  - Several factors may influence capacity plans, including the expectation that computing and network technologies will deliver better performance in the future and that trends in the usage of technology may influence how end users use technology.
+- **Periodic measurements**<br/>Systems and processes need to be regularly measured so that trends in usage can be used to predict future capacity needs.
+- **Considering planned changes**<br/>Planned changes to processes and IT systems may have an impact on predicted workload.
+- **Understanding long-term strategies**<br/>Changes in the organization, including IT systems, business processes, and organizational objectives, may have an impact on workloads, requiring more (or less) capacity than would be extrapolated through simpler trend analysis.
+- **Changes in technology**<br/>Several factors may influence capacity plans, including the expectation that computing and network technologies will deliver better performance in the future and that trends in the usage of technology may influence how end users use technology.
 
----
+**Linkage to Financial Management**<br/>One of the work products of capacity management is a projection for the acquisition of additional computer or network hardware (whether physical devices or virtual in-the-cloud workloads) to meet future capacity needs. This information needs to be made a part of budgeting and spending management processes.
 
-- **Linkage to Financial Management**
+**Linkage to Service Level Management**<br/>If there are insufficient resources to handle workloads, capacity issues may result in violations to SLAs. Systems and processes that are overburdened will take longer to respond. In some cases, systems may stop responding altogether.
 
-  - One of the work products of capacity management is a projection for the acquisition of additional computer or network hardware (whether physical devices or virtual in-the-cloud workloads) to meet future capacity needs. This information needs to be made a part of budgeting and spending management processes.
-
-- **Linkage to Service Level Management**
-
-  - If there are insufficient resources to handle workloads, capacity issues may result in violations to SLAs. Systems and processes that are overburdened will take longer to respond. In some cases, systems may stop responding altogether.
-
-- **Linkage to Incident and Problem Management**
-  - Systems with severe capacity issues may take excessive time to respond to user requests. In some cases, systems may malfunction or users may give up. Often, users will call the service desk, resulting in the logging of incidents and problems.
+**Linkage to Incident and Problem Management**<br/>Systems with severe capacity issues may take excessive time to respond to user requests. In some cases, systems may malfunction or users may give up. Often, users will call the service desk, resulting in the logging of incidents and problems.
 
 ##### Service Continuity Management
 
@@ -283,14 +258,10 @@ Business continuity and disaster recovery are discussed later in this chapter.
 
 The goal of availability management is to sustain IT service availability in support of organizational objectives and processes. The availability of IT systems is governed by
 
-- **Effective change management**
-  - When changes to systems and infrastructure are properly vetted through a change management process, changes are less likely to result in unanticipated downtime.
-- **Effective system testing**
-  - When changes to systems are made according to a set of formal requirements, review, and testing, the system is less likely to fail and become unavailable.
-- **Resilient architecture**
-  - When the overall architecture of an environment is designed from the beginning to be highly reliable, it will be more resilient and more tolerant of individual faults and component failures.
-- **Serviceable components**
-  - When the individual components of an environment can be effectively serviced by third-party service organizations, those components will be less likely to fail unexpectedly.
+- **Effective change management**<br/>When changes to systems and infrastructure are properly vetted through a change management process, changes are less likely to result in unanticipated downtime.
+- **Effective system testing**<br/>When changes to systems are made according to a set of formal requirements, review, and testing, the system is less likely to fail and become unavailable.
+- **Resilient architecture**<br/>When the overall architecture of an environment is designed from the beginning to be highly reliable, it will be more resilient and more tolerant of individual faults and component failures.
+- **Serviceable components**<br/>When the individual components of an environment can be effectively serviced by third-party service organizations, those components will be less likely to fail unexpectedly.
 
 > **NOTE**
 >
