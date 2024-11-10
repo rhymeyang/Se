@@ -614,8 +614,8 @@ A walkthrough is likely to take considerably more time than a document review. O
 
 Even if major revisions are needed in recovery documents, it probably will be infeasible to conduct another walkthrough with updated documents. However, follow-up document reviews are probably warranted to ensure that the documents were updated appropriately, at least in the opinion of the walkthrough participants.
 
-> **CAUTION** 
-> 
+> **CAUTION**
+>
 > Participants in the walkthrough should carefully consider that the potential audience for recovery procedures may be persons who are not as familiar as they are with systems and processes. They need to remember that the ideal personnel may not be available during a real disaster. Participants also need to realize that the skill level of recovery personnel might be a little below that of the experts who operate systems and processes in normal circumstances. Finally, walkthrough participants need to remember that systems and processes undergo almost continuous change, which could render some parts of the recovery documentation obsolete or incorrect all too soon.
 
 **Simulation**<br/>A _simulation_ is a test of disaster recovery and business continuity procedures where the participants take part in a “mock disaster” to add some realism to the process of thinking their way through procedures in emergency response documents.
@@ -626,8 +626,8 @@ To make the simulation more credible and valuable, the scenario that is chosen s
 
 A simulation can also go a few steps further. For instance, the simulation can take place at an established emergency operations center, the same place where emergency command and control would operate in a real disaster. Also, the facilitator could change some of the participants’ roles to simulate the real absence of certain key personnel to see how remaining personnel might conduct themselves in a real emergency.
 
-> **TIP** 
-> 
+> **TIP**
+>
 > The facilitator of a simulation is limited only by his or her own imagination when organizing a simulation. One important fact to remember, though, is that a simulation does not actually affect any live or DR systems—it’s all as pretend as the make-believe cardboard televisions and computers in furniture stores.
 
 **Parallel Test**<br/>A _parallel test_ is an actual test of disaster recovery and/or business continuity response plans and their supporting IT systems. The purpose of a parallel test is to evaluate the ability of personnel to follow directives in emergency response plans—to set up the actual DR business processing or data processing capability. In a parallel test, personnel set up the IT systems that would be used in an actual disaster and operate those IT systems with real business transactions to determine whether the IT systems correctly perform the processing.
@@ -650,17 +650,17 @@ The consequences of a failed cutover test, however, might resemble an actual dis
 
 In some respects, a cutover test is easier to perform than a parallel test. A parallel test is a little trickier, since business information is required to flow to the production system and to the backup system, which means that some artificial component has been somehow inserted into the environment. However, with a cutover test, business processing does take place on the backup systems only, which can often be achieved through a simple configuration someplace in the network or the systems layer of the environment.
 
-> **TIP** Not all organizations perform cutover tests, because they take a lot of resources to set up and they are risky. Many organizations find that a parallel test is sufficient to determine whether backup systems are accurate, and the risk of an embarrassing incident is almost zero with a parallel test.
+> **TIP**
+>
+> Not all organizations perform cutover tests, because they take a lot of resources to set up and they are risky. Many organizations find that a parallel test is sufficient to determine whether backup systems are accurate, and the risk of an embarrassing incident is almost zero with a parallel test.
 
-- **Documenting Test Results**
-  - Every type and every iteration of DR plan testing needs to be documented. It’s not enough to say, “We did the test on September 10, 2019, and it worked.” First of all, no test goes perfectly—opportunities for improvement are always identified. But the most important part of testing is to discover _what parts_ of the test still need work so that those parts of the plan can be fixed before the next test (or a real disaster).
+**Documenting Test Results**<br/>Every type and every iteration of DR plan testing needs to be documented. It’s not enough to say, “We did the test on September 10, 2019, and it worked.” First of all, no test goes perfectly—opportunities for improvement are always identified. But the most important part of testing is to discover _what parts_ of the test still need work so that those parts of the plan can be fixed before the next test (or a real disaster).
 
 As with any well-organized project, success is in the details. The road to success is littered with big and little mistakes, and all of the things that are identified in every sort of DR test need to be detailed so that the next iteration of the test will give better results.
 
 Recording and comparing detailed test results from one test to the next will also help the organization to measure progress. By this I mean that the quality of emergency response plans should steadily improve from year to year. Simple mistakes of the past should not be repeated, and the only failures in future tests should be in new and novel parts of the environment that weren’t well thought out to begin with. And even these should diminish over time.
 
-- **Debriefing to Improving Recovery and Continuity Plans**
-  - Every test of recovery and response plans should include a debrief or review so that participants can discuss the outcome of the test: what went well, what went wrong, and how things should be done differently next time. All of this information should be collected by someone who will be responsible for making changes to relevant documents. The updated documents should be circulated among the test participants who can confirm whether their discussion and ideas are properly reflected in the document.
+**Debriefing to Improving Recovery and Continuity Plans**<br/>Every test of recovery and response plans should include a debrief or review so that participants can discuss the outcome of the test: what went well, what went wrong, and how things should be done differently next time. All of this information should be collected by someone who will be responsible for making changes to relevant documents. The updated documents should be circulated among the test participants who can confirm whether their discussion and ideas are properly reflected in the document.
 
 ##### Training Personnel
 
@@ -670,14 +670,10 @@ A person cannot learn to ride a bicycle by reading even the most detailed how-to
 
 Several forms of training can be made available for the personnel who are expected to be available if a disaster strikes, including
 
-- **Document review**
-  - Personnel can carefully read through procedure documents to become familiar with the nature of the recovery procedures. But, as mentioned earlier, this alone may be insufficient.
-- **Participation in walkthroughs**
-  - People who are familiar with specific processes and systems that are the subject of walkthroughs should participate in them. Exposing personnel to the walkthrough process will not only help to improve the walkthrough and recovery procedures, but will also provide a learning experience for participants.
-- **Participation in simulations**
-  - Taking part in simulations will similarly benefit the participants by giving them the experience of thinking through a disaster.
-- **Participation in parallel and cutover tests**
-  - Other than experiencing an actual disaster and its recovery operations, no experience is quite like participating in parallel and cutover tests. Here, participants will gain actual hands-on experience with critical business processes and IT environments by performing the actual procedures that they would in the event of a disaster. When a disaster strikes, those participants can draw upon their memory of having performed those procedures in the past, instead of just the memory of having read the procedures.
+- **Document review**<br/>Personnel can carefully read through procedure documents to become familiar with the nature of the recovery procedures. But, as mentioned earlier, this alone may be insufficient.
+- **Participation in walkthroughs**<br/>People who are familiar with specific processes and systems that are the subject of walkthroughs should participate in them. Exposing personnel to the walkthrough process will not only help to improve the walkthrough and recovery procedures, but will also provide a learning experience for participants.
+- **Participation in simulations**<br/>Taking part in simulations will similarly benefit the participants by giving them the experience of thinking through a disaster.
+- **Participation in parallel and cutover tests**<br/>Other than experiencing an actual disaster and its recovery operations, no experience is quite like participating in parallel and cutover tests. Here, participants will gain actual hands-on experience with critical business processes and IT environments by performing the actual procedures that they would in the event of a disaster. When a disaster strikes, those participants can draw upon their memory of having performed those procedures in the past, instead of just the memory of having read the procedures.
 
 You can see that all of the levels of tests that need to be performed to verify the quality of response plans are also training opportunities for personnel. The development and testing of disaster-related plans and procedures provide a continuous learning experience for all of the personnel involved.
 
@@ -685,20 +681,17 @@ You can see that all of the levels of tests that need to be performed to verify 
 
 When a disaster strikes, often one of the effects is no access to even the most critical IT systems. Given a 40-hour workweek, there is roughly a 25 percent likelihood that critical personnel will be at the business location when a disaster strikes (at least the violent type of disaster that strikes with no warning, such as an earthquake—other types of disasters, such as hurricanes, may afford the organization a little bit of time to anticipate the disaster’s impact). The point is that chances are very good that the personnel who are available to respond may be unable to access the procedures and other information that they will need, unless special measures are taken.
 
-> **CAUTION** Complete BCP documentation often contains details of key systems, operating procedures, recovery strategies, and even vendor and model identification of in-place equipment. This information can be misused if available to unauthorized personnel, so the mechanism selected for ensuring availability must include planning to prevent inadvertent disclosure.
+> **CAUTION**
+>
+> Complete BCP documentation often contains details of key systems, operating procedures, recovery strategies, and even vendor and model identification of in-place equipment. This information can be misused if available to unauthorized personnel, so the mechanism selected for ensuring availability must include planning to prevent inadvertent disclosure.
 
 Response and recovery procedures can be made available to personnel during a disaster in several ways:
 
-- **Hard copy** Although many have grown accustomed to the paperless office, disaster recovery and response documentation should be available in hardcopy form. Copies, even multiple copies, should be available for each responder, with a copy at the workplace and another at home, and possibly even a set in the responder’s vehicle.
-
-- **Soft copy**
-  - Traditionally, softcopy documentation is kept on file servers, but as you might expect, those file servers might be unavailable in a disaster. Soft copies should be available on responders’ portable devices (laptops, tablets, and smartphones). An organization can also consider issuing documentation on memory sticks and cards. Depending upon the type of disaster, it can be difficult to know what resources will be available to access documentation, so making it available in more than one form will ensure that at least one copy of it will be available to the personnel who need access to it.
-- **Alternate work/processing site**
-  - Organizations that utilize a hot/warm/cold site for the recovery of critical operations can maintain hard copies and/or soft copies of recovery documentation there. This makes perfect sense; personnel working at an alternate processing or work site will need to know what to do, and having those procedures on-site will facilitate their work.
-- **Online**
-  - Soft copies of recovery documentation can be archived on an Internet-based site that includes the ability to store data. Almost any type of online service that includes authentication and the ability to upload documents could be suitable for this purpose.
-- **Wallet cards**
-  - It’s unreasonable to expect to publish recovery documentation on a laminated wallet card, but those cards could be used to store the contact information for core response team members as well as a few other pieces of information, such as conference bridge codes, passwords to online repositories of documentation, and so on. An example wallet card appears earlier in this chapter, in [Figure 5-30](/images/308b/ch05r09.jpeg).
+- **Hard copy** <br/>Although many have grown accustomed to the paperless office, disaster recovery and response documentation should be available in hardcopy form. Copies, even multiple copies, should be available for each responder, with a copy at the workplace and another at home, and possibly even a set in the responder’s vehicle.
+- **Soft copy**<br/>Traditionally, softcopy documentation is kept on file servers, but as you might expect, those file servers might be unavailable in a disaster. Soft copies should be available on responders’ portable devices (laptops, tablets, and smartphones). An organization can also consider issuing documentation on memory sticks and cards. Depending upon the type of disaster, it can be difficult to know what resources will be available to access documentation, so making it available in more than one form will ensure that at least one copy of it will be available to the personnel who need access to it.
+- **Alternate work/processing site**<br/>Organizations that utilize a hot/warm/cold site for the recovery of critical operations can maintain hard copies and/or soft copies of recovery documentation there. This makes perfect sense; personnel working at an alternate processing or work site will need to know what to do, and having those procedures on-site will facilitate their work.
+- **Online**<br/>Soft copies of recovery documentation can be archived on an Internet-based site that includes the ability to store data. Almost any type of online service that includes authentication and the ability to upload documents could be suitable for this purpose.
+- **Wallet cards**<br/> It’s unreasonable to expect to publish recovery documentation on a laminated wallet card, but those cards could be used to store the contact information for core response team members as well as a few other pieces of information, such as conference bridge codes, passwords to online repositories of documentation, and so on. An example wallet card appears earlier in this chapter, in [Figure 5-30](/images/308b/ch05r09.jpeg).
 
 ##### Maintaining Recovery and Continuity Plans
 
@@ -714,39 +707,33 @@ Periodic testing of DR documents and plans, discussed in detail in the preceding
 
 It is unnecessary to begin BCP and disaster recovery planning (DRP) by first inventing a practice or methodology. BCP and DRP are advanced professions with several professional associations, professional certifications, international standards, and publications. Any or all of these are, or can lead to, sources of practices, processes, and methodologies:
 
-- **U.S. National Institute of Standards and Technology (NIST)**
-  - This branch of the U.S. Department of Commerce is responsible for developing business and technology standards for the federal government. The quality of the standards developed by NIST is exceedingly high, and as a result many private organizations all over the world are adopting them. The NIST web site is at [https://www.nist.gov](https://www.nist.gov/).
-- **Business Continuity Institute (BCI)**
-  - This membership organization is dedicated to the advancement of business continuity management. BCI has more than 8,000 members in almost 100 countries. BCI holds several events around the world, prints a professional journal, and it has developed a professional certification, the Certificate of the BCI (CBCI). Its web site is at [https://www.thebci.org](https://www.thebci.org/).
-- **U.S. National Fire Protection Agency (NFPA)**
-  - NFPA has developed a pre-incident planning standard, NFPA 1620, which addresses the protection, construction, and features of buildings and other structures. It also requires the development of pre-incident plans that emergency responders can use to deal with fires and other emergencies. The NFPA web site is at [https://www.nfpa.org](https://www.nfpa.org/).
-- **U.S. Federal Emergency Management Agency (FEMA)**
-  - FEMA is a part of the Department of Homeland Security (DHS) and is responsible for emergency disaster relief planning information and services. FEMA’s most visible activities are its relief operations in the wake of hurricanes and floods in the United States. Its web site is at [https://www.fema.gov](https://www.fema.gov/).
-- **Disaster Recovery Institute International (DRI International)**
-  - This professional membership organization provides education and professional certifications for DRP professionals. Its web site is at [https://drii.org](https://drii.org/). Its certifications include
-    - Associate Business Continuity Professional (ABCP)
-    - Certified Business Continuity Vendor (CBCV)
-    - Certified Functional Continuity Professional (CFCP)
-    - Certified Business Continuity Professional (CBCP)
-    - Master Business Continuity Professional (MBCP)
-    - Certified Business Continuity Auditor (CBCA)
-    - Certified Business Continuity Lead Auditor (CBCLA)
-- **Business Continuity Management Institute (BCM Institute)**
-  - This professional association specializes in education and professional certification. BCM Institute is a co-organizer of the World Continuity Congress, an annual conference that is dedicated to business continuity and disaster recovery planning. Its web site is at [https://www.bcm-institute.org](https://www.bcm-institute.org/). Certifications offered by BCM Institute include
-    - Business Continuity Certified Expert (BCCE)
-    - Business Continuity Certified Specialist (BCCS)
-    - Business Continuity Certified Planner (BCCP)
-    - Business Continuity Certified Auditor (BCCA)
-    - Business Continuity Certified Lead Auditor (BCCLA)
-    - DR Certified Planner (DRCP)
-    - Disaster Recovery Certified Expert (DRCE)
-    - Disaster Recovery Certified Specialist (DRCS)
-    - Crisis Management Certified Planner (CMCP)
-    - Crisis Management Certified Specialist (CMCS)
-    - Crisis Management Certified Expert (CMCE)
-    - Crisis Communication Certified Planner (CCCP)
-    - Crisis Communication Certified Specialist (CCCS)
-    - Crisis Communication Certified Expert (CCCE)
+- **U.S. National Institute of Standards and Technology (NIST)**<br/>This branch of the U.S. Department of Commerce is responsible for developing business and technology standards for the federal government. The quality of the standards developed by NIST is exceedingly high, and as a result many private organizations all over the world are adopting them. The NIST web site is at [https://www.nist.gov](https://www.nist.gov/).
+- **Business Continuity Institute (BCI)**<br/>This membership organization is dedicated to the advancement of business continuity management. BCI has more than 8,000 members in almost 100 countries. BCI holds several events around the world, prints a professional journal, and it has developed a professional certification, the Certificate of the BCI (CBCI). Its web site is at [https://www.thebci.org](https://www.thebci.org/).
+- **U.S. National Fire Protection Agency (NFPA)**<br/> NFPA has developed a pre-incident planning standard, NFPA 1620, which addresses the protection, construction, and features of buildings and other structures. It also requires the development of pre-incident plans that emergency responders can use to deal with fires and other emergencies. The NFPA web site is at [https://www.nfpa.org](https://www.nfpa.org/).
+- **U.S. Federal Emergency Management Agency (FEMA)**<br/>FEMA is a part of the Department of Homeland Security (DHS) and is responsible for emergency disaster relief planning information and services. FEMA’s most visible activities are its relief operations in the wake of hurricanes and floods in the United States. Its web site is at [https://www.fema.gov](https://www.fema.gov/).
+- **Disaster Recovery Institute International (DRI International)**<br/>This professional membership organization provides education and professional certifications for DRP professionals. Its web site is at [https://drii.org](https://drii.org/). Its certifications include
+  - Associate Business Continuity Professional (ABCP)
+  - Certified Business Continuity Vendor (CBCV)
+  - Certified Functional Continuity Professional (CFCP)
+  - Certified Business Continuity Professional (CBCP)
+  - Master Business Continuity Professional (MBCP)
+  - Certified Business Continuity Auditor (CBCA)
+  - Certified Business Continuity Lead Auditor (CBCLA)
+- **Business Continuity Management Institute (BCM Institute)**<br/> This professional association specializes in education and professional certification. BCM Institute is a co-organizer of the World Continuity Congress, an annual conference that is dedicated to business continuity and disaster recovery planning. Its web site is at [https://www.bcm-institute.org](https://www.bcm-institute.org/). Certifications offered by BCM Institute include
+  - Business Continuity Certified Expert (BCCE)
+  - Business Continuity Certified Specialist (BCCS)
+  - Business Continuity Certified Planner (BCCP)
+  - Business Continuity Certified Auditor (BCCA)
+  - Business Continuity Certified Lead Auditor (BCCLA)
+  - DR Certified Planner (DRCP)
+  - Disaster Recovery Certified Expert (DRCE)
+  - Disaster Recovery Certified Specialist (DRCS)
+  - Crisis Management Certified Planner (CMCP)
+  - Crisis Management Certified Specialist (CMCS)
+  - Crisis Management Certified Expert (CMCE)
+  - Crisis Communication Certified Planner (CCCP)
+  - Crisis Communication Certified Specialist (CCCS)
+  - Crisis Communication Certified Expert (CCCE)
 
 #### Disaster Recovery Planning
 
@@ -766,14 +753,15 @@ Disaster recovery plans need to specify the teams that are required for disaster
 
 **Table 5-14** Disaster Response Teams’ Roles and Responsibilities
 
-> **NOTE** Some of the roles in [Table 5-14](/images/308b/ch05r12.jpeg) may overlap with responsibilities defined in the organization’s BCP. DR and BC planners will need to work together to ensure that the organization’s overall response to disaster is appropriate and does not overlook vital functions. Also, because of variations in organizations’ disaster response plans, some of these teams will not be needed in some organizations.
+> **NOTE**
+>
+> Some of the roles in [Table 5-14](/images/308b/ch05r12.jpeg) may overlap with responsibilities defined in the organization’s BCP. DR and BC planners will need to work together to ensure that the organization’s overall response to disaster is appropriate and does not overlook vital functions. Also, because of variations in organizations’ disaster response plans, some of these teams will not be needed in some organizations.
 
 ##### Recovery Objectives
 
 During the business impact analysis and criticality analysis phases of a BC/DR project, the speed with which each business activity (with its underlying IT systems) needs to be restored after a disaster is determined.
 
-- **Recovery Time Objective**
-  - _Recovery time objective_ (RTO) is the period from the onset of an outage until the resumption of service. RTO is usually measured in hours or days. Each process and system in the BIA should have an RTO value.
+**Recovery Time Objective**<br/>_Recovery time objective_ (RTO) is the period from the onset of an outage until the resumption of service. RTO is usually measured in hours or days. Each process and system in the BIA should have an RTO value.
 
 RTO does not mean that the system (or process) has been recovered to 100 percent of its former capacity. Far from it—in an emergency situation, management may determine that a DR server in another city with, say, 60 percent of the capacity of the original server is adequate. That said, an organization could establish two RTO targets, one for partial capacity and one for full capacity.
 
@@ -793,8 +781,7 @@ RPO is usually expressed as a worst-case figure; for instance, a transaction pro
 
 The value of a system’s RPO is usually a direct result of the frequency of data backup or replication. For example, if an application server is backed up once per day, the RPO is going to be at least 24 hours (or one day, whichever way you like to express it). Maybe it will take three days to rebuild the server, but once data is restored from backup tape, no more than the last 24 hours of transactions are lost. In this case, the RTO is three days and the RPO is one day.
 
-- **Publishing RTO and RPO Figures**
-  - If the storage system for an application takes a snapshot every hour, the RPO could be one hour, unless the storage system itself was damaged in a disaster. If the snapshot is replicated to another storage system four times per day, then the RPO might be better expressed as six to eight hours.
+**Publishing RTO and RPO Figures**<br/>If the storage system for an application takes a snapshot every hour, the RPO could be one hour, unless the storage system itself was damaged in a disaster. If the snapshot is replicated to another storage system four times per day, then the RPO might be better expressed as six to eight hours.
 
 The last example brings up an interesting point. There may not be one “golden” RPO figure for a given system. Instead, the severity of a disrupting event or a disaster will dictate the time to get systems running again (RTO) with a certain amount of data loss (RPO). Here are some examples:
 
@@ -806,8 +793,7 @@ The last example brings up an interesting point. There may not be one “golden�
 >
 > When publishing RTO and RPO figures to customers, it’s best to publish the worst-case figures: “If our data center burns to the ground, our RTO is X hours and the RPO is Y hours.” Saying it that way would be simpler than publishing a chart that shows RPO and RTO figures for various types of disasters.
 
-- **Pricing RTO and RPO Capabilities**
-  - Generally speaking, the shorter the RTO or RPO for a given system, the more expensive it will be to achieve the target. [Table 5-15](/images/308b/ch05r13.jpeg) depicts a range of RTOs along with the technologies needed to achieve them and their relative cost.
+**Pricing RTO and RPO Capabilities**<br/>Generally speaking, the shorter the RTO or RPO for a given system, the more expensive it will be to achieve the target. [Table 5-15](/images/308b/ch05r13.jpeg) depicts a range of RTOs along with the technologies needed to achieve them and their relative cost.
 
 ![Images](/images/308b/ch05r13.jpeg)
 
@@ -831,8 +817,7 @@ Developing recovery strategies to meet specific recovery targets is an iterative
 
 **Figure 5-33** Recovery objective development flowchart
 
-- **Site Recovery Options**
-  - In a worst-case disaster scenario, the site where information systems reside is partially or completely destroyed. In most cases, the organization cannot afford to wait for the damaged or destroyed facility to be restored, as this could take weeks or months. If an organization can take _that_ long to recover an application, you’d have to wonder whether it is needed at all. The assumption has got to be that in a disaster scenario, critical applications will be recovered in another location. This other location is called a _recovery site_. There are two dimensions to the process of choosing a recovery site: the first is the speed at which the application will be recovered at the recovery site; the second is the location of the recovery site itself. Both are discussed here.
+**Site Recovery Options**<br/>In a worst-case disaster scenario, the site where information systems reside is partially or completely destroyed. In most cases, the organization cannot afford to wait for the damaged or destroyed facility to be restored, as this could take weeks or months. If an organization can take _that_ long to recover an application, you’d have to wonder whether it is needed at all. The assumption has got to be that in a disaster scenario, critical applications will be recovered in another location. This other location is called a _recovery site_. There are two dimensions to the process of choosing a recovery site: the first is the speed at which the application will be recovered at the recovery site; the second is the location of the recovery site itself. Both are discussed here.
 
 As you might expect, speed costs. If a system is to be recovered within a few minutes or hours, the costs will be much higher than if the system can be recovered in five days.
 
@@ -848,9 +833,7 @@ Various types of facilities are available for rapid or not-too-rapid recovery. T
 
 The details about each type of site are discussed in the remainder of this section.
 
-- **Hot Sites**
--
-- A _hot site_ is an alternate processing center where backup systems are already running in some state of near-readiness to assume production workload. The systems at a hot site most likely have application software and database management software already loaded and running, perhaps even at the same patch levels as the systems in the primary processing center.
+**Hot Sites**<br/>A _hot site_ is an alternate processing center where backup systems are already running in some state of near-readiness to assume production workload. The systems at a hot site most likely have application software and database management software already loaded and running, perhaps even at the same patch levels as the systems in the primary processing center.
 
 A hot site is the best choice for systems whose RTO targets range from zero to several hours, perhaps as long as 24 hours.
 
@@ -868,8 +851,7 @@ When setting up a hot site, the organization will need to send one or more techn
 >
 > Hot-site planning needs to consider work (desk) space for on-site personnel. Some colocation centers provide limited work areas, but these areas are often shared and often have little privacy for phone discussions. Also, transportation, hotel, and dining accommodations need to be arranged, possibly in advance, if the hot site is in a different city from the primary site.
 
-- **Warm Sites**
-  - A _warm site_ is an alternate processing center where recovery systems are present, but at a lower state of readiness than recovery systems at a hot site. For example, while the same version of the operating system may be running on the warm site system, it may be a few patch levels behind primary systems. The same could be said about the versions and patch levels of database management systems (if used) and application software: they may be present, but they’re not as up-to-date as they are on the primary systems. Like a hot site, a warm site can be implemented in a private or public cloud, a colocation center, or an organization’s own alternate processing center.
+**Warm Sites**<br/>A _warm site_ is an alternate processing center where recovery systems are present, but at a lower state of readiness than recovery systems at a hot site. For example, while the same version of the operating system may be running on the warm site system, it may be a few patch levels behind primary systems. The same could be said about the versions and patch levels of database management systems (if used) and application software: they may be present, but they’re not as up-to-date as they are on the primary systems. Like a hot site, a warm site can be implemented in a private or public cloud, a colocation center, or an organization’s own alternate processing center.
 
 A warm site is appropriate for an organization whose RTO figures range from roughly one to seven days. In a disaster scenario, recovery teams would travel to the warm site and work to get the recovery systems to a state of production readiness and to get systems up-to-date with patches and configuration changes to bring the systems into a state of complete readiness.
 
@@ -877,8 +859,7 @@ A warm site is also used when the organization is willing to take the time neces
 
 The primary advantage of a warm site is that its costs are lower than for a hot site, particularly in the effort required to keep the recovery system up-to-date. The site may not require expensive data replication technology, but instead data can be recovered from backup media.
 
-- **Cold Sites**
-  - A _cold site_ is an alternate processing center where the degree of readiness for recovery systems is low. At the very least, a cold site is nothing more than an empty rack or allocated space on a computer room floor. It’s just an address in someone’s data center or colocation site where computers can be set up and used at some future date. A cold site could also exist in the form of an enterprise account established at a public cloud organization, but where no infrastructure has been created and configured.
+**Cold Sites**<br/>A _cold site_ is an alternate processing center where the degree of readiness for recovery systems is low. At the very least, a cold site is nothing more than an empty rack or allocated space on a computer room floor. It’s just an address in someone’s data center or colocation site where computers can be set up and used at some future date. A cold site could also exist in the form of an enterprise account established at a public cloud organization, but where no infrastructure has been created and configured.
 
 Often, there is little or no equipment at a cold site. When a disaster or other highly disruptive event occurs in which the outage is expected to exceed seven to fourteen days, the organization will order computers from a manufacturer or perhaps have computers shipped from some other business location, so that they can arrive at the cold site soon after the disaster event has begun. Then personnel would travel to the site and set up the computers, operating systems, databases, network equipment, and so on, and get applications running within several days.
 
@@ -890,18 +871,15 @@ The advantage of a cold site is its low cost. The main disadvantage is the cost,
 
 **Table 5-17** Detailed Comparison of Cold, Warm, and Hot Sites
 
-- **Mobile Sites**
-  - A _mobile site_ is a portable recovery center that can be delivered to almost any location in the world. A viable alternative to a fixed location recovery site, a mobile site can be transported by semi-truck and may even have its own generator, communications, and cooling capabilities.
+**Mobile Sites**<br/>A _mobile site_ is a portable recovery center that can be delivered to almost any location in the world. A viable alternative to a fixed location recovery site, a mobile site can be transported by semi-truck and may even have its own generator, communications, and cooling capabilities.
 
 APC and SunGard have mobile sites installed in semi-truck trailers. Oracle has mobile sites that can include a configurable selection of servers and workstations, all housed in shipping containers that can be shipped by truck, rail, ship, or air to any location in the world.
 
-- **Cloud Sites**
-  - Organizations are increasingly using cloud hosting services as their recovery sites. Such sites charge for the utilization of servers and devices in virtual environments. Hence, capital costs for recovery sites is near zero and operational costs come into play as recovery sites are used.
+**Cloud Sites**<br/>Organizations are increasingly using cloud hosting services as their recovery sites. Such sites charge for the utilization of servers and devices in virtual environments. Hence, capital costs for recovery sites is near zero and operational costs come into play as recovery sites are used.
 
 As organizations become accustomed to building recovery sites in the cloud, they are with increasing frequency moving their primary processing sites to the cloud as well.
 
-- **Reciprocal Sites**
-  - A _reciprocal recovery site_ is a data center that is operated by another company. Two or more organizations with similar processing needs will draw up a legal contract that obligates one or more of the organizations to house another party’s systems temporarily in the event of a disaster.
+**Reciprocal Sites**<br/>A _reciprocal recovery site_ is a data center that is operated by another company. Two or more organizations with similar processing needs will draw up a legal contract that obligates one or more of the organizations to house another party’s systems temporarily in the event of a disaster.
 
 Often, a reciprocal agreement pledges not only floor space in a data center, but also the use of the reciprocal partner’s computer system. This type of arrangement is less common, but it is used by organizations that use mainframe computers and other high-cost systems.
 
@@ -909,8 +887,7 @@ Often, a reciprocal agreement pledges not only floor space in a data center, but
 >
 > With the wide use of public cloud and Internet colocation centers, reciprocal sites have fallen out of favor. Still, they may be ideal for organizations with mainframe computers that are otherwise too expensive to deploy to a cold or warm site.
 
-- **Geographic Site Selection**
-  - An important factor in the process of recovery site selection is the location of the recovery site. The distance between the main processing site and the recovery site is vital and may figure heavily into the viability and success of a recovery operation.
+**Geographic Site Selection**<br/>An important factor in the process of recovery site selection is the location of the recovery site. The distance between the main processing site and the recovery site is vital and may figure heavily into the viability and success of a recovery operation.
 
 A recovery site should not be located in the same geographic region as the primary site. A recovery site in the same region may be involved in the same regional disaster as the primary site and may be unavailable for use or be suffering from the same problems present at the primary site.
 
@@ -918,35 +895,21 @@ A recovery site should not be located in the same geographic region as the prima
 >
 > “Geographic region” refers to a location that will likely experience the effects of the same regional disaster that affects the primary site. No arbitrarily chosen distance (such as 100 miles) guarantees sufficient separation. In some locales, 50 miles is plenty of distance; in other places, 300 miles is too close—it all depends on the nature of disasters that are likely to occur in these areas. Information on regional disasters should be available from local disaster preparedness authorities or from local disaster recovery experts.
 
-- **Considerations When Using Third-Party Disaster Recovery Sites**
-  - Since most organizations cannot afford to implement their own secondary processing site, the only other option is to use a disaster recovery site that is owned by a third party. This could be a colocation center, a disaster services center, or a public cloud provider. An organization considering such a site needs to ensure that its services contract addresses the following:
+**Considerations When Using Third-Party Disaster Recovery Sites**<br/>Since most organizations cannot afford to implement their own secondary processing site, the only other option is to use a disaster recovery site that is owned by a third party. This could be a colocation center, a disaster services center, or a public cloud provider. An organization considering such a site needs to ensure that its services contract addresses the following:
 
-* **Disaster definition**
-  - The definition of disaster needs to be broad enough to meet the organization’s requirements.
-* **Equipment configuration**
-  - IT equipment must be configured as needed to support critical applications during a disaster.
-* **Availability of equipment during a disaster**
-  - IT equipment needs to be available during a disaster. In the case of disaster service providers, the organization needs to know how the disaster service provider will allocate equipment if many of its customers suffer a disaster simultaneously.
-* **Customer priorities**
-  - The organization needs to know whether the disaster services provider has any customers (government or military, for example) whose priorities may exceed their own.
-* **Data communications**
-  - There must be sufficient bandwidth and capacity for the organization plus other customers who may be operating at the disaster provider’s center at the same time.
-* **Testing**
-  - The organization needs to know what testing it is permitted to perform on the service provider’s systems so that the ability to recover from a disaster can be tested in advance.
-* **Right to audit**
-  - The organization should have a “right to audit” clause in its contract so that it can verity the presence and effectiveness of all key controls in place at the recovery facility. Note, however, that a right to audit is generally not an option for public cloud providers.
-* **Security and environmental controls**
-  - The organization needs to know what security and environmental controls are in place at the disaster recovery facility.
-* **Acquiring Additional Hardware**
-  - Many organizations elect to acquire their own server, storage, and network hardware for disaster recovery purposes. How an organization goes about acquiring hardware depends on its high-level recovery strategy:
-* **Cold site**
-  - An organization will need to be able to purchase hardware as soon as the disaster occurs.
-* **Warm site**
+- **Disaster definition**<br/>The definition of disaster needs to be broad enough to meet the organization’s requirements.
+- **Equipment configuration**<br/>IT equipment must be configured as needed to support critical applications during a disaster.
+- **Availability of equipment during a disaster**<br/>IT equipment needs to be available during a disaster. In the case of disaster service providers, the organization needs to know how the disaster service provider will allocate equipment if many of its customers suffer a disaster simultaneously.
+- **Customer priorities**<br/>The organization needs to know whether the disaster services provider has any customers (government or military, for example) whose priorities may exceed their own.
+- **Data communications**<br/>There must be sufficient bandwidth and capacity for the organization plus other customers who may be operating at the disaster provider’s center at the same time.
+- **Testing**<br/>The organization needs to know what testing it is permitted to perform on the service provider’s systems so that the ability to recover from a disaster can be tested in advance.
+- **Right to audit**<br/> The organization should have a “right to audit” clause in its contract so that it can verity the presence and effectiveness of all key controls in place at the recovery facility. Note, however, that a right to audit is generally not an option for public cloud providers.
+- **Security and environmental controls**<br/> The organization needs to know what security and environmental controls are in place at the disaster recovery facility.
+- **Acquiring Additional Hardware**<br/> Many organizations elect to acquire their own server, storage, and network hardware for disaster recovery purposes. How an organization goes about acquiring hardware depends on its high-level recovery strategy:
+- **Cold site**<br/>**Warm site**
   - An organization probably will need to purchase hardware in advance of the disaster, but it may be able to purchase hardware when the disaster occurs. The choice will depend on the recovery time objective.
-* **Hot site**
-  - An organization will need to purchase its recovery hardware in advance of the disaster.
-* **Cloud**
-  - An organization will not need to purchase hardware, as this is provided by the cloud infrastructure provider.
+- **Hot site**<br/> An organization will need to purchase its recovery hardware in advance of the disaster.
+- **Cloud**<br/> An organization will not need to purchase hardware, as this is provided by the cloud infrastructure provider.
 
 Pros and cons to these strategies are listed in [Table 5-18](/images/308b/ch05r18.jpeg). Warm site strategy is not listed, since an organization could purchase hardware either in advance of the disaster or when it occurs. But because cold, hot, and cloud sites are deterministic, they are included in the table.
 
@@ -956,39 +919,32 @@ Pros and cons to these strategies are listed in [Table 5-18](/images/308b/ch05r1
 
 The main reasons for choosing a cloud hosting provider are to eliminate capital costs and to rapidly develop and deploy virtual infrastructure. The cloud hosting provider provides all hardware and charges organizations when the hardware is used.
 
-- **Dual-Purpose Infrastructure**
-  - The primary business reason for not choosing a hot site is the high capital cost required to purchase disaster recovery equipment that may never be used. One way around this obstacle is to put those recovery systems to work every day. For example, recovery systems could be used for development or testing of the same applications that are used in production. This way, systems that are purchased for recovery purposes are being well utilized for other purposes, and they’ll be ready in case a disaster occurs.
+**Dual-Purpose Infrastructure**<br/>The primary business reason for not choosing a hot site is the high capital cost required to purchase disaster recovery equipment that may never be used. One way around this obstacle is to put those recovery systems to work every day. For example, recovery systems could be used for development or testing of the same applications that are used in production. This way, systems that are purchased for recovery purposes are being well utilized for other purposes, and they’ll be ready in case a disaster occurs.
 
 When a disaster occurs, the organization will be less concerned about development and testing and more concerned about keeping critical production applications running. It will be a small sacrifice to forgo development or testing (or whatever low-criticality functions are using the DR hardware) during a disaster.
 
-- **Recovery and Resilience Technologies**
-  - Once recovery targets have been established, the next major task is to survey and select technologies to enable recovery time and recovery point objectives to be met. Several important factors when considering each technology are
-    - Does the technology help the information system achieve the RTO and RPO targets?
-    - Does the cost of the technology meet or exceed budget constraints?
-    - Can the technology be used to benefit other information systems (thereby lowering the cost for each system)?
-    - Does the technology fit well into the organization’s current IT operations?
-    - Will operations staff require specialized training on the technology used for recovery?
-    - Does the technology contribute to the simplicity of the overall IT architecture, or does it complicate it unnecessarily?
+**Recovery and Resilience Technologies**<br/>Once recovery targets have been established, the next major task is to survey and select technologies to enable recovery time and recovery point objectives to be met. Several important factors when considering each technology are
+
+- Does the technology help the information system achieve the RTO and RPO targets?
+- Does the cost of the technology meet or exceed budget constraints?
+- Can the technology be used to benefit other information systems (thereby lowering the cost for each system)?
+- Does the technology fit well into the organization’s current IT operations?
+- Will operations staff require specialized training on the technology used for recovery?
+- Does the technology contribute to the simplicity of the overall IT architecture, or does it complicate it unnecessarily?
 
 These questions are designed to help determine whether a specific technology is a good fit, from a technology perspective as well as from process and operational perspectives.
 
-- **RAID**
-  - Redundant Array of Independent Disks (RAID) is a family of technologies used to improve the reliability, performance, or size of disk-based storage systems. From a disaster recovery or systems resilience perspective, the feature of RAID that is of particular interest is the reliability. RAID is used to create virtual disk volumes over an array (pun intended) of disk storage devices and can be configured so that the failure of any individual disk drive in the array will not affect the availability of data on the disk array.
+**RAID**<br/>Redundant Array of Independent Disks (RAID) is a family of technologies used to improve the reliability, performance, or size of disk-based storage systems. From a disaster recovery or systems resilience perspective, the feature of RAID that is of particular interest is the reliability. RAID is used to create virtual disk volumes over an array (pun intended) of disk storage devices and can be configured so that the failure of any individual disk drive in the array will not affect the availability of data on the disk array.
 
 RAID is usually implemented on a hardware device called a _disk array_, which is a chassis in which several hard disks can be installed and connected to a server. The individual disk drives can usually be “hot swapped” in the chassis while the array is still operating. When the array is configured with RAID, a failure of a single disk drive will have no effect on the disk array’s availability to the server to which it is connected. A system operator can be alerted to the disk’s failure, and the defective disk drive can be removed and replaced while the array is still fully operational.
 
 There are several options, or _levels_, for RAID configuration:
 
-- **RAID-0**
-  - This is known as a _striped volume_, where a disk volume splits data evenly across two or more disks to improve performance.
-- **RAID-1**
-  - This creates a _mirror_, where data written to one disk in the array is also written to a second disk in the array. RAID-1 makes the volume more reliable through the preservation of data, even when one disk in the array fails.
-- **RAID-4**
-  - This level of RAID employs data striping at the block level by adding a dedicated parity disk. The parity disk permits the rebuilding of data in the event one of the other disks fails.
-- **RAID-5**
-  - This is similar to RAID-4 block-level striping, except that the parity data is distributed evenly across all of the disks instead of dedicated on one disk. Like RAID-4, RAID-5 allows for the failure of one disk without losing information.
-- **RAID-6**
-  - This is an extension of RAID-5, where two parity blocks are used instead of a single parity block. The advantage of RAID-6 is that it can withstand the failure of any two disk drives in the array, instead of a single disk, as is the case with RAID-5.
+- **RAID-0**<br/>This is known as a _striped volume_, where a disk volume splits data evenly across two or more disks to improve performance.
+- **RAID-1**<br/> This creates a _mirror_, where data written to one disk in the array is also written to a second disk in the array. RAID-1 makes the volume more reliable through the preservation of data, even when one disk in the array fails.
+- **RAID-4**<br/>This level of RAID employs data striping at the block level by adding a dedicated parity disk. The parity disk permits the rebuilding of data in the event one of the other disks fails.
+- **RAID-5**<br/>This is similar to RAID-4 block-level striping, except that the parity data is distributed evenly across all of the disks instead of dedicated on one disk. Like RAID-4, RAID-5 allows for the failure of one disk without losing information.
+- **RAID-6**<br/>This is an extension of RAID-5, where two parity blocks are used instead of a single parity block. The advantage of RAID-6 is that it can withstand the failure of any two disk drives in the array, instead of a single disk, as is the case with RAID-5.
 
 > **NOTE**
 >
@@ -996,32 +952,23 @@ There are several options, or _levels_, for RAID configuration:
 
 Storage systems are hardware devices that are entirely separate from servers—their only purpose is to store a large amount of data and to be highly reliable through the use of redundant components and the use of one or more RAID levels. Storage systems generally come in two forms:
 
-- **Storage area network (SAN)**
-  - This stand-alone storage system can be configured to contain several virtual volumes and to connect to several servers through fiber optic cables. The servers’ operating systems will often consider this storage to be “local,” as though it consisted of one or more hard disks present in the server’s own chassis.
-- **Network attached storage (NAS)**
-  - This stand-alone storage system contains one or more virtual volumes. Servers access these volumes over the network using the NFS or Server Message Block/Common Internet File System (SMB/CIFS) protocols, common on Unix and Windows operating systems, respectively.
+- **Storage area network (SAN)**<br/>This stand-alone storage system can be configured to contain several virtual volumes and to connect to several servers through fiber optic cables. The servers’ operating systems will often consider this storage to be “local,” as though it consisted of one or more hard disks present in the server’s own chassis.
+- **Network attached storage (NAS)**<br/> This stand-alone storage system contains one or more virtual volumes. Servers access these volumes over the network using the NFS or Server Message Block/Common Internet File System (SMB/CIFS) protocols, common on Unix and Windows operating systems, respectively.
 
 > **NOTE**
 >
 > In public cloud environments, the physical implementation of storage is an abstraction.
 
-- **Replication**
-  - _Replication_ is an activity whereby data written to a storage system is also copied over a network to another storage system. The result is the presence of up-to-date data that exists on two or more storage systems, each of which could be located in a different geographic region.
+- **Replication**<br/> _Replication_ is an activity whereby data written to a storage system is also copied over a network to another storage system. The result is the presence of up-to-date data that exists on two or more storage systems, each of which could be located in a different geographic region.
 
 Replication can be handled in several ways and at different levels in the technology stack:
 
-- **Disk storage system**
-  - Data-write operations that take place in a disk storage system (such as a SAN or NAS) can be transmitted over a network to another disk storage system, where the same data will be written to the other system.
-- **Operating system**
-  - The operating system can control replication so that updates to a particular file system can be transmitted to another server where those updates will be applied locally on that other server.
-- **Database management system**
-  - The database management system (DBMS) can manage replication by sending transactions to a DBMS on another server.
-- **Transaction management system**
-  - The transaction management system (TMS) can manage replication by sending transactions to a counterpart TMS located elsewhere.
-- **Application**
-  - The application can write its transactions to two different storage systems. This method is not often used.
-- **Virtualization**
-  - Virtual machine images can be replicated to recovery sites to speed the recovery of applications.
+- **Disk storage system**<br/>Data-write operations that take place in a disk storage system (such as a SAN or NAS) can be transmitted over a network to another disk storage system, where the same data will be written to the other system.
+- **Operating system**<br/> The operating system can control replication so that updates to a particular file system can be transmitted to another server where those updates will be applied locally on that other server.
+- **Database management system**<br/> The database management system (DBMS) can manage replication by sending transactions to a DBMS on another server.
+- **Transaction management system**<br/> The transaction management system (TMS) can manage replication by sending transactions to a counterpart TMS located elsewhere.
+- **Application**<br/>The application can write its transactions to two different storage systems. This method is not often used.
+- **Virtualization**<br/> Virtual machine images can be replicated to recovery sites to speed the recovery of applications.
 
 Replication can take place from one system to another system in _primary-backup_ replication. This is the typical setup when data on an application server is sent to a distant storage system for data recovery or disaster recovery purposes.
 
@@ -1029,17 +976,14 @@ Replication can also be bidirectional, between two active servers, called _multi
 
 In terms of the speed and integrity of replicated information, there are two types of replication:
 
-- **Synchronous replication**
-  - Writing data to a local and to a remote storage system is performed as a single operation, guaranteeing that data on the remote storage system is identical to data on the local storage system. Synchronous replication incurs a performance penalty, as the speed of the entire transaction is slowed to the rate of the remote transaction.
-- **Asynchronous replication**
-  - Writing data to the remote storage system is not kept in sync with updates on the local storage system. Instead, there may be a time lag, and you have no guarantee that data on the remote system is identical to data on the local storage system. However, performance is improved, because transactions are considered complete when they have been written to the local storage system only. Bursts of local updates to data will take a finite period to replicate to the remote server, subject to the available bandwidth of the network connection between the local and remote storage systems.
+- **Synchronous replication**<br/>Writing data to a local and to a remote storage system is performed as a single operation, guaranteeing that data on the remote storage system is identical to data on the local storage system. Synchronous replication incurs a performance penalty, as the speed of the entire transaction is slowed to the rate of the remote transaction.
+- **Asynchronous replication**<br/> Writing data to the remote storage system is not kept in sync with updates on the local storage system. Instead, there may be a time lag, and you have no guarantee that data on the remote system is identical to data on the local storage system. However, performance is improved, because transactions are considered complete when they have been written to the local storage system only. Bursts of local updates to data will take a finite period to replicate to the remote server, subject to the available bandwidth of the network connection between the local and remote storage systems.
 
 > **NOTE**
 >
 > Replication is often used for applications where the RTO is smaller than the time necessary to recover data from backup media. For example, if a critical application’s RTO is established to be two hours, then recovery from backup tape is probably not a viable option, even if backups are performed every two hours. While more expensive than recovery from backup media, replication ensures that up-to-date information is present on a remote storage system that can be brought online in a short period.
 
-- **Server Clusters**
-  - A _cluster_ is a collection of two or more servers that appears as a single server resource. Clusters are often the technology of choice for applications that require a high degree of availability and a very small RTO, measured in minutes.
+**Server Clusters**<br/>A _cluster_ is a collection of two or more servers that appears as a single server resource. Clusters are often the technology of choice for applications that require a high degree of availability and a very small RTO, measured in minutes.
 
 When an application is implemented on a cluster, even if one of the servers in the cluster fails, the other server (or servers) in the cluster will continue to run the application, usually with no user awareness that a failure occurred.
 
@@ -1059,15 +1003,12 @@ A server cluster is typically implemented in a single physical location such as 
 
 **Figure 5-35** Geographic cluster with data replication
 
-- **Network Connectivity and Services**
-  - An overall application environment that is required to be resilient and have recoverability must have those characteristics present within the network that supports it. A highly resilient application architecture that includes clustering and replication would be of little value if it had only a single network connection that was a single point of failure.
+**Network Connectivity and Services**<br/>An overall application environment that is required to be resilient and have recoverability must have those characteristics present within the network that supports it. A highly resilient application architecture that includes clustering and replication would be of little value if it had only a single network connection that was a single point of failure.
 
 An application that requires high availability and resilience may require one or more of the following in the supporting network:
 
-- **Redundant network connections**
-  - These may include multiple network adapters on a server, but also a fully redundant network architecture with multiple switches, routers, load balancers, and firewalls. They could also include physically diverse network provider connections, where network service provider feeds enter the building from two different directions.
-- **Redundant network services**
-  - Certain network services are vital to the continued operation of applications, such as DNS (the function of translating server names like [www.mcgraw-hill.com](http://www.mcgraw-hill.com/) into an IP address), NTP (used to synchronize computer time clocks), SMTP, SNMP, authentication services, and perhaps others. These services are usually operated on servers that may require clustering and/or replication of their own so that the application will be able to continue functioning in the event of a disaster.
+- **Redundant network connections**<br/>These may include multiple network adapters on a server, but also a fully redundant network architecture with multiple switches, routers, load balancers, and firewalls. They could also include physically diverse network provider connections, where network service provider feeds enter the building from two different directions.
+- **Redundant network services**<br/> Certain network services are vital to the continued operation of applications, such as DNS (the function of translating server names like [www.mcgraw-hill.com](http://www.mcgraw-hill.com/) into an IP address), NTP (used to synchronize computer time clocks), SMTP, SNMP, authentication services, and perhaps others. These services are usually operated on servers that may require clustering and/or replication of their own so that the application will be able to continue functioning in the event of a disaster.
 
 ##### Developing Recovery Plans
 
@@ -1079,18 +1020,12 @@ The other major component in the DR project is the development of recovery plans
 
 Most DR plans are going to have common components:
 
-- **Disaster declaration procedure**
-  - This needs to include criteria for how a disaster is determined and who has the authority to declare a disaster.
-- **Roles and responsibilities**
-  - DR plans need to specify what activities need to be performed and specify which persons or teams are best equipped to perform them.
-- **Emergency contact lists**
-  - Response personnel need contact information for other personnel so that they may establish and maintain communications as the disaster unfolds and recovery operations begin. These contact lists should include several different ways of contacting personnel, since some disasters have an adverse impact on regional telecommunications infrastructure.
-- **System recovery procedures**
-  - These are the detailed steps for getting recovery systems up and running. These procedures will include a lot of detail describing obtaining data, configuring servers and network devices, confirming that the application and business information is healthy, and starting business applications.
-- **System operations procedures**
-  - These are detailed steps for operating critical IT systems while they are in recovery mode. These detailed procedures are needed because the systems in recovery mode may need to be operated differently from their production counterparts; further, they may need to be operated by personnel who have not been doing this before.
-- **System restoration procedures**
-  - These are the detailed steps to restore IT operations back to the original production systems.
+- **Disaster declaration procedure**<br/> This needs to include criteria for how a disaster is determined and who has the authority to declare a disaster.
+- **Roles and responsibilities**<br/> DR plans need to specify what activities need to be performed and specify which persons or teams are best equipped to perform them.
+- **Emergency contact lists**<br/> Response personnel need contact information for other personnel so that they may establish and maintain communications as the disaster unfolds and recovery operations begin. These contact lists should include several different ways of contacting personnel, since some disasters have an adverse impact on regional telecommunications infrastructure.
+- **System recovery procedures**<br/> These are the detailed steps for getting recovery systems up and running. These procedures will include a lot of detail describing obtaining data, configuring servers and network devices, confirming that the application and business information is healthy, and starting business applications.
+- **System operations procedures**<br/> These are detailed steps for operating critical IT systems while they are in recovery mode. These detailed procedures are needed because the systems in recovery mode may need to be operated differently from their production counterparts; further, they may need to be operated by personnel who have not been doing this before.
+- **System restoration procedures**<br/> These are the detailed steps to restore IT operations back to the original production systems.
 
 > **NOTE**
 >
@@ -1113,13 +1048,12 @@ Disasters and other disruptive events can damage information and information sys
 >
 > Testing backups is important; testing recoverability is critical. In other words, performing backups is only valuable to the extent that backed up data can be recovered at a future time.
 
-- **Backup to Tape and Other Media**
-  - In organizations still utilizing their own IT infrastructure, tape backup is just about as ubiquitous as power cords. From a DR perspective, however, the issue probably is not whether the organization _has_ tape backup, but whether its current backup capabilities are adequate in the context of disaster recovery. An organization’s backup capability may need to be upgraded if
-    - The current backup system is difficult to manage.
-    - Whole-system restoration takes too long.
-    - The system lacks flexibility with regard to DR (for instance, how difficult it would be to recover information onto a different type of system).
-    - The technology is old or outdated.
-    - Confidence in the backup technology is low.
+- **Backup to Tape and Other Media**<br/>In organizations still utilizing their own IT infrastructure, tape backup is just about as ubiquitous as power cords. From a DR perspective, however, the issue probably is not whether the organization _has_ tape backup, but whether its current backup capabilities are adequate in the context of disaster recovery. An organization’s backup capability may need to be upgraded if
+  - The current backup system is difficult to manage.
+  - Whole-system restoration takes too long.
+  - The system lacks flexibility with regard to DR (for instance, how difficult it would be to recover information onto a different type of system).
+  - The technology is old or outdated.
+  - Confidence in the backup technology is low.
 
 Many organizations may consider tape backup as a means for restoring files or databases when errors have occurred, and they may have confidence in their backup system for that purpose. However, the organization may have somewhat less confidence in their backup system and its ability to recover _all_ of their critical systems accurately and in a timely manner.
 
@@ -1132,12 +1066,9 @@ _E-vaulting_ is another viable option for system backup. E-vaulting permits orga
 
 ---
 
-- **Full backup**
-  - This is a complete copy of a data set.
-- **Incremental backup**
-  - This is a copy of all data that has changed since the last full or incremental backup.
-- **Differential backup**
-  - This is a copy of all data that has changed since the last full backup.
+- **Full backup**<br/> This is a complete copy of a data set.
+- **Incremental backup**<br/>This is a copy of all data that has changed since the last full or incremental backup.
+- **Differential backup**<br/>This is a copy of all data that has changed since the last full backup.
 
 The precise nature of the data to be backed up will determine which combination of backup schemes is appropriate for the organization. Some of the considerations for choosing an overall scheme include
 
@@ -1153,10 +1084,7 @@ An organization that is creating a backup scheme usually starts with the most co
 - A more rapid recovery requirement may induce the organization to perform differential backups instead of incremental backups.
 - If a full backup takes a long time to complete, it should probably be performed during times of lower demand or system utilization.
 
----
-
-- **Backup Media Rotation**
-  - Organizations will typically want to retain backup media for as long as possible in order to provide a greater range of choices for data recovery. However, the desire to maintain a large library of backup media will be countered by the high cost of media and the space required to store it. And although legal or statutory requirements may dictate that backup media be kept for some minimum period, the organization may be able to find creative ways to comply with such requirements without retaining several generations of such media.
+**Backup Media Rotation**<br/> Organizations will typically want to retain backup media for as long as possible in order to provide a greater range of choices for data recovery. However, the desire to maintain a large library of backup media will be countered by the high cost of media and the space required to store it. And although legal or statutory requirements may dictate that backup media be kept for some minimum period, the organization may be able to find creative ways to comply with such requirements without retaining several generations of such media.
 
 Some example backup media rotation schemes are discussed here.
 
@@ -1165,8 +1093,7 @@ Some example backup media rotation schemes are discussed here.
 
 The advantage of this scheme is its simplicity. However, there is a significant disadvantage: any corruption of backed up data needs to be discovered quickly (within the period of media rotation), or else no valid set of data can be recovered. Hence, only low-criticality data without any lengthy retention requirements should be backed up using this scheme.
 
-- **Grandfather-Father-Son**
-  - The most common backup media rotation scheme, grandfather-father-son creates a hierarchical set of backup media that provides for greater retention of backed up data that is still economically feasible.
+**Grandfather-Father-Son**<br/>The most common backup media rotation scheme, grandfather-father-son creates a hierarchical set of backup media that provides for greater retention of backed up data that is still economically feasible.
 
 In the most common form of this scheme, full backups are performed once per week and incremental or differential backups are performed daily.
 
@@ -1176,15 +1103,13 @@ Full backup tapes created on Sunday are kept longer. Tapes used on the first Sun
 
 For even longer retention, for example, tapes created on the first Sunday of the first month of each calendar quarter can be retained until the first Sunday of the first month of the next quarter. Backup media can be kept for even longer if needed.
 
-- **Towers of Hanoi**
-  - The Towers of Hanoi backup media retention scheme is complex but results in a more efficient scheme for producing a lengthier retention of some backups. Patterned after the Towers of Hanoi puzzle, the scheme is most easily understood visually, as shown in [Figure 5-36](/images/308b/ch05r21.jpeg) in a five-level scheme.
+**Towers of Hanoi**<br/>The Towers of Hanoi backup media retention scheme is complex but results in a more efficient scheme for producing a lengthier retention of some backups. Patterned after the Towers of Hanoi puzzle, the scheme is most easily understood visually, as shown in [Figure 5-36](/images/308b/ch05r21.jpeg) in a five-level scheme.
 
 ![Images](/images/308b/ch05r21.jpeg)
 
 **Figure 5-36** Towers of Hanoi backup media rotation scheme
 
-- **Backup Media Storage**
-  - Backup media that remains in the same location as backed up systems is adequate for data recovery purposes but completely inadequate for disaster recovery purposes: any event that physically damages information systems (such as fire, smoke, flood, hazardous chemical spill, and so on) is also likely to damage backup media. To provide disaster recovery protection, backup media must be stored off-site in a secure location. Selection of this storage location is as important as the selection of a primary business location: in the event of a disaster, the survival of the organization may depend upon the protection measures in place at the off-site storage location.
+**Backup Media Storage**<br/>Backup media that remains in the same location as backed up systems is adequate for data recovery purposes but completely inadequate for disaster recovery purposes: any event that physically damages information systems (such as fire, smoke, flood, hazardous chemical spill, and so on) is also likely to damage backup media. To provide disaster recovery protection, backup media must be stored off-site in a secure location. Selection of this storage location is as important as the selection of a primary business location: in the event of a disaster, the survival of the organization may depend upon the protection measures in place at the off-site storage location.
 
 > **EXAM TIP**
 >
@@ -1202,8 +1127,7 @@ An important factor when considering off-site media storage is the method of del
 
 Backup media that must be kept on-site should be stored in locked cabinets or storerooms that are separate from the rooms where backups are performed. This will help to preserve backup media if a relatively small fire (or similar event) breaks out in the room containing computers that are backed up.
 
-- **Backup Media Records and Destruction**
-  - To ensure the ability of restoring data from backup media, organizations need to have meticulous records that list all backup volumes in place, where they are located, and which data elements are backed up on them. Without these records, it may prove impossible for an organization to recover data from its backup media library.
+**Backup Media Records and Destruction**<br/> To ensure the ability of restoring data from backup media, organizations need to have meticulous records that list all backup volumes in place, where they are located, and which data elements are backed up on them. Without these records, it may prove impossible for an organization to recover data from its backup media library.
 
 ---
 
@@ -1237,16 +1161,11 @@ Auditing infrastructure and operations requires considerable technical expertise
 
 Auditing hardware requires attention to several key factors and activities, including
 
-- **Standards**
-  - The auditor should examine hardware procurement standards that specify the types of systems the organization uses. These standards should be periodically reviewed and updated. A sample of recent purchases should be examined to determine whether standards are being followed. The scope of this activity should include servers, workstations, network devices, and other hardware used by IT.
-- **Maintenance**
-  - Maintenance requirements and records should be examined to determine whether any required maintenance is being performed. If service contracts are used, these should be examined to ensure that all critical systems are covered.
-- **Capacity**
-  - The auditor should examine capacity management and planning processes, procedures, and records. This will help the auditor to understand whether the organization monitors its systems’ capacity and does any planning for future expansion.
-- **Change management**
-  - Change management processes and records should be examined to determine whether hardware changes are being performed in a life cycle process. All changes that are made should be requested and reviewed in advance, approved by management, and recorded.
-- **Configuration management**
-  - The auditor should examine configuration management records to determine whether the IT organization is tracking the configuration of its systems in a centralized and systematic manner.
+- **Standards**<br/> The auditor should examine hardware procurement standards that specify the types of systems the organization uses. These standards should be periodically reviewed and updated. A sample of recent purchases should be examined to determine whether standards are being followed. The scope of this activity should include servers, workstations, network devices, and other hardware used by IT.
+- **Maintenance**<br/> Maintenance requirements and records should be examined to determine whether any required maintenance is being performed. If service contracts are used, these should be examined to ensure that all critical systems are covered.
+- **Capacity**<br/>The auditor should examine capacity management and planning processes, procedures, and records. This will help the auditor to understand whether the organization monitors its systems’ capacity and does any planning for future expansion.
+- **Change management**<br/>Change management processes and records should be examined to determine whether hardware changes are being performed in a life cycle process. All changes that are made should be requested and reviewed in advance, approved by management, and recorded.
+- **Configuration management**<br/>The auditor should examine configuration management records to determine whether the IT organization is tracking the configuration of its systems in a centralized and systematic manner.
 
 > **NOTE**
 >
@@ -1256,82 +1175,54 @@ Auditing hardware requires attention to several key factors and activities, incl
 
 Auditing operating systems, whether on-premises or cloud-based, requires attention to many different details, including
 
-- **Standards**
-  - The auditor should examine written standards to determine whether they are complete and up-to-date. He or she should then examine a sampling of servers and workstations to ensure that they comply with the organization’s written standards.
-- **Maintenance and support**
-  - Business records should be examined to see whether the operating systems running on servers or workstations are covered by maintenance or support contracts.
-- **Change management**
-  - The auditor should examine operating system change management processes and records to determine whether changes are being performed in a systematic manner. All changes that are made should be requested and reviewed in advance, approved by management, and recorded.
-- **Configuration management**
-  - Operating systems are enormously complex; in all but the smallest organizations, configuration management tools should be used to ensure consistency of configuration among systems. The auditor should examine configuration management processes, tools, and recordkeeping.
-- **Security management**
-  - The auditor should examine security configurations on a sample of servers and workstations and determine whether they are “hardened” or resemble manufacturer default configurations. This determination should be made in light of the relative risk of various selected systems. An examination should include patch management and administrative access.
+- **Standards**<br/>The auditor should examine written standards to determine whether they are complete and up-to-date. He or she should then examine a sampling of servers and workstations to ensure that they comply with the organization’s written standards.
+- **Maintenance and support**<br/>Business records should be examined to see whether the operating systems running on servers or workstations are covered by maintenance or support contracts.
+- **Change management**<br/>The auditor should examine operating system change management processes and records to determine whether changes are being performed in a systematic manner. All changes that are made should be requested and reviewed in advance, approved by management, and recorded.
+- **Configuration management**<br/>Operating systems are enormously complex; in all but the smallest organizations, configuration management tools should be used to ensure consistency of configuration among systems. The auditor should examine configuration management processes, tools, and recordkeeping.
+- **Security management**<br/>The auditor should examine security configurations on a sample of servers and workstations and determine whether they are “hardened” or resemble manufacturer default configurations. This determination should be made in light of the relative risk of various selected systems. An examination should include patch management and administrative access.
 
 #### Auditing File Systems
 
 File systems containing business information must be examined to ensure that they are properly configured. An examination should include
 
-- **Capacity**
-  - File systems must have adequate capacity to store all of the currently required information, plus room for future growth. The auditor should examine any file storage capacity management tools, processes, and records.
-- **Access control**
-  - Files and directories should be accessible only by personnel with a business need. Records of access requests should be examined to see if they correspond to the access permissions observed.
+- **Capacity**<br/>File systems must have adequate capacity to store all of the currently required information, plus room for future growth. The auditor should examine any file storage capacity management tools, processes, and records.
+- **Access control**<br/>Files and directories should be accessible only by personnel with a business need. Records of access requests should be examined to see if they correspond to the access permissions observed.
 
 #### Auditing Database Management Systems
 
 DBMSs are as complex as operating systems. This complexity requires considerable auditor scrutiny in several areas, including
 
-- **Configuration management**
-  - The configuration of DBMSs should be centrally controlled and tracked in larger organizations to ensure consistency among systems. Individual DBMSs and configuration management records should be compared.
-- **Change management**
-  - Databases are used to store not only information, but also software in many cases. The auditor should examine DBMS change management processes and records to determine whether changes are being performed in a consistent, systematic manner. All changes that are made should be requested and reviewed in advance, approved by management, tested, implemented, and recorded. Changes to software should be examined in coordination with an audit of the organization’s software development life cycle.
-- **Capacity management**
-  - The availability and integrity of supported business processes requires sufficient capacity in all underlying databases. The auditor should examine procedures and records related to capacity management to see whether management ensures sufficient capacity for business data.
-- **Access management**
-  - Access controls determine which users and systems are able to access and update data. The auditor should examine access control configurations, access requests, and access logs.
+- **Configuration management**<br/>The configuration of DBMSs should be centrally controlled and tracked in larger organizations to ensure consistency among systems. Individual DBMSs and configuration management records should be compared.
+- **Change management**<br/>Databases are used to store not only information, but also software in many cases. The auditor should examine DBMS change management processes and records to determine whether changes are being performed in a consistent, systematic manner. All changes that are made should be requested and reviewed in advance, approved by management, tested, implemented, and recorded. Changes to software should be examined in coordination with an audit of the organization’s software development life cycle.
+- **Capacity management**<br/>The availability and integrity of supported business processes requires sufficient capacity in all underlying databases. The auditor should examine procedures and records related to capacity management to see whether management ensures sufficient capacity for business data.
+- **Access management**<br/>Access controls determine which users and systems are able to access and update data. The auditor should examine access control configurations, access requests, and access logs.
 
 #### Auditing Network Infrastructure
 
 The IS auditor needs to perform a detailed study of the organization’s network infrastructure and underlying management processes. An auditor’s scrutiny should include
 
-- **Enterprise architecture**
-  - The auditor should examine enterprise architecture documents. There should be overall and detailed schematics and standards.
-- **Network architecture**
-  - The auditor should examine network architecture documents. These should include schematics, topology and design, data flow, routing, and addressing.
-- **Virtual architecture**
-  - The auditor should examine all aspects of network infrastructure that is implemented in public cloud environments.
-- **Security architecture**
-  - Security architecture documents should be examined, including critical and sensitive data flows, network security zones, access control devices and systems, security countermeasures, intrusion detection and prevention systems, firewalls, screening routers, gateways, anti-malware, and security monitoring.
-- **Standards**
-  - The auditor should examine standards documents and determine whether they are reasonable and current. Selected devices and equipment should be examined to see whether they conform to these standards.
-- **Change management**
-  - All changes to network devices and services should be governed by a change management process. The auditor should review change management procedures and records and examine a sample of devices and systems to ensure that changes are being performed according to the change management policy.
-- **Capacity management**
-  - The auditor should determine how the organization measures network capacity, whether capacity management procedures and records exist, and how capacity management affects network operations.
-- **Configuration management**
-  - The auditor should determine whether any configuration management standards, procedures, and records exist and are used. He or she should examine the configuration of a sampling of devices to see whether configurations are consistent from device to device.
-- **Administrative access management**
-  - Access management procedures, records, and configurations should be examined to see whether only authorized persons are able to access and manage network devices and services.
-- **Network components**
-  - The auditor should examine several components and their configuration to determine how well the organization has constructed its network infrastructure to support business objectives.
-- **Log management**
-  - The auditor should determine whether administrative activities performed on network devices and services are logged. He or she should examine the configuration of logs to see if they can be altered. The logs themselves should be examined to determine whether any unauthorized activities are taking place.
-- **User access management**
-  - Often, network-based services provide organization-wide user access controls. The auditor should examine these centralized services to see whether they conform to written security standards. Examination should include user ID convention, password controls, inactivity locking, user account provisioning, user account termination, and password reset procedures.
+- **Enterprise architecture**<br/>The auditor should examine enterprise architecture documents. There should be overall and detailed schematics and standards.
+- **Network architecture**<br/>The auditor should examine network architecture documents. These should include schematics, topology and design, data flow, routing, and addressing.
+- **Virtual architecture**<br/>The auditor should examine all aspects of network infrastructure that is implemented in public cloud environments.
+- **Security architecture**<br/> Security architecture documents should be examined, including critical and sensitive data flows, network security zones, access control devices and systems, security countermeasures, intrusion detection and prevention systems, firewalls, screening routers, gateways, anti-malware, and security monitoring.
+- **Standards**<br/>The auditor should examine standards documents and determine whether they are reasonable and current. Selected devices and equipment should be examined to see whether they conform to these standards.
+- **Change management**<br/>All changes to network devices and services should be governed by a change management process. The auditor should review change management procedures and records and examine a sample of devices and systems to ensure that changes are being performed according to the change management policy.
+- **Capacity management**<br/> The auditor should determine how the organization measures network capacity, whether capacity management procedures and records exist, and how capacity management affects network operations.
+- **Configuration management**<br/>The auditor should determine whether any configuration management standards, procedures, and records exist and are used. He or she should examine the configuration of a sampling of devices to see whether configurations are consistent from device to device.
+- **Administrative access management**<br/> Access management procedures, records, and configurations should be examined to see whether only authorized persons are able to access and manage network devices and services.
+- **Network components**<br/> The auditor should examine several components and their configuration to determine how well the organization has constructed its network infrastructure to support business objectives.
+- **Log management**<br/> The auditor should determine whether administrative activities performed on network devices and services are logged. He or she should examine the configuration of logs to see if they can be altered. The logs themselves should be examined to determine whether any unauthorized activities are taking place.
+- **User access management**<br/> Often, network-based services provide organization-wide user access controls. The auditor should examine these centralized services to see whether they conform to written security standards. Examination should include user ID convention, password controls, inactivity locking, user account provisioning, user account termination, and password reset procedures.
 
 #### Auditing Network Operating Controls
 
 The IS auditor needs to examine network operations to determine whether the organization is operating its network effectively. Examinations should include
 
-- **Network operating procedures**
-  - The auditor should examine procedures for normal activities for all network devices and services. These activities will include login, startup, shutdown, upgrade, and configuration changes.
-- **Restart procedures**
-  - Procedures for restarting the entire network (and portions of it for larger organizations) should exist and be tested periodically. A network restart would be needed in the event of a massive power failure, network failure, or significant upgrade.
-- **Troubleshooting procedures**
-  - The auditor should examine network troubleshooting procedures for all significant network components. Procedures that are specific to the organization’s network help network engineers and analysts quickly locate problems and reduce downtime.
-- **Security controls**
-  - Operational security controls should be examined, including administrator authentication, administrator access control, logging of administrator actions, protection of device configuration data, security configuration reviews, and protection of audit logs.
-- **Change management**
-  - All changes to network components and services should follow a formal change management life cycle, including request, review, approval by management, testing in a separate environment, implementation, verification, and complete recordkeeping. The auditor should examine change management policy, procedures, and records.
+- **Network operating procedures**<br/> The auditor should examine procedures for normal activities for all network devices and services. These activities will include login, startup, shutdown, upgrade, and configuration changes.
+- **Restart procedures**<br/> Procedures for restarting the entire network (and portions of it for larger organizations) should exist and be tested periodically. A network restart would be needed in the event of a massive power failure, network failure, or significant upgrade.
+- **Troubleshooting procedures**<br/>The auditor should examine network troubleshooting procedures for all significant network components. Procedures that are specific to the organization’s network help network engineers and analysts quickly locate problems and reduce downtime.
+- **Security controls**<br/>Operational security controls should be examined, including administrator authentication, administrator access control, logging of administrator actions, protection of device configuration data, security configuration reviews, and protection of audit logs.
+- **Change management**<br/>All changes to network components and services should follow a formal change management life cycle, including request, review, approval by management, testing in a separate environment, implementation, verification, and complete recordkeeping. The auditor should examine change management policy, procedures, and records.
 
 #### Auditing IT Operations
 
@@ -1341,50 +1232,33 @@ Auditing IT operations involves examining the processes used to build, maintain,
 
 The auditor should examine computer operational processes, including
 
-- **System configuration standards**
-  - The auditor should examine configuration standards that specify the detailed configuration settings for each type of system that is used in the organization.
-- **System build procedures**
-  - The auditor should examine the procedures used to install and configure the operating system.
-- **System recovery procedures**
-  - The procedures that are used to recover systems from various types of failures should be examined. Usually, this will include reinstalling and configuring the operating system, restoring software and data from backup, and verifying system recovery.
-- **System update procedures**
-  - The auditor should examine procedures used for making changes to systems, including configuration changes and component upgrades.
-- **Patch management**
-  - The auditor should examine the procedures for receiving security advisories, risk analysis, and decisions regarding when new security patches should be implemented. Procedures should also include testing, implementation, and verification.
-- **Daily tasks**
-  - Daily and weekly operating procedures for systems should be examined, which may include data backup, log review, log file cycling, review of performance logs, and system capacity checks.
-- **Backup and replication**
-  - The auditor should examine procedures and records for file and database backup, backup verification, replication, recovery testing, backup media control and inventory, and off-site media storage.
-- **Media control**
-  - Media control procedures should be examined, which includes backup media retirement procedures, disk media retirement procedures, media custody, and off-site storage.
-- **Monitoring**
-  - Computer monitoring is discussed in detail later in this section.
+- **System configuration standards**<br/>The auditor should examine configuration standards that specify the detailed configuration settings for each type of system that is used in the organization.
+- **System build procedures**<br/>The auditor should examine the procedures used to install and configure the operating system.
+- **System recovery procedures**<br/>The procedures that are used to recover systems from various types of failures should be examined. Usually, this will include reinstalling and configuring the operating system, restoring software and data from backup, and verifying system recovery.
+- **System update procedures**<br/> The auditor should examine procedures used for making changes to systems, including configuration changes and component upgrades.
+- **Patch management**<br/> The auditor should examine the procedures for receiving security advisories, risk analysis, and decisions regarding when new security patches should be implemented. Procedures should also include testing, implementation, and verification.
+- **Daily tasks**<br/>Daily and weekly operating procedures for systems should be examined, which may include data backup, log review, log file cycling, review of performance logs, and system capacity checks.
+- **Backup and replication**<br/>The auditor should examine procedures and records for file and database backup, backup verification, replication, recovery testing, backup media control and inventory, and off-site media storage.
+- **Media control**<br/>Media control procedures should be examined, which includes backup media retirement procedures, disk media retirement procedures, media custody, and off-site storage.
+- **Monitoring**<br/> Computer monitoring is discussed in detail later in this section.
 
 ##### Auditing File Management
 
 The IS auditor should examine file management policies and procedures, including
 
-- **File system standards**
-  - The auditor should examine file system standards that specify file system architecture, directory naming standards, and technical settings that govern disk utilization and performance.
-- **Access controls**
-  - The auditor should examine file system access control policy and procedures, the configuration settings that control which users and processes are able to access directories and files, and log files that record access control events such as permission changes and attempted file accesses, including any procedures followed when such events occur.
-- **Capacity management**
-  - The settings and controls used to manage the capacity of file systems should be examined. This should include logs that show file system utilization, procedures for adding capacity, and records of capacity-related events.
-- **Version control**
-  - In file systems and data repositories that contain documents under version control, the auditor should examine version control configuration settings, file update procedures, and file recovery procedures and records.
+- **File system standards**<br/>The auditor should examine file system standards that specify file system architecture, directory naming standards, and technical settings that govern disk utilization and performance.
+- **Access controls**<br/>The auditor should examine file system access control policy and procedures, the configuration settings that control which users and processes are able to access directories and files, and log files that record access control events such as permission changes and attempted file accesses, including any procedures followed when such events occur.
+- **Capacity management**<br/> The settings and controls used to manage the capacity of file systems should be examined. This should include logs that show file system utilization, procedures for adding capacity, and records of capacity-related events.
+- **Version control**<br/>In file systems and data repositories that contain documents under version control, the auditor should examine version control configuration settings, file update procedures, and file recovery procedures and records.
 
 ##### Auditing Data Entry
 
 The IS auditor should examine data entry standards and operations, including
 
-- **Data entry procedures**
-  - This may include document control, input procedures, and error recovery procedures.
-- **Input verification**
-  - This may include automatic and manual controls used to ensure that data has been entered properly into forms.
-- **Batch verification**
-  - This may include automatic and manual controls used to calculate and verify batches of records that are input.
-- **Correction procedures**
-  - This may include controls and procedures used to correct individual forms and batches when errors occur.
+- **Data entry procedures**<br/>This may include document control, input procedures, and error recovery procedures.
+- **Input verification**<br/>This may include automatic and manual controls used to ensure that data has been entered properly into forms.
+- **Batch verification**<br/>This may include automatic and manual controls used to calculate and verify batches of records that are input.
+- **Correction procedures**<br/>This may include controls and procedures used to correct individual forms and batches when errors occur.
 
 #### Auditing Lights-Out Operations
 
@@ -1399,42 +1273,29 @@ Audit activities of a lights-out operation will fall primarily into the other ca
 
 The auditor should examine the organization’s problem management operations, including
 
-- **Problem management policy and processes**
-  - The auditor should examine policy and procedure documents that describe how problem management is supposed to be performed.
-- **Problem management records**
-  - A sampling of problems and incidents should be examined to determine whether problems are being properly managed.
-- **Problem management timelines**
-  - The time spent on each problem should be examined to see whether resolution falls within the SLA.
-- **Problem management reports**
-  - The auditor should examine management reports to ensure that management is aware of all problems.
-- **Problem resolution**
-  - The auditor should examine a sample of problems to see which ones required changes in other processes. The other process documents should be examined to determine if they were changed. The auditor also should examine records to see if fixes were verified by another party.
-- **Problem recurrence**
-  - The auditor should examine problem records to make sure that the same problems are not coming up over and over again.
+- **Problem management policy and processes**<br/>The auditor should examine policy and procedure documents that describe how problem management is supposed to be performed.
+- **Problem management records**<br/>A sampling of problems and incidents should be examined to determine whether problems are being properly managed.
+- **Problem management timelines**<br/>The time spent on each problem should be examined to see whether resolution falls within the SLA.
+- **Problem management reports**<br/>The auditor should examine management reports to ensure that management is aware of all problems.
+- **Problem resolution**<br/>The auditor should examine a sample of problems to see which ones required changes in other processes. The other process documents should be examined to determine if they were changed. The auditor also should examine records to see if fixes were verified by another party.
+- **Problem recurrence**<br/>The auditor should examine problem records to make sure that the same problems are not coming up over and over again.
 
 #### Auditing Monitoring Operations
 
 The IS auditor needs to audit system monitoring operations to ensure that it is effective, including
 
-- **Monitoring plan**
-  - The auditor should review any monitoring plan documents that describe the organization’s monitoring program, tools, and processes.
-- **Response plans**
-  - The auditor should review response plans, as well as records of responses.
-- **Problem log**
-  - Monitoring problem logs should be reviewed to see what kinds of problems are being recorded. The auditor should determine whether all devices and systems are represented in problem logs.
-- **Preventive maintenance**
-  - The auditor should examine monitoring results, monitoring plan, and preventive maintenance records, and determine whether the level of preventive maintenance is adequate and effective.
-- **Management review and action**
-  - Any monitoring reports, meeting minutes, and decision logs should be examined to see whether management is reviewing monitoring reports and whether management actions are being carried out.
+- **Monitoring plan**<br/> The auditor should review any monitoring plan documents that describe the organization’s monitoring program, tools, and processes.
+- **Response plans**<br/> The auditor should review response plans, as well as records of responses.
+- **Problem log**<br/>Monitoring problem logs should be reviewed to see what kinds of problems are being recorded. The auditor should determine whether all devices and systems are represented in problem logs.
+- **Preventive maintenance**<br/>The auditor should examine monitoring results, monitoring plan, and preventive maintenance records, and determine whether the level of preventive maintenance is adequate and effective.
+- **Management review and action**<br/>Any monitoring reports, meeting minutes, and decision logs should be examined to see whether management is reviewing monitoring reports and whether management actions are being carried out.
 
 #### Auditing Procurement
 
 The auditor should examine hardware, software, and services procurement processes, procedures, and records to determine whether any of the following activities are being performed:
 
-- **Requirements definition**
-  - All stakeholders (both technical and business, as appropriate) need to develop functional, technical, and security requirements. Each requirement needs to be approved and used to apply scrutiny to candidate products and services. Each candidate supplier’s responses need to be scored on their merits regarding their ability to meet requirements. This entire process needs to be transparent and documented. Auditors will need to examine procurement policies, procedures, and records from selected procurement projects.
-- **Feasibility studies**
-  - Many requests for service will require an objective feasibility study that will be designed to identify the economic and business benefits that may be derived from the requested service. Auditors need to examine selected feasibility study documents as well as policy and procedure documents for performing feasibility projects.
+- **Requirements definition**<br/> All stakeholders (both technical and business, as appropriate) need to develop functional, technical, and security requirements. Each requirement needs to be approved and used to apply scrutiny to candidate products and services. Each candidate supplier’s responses need to be scored on their merits regarding their ability to meet requirements. This entire process needs to be transparent and documented. Auditors will need to examine procurement policies, procedures, and records from selected procurement projects.
+- **Feasibility studies**<br/> Many requests for service will require an objective feasibility study that will be designed to identify the economic and business benefits that may be derived from the requested service. Auditors need to examine selected feasibility study documents as well as policy and procedure documents for performing feasibility projects.
 
 #### Auditing Business Continuity Planning
 
