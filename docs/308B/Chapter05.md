@@ -183,12 +183,9 @@ _Configuration management_ (CM) is the process of recording the configuration of
 
 Organizations that have many IT systems may automate the CM function with tools that are used to record and change configuration settings automatically. These tools help to streamline IT operations and make it easier for IT systems to be more consistent with one another. The database of system configurations is called a _configuration management database_ (CMDB).
 
-- **Linkage to Problem and Incident Management**
+**Linkage to Problem and Incident Management**<br/>An intelligent problem and incident management system is able to access the CMDB to help IT personnel determine whether incidents and problems are related to specific configurations. This can be a valuable aid to those who are seeking to determine a problem’s root cause.
 
-  - An intelligent problem and incident management system is able to access the CMDB to help IT personnel determine whether incidents and problems are related to specific configurations. This can be a valuable aid to those who are seeking to determine a problem’s root cause.
-
-- **Linkage to Change Management**
-  - Many configuration management tools are able to detect system configuration changes automatically. With some change and configuration management systems, it is possible to correlate changes detected by a configuration management system with changes approved in the change management process. Further, many changes that are approved by the change management process can be performed by configuration management tools, which can be used to push changes out to managed systems.
+**Linkage to Change Management** <br/>Many configuration management tools are able to detect system configuration changes automatically. With some change and configuration management systems, it is possible to correlate changes detected by a configuration management system with changes approved in the change management process. Further, many changes that are approved by the change management process can be performed by configuration management tools, which can be used to push changes out to managed systems.
 
 ##### Release Management
 
