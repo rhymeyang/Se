@@ -111,10 +111,10 @@ Table I compares the performance of PoW, PoS, and LibraBFT in terms of decentral
 
 #### Table I. Consensus Algorithm Comparison Results
 
-| Evaluation Criteria          | Consensus Algorithm |
-| ---------------------------- | ------------------- | ------- | ------------ |
-|                              | **PoW**             | **PoS** | **LibraBFT** |
-| Degree of decentralization   | high                | high    | low          |
+| Evaluation Criteria          | Consensus Algorithm |-|-|
+| --- | --- | --- | --- |
+| -| **PoW**             | **PoS** | **LibraBFT** |
+| Degree of decentralization   | high | high    | low |
 | Consensus efficiency         | low                 | medium  | high         |
 | The ratio of fault-tolerance | 50                  | 50      | 33           |
 | Resource consumption         | high                | medium  | low          |
