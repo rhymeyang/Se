@@ -66,7 +66,7 @@ export default defineUserConfig({
             { text: "Unit 2 Trends", link: '/304/203_Trends.md' },
             { text: "Unit 2 Risk", link: '/304/204_Risk.md' },
             { text: "Unit 2 Project Monitoring & Controlling", link: '/304/205_Monitoring.md' },
-            
+
           ],
         },
         {
@@ -95,6 +95,8 @@ export default defineUserConfig({
             { text: "Chapter 6 - Infrastructure for Transportation Cyber-Physical Systems", link: '/306/Week06.md' },
             { text: "Chapter 7", link: '/306/Week07.md' },
             { text: "Case 3", link: '/306/Case3.md' },
+            { text: "Discussion 4", link: '/306/Discuss4.md' },
+
           ],
         },
         {
