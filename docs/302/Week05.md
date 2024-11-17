@@ -15,7 +15,7 @@ We live in a world that is getting more interconnected by each day, and we are w
 
 The automotive industry is also a part of this change.
 
-Today’s vehicles have more than 150 small computers, embedded control units (ECUs), and multiple connection points to the Internet which makes them vulnerable to various online threats.
+Today’s vehicles have more than 150 small computers, **embedded control units (ECUs)**, and multiple connection points to the Internet which makes them vulnerable to various online threats.
 
 Recent attacks on connected vehicles have all been results of security vulnerabilities that could have been avoided if appropriate risk assessment methods were in place during software development.
 
@@ -23,13 +23,15 @@ Recent attacks on connected vehicles have all been results of security vulnerabi
 
 The world as we know it is changing and many of the devices we use daily are becoming “smart.”
 
-This buzzword is appearing in everything from smart grids to smart homes with the smart appliances therein.
+This **buzzword** is appearing in everything from smart grids to smart homes with the smart appliances **therein**.
+
+这个**流行词**出现在从智能电网到智能家居的一切事物中，包括其中的智能设备。
 
 The main aspect of these devices is their connection to the Internet, and because of it, previously local vulnerabilities are now widely exposed.
 
 More than 100 embedded ECUs could be integrated in advanced vehicles.
 
-A high-end car may now have more than 100 million lines of code [1], as well as multiple connections to external networks including the Internet.
+A **high-end car** may now have more than 100 million lines of code [1], as well as multiple connections to external networks including the Internet.
 
 All this code has to be properly developed and tested in order to ensure the safety and security of the vehicle. We will refer to these types of cars as connected cars.
 
@@ -39,14 +41,13 @@ There have already been a number of successful cyberattacks on connected vehicle
 
 ### 5.2.1.1 TARA
 
-**The threat agent risk assessment (TARA)** method was developed by security experts from **Intel Security** and is based on three groups of collected data, denoted as libraries:
-
-- **Threat Agent Library (TAL)**
-  - lists all relevant threat agents and their corresponding attributes.
-- **Methods and Objectives Library (MOL)**
-  - lists methods that each threat agent might employ along with a corresponding impact level.
-- **Common Exposure Library (CEL)**
-  - lists areas of the greatest exposure and vulnerability.
+- **The threat agent risk assessment (TARA)** method was developed by security experts from **Intel Security** and is based on three groups of collected data, denoted as libraries:
+  - **Threat Agent Library (TAL)**
+    - lists all relevant threat agents and their corresponding attributes.
+  - **Methods and Objectives Library (MOL)**
+    - lists methods that each threat agent might employ along with a corresponding impact level.
+  - **Common Exposure Library (CEL)**
+    - lists areas of the greatest exposure and vulnerability.
 
 These libraries are populated internally inside a company by their security expert team.
 
@@ -97,7 +98,10 @@ Fig. 5.1 AUTOSAR hardware-independent architecture.
   - Software architecture
   - Software development methodology
   - Standardized application interfaces (APIs).
-- Figure 5.2 shows **the three-layered architecture of the AUTOSAR standard**: **application layer**, **run-time environment (RTE) layer**, and the **basic software (BSW) layer** that consists of four sublayers.
+- Figure 5.2 shows **the three-layered architecture of the AUTOSAR standard**:
+  - **application layer**,
+  - **run-time environment (RTE) layer**, and
+  - the **basic software (BSW) layer** that consists of four sublayers.
 - Each of the sublayers offers different services as shown in Fig. 5.3.
 - The highest layer is the **application layer**, which contains the **software components (SWCs)**.
   - AUTOSAR application (e.g., ABS or the seat heating control) consists of several SWCs, which provide the core functions that are used by the AUTOSAR application.
@@ -116,7 +120,7 @@ Fig. 5.1 AUTOSAR hardware-independent architecture.
 
 #### B. SECURITY FEATURES
 
-- The AUTOSAR standard defines important security mechanisms that are used by the SWCs and other software modules implemented into the vehicle system.
+- The AUTOSAR standard **defines** important **security mechanisms** that are used by the SWCs and other software modules implemented into the vehicle system.
 - It further specifies **interfaces** and **procedures** for ensuring **Secure On-Board Communication** while the rest of the security mechanisms and implementations are left for the OEMs to decide on.
 - OEMs choose the cryptographic algorithms and encryption techniques that they want to implement and use in the vehicle system.
 - The three main security mechanisms in the AUTOSAR are:
@@ -127,12 +131,12 @@ Fig. 5.1 AUTOSAR hardware-independent architecture.
 #### C. CSM AND CAL
 
 - AUTOSAR specifies **two crypto modules**:
-  - The first one is the **Crypto Service Manager (CSM)** which is located in the service layer of the BSW and provides services for higher-level applications.
-    - CSM allows different applications to use the same service to access different cryptographic primitives (cryptographic algorithms).
+  - The first one is the **Crypto Service Manager (CSM)** which is located in the **service layer** of the BSW and provides services for higher-level applications.
+    - CSM allows **different applications** to use the same service to access different **cryptographic primitives** (cryptographic algorithms).
     - One application may need access to an MD5 digest while another application needs to compute a SHA1digest.
-    - This service of the CSM module can be accessed only locally inside that ECU, while any access between different ECUs needs to be specified and implemented as a separate mechanism, as this is not defined by AUTOSAR.
+    - This **service** of the CSM module can be accessed only **locally inside that ECU**, while any access between different ECUs needs to be specified and implemented as a separate mechanism, as this is not defined by AUTOSAR.
   - The second crypto module is the **Crypto Abstraction Layer (CAL)** which is a static library with a very similar function as the CSM.
-    - The library is used to provide cryptographic functionality directly by bypassing the run-time environment (RTE).
+    - The library is used to provide cryptographic functionality directly **by bypassing the run-time environment** (RTE).
 
 ---
 
@@ -152,9 +156,9 @@ Fig. 5.1 AUTOSAR hardware-independent architecture.
 ---
 
 - Fig. 5.5 shows, these two crypto modules are subdivided into two layers: **interface layer** and **implementation layer**.
-- The interface layer is completely standardized by the AUTOSAR while the cryptographic algorithms in the implementation layer are defined by the implementer.
+- The **interface layer** is **completely standardized** by the AUTOSAR while the **cryptographic algorithms** in the implementation layer are defined by the **implementer**.
 - The CSM implementation layer is called **Cryptographic Primitives Module (CRY)** while the implementation layer for CAL is called **Cryptographic Primitives Library (CPL)**.
-- These two modules are used to implement cryptographic algorithms (routines) that will be used by software components (SWCs) in the application layer and modules in the BSW layer.
+- These two modules are used to **implement** cryptographic algorithms (routines) that will be used by software components (SWCs) in the application layer and modules in the BSW layer.
 
 ![image-20241026231413972](/images/302/w0506.png)
 
@@ -183,8 +187,8 @@ Fig. 5.1 AUTOSAR hardware-independent architecture.
 
 ### 5.3.1 Adaptation of TARA
 
-- In order to adapt and apply the TARA method to the automotive industry in general and the connected car in particular, certain modifications were made to the method.
-- The method is intended to be conducted internally inside one single car manufacturer company.
+- In order to **adapt and apply** the TARA method to the automotive industry in general and the connected car in particular, certain modifications were made to the method.
+- The method is intended to be **conducted internally** inside **one single car manufacturer company**.
 - The main reason for this is the **sensitivity** and **confidentiality** of the information that is needed in order to perform the method successfully.
 - The other reason is the knowledge and the experience of the security experts that work for that specific car manufacturer company.
 - These factors are very important in order to get accurate and reliable results.
@@ -193,7 +197,7 @@ Fig. 5.1 AUTOSAR hardware-independent architecture.
 
 ### TAL Library
 
-- This library lists the names of all the threat agents that are relevant to the automotive industry along with their corresponding attributes.
+- This library **lists** the **names** of all the **threat agents** that are relevant to the automotive industry along with their corresponding attributes.
 - The following changes are made compared to the original TAL library [19] provided by Intel.
   - **Ten threat agent profiles** are removed, and **eight new profiles** are added:
     - outward sympathizer,
@@ -210,7 +214,7 @@ Fig. 5.1 AUTOSAR hardware-independent architecture.
 
 ### MOL Library
 
-- This library provides information about threat agent objectives, likely methods they might use, and the impact that their actions would have on the automotive company and the assets in the connected car.
+- This library provides **information** about **threat agent objectives**, likely **methods** they might use, and the **impact** that their actions would have on the automotive company and the assets in the connected car.
 - The following changes were made to reflect the automotive domain:
   - The sections “Acts” and “Limits” are removed and replaced by the **“Method”** section with the following values:
     - theft of PII and business data,
@@ -231,9 +235,9 @@ The main part of the **adaptation** of STRIDE is reflected in the template of th
 
 Each **element** is associated with **a specific list of threats**, and based on **the type of interaction** between the elements in the DFD diagram, the tool generates **a threat report**.
 
-We use the template developed by the NCC Group with some additions due to the higher abstraction level used here; three new elements are added that represent the underlying architecture that is based on the AUTOSAR standard.
+We use the **template** developed by the NCC Group with some additions due to the **higher abstraction level** used here; **three new elements** are added that represent the underlying architecture that is based on the AUTOSAR standard.
 
-The main reason why this method needs to be adapted is because the method itself was created for the computer industry.
+The main reason why this method needs to be **adapted** is because the method itself was **created for the computer industry**.
 
 The MS Threat modeling tool is also intended to model DFD diagrams for environments such as Windows and Linux operating systems or different applications inside these systems (i.e., web applications, client–server environments).
 
@@ -241,41 +245,43 @@ The MS Threat modeling tool is also intended to model DFD diagrams for environme
 
 ### 5.4.1 TARA: Methodology and Tools
 
-1. Measure current threat agent risks.
-2. Distinguish threat agents with elevated risk level.
-3. Derive primary objectives of those threat agents.
-4. Identify methods likely to manifest.
-5. Determine the most important collective exposures.
-6. Align strategy to target the most significant exposures.
+1. **Measure** current threat agent risks.
+2. **Distinguish** threat agents with **elevated risk level**.
+3. **Derive primary objectives** of those threat agents.
+4. **Identify** methods likely to manifest.
+5. **Determine** the most important **collective exposures**.
+6. **Align strategy** to target the most significant exposures.
+
+---
+
+Identify methods that are likely to manifest.确定可能出现的方法。
 
 ### 5.4.1 TARA: Threat Agent Library (TAL)
 
-The following is a list of attributes with a short explanation.
+- The following is a list of attributes with a short explanation.
+  1. **Distinguish** threat agents with **elevated risk level**.
+  2. **Derive primary objectives** of those threat agents.
+  3. **Identify methods** likely to manifest.
+  4. Determine the most important **collective exposures**.
+  5. Align strategy to target the most significant exposures.
 
-1. **Distinguish** threat agents with **elevated risk level**.
-2. **Derive primary objectives** of those threat agents.
-3. **Identify methods** likely to manifest.
-4. Determine the most important **collective exposures**.
-5. Align strategy to target the most significant exposures.
-
-- 十天后,这种病的症状显现出来。
+* 十天后,这种病的症状显现出来。
   - The symptoms of the disease **manifested** themselves ten days later.
 
 ---
 
-The following is a list of attributes with a short explanation.
-
-- **Intent** describes whether the agent’s intent is to cause harm or not.
-- **Access** describes what type of access the agent has to the target:
-  - internal (insider) or
-  - external (no access to internal data or resources).
-- **Outcome** is an attribute that describes the final results of the agent’s actions.
-- **Resource** attribute represents the type of resources the agent has access to.
-- **Skills** attribute describes the level of skill that the agent has.
-- **Motivations** are a newly introduced attribute that explains the motivation behind an action conducted by each of the threat agents.
-- **Visibility** describes the extent to which the agent wants to hide or reveal their identity.
-- **Limits** attribute describes the extent to which the agent would go in order to accomplish their goals.
-- **Objective** describes the **primary action** the agent will take in order to achieve their goal.
+- The following is a list of attributes with a short explanation.
+  - **Intent** describes whether the agent’s intent is to cause harm or not.
+  - **Access** describes what type of access the agent has to the target:
+    - internal (insider) or
+    - external (no access to internal data or resources).
+  - **Outcome** is an attribute that describes the final results of the agent’s actions.
+  - **Resource** attribute represents the type of resources the agent has access to.
+  - **Skills** attribute describes the level of skill that the agent has.
+  - **Motivations** are a newly introduced attribute that explains the motivation behind an action conducted by each of the threat agents.
+  - **Visibility** describes the extent to which the agent wants to hide or reveal their identity.
+  - **Limits** attribute describes the extent to which the agent would go in order to accomplish their goals.
+  - **Objective** describes the **primary action** the agent will take in order to achieve their goal.
 
 ---
 
@@ -305,10 +311,10 @@ The following is a list of attributes with a short explanation.
 
 #### The Interior Light Application
 
-- The application consists of seven different software components (SWCs), such as the light actuator and the door sensor SWC, each providing a specific function for the interior light application.
+- The application consists of seven different software components (SWCs), such as the **light actuator** and the **door sensor** SWC, each providing a specific function for the interior light application.
 - The application receives input data from the sensors (door sensor SWC) that notify the application if the vehicle door is open/closed and if the car trunk is open/closed.
 - After analyzing the input data from the sensors, the application sends signals to the actuators (light actuator SWC) that control the interior light of the vehicle and notifies them if the lights should be turned on/off.
-- The information is exchanged using the CAN network.
+- The information is exchanged using the **CAN network**.
 
 ---
 
@@ -350,30 +356,55 @@ For that reason, additional work had to be conducted in order to successfully ad
   - The former mirrors well the majority of the attacks that have been widely documented and discussed.
   - These were conducted by different researchers and experts that wanted to show how insecure the vehicles really are.
   * The final goal of the researchers was maybe not to get famous and hit the headlines of all news portals in the world, but it was definitely the outcome of their research and as such has to be taken into consideration.
-  - The OBD port is shown to have the highest risk potential, and even though it requires physical access there are some cases where it can be exploited remotely.
-  - It is also the oldest interface in the CEL library and accessing the OBD port gives the attacker almost full access to the CAN network.
+  - The **OBD port** is shown to have the **highest risk potential**, and even though it requires physical access there are some cases where it **can be exploited remotely**.
+  - It is also the oldest interface in the CEL library and accessing the OBD port gives the attacker almost **full access** to the CAN network.
+
+> 1. **Sensationalist** - Likely refers to exaggerated or overly dramatic elements that could pose risks, such as false alarms, sensational news, or misleading information.
+>
+> 2. **OBD port** - Refers to the On-Board Diagnostics port, a common point of vulnerability in vehicles that can be exploited for unauthorized access or attacks.
+>
+> 3. **Sensationalist（夸张或煽动性元素）** - 可能指那些夸大其词或过于戏剧化的内容，例如误报、夸大的新闻或误导性信息，这些可能会带来风险。
+>
+> 4. **OBD 接口（车载诊断接口）** - 指车辆的车载诊断接口，这是一个常见的漏洞点，可能被用于未经授权的访问或攻击。
 
 ---
 
-- Unlike the **TARA method**, **STRIDE** has been used before in the automotive industry.
-- However, the method in this chapter was conducted by using the **MS Threat modeling tool** along with the **template designed** for the automotive industry, and this was not done before.
-- The template used with the MS Threat modeling tool has shown to be very useful and adaptable, where further work may allow this template to be used on even more low-level software applications.
-- The results generated by the tool described in this chapter are maybe not completely comprehensive but they clearly show the extent of vulnerabilities of an AUTOSAR-based software application.
-- Even though the application in question, the vehicle’s interior lights, does not seem like something worth analyzing, one can just imagine driving down the highway in the middle of the night when suddenly the lights in the car start going on/off every second—it could distract the driver or even cause an accident.
+Unlike the **TARA method**, **STRIDE** has been used before in the automotive industry.
+
+However, the method in this chapter was conducted by using the **MS Threat modeling tool** along with the **template designed** for the automotive industry, and this was not done before.
+
+The **template** used with the **MS Threat modeling tool** has shown to be very useful and adaptable, where further work may allow this template to be used on even more low-level software applications.
+
+The results generated by the tool described in this chapter are maybe not completely comprehensive but they clearly show the extent of vulnerabilities of an AUTOSAR-based software application.
+
+Even though the application in question, the vehicle’s interior lights, does not seem like something worth analyzing, one can just imagine driving down the highway in the middle of the night when suddenly the lights in the car start going on/off every second—it could distract the driver or even cause an accident.
 
 ## 4.3 IN-VEHICLE COMMUNICATION
 
-- The in-vehicle communication refers to the intra vehicle communication where all the internal components like telematics, sensors, and actuators communicate with each other using different communication mediums like standard bus system.
-- The in-vehicle communication occurs within the internal vehicle communication network where the ECUs intercommunicate with other electronic subsystems.
-- The ECUs are connected within vehicle bus systems through specialized internal communication networks.
-- Most ECUs are connected to one or more bus networks for monitoring and controlling the vehicles.
-- Some ECUs are connected to external controls, such as digital equipment, infotainment, and navigation systems via a gateway system.
-- The central gateway-based architecture links the entire IVN with a central gateway and provides smooth connectivity between heterogeneous network protocols.
+The in-vehicle communication refers to the **intra vehicle communication** where all the internal components like **telematics**, **sensors**, and **actuators** communicate with each other using different communication mediums like standard bus system.
+
+The in-vehicle communication occurs within the internal vehicle communication network where the **ECUs intercommunicate with other electronic subsystems**.
+
+The ECUs are connected within vehicle bus systems through specialized internal communication networks.
+
+Most ECUs are connected to one or more bus networks for monitoring and controlling the vehicles.
+
+Some ECUs are connected to external controls, such as digital equipment, infotainment, and navigation systems via a gateway system.
+
+The central gateway-based architecture links the entire IVN with a central gateway and provides smooth connectivity between heterogeneous network protocols.
+
+> **IVN** stands for **In-Vehicle Network**. It refers to the interconnected communication systems within a vehicle, which enable different electronic control units (ECUs), sensors, and devices to share data and work together.
+>
+> The **central gateway-based architecture** in an IVN serves as a hub that connects all components of the network. It ensures smooth communication by translating data between different network protocols (e.g., CAN, LIN, FlexRay, Ethernet) that might otherwise be incompatible. This architecture enhances data flow and ensures interoperability within the vehicle's diverse systems.
+>
+> **IVN** 指的是 **车载网络（In-Vehicle Network）**，即车辆内部的互联通信系统，用于使不同的电子控制单元（ECU）、传感器和设备之间能够共享数据并协同工作。
+>
+> 在车载网络中，**基于中央网关的架构** 充当整个网络的枢纽。它通过翻译不同网络协议（如 CAN、LIN、FlexRay、以太网）之间的数据，确保这些原本不兼容的协议之间能够顺畅通信。该架构改善了数据流动性，并确保车辆内部各种系统之间的互操作性。
 
 ## 5.6 CONCLUSION
 
 - In this chapter, we adapted two threat modeling methods from the computer industry in order to better fit the needs of the automotive industry.
-- The next step was to apply these methods to the connected car and the underlying software architecture, which in turn generated valuable results that were carefully validated.
+- The next step was to **apply** these methods to the **connected car and the underlying software architecture**, which in turn generated valuable results that were carefully validated.
 - The entire work was done with the support of domain experts from different companies that have extensive knowledge in this field.
 - **TARA** was used to provide a **high-level overview of threats** in the area of connected vehicles while **STRIDE** was used to **evaluate a specific functionality of the vehicle**.
 - The three libraries created by the TARA method and the template used by the STRIDE method would be a good starting point for any future application.
