@@ -66,7 +66,7 @@ export default defineUserConfig({
             { text: "Unit 2 Trends", link: '/304/203_Trends.md' },
             { text: "Unit 2 Risk", link: '/304/204_Risk.md' },
             { text: "Unit 2 Project Monitoring & Controlling", link: '/304/205_Monitoring.md' },
-
+            { text: "Unit 2 Budgeting", link: '/304/206_Budgeting.md' },
           ],
         },
         {
