@@ -94,6 +94,8 @@ export default defineUserConfig({
             { text: "Week05", link: '/306/Week05.md' },
             { text: "Chapter 6 - Infrastructure for Transportation Cyber-Physical Systems", link: '/306/Week06.md' },
             { text: "Chapter 7", link: '/306/Week07.md' },
+            { text: "Chapter 8", link: '/306/Week08.md' },
+            { text: "Chapter 9", link: '/306/Week09.md' },
             { text: "Case 3", link: '/306/Case3.md' },
             { text: "Discussion 4", link: '/306/Discuss4.md' },
 
