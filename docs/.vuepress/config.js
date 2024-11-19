@@ -113,6 +113,9 @@ export default defineUserConfig({
             { text: "C 4", link: '/308/Week09.md' },
             { text: "C 5", link: '/308/Week10.md' },
             { text: "C 5 Business Resilience", link: '/308/Week11.md' },
+            { text: "C 6", link: '/308/Week12.md' },
+            { text: "C 5", link: '/308/Week13.md' },
+          
           ],
         },
         {
