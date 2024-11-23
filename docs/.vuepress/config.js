@@ -7,6 +7,7 @@ export default defineUserConfig({
   base: '/Se/',
   theme: defaultTheme({
     logo: '/Se/images/logo.png',
+    contributors: false,
     navbar: false,
     sidebar: {
       '/': [
