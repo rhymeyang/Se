@@ -187,9 +187,3 @@ Universities have traditionally taught in single disciplines or in domains in wh
 CPS challenges that approach by requiring curricula that include many disciplines, but to be taught effectively, a transdisciplinary approach-in which every team member has a competent understanding of all relevant disciplines-is needed.
 
 Most importantly, students should develop an holistic view of the system to be engineered and so the degree and masters’ course for TCPS must go beyond the imparting of knowledge only, but develop the outlook and holistic appreciation of the students.
-
-##
-
-##
-
-/images/306/w0910.png

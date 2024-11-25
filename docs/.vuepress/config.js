@@ -6,9 +6,26 @@ export default defineUserConfig({
   bundler: viteBundler(),
   base: '/Se/',
   theme: defaultTheme({
-    logo: '/Se/images/logo.png',
+    logo: '/images/leaf.svg',
     contributors: false,
-    navbar: false,
+    navbar: [
+      {
+        text: 'Vivian',
+        link: '/../vivian/',
+      },
+      {
+        text: 'Recipe',
+        link: '/../recipe/',
+      },
+      {
+        text: 'English',
+        link: '/../english-starter/',
+      },
+      {
+        text: 'Semester 3',
+        link: '/../Se/',
+      }
+    ],
     sidebar: {
       '/': [
         {
@@ -97,6 +114,7 @@ export default defineUserConfig({
             { text: "Chapter 7", link: '/306/Week07.md' },
             { text: "Chapter 8", link: '/306/Week08.md' },
             { text: "Chapter 9", link: '/306/Week09.md' },
+            { text: "Chapter 10", link: '/306/Week10.md' },
             { text: "Case 3", link: '/306/Case3.md' },
             { text: "Discussion 4", link: '/306/Discuss4.md' },
 
