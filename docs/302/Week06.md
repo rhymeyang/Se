@@ -410,5 +410,3 @@ More specifically, this chapter introduces unique features of the cellular V2X b
 In addition, it discusses about the cybersecurity of the intelligent and autonomous vehicles against different types of attack vulnerabilities, hacking, associated risks, their preventions, and solutions along with different types of security and privacy issues and security requirements in connected vehicles.
 
 It also includes trust management issues, homomorphic encryption, and blockchain as a security in V2X communication.
-
-/images/302/w0608.png
