@@ -117,7 +117,7 @@ export default defineUserConfig({
             { text: "Chapter 10", link: '/306/Week10.md' },
             { text: "Case 3", link: '/306/Case3.md' },
             { text: "Discussion 4", link: '/306/Discuss4.md' },
-
+            { text: "Discussion 5", link: '/306/Discuss5.md' },
           ],
         },
         {
