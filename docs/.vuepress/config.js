@@ -18,6 +18,10 @@ export default defineUserConfig({
         link: '/../recipe/',
       },
       {
+        text: 'Tools',
+        link: '/../Tools/',
+      },
+      {
         text: 'English',
         link: '/../english-starter/',
       },
@@ -133,8 +137,8 @@ export default defineUserConfig({
             { text: "C 5", link: '/308/Week10.md' },
             { text: "C 5 Business Resilience", link: '/308/Week11.md' },
             { text: "C 6", link: '/308/Week12.md' },
-            { text: "C 5", link: '/308/Week13.md' },
-          
+            { text: "C 6-2", link: '/308/Week13.md' },
+            { text: "Review", link: '/308/Week14.md' },
           ],
         },
         {
