@@ -317,5 +317,3 @@ We also discussed on how machine learning can be used as a cybersecurity solutio
 We provided few detailed applications of machine learning techniques in IoV.
 
 We also mentioned about the VSN applications and its security issues.
-
-/images/302/w0701.png

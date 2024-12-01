@@ -71,6 +71,7 @@ export default defineUserConfig({
             { text: "Chapter 5 - AUTOSAR Embedded Security in Vehicles", link: '/302/Week05.md' },
             { text: "Chapter 6", link: '/302/Week06.md' },
             { text: "Chapter 7", link: '/302/Week07.md' },
+            { text: "Chapter 8", link: '/302/Week08.md' },
             { text: "How to Write", link: '/302/Writing.md' },
           ],
         },
