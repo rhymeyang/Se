@@ -221,5 +221,3 @@ It has considered infrastructure aspects very slightly and ignored space assets 
 There has been much speculation about the operational structure of future mobility; new structures will undoubtedly arise because of CPS and it is by no means certain that universal structures will emerge.
 
 The research challenges identified herein will be relevant to any future structure; however, the specific implementation of research outputs could be very different, depending on the TCPS models adopted.
-
-/images/306/w1001.png
