@@ -73,6 +73,7 @@ export default defineUserConfig({
             { text: "Chapter 7", link: '/302/Week07.md' },
             { text: "Chapter 8", link: '/302/Week08.md' },
             { text: "How to Write", link: '/302/Writing.md' },
+            { text: "Review 5", link: '/302/Review5.md' },
           ],
         },
         {
