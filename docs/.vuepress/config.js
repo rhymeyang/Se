@@ -144,6 +144,7 @@ export default defineUserConfig({
             { text: "C 6", link: '/308/Week12.md' },
             { text: "C 6-2", link: '/308/Week13.md' },
             { text: "Review", link: '/308/Week14.md' },
+            { text: "Questions", link: '/308/Q.md' },
           ],
         },
         {
