@@ -124,3 +124,10 @@ OSCP（Offensive Security Certified Professional）是一项由 Offensive Securi
 | [CYB408](https://www.stclaircollege.ca/courses/cyb408-automobility-cybersecurity-capstone-project) | Automobility Cybersecurity Capstone Project |    4    |
 
 [View Pre/Co-Requisites for Cybersecurity - Automobility](https://www.stclaircollege.ca/sites/default/files/inline-files/requisites/requisites-cybersecurity-automobility.pdf)
+
+
+## Company
+
+### GATIC
+
+GATIC (General Artificial Intelligence Corporation) 是一家致力于开发自动驾驶和人工智能技术的公司。它的重点是通过基于AI的系统来增强自动驾驶技术的发展。GATIC 的主要项目通常围绕商用自动驾驶车辆和卡车，特别是在货物运输和物流领域。他们专注于短途货运的自动化解决方案，致力于提高运输效率并降低成本。
