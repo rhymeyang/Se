@@ -92,6 +92,8 @@ export default defineUserConfig({
             { text: "Unit 2 Project Monitoring & Controlling", link: '/304/205_Monitoring.md' },
             { text: "Unit 2 Budgeting", link: '/304/206_Budgeting.md' },
             { text: "Unit 2 Closure", link: '/304/207_Closure.md' },
+            { text: "t1", link: '/304/q3.md' },
+            { text: "t2", link: '/304/q4.md' },
           ],
         },
         {
