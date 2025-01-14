@@ -41,6 +41,14 @@ export default defineUserConfig({
           ],
         },
         {
+          text: 'CYB400',
+          collapsable: true,
+          children: [
+            { text: "Chapter 01", link: '/400/01.md' },
+
+          ],
+        },
+        {
           text: 'CYB300 Automobility Cybersecurity Engineering Standards',
           collapsable: true,
           children: [
@@ -92,8 +100,6 @@ export default defineUserConfig({
             { text: "Unit 2 Project Monitoring & Controlling", link: '/304/205_Monitoring.md' },
             { text: "Unit 2 Budgeting", link: '/304/206_Budgeting.md' },
             { text: "Unit 2 Closure", link: '/304/207_Closure.md' },
-            { text: "t1", link: '/304/q3.md' },
-            { text: "t2", link: '/304/q4.md' },
           ],
         },
         {
