@@ -45,7 +45,9 @@ export default defineUserConfig({
           collapsable: true,
           children: [
             { text: "Chapter 01", link: '/400/01.md' },
-
+            { text: "Chapter 02", link: '/400/02.md' },
+            { text: "Chapter 03", link: '/400/03.md' },
+            { text: "Chapter 04", link: '/400/04.md' },
           ],
         },
         {
