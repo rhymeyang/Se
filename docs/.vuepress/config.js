@@ -51,6 +51,14 @@ export default defineUserConfig({
           ],
         },
         {
+          text: 'CYB406',
+          collapsable: true,
+          children: [
+            { text: "lab 01", link: '/406/01.md' },
+            
+          ],
+        },
+        {
           text: 'CYB300 Automobility Cybersecurity Engineering Standards',
           collapsable: true,
           children: [
