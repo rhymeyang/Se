@@ -55,7 +55,7 @@ export default defineUserConfig({
           collapsable: true,
           children: [
             { text: "lab 01", link: '/406/01.md' },
-            
+            { text: "lab 02", link: '/406/02.md' },
           ],
         },
         {
