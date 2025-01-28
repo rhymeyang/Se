@@ -48,6 +48,7 @@ export default defineUserConfig({
             { text: "Chapter 02", link: '/400/02.md' },
             { text: "Chapter 03", link: '/400/03.md' },
             { text: "Chapter 04", link: '/400/04.md' },
+            { text: "Project 01", link: '/400/project/01.md' },
           ],
         },
         {
