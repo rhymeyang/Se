@@ -52,6 +52,13 @@ export default defineUserConfig({
           ],
         },
         {
+          text: 'CYB402',
+          collapsable: true,
+          children: [
+            { text: "lab", link: '/402/lab.md' },
+          ],
+        },
+        {
           text: 'CYB406',
           collapsable: true,
           children: [
