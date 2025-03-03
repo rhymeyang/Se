@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app-CiAdl-h-.js";const c={};function r(o,n){return a(),t("div")}const s=e(c,[["render",r],["__file","06.html.vue"]]),l=JSON.parse('{"path":"/406/06.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1740971886000},"filePathRelative":"406/06.md"}');export{s as comp,l as data};
