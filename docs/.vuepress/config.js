@@ -65,6 +65,9 @@ export default defineUserConfig({
             { text: "lab 01", link: '/406/01.md' },
             { text: "lab 02", link: '/406/02.md' },
             { text: "lab 03", link: '/406/03.md' },
+            { text: "lab 04", link: '/406/04.md' },
+            { text: "lab 05", link: '/406/05.md' },
+            { text: "lab 06", link: '/406/06.md' },
           ],
         },
         {
