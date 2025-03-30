@@ -56,6 +56,7 @@ export default defineUserConfig({
           collapsable: true,
           children: [
             { text: "lab", link: '/402/lab.md' },
+            {text: "essay", link: '/402/AODV_in_VANETs_Analysis.md'}
           ],
         },
         {
