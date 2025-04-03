@@ -37,6 +37,14 @@
 6. Certificate of Cloud Security Knowledge (CCSK)
 7. GIAC Cloud Security Automation (GCSA)
 
+## Free Certification
+
+- [SC - Qualys](https://www.qualys.com/)
+- [ISC2](https://www.isc2.org/)
+- [Fortinet](https://www.fortinet.com/)
+- [cyberark](https://www.cyberark.com/)
+- microsoft azure free certification
+
 ## OSCP
 
 OSCP（Offensive Security Certified Professional）是一项由 Offensive Security 提供的著名信息安全认证，专注于渗透测试技能。该认证课程和考试旨在测试考生的实战技能和知识，通过模拟真实环境中的渗透测试挑战考生的能力。以下是 OSCP 的主要内容和特点：
@@ -125,9 +133,8 @@ OSCP（Offensive Security Certified Professional）是一项由 Offensive Securi
 
 [View Pre/Co-Requisites for Cybersecurity - Automobility](https://www.stclaircollege.ca/sites/default/files/inline-files/requisites/requisites-cybersecurity-automobility.pdf)
 
-
 ## Company
 
 ### GATIC
 
-GATIC (General Artificial Intelligence Corporation) 是一家致力于开发自动驾驶和人工智能技术的公司。它的重点是通过基于AI的系统来增强自动驾驶技术的发展。GATIC 的主要项目通常围绕商用自动驾驶车辆和卡车，特别是在货物运输和物流领域。他们专注于短途货运的自动化解决方案，致力于提高运输效率并降低成本。
+GATIC (General Artificial Intelligence Corporation) 是一家致力于开发自动驾驶和人工智能技术的公司。它的重点是通过基于 AI 的系统来增强自动驾驶技术的发展。GATIC 的主要项目通常围绕商用自动驾驶车辆和卡车，特别是在货物运输和物流领域。他们专注于短途货运的自动化解决方案，致力于提高运输效率并降低成本。

@@ -1,4 +1,6 @@
 ## Individual Protocol Study/Research Power Point Presentation and Report
+https://www.mingw-w64.org/downloads/
+
 
 1. Students must have to select a protocol or any topic in Wireless Networking (i.e. V2X, WiFi, VANET, Ad hoc Network, NFC, BLE etc.). Let me know if you have questions. I can address your questions in the class.
    - Example protocols: IEEE802.11 MAC, AODV (Ad Hoc On-demand Distance Vector), DSR (Dynamic Source Routing), ESFRA (Extended Sliding Frame Reservation Aloha), Reservation Aloha, Aloha, Dijkstra's algorithm, etc.
