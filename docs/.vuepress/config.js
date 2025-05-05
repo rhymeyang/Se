@@ -71,6 +71,17 @@ export default defineUserConfig({
           ],
         },
         {
+          text: 'CyberDefense Pro - 4.0 System and Network Architecture',
+          collapsable: true,
+          children: [
+            '/CyberDefensePro/4.1.md',
+            '/CyberDefensePro/4.2.md',
+            '/CyberDefensePro/4.3.md',
+            '/CyberDefensePro/4.4.md',
+            '/CyberDefensePro/4.5.md',
+          ],
+        },
+        {
           text: 'CYB400',
           collapsable: true,
           children: [
