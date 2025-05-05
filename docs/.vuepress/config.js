@@ -40,11 +40,34 @@ export default defineUserConfig({
             { text: "Block Chain", link: '/com/BlockChain.md' },
           ],
         },
+
         {
-          text: 'CyberDefense Pro',
+          text: 'CyberDefense Pro - 1.0 Introduction',
           collapsable: true,
           children: [
             '/CyberDefensePro/1.0.md',
+          ],
+        },
+        {
+          text: 'CyberDefense Pro - 2.0 Vulnerability Response, Handling, and Management',
+          collapsable: true,
+          children: [
+            '/CyberDefensePro/2.1.md',
+            '/CyberDefensePro/2.2.md',
+            '/CyberDefensePro/2.3.md',
+            '/CyberDefensePro/2.4.md',
+            '/CyberDefensePro/2.5.md',
+            '/CyberDefensePro/2.6.md',
+          ],
+        },
+        {
+          text: 'CyberDefense Pro - 3.0 Threat Intelligence and Threat Hunting',
+          collapsable: true,
+          children: [
+            '/CyberDefensePro/3.1.md',
+            '/CyberDefensePro/3.2.md',
+            '/CyberDefensePro/3.3.md',
+            '/CyberDefensePro/3.4.md',
           ],
         },
         {
