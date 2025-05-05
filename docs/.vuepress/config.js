@@ -41,6 +41,13 @@ export default defineUserConfig({
           ],
         },
         {
+          text: 'CyberDefense Pro',
+          collapsable: true,
+          children: [
+            '/CyberDefensePro/1.0.md',
+          ],
+        },
+        {
           text: 'CYB400',
           collapsable: true,
           children: [
@@ -56,7 +63,7 @@ export default defineUserConfig({
           collapsable: true,
           children: [
             { text: "lab", link: '/402/lab.md' },
-            {text: "essay", link: '/402/AODV_in_VANETs_Analysis.md'}
+            { text: "essay", link: '/402/AODV_in_VANETs_Analysis.md' }
           ],
         },
         {
