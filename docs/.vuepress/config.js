@@ -80,6 +80,17 @@ export default defineUserConfig({
             '/CyberDefensePro/4.4.md',
             '/CyberDefensePro/4.5.md',
           ],
+        },{
+          text: 'CyberDefense Pro - 5.0 Vulnerability Assessments',
+          collapsable: true,
+          children: [
+            '/CyberDefensePro/5.1.md',
+            '/CyberDefensePro/5.2.md',
+            '/CyberDefensePro/5.3.md',
+            '/CyberDefensePro/5.4.md',
+            '/CyberDefensePro/5.5.md',
+            '/CyberDefensePro/5.6.md',
+          ],
         },
         {
           text: 'CYB400',
