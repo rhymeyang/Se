@@ -80,7 +80,8 @@ export default defineUserConfig({
             '/CyberDefensePro/4.4.md',
             '/CyberDefensePro/4.5.md',
           ],
-        },{
+        },
+        {
           text: 'CyberDefense Pro - 5.0 Vulnerability Assessments',
           collapsable: true,
           children: [
@@ -90,6 +91,35 @@ export default defineUserConfig({
             '/CyberDefensePro/5.4.md',
             '/CyberDefensePro/5.5.md',
             '/CyberDefensePro/5.6.md',
+          ],
+        },
+        {
+          text: 'CyberDefense Pro - 6.0 Network Security',
+          collapsable: true,
+          children: [
+            '/CyberDefensePro/6.1.md',
+            '/CyberDefensePro/6.2.md',
+            '/CyberDefensePro/6.3.md',
+            '/CyberDefensePro/6.4.md',
+            '/CyberDefensePro/6.5.md',
+            '/CyberDefensePro/6.6.md',
+            '/CyberDefensePro/6.7.md',
+            '/CyberDefensePro/6.8.md',
+            '/CyberDefensePro/6.9.md',
+            '/CyberDefensePro/6.10.md',
+          ],
+        },
+        {
+          text: 'CyberDefense Pro - 7.0 Host-Based Attacks',
+          collapsable: true,
+          children: [
+            '/CyberDefensePro/7.1.md',
+            '/CyberDefensePro/7.2.md',
+            '/CyberDefensePro/7.3.md',
+            '/CyberDefensePro/7.4.md',
+            '/CyberDefensePro/7.5.md',
+            '/CyberDefensePro/7.6.md',
+            '/CyberDefensePro/7.7.md',
           ],
         },
         {
