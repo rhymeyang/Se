@@ -14612,4 +14612,4441 @@ description: some description
 
 ### Q
 
+### R
 
+<table cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+  <td>
+    <div>RADIUS (Remote Authentication Dial-in User Service)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        RADIUS (Remote Authentication Dial-In User Service) is
+        primarily used for pre-authenticating remote clients before
+        access to the network is granted. RADIUS maintains client
+        profiles in a centralized database. It offloads the
+        authentication burden for dial-in users from the normal
+        authentication of local network clients. For environments
+        with a large number of dial-in clients, RADIUS provides
+        improved security, easier administration, improved logging,
+        and less-performance impact on LAN security systems.
+      </p>
+      <p>
+        The primary benefit of RADIUS (Remote Authentication Dial-In
+        User Service) can be summarized as
+        <i class="fs-italicize">centralized</i>. RADIUS is a
+        centralized database of user access profiles. User access
+        profiles determine the rules and restrictions dial-in users
+        must comply with to establish a dial-up link to the network.
+        Only after satisfying the criteria enforced by RADIUS is a
+        remote client granted access to the network.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>RAID (Redundant Array of Inexpensive Disks)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A method of categorizing the use of multiple disks to
+        provide performance enhancement and/or fault tolerance.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>RARP (Reverse Address Resolution Protocol)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        With a given host name, the RARP request will discover the
+        IP address on a network.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>RAS (Remote Access Service)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A Windows NT service that you install on one of your
+        network's servers to allow clients to access your network
+        remotely. The RAS software can manage up to 256 simultaneous
+        remote connections.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>RCONSOLE</div></td>
+  <td>
+    <div>
+      <p>
+        A GSNW or CSNW utility that allows you to view and perform
+        console functions on a remote NetWare system console.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>RDISK</div></td>
+  <td>
+    <div>
+      <p>
+        A Windows utility that you can use to restore the hard disk
+        configuration and to update a Emergency Repair Disk.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Reciprocal replication</div></td>
+  <td>
+    <div>
+      <p>
+        The process of a domain controller pulling updates from its
+        replication partner as well as pushing updates to its
+        replication partner. In comparison, each replication partner
+        typically pulls updates from its partner.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Recomputation</div></td>
+  <td>
+    <div>
+      <p>
+        Recomputation is the process of a router comparing routes in
+        search for a new successor route. Recomputation occurs when
+        a successor route to a destination goes down and there are
+        no feasible successors for the destination.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Record</div></td>
+  <td>
+    <div>
+      <p>An entry in a DNS name server is known as a record.</p>
+      <p>
+        In SQL Server, a record is a set of related fields (columns)
+        of data joined as a unit. In a SQL database, it is more
+        common to talk about rows and columns than records and
+        fields.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Recursive query</div></td>
+  <td>
+    <div>
+      <p>
+        In a recursive query, a name server uses its own resources
+        to resolve the request. A client sends a name resolution
+        request to a server. If it has the information, it sends the
+        results back to the client. If it does not have the
+        information, it passes the request to another server. A
+        server can answer a recursive request with either the
+        requested information or an error message. It cannot refer
+        the client to another server.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Redirector</div></td>
+  <td>
+    <div>
+      <p>
+        A file system driver that receives I/O requests for network
+        resources and send the requests into the network. For
+        example, a redirector redirects print jobs away from the
+        client computer's printer port and out to the network.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Reduced Instruction Set Computing (RISC)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A RISC computer has a microprocessor that performs a small
+        subset of instructions. This lets it process data more
+        quickly.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Redundancy</div></td>
+  <td>
+    <div>
+      <p>
+        Redundancy is the implementation of
+        <font size="-1"
+          >one or more backup components that perform duplicate
+          functions. Redundancy:</font
+        >
+      </p>
+      <ul>
+        <li>
+          <font size="-1">Improves system performance.</font>
+        </li>
+        <li>
+          <font size="-1"
+            >Allows a system to keep functioning normally in the
+            event of a component failure</font
+          >.
+        </li>
+        <li>Increases fault tolerance.</li>
+      </ul>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Redundant Array of Inexpensive Disks (RAID)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A method of categorizing the use of multiple disks to
+        provide performance enhancement and/or fault tolerance.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>REG_</div></td>
+  <td>
+    <div>
+      <p>
+        Prefix for Registry data types REG_BINARY, REG_DWORD,
+        REG_EXPAND_SZ, REG_MULTI_SZ, AND REG_SZ.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Registry</div></td>
+  <td>
+    <div>
+      <p>
+        A unified database in which Windows 2000 stores all hardware
+        and software configuration information for the local
+        computers.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Registry Editor</div></td>
+  <td>
+    <div>
+      <p>
+        A Windows utility you can use to display, troubleshoot, and
+        manually edit the contents of the registry.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Regular area</div></td>
+  <td>
+    <div>
+      <p>
+        A regular area (also known as nonbackbone area)does not
+        allow traffic to pass through it. The regular area's primary
+        function is to connect users and resources.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Rehoming</div></td>
+  <td>
+    <div>
+      <p>
+        Rehoming is the process of moving a public folder from one
+        server to another.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Relational database</div></td>
+  <td>
+    <div>
+      <p>
+        A collection of units of data stored in tables that
+        represent a group of objects (for example, Empoyees,
+        Products, or Customers). Columns in a table represent an
+        attribute of the object (for example, an attribute of an
+        Employee might be LastName, or an attribute of a Product
+        might be shipping weight). Each row in a table represents a
+        single instance of that kind of object (for example, the
+        employee name Jane Smith or the part number 3Y557). Data
+        from one table can be used to find related data in another.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Relational database management system (RDBMS)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        Software used to store, update, and retrieve data. It has a
+        client/server architecture, stores data in tables with rows
+        (records) and columns (fields), defines and enforces
+        relationships among data items, and uses some version of
+        Structured Query Language (SQL).
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Relay domain</div></td>
+  <td>
+    <div>
+      <p>
+        A relay domain is a domain for which a server accepts mail
+        but is not authoritative.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Reliable Transport Protocol (RTP)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        Reliable Transport Protocol (RTP) is used by EIGRP to
+        deliver packets to neighboring routers in a guaranteed,
+        ordered manner. RTP:
+      </p>
+      <ul>
+        <li>
+          Supports intermixed transmission of unicast or multicast
+          packets.
+        </li>
+        <li>Only reliably sends certain EIGRP packets.</li>
+        <li>
+          Sends hello packets that contain an indicator as to
+          whether or not the packet needs to be acknowledged by the
+          recipient.
+        </li>
+        <li>
+          Ensures low convergence time by sending packets even when
+          unacknowledged packets are pending.
+        </li>
+      </ul>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Remote access</div></td>
+  <td>
+    <div>
+      <p>
+        In a broad sense, remote access is access to a local area
+        network from home or some other place that is not directly
+        connected to the LAN. More specifically, remote access is
+        remote networking for mobile workers or system
+        administrators who manage servers at multiple location.
+        Windows 2000 and Network and Dial-up Connections let users
+        access networks remotely for such services as file and
+        printer sharing, electronic mail, and database access.
+        Remote access is part of the integrated Routing and Remote
+        Access service.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Remote Access Admin</div></td>
+  <td>
+    <div>
+      <p>
+        An Windows NT utility used to configure a RAS server. This
+        utility can also be used to start a RAS server.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Remote Access Service (RAS)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A Windows NT service that you install on one of your
+        network's servers to allow clients to access your network
+        remotely. The RAS software can manage up to 256 simultaneous
+        remote connections.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Remote Authentication Dial-in User Service (RADIUS)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        RADIUS (Remote Authentication Dial-In User Service) is
+        primarily used for pre-authenticating remote clients before
+        access to the network is granted. RADIUS maintains client
+        profiles in a centralized database. It offloads the
+        authentication burden for dial-in users from the normal
+        authentication of local network clients. For environments
+        with a large number of dial-in clients, RADIUS provides
+        improved security, easier administration, improved logging,
+        and less-performance impact on LAN security systems.
+      </p>
+      <p>
+        The primary benefit of RADIUS (Remote Authentication Dial-In
+        User Service) can be summarized as
+        <i class="fs-italicize">centralized</i>. RADIUS is a
+        centralized database of user access profiles. User access
+        profiles determine the rules and restrictions dial-in users
+        must comply with to establish a dial-up link to the network.
+        Only after satisfying the criteria enforced by RADIUS is a
+        remote client granted access to the network.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Remote delivery queue</div></td>
+  <td>
+    <div>
+      <p>
+        Remote delivery queues hold messages that will be delivered
+        using SMTP to recipient mailboxes that reside on remote
+        servers in Exchange 2007. Each remote delivery queue holds
+        messages that are routed to recipients with the same
+        delivery destination. Each time multiple recipients have the
+        same delivery destination, a remote delivery queue is
+        dynamically created. Once the messages have been
+        successfully delivered, the queue expires and is
+        automatically deleted three minutes later.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Remote Execution (REXEC)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A Windows utility that lets you run a process on a remote
+        computer.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Remote network backup</div></td>
+  <td>
+    <div>
+      <p>
+        A backup method that uses a tape drive installed on a single
+        server or workstation to back up data other servers and
+        computers connected to the network. This method backs up the
+        registry on the computer attached to the tape drive, but not
+        the registries of the other computers.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Remote Procedure Call (RPC)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        Remote Procedure Calls are based on a client/server model in
+        which one server runs processes on another server. Both
+        servers assume the calls are local, when in reality they run
+        over LAN connections and through software libraries on both
+        servers.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Remote Shell (RSH)</div></td>
+  <td>
+    <div>
+      <p>
+        A Windows NT utility that lets you run commands on a UNIX
+        host.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Rendezvous Point (RP)</div></td>
+  <td>
+    <div>
+      <p>
+        A Rendezvous Point (RP) is a temporary connection between a
+        multicast receiver and an existing shared multicast tree.
+        When a volume of traffic crosses a threshold, the receiver
+        is joined to a source-specific tree, and the feed through
+        the RP is dropped.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Repadmin.exe</div></td>
+  <td>
+    <div>
+      <p>
+        A command-line Windows 2000 support tool that lets you
+        perform replication-related tasks.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Repeater</div></td>
+  <td>
+    <div>
+      <p>
+        A device that reamplifies packets sent on a network. A
+        repeater provides additional distance on a network by
+        reamplifying packets and sending them on.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Replica</div></td>
+  <td>
+    <div>
+      <p>
+        A copy of the data in a directory partition or shared
+        folder.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Replicated update</div></td>
+  <td>
+    <div>
+      <p>
+        An update to the Active Directory update that is made
+        through replication. For example, if BSmith's password is
+        changed on Server1 then replicated to Server2, the
+        replicated update was made on Server1.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Replication</div></td>
+  <td>
+    <div>
+      <p>
+        A process by which a collection data is copied to one or
+        more computers in order to create synchronized sets of data.
+        Changes to Active Directory, for example, are regularly
+        replicated to all domain controllers in a forest.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Replication latency</div></td>
+  <td>
+    <div>
+      <p>
+        The time period between when a change is made to a server's
+        directory and when that change appears on other servers in
+        the same site. It is usually 5 minutes.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Replication Monitor</div></td>
+  <td>
+    <div>
+      <p>
+        Replmon.exe. A graphical Windows 2000 support tool that lets
+        you monitor the replication process and perform
+        replication-related tasks.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Replication partner</div></td>
+  <td>
+    <div>
+      <p>
+        One of two domain controllers that exchange updated
+        information.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Replication topology</div></td>
+  <td>
+    <div>
+      <p>
+        The series of connections over which replication takes
+        place.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Replicator</div></td>
+  <td>
+    <div>
+      <p>
+        A local group used by the Directory Replicator service. This
+        group is not used for administration.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Request for Comment (RFC)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A series of documents regarding TCP/IP standards. RFCs
+        describe the internal workings and processes of the
+        Internet. TCP/IP standards, however, are developed by
+        consensus. Member of the Internet Society can submit a
+        document to be published as an RFC. After submittal, the
+        document is reviewed for technical accuracy and assigned a
+        classification. There are five classifications of RFCs,
+        including Required, Recommended, Elective, Limited Use, Not
+        Recommended. If a document is being considered as a
+        standard, it goes through stages known as maturity levels.
+        These levels include proposed standard, draft standard, and
+        Internet standard.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Reservation</div></td>
+  <td>
+    <div>
+      <p>
+        A specific IP address permanently set aside for use by a
+        specific DHCP client. Addresses are reserved in the DHCP
+        database by using DHCP Manager. Each reserved address is
+        associated with a unique client device identifier.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Resolver</div></td>
+  <td>
+    <div>
+      <p>
+        A client computer running DNS that queries a DNS server on
+        the network for name resolution.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Resource</div></td>
+  <td>
+    <div>
+      <p>
+        Any network service, such as file and print are resources.
+        Microsoft provides many resource types, including DHCP
+        server, file shares, print spooler, and so on.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Resource mailboxes</div></td>
+  <td>
+    <div>
+      <p>
+        Resource mailboxes are used to manage meeting rooms,
+        projectors, and additional facilities in Exchange 2007. When
+        a resource mailbox is created, a disabled user account is
+        created for the mailbox. Rights are then designated to a
+        user who will manage the resource mailbox, or rules are
+        created for the mailbox so it can manage itself.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Resource records</div></td>
+  <td>
+    <div>
+      <p>
+        A DNS record that is to be placed in the name service. Using
+        the DNS Manager, you can configure new host records and new
+        resource records.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Retransmit Time-Out (RTO)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        Retransmit Time-Out (RTO) is the amount of time in
+        milliseconds that a router will wait for an acknowledgement
+        before sending a reliable packet to a neighbor from the
+        retransmission queue.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Reverse Address Resolution Protocol (RARP)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        With a given host name, the RARP request will discover the
+        IP address on a network.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Reverse lookup</div></td>
+  <td>
+    <div>
+      <p>
+        A lookup capability provided by DNS that allows a resolver
+        to provide an IP address and request a matching host name.
+        Some applications provide the ability to implement security
+        based on connecting host names. When a request is made to
+        access a particular application, the application can contact
+        the DNS server and do a reverse lookup on the client's IP
+        address. If the host name returned by the DNS server is not
+        in the access list for the NFS volume, or if the host name
+        was not found in DNS, then the request would be denied.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Reverse Path Forwarding (RPF)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        Reverse Path Forwarding (RPF) routes traffic away from the
+        source rather than to the receiver.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>REXEC (Remote Execution)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A Windows utility that lets you run a process on a remote
+        computer.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>RFC (Request for Comment)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A series of documents regarding TCP/IP standards. RFCs
+        describe the internal workings and processes of the
+        Internet. TCP/IP standards, however, are developed by
+        consensus. Member of the Internet Society can submit a
+        document to be published as an RFC. After submittal, the
+        document is reviewed for technical accuracy and assigned a
+        classification. There are five classifications of RFCs,
+        including Required, Recommended, Elective, Limited Use, Not
+        Recommended. If a document is being considered as a
+        standard, it goes through stages known as maturity levels.
+        These levels include proposed standard, draft standard, and
+        Internet standard.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>RFC editor</div></td>
+  <td>
+    <div>
+      <p>
+        A person who has the responsibility to review an RFC
+        submitted for publication and assign a classification to the
+        document. See RFC for information on classifications and
+        maturity levels for RFCs.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Rights</div></td>
+  <td>
+    <div>
+      <p>
+        Rights allow you to carry out specific tasks in Windows
+        2000. For example, with Backup Operator, you can back up and
+        restore user and system state data on a Windows 2000
+        computer.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Ring</div></td>
+  <td>
+    <div>
+      <p>
+        A ring topology connects neighboring nodes until they form a
+        ring. Signals travel in one direction around the ring. In
+        ring topologies, each device on the network acts as a
+        repeater to send the signal to the next device. With a ring:
+      </p>
+      <ul>
+        <li>
+          Installation requires careful planning to create a
+          continuous ring.
+        </li>
+        <li>
+          Isolating problems can require going to several physical
+          locations along the ring.
+        </li>
+        <li>
+          A malfunctioning node or cable break can prevent signals
+          from reaching nodes further along on the ring.
+        </li>
+      </ul>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Ring wrapping</div></td>
+  <td>
+    <div>
+      <p>
+        A technique for rerouting data on an FDDI ring network to a
+        secondary ring to prevent a break in the network from
+        interrupting network service. Also referred to as dual
+        counter-rotating rings.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>RIP (Routing Information Protocol)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A protocol that allows a router to communicate routing
+        information to another router on the network.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>RIPX (Routing Information Protocol over IPX)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A protocol that routers use to exchange information between
+        other routers on an IPX network and that hosts use to decide
+        on the best route when forwarding remote IPX traffic.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>RISC (Reduced Instruction Set Computing)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A RISC computer has a microprocessor that performs a small
+        subset of instructions. This lets it process data more
+        quickly.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Roaming user profile</div></td>
+  <td>
+    <div>
+      <p>
+        A user profile located on the server but downloaded to the
+        local computer when the user logs on. Changes to the profile
+        are saved both locally and on the server when the user logs
+        off.
+      </p>
+      <p>
+        Roaming user profiles are convenient for users that move
+        from location to location and use different computers, but
+        want to keep the same desktop. The profile defines their
+        desktop and will be downloaded to the computer when the user
+        logs in.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Robot</div></td>
+  <td>
+    <div>
+      <p>
+        A program that explores links inside and outside a Web site.
+        Also called a spider.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Rogue DHCP Server</div></td>
+  <td>
+    <div>
+      <p>
+        A rogue DHCP server is an unauthorized DHCP server on the
+        network.
+      </p>
+      <p>&nbsp;</p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Root authority</div></td>
+  <td>
+    <div>
+      <p>
+        A certification authority that has no higher authority to
+        vouch for it. The root authority is at the top of a
+        certification hierarchy.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Root certificate</div></td>
+  <td>
+    <div>
+      <p>
+        A certificate that is digitally signed by the authority that
+        issued it. This occurs when the issuing authority is the
+        root authority and there is no higher authority to verify
+        the certificate.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Root directory</div></td>
+  <td>
+    <div>
+      <p>The first-level directory on a hard disk or partition.</p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>ROUTE</div></td>
+  <td>
+    <div>
+      <p>
+        A Microsoft utility that views or modifies the local routing
+        table in a TCP/IP network.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Route aggregation</div></td>
+  <td>
+    <div>
+      <p>
+        Route aggregation allows the aggregation of specific routes
+        into a single route in BGP. When route aggregation is
+        implemented without any modifiers, granularity is lost
+        because there is no inheritance of the individual route
+        attributes (such as AS_PATH or community).
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Route convergence</div></td>
+  <td>
+    <div>
+      <p>
+        The process by which routers exchange route information
+        between themselves. Each routing table entry learned through
+        RIP is given a time-out value of three minutes past the last
+        time it was last received in a RIP advertisement.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Route map</div></td>
+  <td>
+    <div>
+      <p>
+        A route map is an access list that has the ability to apply
+        logic and make modifications to parameters by using route
+        map statements. Route maps are best used in:
+      </p>
+      <ul>
+        <li>PBR</li>
+        <li>NAT</li>
+        <li>BGP</li>
+        <li>Route filtering during redistribution</li>
+      </ul>
+      <p>&nbsp;</p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Route poisoning</div></td>
+  <td>
+    <div>
+      <p>
+        Using the split horizon with poison reverse method (also
+        called poison reverse or route poisoning), routers continue
+        to send information about routes back to the next hop
+        router, but advertise the path as unreachable. If the next
+        hop router notices that the route is still reachable, it
+        ignores the information. If, however, the path timeout has
+        been reached, the route is immediately set to unreachable
+        (16 hops for RIP).
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Route redistribution</div></td>
+  <td>
+    <div>
+      <p>
+        Route redistribution is the capability of boundary routers
+        connecting different routing domains to exchange and
+        advertise routing information.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Route summarization</div></td>
+  <td>
+    <div>
+      <p>
+        Route summarization is the consolidation of multiple routes
+        into a single advertisement.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Router</div></td>
+  <td>
+    <div>
+      <p>
+        A device that receives packets, reads their headers to find
+        addressing information, and sends them on to their correct
+        destination on the network or Internet.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Routing Information Protocol (RIP)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A protocol that allows a router to communicate routing
+        information to another router on the network.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Routing Information Protocol over IPX (RIPX)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A protocol that routers use to exchange information between
+        other routers on an IPX network and that hosts use to decide
+        on the best route when forwarding remote IPX traffic.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Routing table</div></td>
+  <td>
+    <div>
+      <p>
+        A table that gives network bridges and routers the
+        information needed to forward data packets to locations on
+        other networks. Routing tables must be updated frequently as
+        changes to machines and connections occur.
+      </p>
+      <p>
+        Routing tables include network addresses, the subnet mask,
+        and the gateway addresses. They may also include the subnet
+        broadcast address, network broadcast address, local loopback
+        address, local network address, and the local host address.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>RP (Rendezvous Point)</div></td>
+  <td>
+    <div>
+      <p>
+        A Rendezvous Point (RP) is a temporary connection between a
+        multicast receiver and an existing shared multicast tree.
+        When a volume of traffic crosses a threshold, the receiver
+        is joined to a source-specific tree, and the feed through
+        the RP is dropped.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>RPC (Remote Procedure Call)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        Remote Procedure Calls are based on a client/server model in
+        which one server runs processes on another server. Both
+        servers assume the calls are local, when in reality they run
+        over LAN connections and through software libraries on both
+        servers.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>RPF (Reverse Path Forwarding)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        Reverse Path Forwarding (RPF) routes traffic away from the
+        source rather than to the receiver.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>RSH (Remote Shell)</div></td>
+  <td>
+    <div>
+      <p>
+        A Windows NT utility that lets you run commands on a UNIX
+        host.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>RTO (Retransmit Time-Out)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        Retransmit Time-Out (RTO) is the amount of time in
+        milliseconds that a router will wait for an acknowledgement
+        before sending a reliable packet to a neighbor from the
+        retransmission queue.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>RTP (Reliable Transport Protocol)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        Reliable Transport Protocol (RTP) is used by EIGRP to
+        deliver packets to neighboring routers in a guaranteed,
+        ordered manner. RTP:
+      </p>
+      <ul>
+        <li>
+          Supports intermixed transmission of unicast or multicast
+          packets.
+        </li>
+        <li>Only reliably sends certain EIGRP packets.</li>
+        <li>
+          Sends hello packets that contain an indicator as to
+          whether or not the packet needs to be acknowledged by the
+          recipient.
+        </li>
+        <li>
+          Ensures low convergence time by sending packets even when
+          unacknowledged packets are pending.
+        </li>
+      </ul>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Run</div></td>
+  <td>
+    <div>
+      <p>A Windows utility that is used to start applications.</p>
+    </div>
+  </td>
+</tr>
+</tbody>
+</table>
+
+### S
+
+<table cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+  <td>
+    <div>SAM (Security Accounts Manager)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A database hive in the Registry that includes the directory
+        database for a Windows NT computer.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Samba</div></td>
+  <td>
+    <div>
+      <p>
+        Samba is an open source file sharing protocol that provides
+        file and print services. Samba (based on SMB) allows
+        non-Windows servers to communicate with Windows based
+        applications and networks.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>SAN (Storage Area Network)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A Storage Area Network (SAN) is an out-of-the-computer
+        storage option for large systems. Instead of storage devices
+        being connected inside of a server (known as Direct Attached
+        Storage (DAS)), storage devices are instead connected to the
+        network and then associated with one or more servers. SANs
+        allow for greater capacity storage than is possible with
+        DAS, and support high data transfer rates and clustering to
+        provide high availability.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Scalability</div></td>
+  <td>
+    <div>
+      <p>
+        The capacity of a single computer or an entire network to
+        function well as you add or remove components (hardware or
+        software).
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Scatter Mode (Diffuse Mode)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        One mode that an infrared device operates in is diffuse mode
+        (also called
+        <i class="fs-italicize">scatter mode</i>), which operates by
+        broadcasting a large beam of light rather than a narrow
+        beam. It does not require line-of-sight connections.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>SCC (Single Copy Cluster)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        Single Copy Cluster (SCC) uses shared storage in a failover
+        cluster configuration which allows multiple servers to
+        manage a single copy of storage groups. Because nothing in a
+        single copy cluster is shared between the nodes, nodes have
+        access to shared data, but cannot access it at the same
+        time.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Schema</div></td>
+  <td>
+    <div>
+      <p>
+        The schema is used to hold the blueprint for Active
+        Directory in Exchange 2007. It defines all of the valid
+        object types and attributes that can be associated with each
+        object type on the Active Directory. If you try to create an
+        object on an Active Directory domain controller that has not
+        been defined within the schema, the domain controller will
+        contact the schema master to make sure it has the latest
+        copy of the schema. If the object is not defined, then the
+        attempt to create the new object will fail.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Schema partition</div></td>
+  <td>
+    <div>
+      <p>
+        An Active Directory partition that stores which types
+        objects and attributes can be created in the Active
+        Directory database.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Scope</div></td>
+  <td>
+    <div>
+      <p>
+        A Microsoft term for a range of IP addresses that have been
+        configured on a DHCP server awaiting assignment to a host.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Script</div></td>
+  <td>
+    <div>
+      <p>
+        A file that lists actions to be executed when the script is
+        run.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>SCSI (Small Computer System Interface)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        An interface used to connect microcomputers to physical
+        devices (hard disks, scanners, and so on). The American
+        National Standards Institute (ANSI) defines SCSI as a
+        standard high-speed parallel interface.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>SDR (Session Description Protocol)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        Session Description Protocol (SDR) is an application tool
+        that is commonly used to find multicast traffic by querying
+        directories or listening to announcements. SDR encapsulates
+        the following protocols:
+      </p>
+      <ul>
+        <li>Session Directory Protocol (SDP)</li>
+        <li>Session Announcement Protocol (SAP)</li>
+      </ul>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Sector sparing</div></td>
+  <td>
+    <div>
+      <p>
+        A fault-tolerant feature that detects bad sectors of a hard
+        disk, moves data from bad sectors to good sectors, and maps
+        out bad sectors to prevent future use.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Secure File Transfer Protocol (SFTP)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        SFTP is a file transfer protocol that uses Secure Shell
+        (SSH) to secure data transfers. SSH ensures that SFTP
+        transmissions use encrypted commands and data which prevent
+        data from being transmitted over the network in clear text.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Secure Hypertext Transfer Protocol (SHTTP)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        SHTTP (Secure Hypertext Transfer Protocol) is a proposed
+        standard for security enhanced HTTP. It is used only for Web
+        traffic. SHTTP is an alternative to SSL for Web traffic, but
+        it does not employ SSL.
+      </p>
+      <p>
+        SHTTP should not be confused with HTTPS (Hypertext Transfer
+        Protocol over Secure Socket Layer), which uses a URL of
+        https://.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Secure Shell (SSH)</div></td>
+  <td>
+    <div>
+      <p>
+        SSH (Secure Shell) is a secure and acceptable alternative to
+        remote control systems such as Telnet. SSH allows for secure
+        interactive control of remote systems. SSH uses RSA public
+        key cryptography for both connection and authentication. SSH
+        uses the IDEA algorithm for encryption by default, but is
+        able to use Blowfish and DES.
+      </p>
+      <p>SSH is comprised of slogin, ssh, and scp.</p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>
+      Secure Socket Layer over Hypertext Transfer Protocol (SHTTPS)
+    </div>
+  </td>
+  <td>
+    <div>
+      <p>
+        HTTPS is a secure form of HTTP that uses SSL as a sublayer
+        for security.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Secure Sockets Layer (SSL)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A protocol that provides encryption for communication
+        between the Internet servers and browser clients. It uses
+        public/private key cryptography and digital certificates to
+        verify users' identities.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Security Accounts Manager (SAM)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A database hive in the Registry that includes the directory
+        database for a Windows NT computer.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Security Analysis and Configuration Snap-In</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A Microsoft Management Console (MMC) snap-in that lets you
+        compare a computer's current security settings with an
+        existing security template. You can also save security
+        settings as a new security templates.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Security Identifier (SID)</div>
+  </td>
+  <td>
+    <div>
+      <p>A unique ID used to identify everything in the domain.</p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Security log</div></td>
+  <td>
+    <div>
+      <p>
+        A text file containing records of events you have chosen to
+        audit. For example, if you chose to monitor unsuccessful
+        attempts to log on to your system, you would look at the
+        security log to find the results of that audit.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Security Subsystem</div></td>
+  <td>
+    <div>
+      <p>
+        The Windows subsystem that handles the process of logging on
+        to a domain. It works with the Security Accounts Manager to
+        validate the given user name and password, generates an
+        access token, and returns it to the user.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Security template</div></td>
+  <td>
+    <div>
+      <p>
+        A group of security-related settings stored in a file.
+        Security templates can be imported into a Group Policy
+        Object (GPO).
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Seed metric</div></td>
+  <td>
+    <div>
+      <p>
+        The seed metric is the default metric or cost for a
+        redistributed route.
+      </p>
+      <ul>
+        <li>
+          In OSPF, the seed metric is based on the interface's
+          bandwidth.
+        </li>
+        <li>In IS-IS, the default seed metric is 10.</li>
+        <li>
+          In EIGRP and IGRP, the default seed metric is based on the
+          interface bandwidth and delay.
+        </li>
+        <li>
+          In RIP, the seed metric starts with a hop count of 0 and
+          increases from router to router in increments.
+        </li>
+      </ul>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Segmentation</div></td>
+  <td>
+    <div>
+      <p>
+        Segmentation&nbsp;is a Transport layer process of breaking
+        large packets of information from higher layers into smaller
+        packets called segments. Segmentation is necessary to enable
+        the data to meet network size and format restrictions. The
+        other function of segmentation happens when the receiving
+        Transport layer uses packet sequence numbers to reassemble
+        segments into the original message.
+      </p>
+      <p>&nbsp;</p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Separator page file</div></td>
+  <td>
+    <div>
+      <p>
+        A page you can print between each print job sent to a
+        printer. Also called a banner.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Serial Line Internet Protocol (SLIP)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        An industry-standard protocol developed in 1984 to support
+        TCP/IP over low-speed serial interfaces. Windows 2000
+        supports SLIP client functionality, but not server
+        functionality. Also, Windows NT RAS Servers do not accept
+        SLIP client connections.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Serial port</div></td>
+  <td>
+    <div>
+      <p>
+        A serial port transmits and receives data one bit at a time.
+        The modem and mouse connect to a computer through a serial
+        port.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Server</div></td>
+  <td>
+    <div>
+      <p>
+        A computer that runs a server program (or the server program
+        itself) providing services to users and other computer
+        programs on a network.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Server Management Services (SMS)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A Microsoft management utility that provides management for
+        Windows NT servers.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Server Message Block (SMB)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        The file-sharing protocol used on all MS Net products. A
+        workstation communicates with an SMB server process at the
+        remote host.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Server object</div></td>
+  <td>
+    <div>
+      <p>
+        An Active Directory object that represents the physical
+        location of a server (usually a domain controller) on a
+        Windows 2000 network.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Server Operators</div></td>
+  <td>
+    <div>
+      <p>
+        A built-in local group on domain controllers only. Server
+        Operators share disk resources and can back up and restore
+        the server.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Server-only backup</div></td>
+  <td>
+    <div>
+      <p>
+        A backup technique that backs up the data stored on the
+        server. This requires fewer backup devices and storage
+        media, but requires all users to store critical files on the
+        server.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Service</div></td>
+  <td>
+    <div>
+      <p>
+        A computing process that performs a specific task in the
+        system. It may also provide a programming interface for
+        other processes.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Service packs</div></td>
+  <td>
+    <div>
+      <p>
+        Updates to the Windows 2000 operating system that Microsoft
+        periodically issues. They include bug fixes and other
+        improvements and are available at no cost from the Microsoft
+        web site.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Service provider</div></td>
+  <td>
+    <div>
+      <p>
+        The organization that provides a WAN service to an
+        individual or company. A service provider might be the same
+        organization that owns the WAN, or it might be a separate
+        organization that purchases network access from a WAN
+        carrier and then resells network access to the general
+        public.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Service Set Identification (SSID)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A type of wireless security feature used to group several
+        wireless devices and access points as part of the same
+        network and to distinguish these devices from other adjacent
+        wireless networks. The SSID is also commonly referred to as
+        the network name. Most WAPs come with a default SSID, which
+        you should change as part of your security implementation.
+        Even after you change the SSID, it is still only a minimal
+        security feature. There are two type of SSIDs:
+      </p>
+      <ul>
+        <li>
+          BSSID (Basic Service Set Identification) is used by an
+          ad-hoc wireless network with no access points.
+        </li>
+        <li>
+          ESSID (Extended Service Set Identification), or ESS
+          Identifier, is used in an infrastructure wireless network
+          that has access points.
+        </li>
+      </ul>
+      <p>&nbsp;</p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Session</div></td>
+  <td>
+    <div>
+      <p>
+        A session refers to a communication between two end points
+        (usually between client and service) that occur during a
+        single connection. The session begins when the connection is
+        established at both ends and terminates when the connection
+        is ended.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Session Description Protocol (SDR)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        Session Description Protocol (SDR) is an application tool
+        that is commonly used to find multicast traffic by querying
+        directories or listening to announcements. SDR encapsulates
+        the following protocols:
+      </p>
+      <ul>
+        <li>Session Directory Protocol (SDP)</li>
+        <li>Session Announcement Protocol (SAP)</li>
+      </ul>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Session Layer</div></td>
+  <td>
+    <div>
+      <p>
+        Layer 5 of the OSI reference model. This layer establishes,
+        manages, and terminates sessions between applications. It
+        also manages data exchange between presentation layer
+        entities. It corresponds to the data flow control layer of
+        the SNA model. See also application layer, data link layer,
+        network layer, physical layer, presentation layer, and
+        transport layer.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>SFTP (Secure File Transfer Protocol)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        SFTP is a file transfer protocol that uses Secure Shell
+        (SSH) to secure data transfers. SSH ensures that SFTP
+        transmissions use encrypted commands and data which prevent
+        data from being transmitted over the network in clear text.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Share name</div></td>
+  <td>
+    <div>
+      <p>
+        The name of a folder that many users will access on a
+        network. Use intuitive share names so that your users can
+        easily identify resources.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Share permissions</div></td>
+  <td>
+    <div>
+      <p>Security to control how users access a shared folder.</p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Shared folder</div></td>
+  <td>
+    <div>
+      <p>
+        A folder that is used by a group of people on the network.
+        Shared folders give access to users of applications, data,
+        and home folders.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Shared printer</div></td>
+  <td>
+    <div>
+      <p>
+        A printer that is connected to the network so many users can
+        access it.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Shared-file messaging system</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A messaging system based on a server/client relationship in
+        which the client takes the active role in delivering and
+        processing messages. The server is simply a repository of
+        shared files. Microsoft Mail 3.x and Lotus cc:Mail are
+        shared-file messaging systems.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Shielded Twisted Pair (STP)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        Twisted pair cables support a wide variety of fast, modern
+        network standards. Twisted pair cabling is composed of&nbsp;
+        two wires that carry the data signals. PVC plastic
+        insulation surrounds each wire. Two wires are twisted to
+        reduce the effects of electromagnetic interference and
+        crosstalk. Because the wires are twisted, EMI should affect
+        both wires equally and can be cancelled out. Multiple wire
+        pairs are bundled together in an outer sheath. Twisted pair
+        cable can be classified according to the makeup of the outer
+        sheath. Shielded Twisted Pair (STP) has a grounded outer
+        copper shield around the bundle of twisted pairs or around
+        each pair. This provides added protection against EMI.
+      </p>
+      <p>&nbsp;</p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Shiva Password Authentication Protocol (SPAP)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        The SPAP protocol is a more secure version of PAP. SPAP uses
+        an encrypted password for authentication. Password
+        encryption is easily reversible. SPAP is required to be
+        connected to a Shiva LAN Rover (proprietary).
+      </p>
+      <p>&nbsp;</p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>SHTTP (Secure Hypertext Transfer Protocol)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        SHTTP (Secure Hypertext Transfer Protocol) is a proposed
+        standard for security enhanced HTTP. It is used only for Web
+        traffic. SHTTP is an alternative to SSL for Web traffic, but
+        it does not employ SSL.
+      </p>
+      <p>
+        SHTTP should not be confused with HTTPS (Hypertext Transfer
+        Protocol over Secure Socket Layer), which uses a URL of
+        https://.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>
+      SHTTPS (Secure Socket Layer over Hypertext Transfer Protocol)
+    </div>
+  </td>
+  <td>
+    <div>
+      <p>
+        HTTPS is a secure form of HTTP that uses SSL as a sublayer
+        for security.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Shutdown script</div></td>
+  <td>
+    <div>
+      <p>A script that executes when a computer shuts down.</p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>SID (Security Identifier)</div>
+  </td>
+  <td>
+    <div>
+      <p>A unique ID used to identify everything in the domain.</p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Simple Mail Transfer Protocol (SMTP)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        The Internet standard protocol for transferring e-mail
+        messages between hosts. SMTP assumes that both host and
+        client are constantly connected, but you can use both
+        permanent and dial-up connections to an SMTP host.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Simple Network Management Protocol (SNMP)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A simple protocol for managing TCP/IP networks. It is used
+        to report the status of a host on a Windows TCP/IP network.
+        Network equipment vendors developed SNMP to let management
+        software monitor network components. Using SNMP, programs
+        called agents are loaded on to each network component. The
+        agents monitor network traffic and other network components
+        and compile the information in a management information base
+        (MIB). Windows 2000 uses SNMP to check the status of another
+        computer on a TCP/IP network.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Simple Password Authentication Protocol</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        Simple Password Authentication Protocol is used to
+        authenticate a user to a network access server. Simple
+        password authentication protocol:
+      </p>
+      <ul>
+        <li>
+          Allows a password (key) to be configured per area. Routers
+          in the same area that want to participate in the routing
+          domain will have to be configured with the same key.
+        </li>
+        <li>Is commonly used by internet service providers.</li>
+        <li>Is a Point to Point Protocol.</li>
+        <li>
+          Is supported by almost all network operating system remote
+          servers.
+        </li>
+      </ul>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Simplex (Duplex)</div></td>
+  <td>
+    <div>
+      <p>
+        Simplex and duplex are methods of communication
+        transmission. Simplex is the one-way transmission of a
+        signal across a medium. Duplex is the two-way transmission
+        of a signals across a medium. There are two types of duplex
+        transmission; half-duplex and full-duplex. Half-duplex
+        allows transmission of signals, one party at a time.
+        Full-duplex allows transmission and reception of signals to
+        occur concurrently.
+      </p>
+      <p>&nbsp;</p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Single Copy Cluster (SCC)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        Single Copy Cluster (SCC) uses shared storage in a failover
+        cluster configuration which allows multiple servers to
+        manage a single copy of storage groups. Because nothing in a
+        single copy cluster is shared between the nodes, nodes have
+        access to shared data, but cannot access it at the same
+        time.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Single domain model</div></td>
+  <td>
+    <div>
+      <p>
+        A Windows NT domain model in which all users and groups
+        reside in one domain, with a single PDC and one or more
+        BDCs. This model does not use trust relationships because
+        there is only a single domain. Typically used for
+        centralized administration of accounts and resources.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Single master domain model</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A Windows NT domain model consisting of at least two
+        domains. Each of the domains has its own domain controller,
+        but all account information is kept on the master domain's
+        controllers. The single master domain model is used when a
+        company has divisions and departments where each entity has
+        its own resource management, but there is still centralized
+        account management.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Single-master replication model</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A replication model in which updates can only be made to one
+        domain controller (master). The master then replicates its
+        updates to other domain controllers. Windows NT 4.0 used
+        this replication model.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Site</div></td>
+  <td>
+    <div>
+      <p>
+        A TCP/IP subnet or group of well connected subnets. If
+        subnets are well connected the connection is very reliable
+        and fast. Sites make it easier to configure Active Directory
+        access and replication to best utilize the physical network.
+      </p>
+      <p>
+        In Windows 2000, a site is a physical unit that defines
+        replication for Active Directory informatioon. Each site
+        includes one or more servers within an organization. To be
+        in the same site, servers need permanent, high-speed LAN or
+        WAN connections to each other.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Site link bridge object</div></td>
+  <td>
+    <div>
+      <p>
+        An Active Directory object that models which site links
+        should be bridged (in other words, over which site links IP
+        packets can be routed).
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Site link object</div></td>
+  <td>
+    <div>
+      <p>
+        An Active Directory object that represents a non-permanent
+        or low-bandwidth link between multiple sites.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Site object</div></td>
+  <td>
+    <div>
+      <p>
+        An Active Directory object that represents a group of
+        permanent, high-bandwidth TCP/IP subnets.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Sliding windows</div></td>
+  <td>
+    <div>
+      <p>
+        A sliding window is used to buffer data transmission between
+        two hosts. Each TCP/IP host maintains two sliding windows:
+        one for receiving and the other for transmitting data. The
+        size of the window is the amount of data that can be
+        buffered on a computer.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>SLIP (Serial Line Internet Protocol)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        An industry-standard protocol developed in 1984 to support
+        TCP/IP over low-speed serial interfaces. Windows 2000
+        supports SLIP client functionality, but not server
+        functionality. Also, Windows NT RAS Servers do not accept
+        SLIP client connections.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Small Computer System Interface (SCSI)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        An interface used to connect microcomputers to physical
+        devices (hard disks, scanners, and so on). The American
+        National Standards Institute (ANSI) defines SCSI as a
+        standard high-speed parallel interface.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>SMB (Server Message Block)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        The file-sharing protocol used on all MS Net products. A
+        workstation communicates with an SMB server process at the
+        remote host.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Smooth Round Trip Time (SRTT)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        The Smooth Round Trip Time (SRTT) is the average time in
+        milliseconds between the transmission of a packet to a
+        neighbor and the receipt of an acknowledgement.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>SMP (Symmetric Multiprocessing)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        Using multiple processors that share the same operating
+        system and memory to process programs more quickly.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>SMS (Server Management Services)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A Microsoft management utility that provides management for
+        Windows NT servers.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>SMTP (Simple Mail Transfer Protocol)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        The Internet standard protocol for transferring e-mail
+        messages between hosts. SMTP assumes that both host and
+        client are constantly connected, but you can use both
+        permanent and dial-up connections to an SMTP host.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>SMTP service domains</div></td>
+  <td>
+    <div>
+      <p>
+        A method of organizing e-mail messages. The default domain
+        and local domains include e-mail addresses hosted on the
+        local Microsoft Internet Information Server computer. Remote
+        domains include e-mail addresses hosted on other SMTP
+        computers.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>SNA (Systems Network Architecture)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A protocol suite that is a complete networking system,
+        including proprietary hardware. SNA enables communication
+        between IBM mainframes and terminals. It also interfaces
+        with IBM Token Ring local area networks.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Snap-in</div></td>
+  <td>
+    <div>
+      <p>
+        A tool used through Microsoft Management Console (MMC).
+        Snap-ins can be stand-alone (can be added to MMC by itself)
+        or extension (can be added to MMC only to extend the
+        function some other snap-in).
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>SNMP (Simple Network Management Protocol)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A simple protocol for managing TCP/IP networks. It is used
+        to report the status of a host on a Windows TCP/IP network.
+        Network equipment vendors developed SNMP to let management
+        software monitor network components. Using SNMP, programs
+        called agents are loaded on to each network component. The
+        agents monitor network traffic and other network components
+        and compile the information in a management information base
+        (MIB). Windows 2000 uses SNMP to check the status of another
+        computer on a TCP/IP network.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>SNMP agent</div></td>
+  <td>
+    <div>
+      <p>
+        An SNMP agent performs get, get-next, and set operations
+        requested by a management system. An agent can be any
+        computer running the SNMP agent software, usually a server
+        or router.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>SNMP trap</div></td>
+  <td>
+    <div>
+      <p>
+        An SNMP agent performs a trap, which is an alert that is
+        sent to management systems for some event that has occurred
+        with that device. This event could be excess traffic,
+        password violations, or a hardware failure.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Snmputil</div></td>
+  <td>
+    <div>
+      <p>
+        A utility that verifies whether the SNMP Service has been
+        correctly configured to communicate with SNMP management
+        stations. For example, you can use the utility to determine
+        the number of DHCP Server addresses leased by a DHCP server
+        in the Public Community.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>SNPA (Subnetwork Point of Attachment)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A Subnetwork Point of Attachment (SNPA) is a point in a
+        network that provides subnetwork services; comparable to the
+        layer 2 address corresponding to the NET or NSAP address.
+        The SNPA is assigned by using one of the following:
+      </p>
+      <ul>
+        <li>The MAC address on a LAN interface.</li>
+        <li>
+          The virtual circuit ID from X.25 or ATM connections.
+        </li>
+        <li>
+          The Data-Link Connection Identifier (DLCI) from Frame
+          Relay connections.
+        </li>
+      </ul>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Social engineering</div></td>
+  <td>
+    <div>
+      <p>
+        Social engineering is an attack where someone claims to be
+        someone other than who they are. Attackers can assume any
+        role within your organization or of anyone outside of your
+        organization. Their goal is to get you to disclose
+        confidential or sensitive information verbally or to perform
+        some action on the computer system that would grant the
+        attacker access, such as changing a password based on a
+        verbal request over the phone by someone claiming to be an
+        offsite manager. Some common social engineering attacks are:
+      </p>
+      <ul>
+        <li>
+          Dumpster diving -- Going through someone's trash to find
+          private information.
+        </li>
+        <li>
+          Keyboard surfing -- Observing sensitive information by
+          looking over one's shoulder.
+        </li>
+        <li>
+          Piggybacking -- Gaining access into a secure facility by
+          slipping in as an authorized visitor enters.
+        </li>
+        <li>
+          Phishing -- Sending legitimate-looking e-mails designed to
+          trick the recipient into divulging private information
+          (often identity theft related activities).
+        </li>
+      </ul>
+      <p>
+        The primary countermeasure to social engineering is
+        awareness. If users are unaware of the necessity for
+        security in your organization and they are not properly
+        trained to support and provide security, they are vulnerable
+        to numerous social engineering exploits. Awareness training
+        focused on preventing social engineering should include
+        methods to authenticate personnel over the phone, assigning
+        classification levels to information and activities, and
+        educating your personnel on what information should not be
+        distributed over the phone.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Sockets</div></td>
+  <td>
+    <div>
+      <p>
+        A socket is much like a file handle and functions as an
+        endpoint for network communication. Each application creates
+        a socket by specifying the IP address of the host, the type
+        of service (connection oriented, connectionless), and the
+        port that the application is using.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Software distribution point</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A network share that stores software installation programs
+        and/or data and from which software can be installed.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Software modification file</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A file with the .MST extension that can be applied to a
+        Windows Installer package (.MSI file) to customize it. Also
+        called a transform file (.MST).
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Software package</div></td>
+  <td>
+    <div>
+      <p>
+        A Windows Installer package (.MSI file) or ZAP file that is
+        distributed to network users using an Active Directory-based
+        Group Policy Object (GPO).
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Source compatible</div></td>
+  <td>
+    <div>
+      <p>
+        An application that can run only on the hardware platform
+        for which it was originally compiled.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Source replication partner</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A replication partner that sends updates to a target
+        replication partner.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Spanned volume</div></td>
+  <td>
+    <div>
+      <p>
+        A volume on a dynamic disk that spans multiple physical
+        drives. Spanned volumes are not fault tolerant and nor can
+        you mirror spanned volume. In Windows NT 4.0, a spanned
+        volume was called a volume set.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>SPAP (Shiva Password Authentication Protocol)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        The SPAP protocol is a more secure version of PAP. SPAP uses
+        an encrypted password for authentication. Password
+        encryption is easily reversible. SPAP is required to be
+        connected to a Shiva LAN Rover (proprietary).
+      </p>
+      <p>&nbsp;</p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Spider</div></td>
+  <td>
+    <div>
+      <p>
+        A program that explores links inside and outside a Web site.
+        Also called a robot.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Split horizon</div></td>
+  <td>
+    <div>
+      <p>
+        Using the split horizon method (also called best
+        information), routers keep track of where the information
+        about a route came from. Routers do not report route
+        information to the routers on that path. In other words,
+        routers do not report information back to the router from
+        which their information originated.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Split horizon with poison reverse</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        Using the split horizon with poison reverse method (also
+        called poison reverse or route poisoning), routers continue
+        to send information about routes back to the next hop
+        router, but advertise the path as unreachable. If the next
+        hop router notices that the route is still reachable, it
+        ignores the information. If, however, the path timeout has
+        been reached, the route is immediately set to unreachable
+        (16 hops for RIP).
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>SQL (Structured Query Language)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A query and programming language for databases, widely used
+        with relational database systems. SQL translates what the
+        user sees on the display to commands that the server can
+        understand. IBM originally developed SQL as an English-like
+        query language for entering, editing, and retrieving data in
+        mainframes. There is now an ANSI-standard SQL definition.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>SRTT (Smooth Round Trip Time)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        The Smooth Round Trip Time (SRTT) is the average time in
+        milliseconds between the transmission of a packet to a
+        neighbor and the receipt of an acknowledgement.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>SSH (Secure Shell)</div></td>
+  <td>
+    <div>
+      <p>
+        SSH (Secure Shell) is a secure and acceptable alternative to
+        remote control systems such as Telnet. SSH allows for secure
+        interactive control of remote systems. SSH uses RSA public
+        key cryptography for both connection and authentication. SSH
+        uses the IDEA algorithm for encryption by default, but is
+        able to use Blowfish and DES.
+      </p>
+      <p>SSH is comprised of slogin, ssh, and scp.</p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>SSID (Service Set Identification)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A type of wireless security feature used to group several
+        wireless devices and access points as part of the same
+        network and to distinguish these devices from other adjacent
+        wireless networks. The SSID is also commonly referred to as
+        the network name. Most WAPs come with a default SSID, which
+        you should change as part of your security implementation.
+        Even after you change the SSID, it is still only a minimal
+        security feature. There are two type of SSIDs:
+      </p>
+      <ul>
+        <li>
+          BSSID (Basic Service Set Identification) is used by an
+          ad-hoc wireless network with no access points.
+        </li>
+        <li>
+          ESSID (Extended Service Set Identification), or ESS
+          Identifier, is used in an infrastructure wireless network
+          that has access points.
+        </li>
+      </ul>
+      <p>&nbsp;</p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>SSL (Secure Sockets Layer)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A protocol that provides encryption for communication
+        between the Internet servers and browser clients. It uses
+        public/private key cryptography and digital certificates to
+        verify users' identities.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Standard area</div></td>
+  <td>
+    <div>
+      <p>
+        A standard area allows any type of route information to
+        enter or leave the area.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Standard primary zone</div></td>
+  <td>
+    <div>
+      <p>
+        An authoritative DNS server for a zone that contains a
+        read-write copy of the zone file and can be updated
+        directly. The updated zone information can then be
+        replicated to secondary zones.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Standard secondary zone</div></td>
+  <td>
+    <div>
+      <p>
+        An DNS server that contains a read-only copy of the zone
+        file. The zone information is updated by replication from
+        other servers. Its zone file can then be replicated to other
+        secondary zones.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Standby server</div></td>
+  <td>
+    <div>
+      <p>
+        A standby server is a Windows 2000 server that you have
+        configured as an emergency backup server. It has Windows
+        2000 and all necessary components installed, but has not
+        joined a domain.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Star</div></td>
+  <td>
+    <div>
+      <p>
+        Star is a network topology that uses a hub (or switch) to
+        concentrate all network connections to a single physical
+        location. Today it is the most popular type of topology for
+        a LAN.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Startup script</div></td>
+  <td>
+    <div>
+      <p>A script that executes when a computer starts up.</p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Static mapping</div></td>
+  <td>
+    <div>
+      <p>
+        A router that is configured to communicate only with
+        networks to which it has a configured interface. To route IP
+        packets to other networks, each static router must be
+        configured with either an entry in each router's routing for
+        each network in the internetwork or a default gateway
+        address of another router's local interface.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Static route</div></td>
+  <td>
+    <div>
+      <p>
+        A static route is a route that is manually configured to a
+        remote destination. They can be used to reduce overall
+        traffic because they do not require information to be
+        generated. Static routes are most commonly used to:
+      </p>
+      <ul>
+        <li>
+          Define specific routes to use when routing information
+          must be exchanged between two autonomous systems. This
+          eliminates the need for entire routing tables to be
+          exchanged.
+        </li>
+        <li>
+          Define routes to destinations over a WAN link. This
+          eliminates the need for a dynamic routing protocol.
+        </li>
+      </ul>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Static routing</div></td>
+  <td>
+    <div>
+      <p>
+        Static routing is an addressing method in which IP
+        configuration information must be built and updated manually
+        on each host by an administrator.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Storage Area Network (SAN)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A Storage Area Network (SAN) is an out-of-the-computer
+        storage option for large systems. Instead of storage devices
+        being connected inside of a server (known as Direct Attached
+        Storage (DAS)), storage devices are instead connected to the
+        network and then associated with one or more servers. SANs
+        allow for greater capacity storage than is possible with
+        DAS, and support high data transfer rates and clustering to
+        provide high availability.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>STP (Shielded Twisted Pair)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        Twisted pair cables support a wide variety of fast, modern
+        network standards. Twisted pair cabling is composed of&nbsp;
+        two wires that carry the data signals. PVC plastic
+        insulation surrounds each wire. Two wires are twisted to
+        reduce the effects of electromagnetic interference and
+        crosstalk. Because the wires are twisted, EMI should affect
+        both wires equally and can be cancelled out. Multiple wire
+        pairs are bundled together in an outer sheath. Twisted pair
+        cable can be classified according to the makeup of the outer
+        sheath. Shielded Twisted Pair (STP) has a grounded outer
+        copper shield around the bundle of twisted pairs or around
+        each pair. This provides added protection against EMI.
+      </p>
+      <p>&nbsp;</p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Stripe sets</div></td>
+  <td>
+    <div>
+      <p>
+        A method of saving data by writing it in stripes across
+        several different hard disks at once.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Striped volume</div></td>
+  <td>
+    <div>
+      <p>
+        A striped volume breaks data into units and stores the units
+        across a series of disks (as opposed to a spanned volume
+        that fills the first area with data, then the second area,
+        and so on). Striped volumes:
+      </p>
+      <ul>
+        <li>
+          Do not provide fault tolerance. A failure of one disk in
+          the set means all data is lost.
+        </li>
+        <li>Provide an increase in performance.</li>
+        <li>Use two or more disks.</li>
+        <li>
+          Have no overhead--all disk space is available for storing
+          data.
+        </li>
+      </ul>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Striping</div></td>
+  <td>
+    <div>
+      <p>
+        Striping is a data protection method. Striping divides data
+        into units and stores the units across a series of disks.
+        Distributing the data removes the threat of losing all of
+        the data in event of a single disk failure.&nbsp;
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Structured Query Language (SQL)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A query and programming language for databases, widely used
+        with relational database systems. SQL translates what the
+        user sees on the display to commands that the server can
+        understand. IBM originally developed SQL as an English-like
+        query language for entering, editing, and retrieving data in
+        mainframes. There is now an ANSI-standard SQL definition.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Stub area</div></td>
+  <td>
+    <div>
+      <p>
+        A stub area does not allow ASBR routes, so routes that are
+        external to the OSPF routing process are not transmitted.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Stub routing</div></td>
+  <td>
+    <div>
+      <p>
+        <i class="fs-italicize">Stub routing</i> is a topology in
+        which the remote router forwards all traffic that is not
+        local to a hub router.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Subkeys</div></td>
+  <td>
+    <div>
+      <p>
+        A key inside another key in the Registry. Subkeys can
+        contain more subkeys or values.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Subnet</div></td>
+  <td>
+    <div>
+      <p>
+        A physical segment in a TCP/IP environment that uses IP
+        addresses created from a single network ID. The subnet is
+        created by partitioning the bits in the host ID into two
+        parts. The first part is used to identify the segment as a
+        unique network, and the other part is used to identify the
+        hosts. Companies typically used subnetting because they
+        exceeded the maximum number of hosts per segment with their
+        IP address.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Subnet mask</div></td>
+  <td>
+    <div>
+      <p>
+        The concept of blocking out a portion of the IP address so
+        that TCP/IP can determine the network ID from the host ID.
+        TCP/IP hosts use the subnet mask to determine whether the
+        destination host is located on a local or remote network.
+        Typically the subnet mask is 255.255.255.0.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Subnet object</div></td>
+  <td>
+    <div>
+      <p>
+        An Active Directory object that represents a TCP/IP subnet.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Subnetting</div></td>
+  <td>
+    <div>
+      <p>&nbsp;</p>
+      <p>
+        Subnetting is the division of a network address into
+        multiple smaller subnets. For example, this allows a single
+        Class B or Class C addresses to be divided and used by
+        multiple organizations.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Subnetwork Point of Attachment (SNPA)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A Subnetwork Point of Attachment (SNPA) is a point in a
+        network that provides subnetwork services; comparable to the
+        layer 2 address corresponding to the NET or NSAP address.
+        The SNPA is assigned by using one of the following:
+      </p>
+      <ul>
+        <li>The MAC address on a LAN interface.</li>
+        <li>
+          The virtual circuit ID from X.25 or ATM connections.
+        </li>
+        <li>
+          The Data-Link Connection Identifier (DLCI) from Frame
+          Relay connections.
+        </li>
+      </ul>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Subtree</div></td>
+  <td>
+    <div>
+      <p>
+        The folders and subfolders contained inside the export
+        directory you use for directory replication.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Successor route</div></td>
+  <td>
+    <div>
+      <p>A successor route is the best route to a destination.</p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Supernetting</div></td>
+  <td>
+    <div>
+      <p>
+        Supernetting, combining multiple network addresses into a
+        single larger subnet. For example, this allows multiple
+        Class C addresses to be combined into a single network.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Superscope</div></td>
+  <td>
+    <div>
+      <p>
+        In Windows 2000 Server, a grouping of multiple DHCP scopes
+        into a single unit. A superscope makes it possible to have
+        multiple logical subnets on a single physical subnet. The
+        individual scopes are called member scopes or child scopes.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>SVC (Switched Virtual Circuit)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        An on-demand virtual circuit that is maintained for the
+        length of a conversation. When the conversation ends, the
+        connection is released.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Switch</div></td>
+  <td>
+    <div>
+      <p>
+        A network device that works at the data link layer and
+        allows each device to have higher bandwidth on the network.
+        A switch can offer speeds of 10 to 100 megabits to the
+        desktop.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Switched 56</div></td>
+  <td>
+    <div>
+      <p>
+        A system of Digital Data Service (DDS) lines that are
+        on-demand (dial-up) instead of leased and transfer data at a
+        rate of 56 Kbps.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Switched Virtual Circuit (SVC)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        An on-demand virtual circuit that is maintained for the
+        length of a conversation. When the conversation ends, the
+        connection is released.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Switches</div></td>
+  <td>
+    <div>
+      <p>
+        Codes you can use at the command prompt when starting an
+        application or installation program to customize the way the
+        program runs. Also called command line switches.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Symmetric Multiprocessing (SMP)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        Using multiple processors that share the same operating
+        system and memory to process programs more quickly.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Synchronization</div></td>
+  <td>
+    <div>
+      <p>
+        The mechanism by which domain controllers share directory
+        changes and ensure that their information is accurate.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>SYSCON</div></td>
+  <td>
+    <div>
+      <p>
+        A GSNW or CSNW utility that lets you set up user accounts,
+        define policies, and grant user permissions on a NetWare
+        network from a Windows NT computer.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Sysdiff.exe</div></td>
+  <td>
+    <div>
+      <p>
+        An executable file you can use during an unattended
+        installation of Windows NT if you need to install an
+        application that does not support scripted installations.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>System groups</div></td>
+  <td>
+    <div>
+      <p>
+        Built-in groups that organize users for system use. You do
+        not assign users to a system group; these groups are
+        automatically updated by Windows 2000. Users become members
+        of system groups by default or as a result of network
+        activity. The the four main system groups are Everyone,
+        Creator Owner, Network, and Interactive.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>System hive</div></td>
+  <td>
+    <div>
+      <p>
+        A hive in the Registry which includes information about the
+        devices and services installed on the computer.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>System log</div></td>
+  <td>
+    <div>
+      <p>
+        A text file containing the events that Windows 2000
+        components log, such as driver failures. You can use the
+        Event Viewer to display the system log.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>System Monitor</div></td>
+  <td>
+    <div>
+      <p>
+        A Windows 2000 tool that is used to monitor real-time and
+        historical system performance, trends, bottlenecks, and the
+        effects of system configuration changes.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>System partition</div></td>
+  <td>
+    <div>
+      <p>
+        The partition on the hard disk containing the boot files and
+        hardware-specific files for the operating system.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>System policy</div></td>
+  <td>
+    <div>
+      <p>
+        A set of registry settings that controls what users can see
+        and do on their Windows NT computers. System policies are
+        used to control and manage desktop computers. You can use
+        system policies to provide all users or computers with a
+        uniform system policy, or customize settings for specific
+        users, groups, and computers. Windows 2000 computers use
+        Group Policy instead.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>System Policy Editor</div></td>
+  <td>
+    <div>
+      <p>
+        Poledit.exe. A graphical front-end to the registry included
+        with Windows NT Server that allows you to make registry
+        changes without using the registry editor.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>System policy files</div></td>
+  <td>
+    <div>
+      <p>
+        The files containing the rules governing how a Windows NT
+        client computer will display the desktop, use Control Panel
+        options, access the network, and so on. Ntconfig.pol is a
+        default system policy file. Windows 2000 computer use Group
+        Policy Objects (GPOs) instead.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>System state data</div></td>
+  <td>
+    <div>
+      <p>
+        System state data includes all the Windows 2000 system
+        components and distributed services that Active Directory
+        depends on.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Systemroot</div></td>
+  <td>
+    <div>
+      <p>
+        The directory in which you installed the Windows 2000
+        operating system files.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Systems Network Architecture (SNA)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A protocol suite that is a complete networking system,
+        including proprietary hardware. SNA enables communication
+        between IBM mainframes and terminals. It also interfaces
+        with IBM Token Ring local area networks.
+      </p>
+    </div>
+  </td>
+</tr>
+</tbody>
+</table>
+
+### T
+
+<table cellpadding="0" cellspacing="0">
+<tbody>
+  <tr>
+    <td><div>Tape catalog</div></td>
+    <td>
+      <div>
+        <p>
+          A graphical representation of the contents of a backup tape.
+          Windows 2000 automatically creates catalogs during backup
+          and stores them on the tape. The tape catalog shows all the
+          backup sets on a tape.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Tape device</div></td>
+    <td>
+      <div>
+        <p>
+          A tape drive which can reads a magnetic storage tape, write
+          data to it, and position it to receive data.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>TAPI (Telephony Application Programming Interface)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          An API that Windows 2000 communication applications use when
+          they make calls over the telephone line. These calls can
+          include data, fax, and voice.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Target replication partner</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A replication partner that receives updates from a source
+          replication partner. Also called a destination replication
+          partner.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>T-Carriers</div></td>
+    <td>
+      <div>
+        <p>
+          Digital lines that carry data, digitized voice, and
+          digitized video signals. A T-Carrier line multiplexes
+          several channels on to a single physical communication
+          medium. Each channel operates at 64 kilobits per second.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>TCP (Transmission Control Protocol)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A reliable protocol that divides data into packets, which
+          the IP protocol then sends to other computers on the
+          network.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>TCP/IP</div></td>
+    <td>
+      <div>
+        <p>
+          TCP/IP is the protocol suite used on the Internet and on
+          most networks. Nearly all computers today use TCP/IP for
+          communication because it is highly scalable and routable.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>TDI (Transport Driver Interface)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A Windows NT boundary layer that gives file system drivers a
+          common programming interface so that they do not have to be
+          tied to specific protocols.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>TDR (Time-Domain Reflectometer)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A device you can use to examine the breaks and shorts in a
+          network and identify their locations within a few feet. TDRs
+          work by sending a sonar-like pulse down the cable. The pulse
+          looks for shorts or breaks in the cable and reports their
+          location.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Telecommuter</div></td>
+    <td>
+      <div>
+        <p>
+          An employee who works outside the office, at home or on the
+          road, and uses a network or the Internet to communicate with
+          the office.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Telephony Application Programming Interface (TAPI)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          An API that Windows 2000 communication applications use when
+          they make calls over the telephone line. These calls can
+          include data, fax, and voice.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Telnet</div></td>
+    <td>
+      <div>
+        <p>
+          A protocol that emulates a terminal so you can log on to a
+          remote computer. Also called Virtual Terminal Protocol.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Template</div></td>
+    <td>
+      <div>
+        <p>
+          A user account template is a standard user account that you
+          create to simplify creating accounts for other users with
+          similar needs.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Terminal</div></td>
+    <td>
+      <div>
+        <p>
+          A terminal with no processor. It accepts keystrokes and
+          displays data from a mainframe computer. Also called a dumb
+          terminal.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>TFTP (Trivial File Transfer Protocol)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          This data transfer utility provides bi-directional file
+          transfers between two TCP/IP hosts, where one is running the
+          TFTP server software. No user authentication is required.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>The Microsoft Network (MSN)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          An online network sponsored by Microsoft. You can find
+          answers to technical questions, read articles about
+          Microsoft products, chat with other users, and much more.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Thicknet</div></td>
+    <td>
+      <div>
+        <p>
+          Thicknet (sometimes called ThickWire) is a term for the
+          larger size of coaxial cable used in Ethernet local area
+          networks.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Thinnet</div></td>
+    <td>
+      <div>
+        <p>
+          Thinnet (sometimes called ThinWire) is a term for the
+          smaller size of coaxial cable used in Ethernet local area
+          networks.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Thrashing</div></td>
+    <td>
+      <div>
+        <p>
+          Thrashing is excessive paging. It occurs when the computer
+          spends too much time passing pages between physical memory
+          and the paging file on a hard drive. A symptom of thrashing
+          is that the CPU is under-used but the I/O system is working
+          exceptionally hard.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Thread</div></td>
+    <td>
+      <div>
+        <p>
+          An object inside a process that runs program instructions.
+          If an operating system allows it, multiple threads can run
+          on different processors at the same time.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Three-way handshake</div></td>
+    <td>
+      <div>
+        <p>
+          A process by which a TCP session is initialized. The purpose
+          of the handshake is to synchronize the sending and receiving
+          of segments, and to communicate to the other host the window
+          size and segment size of data it is capable of receiving.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>THT (Token Holding Timer)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A timer in which determines how long each station of an FDDI
+          network can keep the token. Each station has a THT.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Thunking</div></td>
+    <td>
+      <div>
+        <p>
+          The process by which Win16 on Win32 (WOW) converts calls
+          from 16-bit applications into 32-bit calls for Win32
+          functions.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Time to Live (TTL)</div></td>
+    <td>
+      <div>
+        <p>
+          A name server caches all of the information that it receives
+          during a process known as iterative queries. The amount of
+          time that the data is stored in cache is referred to as Time
+          to Live. The name server administrator of the zone that
+          contains the data determines the TTL for the data. This
+          parameter can be adjusted. The TTL is a maximum hop count.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Time-Domain Reflectometer (TDR)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A device you can use to examine the breaks and shorts in a
+          network and identify their locations within a few feet. TDRs
+          work by sending a sonar-like pulse down the cable. The pulse
+          looks for shorts or breaks in the cable and reports their
+          location.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Token</div></td>
+    <td>
+      <div>
+        <p>
+          In computer networking, a token can be either a physical or
+          a virtual object (often used to authenticate users).
+          Security tokens can be in the form of code, PIN number, or
+          devices like smartcards.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Token Holding Timer (THT)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A timer in which determines how long each station of an FDDI
+          network can keep the token. Each station has a THT.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Token passing</div></td>
+    <td>
+      <div>
+        <p>
+          Token passing is a mechanism that uses a digital pass card.
+          Only the system holding the token is allowed to communicate.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Token Ring</div></td>
+    <td>
+      <div>
+        <p>
+          A network topology in which computers are connected in a
+          closed ring. Tokens passed from one computer to another
+          allow each computer to use the network.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Tombstone</div></td>
+    <td>
+      <div>
+        <p>
+          A tombstone marks the fact that someone deleted an object in
+          the directory. When you delete an object in the directory,
+          that item is no longer part of directory replication.
+          Instead, tombstones are replicated to servers to notify them
+          to delete these objects.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Tombstone lifetime</div></td>
+    <td>
+      <div>
+        <p>
+          The tombstone lifetime specifies how long a tombstone will
+          exist before the garbage collection process deletes it as
+          well. A tombstone lifetime should be long enough for
+          directory replication to reach every server in your
+          organization.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Tone generator</div></td>
+    <td>
+      <div>
+        <p>
+          A tone generator sends an electronic signal on a wire or
+          cable. Use a tone generator to locate the other end of a
+          specific cable. Generate the tone on one end of the cable,
+          then test the other ends of many cables until you detect the
+          tone.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Topology</div></td>
+    <td>
+      <div>
+        <p>
+          The physical layout of a network. Topology describes how the
+          network's computers are connected to each other. Common
+          topologies include buses and rings.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Topology table</div></td>
+    <td>
+      <div>
+        <p>
+          A topology table is a record of the updates sent between
+          neighboring routers when a new router is discovered.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Totally stubby area</div></td>
+    <td>
+      <div>
+        <p>
+          A totally stubby area does not allow ASBR routes or
+          inter-area routes; only routes within its own specific area
+          are allowed.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Traceroute</div></td>
+    <td>
+      <div>
+        <p>
+          Traceroute is a Linux diagnostic utility that tests
+          connectivity between devices, but as it does so it shows the
+          path between the two devices. Responses from each hop on the
+          route are measured three times to provide an accurate
+          representation of how long the packet takes to reach, and be
+          returned by that host.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>TRACERT</div></td>
+    <td>
+      <div>
+        <p>
+          A Microsoft diagnostic utility that verifies the route used
+          from the local host to a remote host.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Transaction</div></td>
+    <td>
+      <div>
+        <p>
+          An entire operation consisting of multiple steps that must
+          all be completed properly, or the entire transaction fails.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Transact-SQL</div></td>
+    <td>
+      <div>
+        <p>
+          The standard language for communicating between applications
+          and SQL Server. It is an implementation of ANSI-standard
+          Structured Query Language (SQL) that includes extensions
+          such as stored procedures that make Transact-SQL a full
+          programming language. Sometimes referred to as T-SQL.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Transceiver</div></td>
+    <td>
+      <div>
+        <p>
+          A transceiver is responsible for transmitting and receiving
+          network communications. To send signals to the network, the
+          transceiver converts digital data from a PC to digital
+          signals. To receive signals, the transceiver converts
+          digital signals from the network to digital data for the PC.
+          Many transceivers are attached to network interface cards.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Transform file</div></td>
+    <td>
+      <div>
+        <p>
+          A file with the .MST extension that can be applied to a
+          Windows Installer package (.MSI file) to customize it. Also
+          called a software modification file.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Transit area</div></td>
+    <td>
+      <div>
+        <p>
+          A transit area is an area that has more than one way into
+          itself.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Transit AS peering</div></td>
+    <td>
+      <div>
+        <p>
+          Transit AS peering is the communication of information
+          between all EBGP peers. This is optimal for scenarios in
+          which an ISP allows their customers using BGP to access all
+          their other customers using BGP.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Transmission Control Protocol (TCP)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A reliable protocol that divides data into packets, which
+          the IP protocol then sends to other computers on the
+          network.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Transmission Media (Media)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          In the realm of information technology, transmission media
+          refers to the cables and wires through which signals (such
+          as electric current or light impulse) are transmitted
+          through a network.
+        </p>
+        <p>&nbsp;</p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Transport Driver Interface (TDI)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A Windows NT boundary layer that gives file system drivers a
+          common programming interface so that they do not have to be
+          tied to specific protocols.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Transport Layer (OSI Model)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Layer 4 of the OSI reference model. This layer is
+          responsible for reliable network communication between end
+          nodes. The transport layer provides mechanisms for the
+          establishment, maintenance, and termination of virtual
+          circuits, transport fault detection and recovery, and
+          information flow control. Corresponds to the transmission
+          control layer of the SNA model. See also application layer,
+          data link layer, network layer, physical layer, presentation
+          layer, and session layer.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Transport policies</div></td>
+    <td>
+      <div>
+        <p>
+          Transport policies (also referred to as transport rules)
+          provide an easy, flexible way for administrators to process,
+          filter, store, and modify all e-mail messages within an
+          Exchange organization. Transport rules allow you to:
+        </p>
+        <ul>
+          <li>Apply corporate policies</li>
+          <li>Apply compliance policies</li>
+          <li>Apply content restraints</li>
+          <li>Manage message routing &nbsp;</li>
+        </ul>
+        <p>Each transport rule consists of three components:</p>
+        <ul>
+          <li>
+            Conditions identify the e-mail messages to which a
+            transport policy action are applied.
+          </li>
+          <li>
+            Exceptions identify the e-mail messages which are excluded
+            from a policy, even if the message matches a transport
+            policy condition.
+          </li>
+          <li>
+            Actions modify some aspect of message content or the
+            delivery for e-mail messages that match all the conditions
+            and none of the exceptions of a transport policy.
+          </li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Transport policy actions</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Transport policies (also referred to as transport rules)
+          provide an easy, flexible way for administrators to process,
+          filter, store, and modify all e-mail messages within an
+          Exchange organization. Transport rules allow you to:
+        </p>
+        <ul>
+          <li>Apply corporate policies</li>
+          <li>Apply compliance policies</li>
+          <li>Apply content restraints</li>
+          <li>Manage message routing &nbsp;</li>
+        </ul>
+        <p>Each transport rule consists of three components:</p>
+        <ul>
+          <li>
+            Conditions identify the e-mail messages to which a
+            transport policy action are applied.
+          </li>
+          <li>
+            Exceptions identify the e-mail messages which are excluded
+            from a policy, even if the message matches a transport
+            policy condition.
+          </li>
+          <li>
+            Actions modify some aspect of message content or the
+            delivery for e-mail messages that match all the conditions
+            and none of the exceptions of a transport policy.
+          </li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Transport policy agents</div></td>
+    <td>
+      <div>
+        <p>
+          Transport policy agents apply transport policies to e-mails
+          within an Exchange organization. There are two types of
+          transport policy agents in Exchange 2007:
+        </p>
+        <ul>
+          <li>
+            A Transport Rules agent runs on a Hub Transport server and
+            implements policies set by administrators to all e-mail
+            that travels in and out of an Exchange organization.
+          </li>
+          <li>
+            An Edge Rules agent runs on an Edge Transport server and
+            helps control spam and unwanted mail flow within an
+            organization.
+          </li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Transport policy conditions</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Transport policies (also referred to as transport rules)
+          provide an easy, flexible way for administrators to process,
+          filter, store, and modify all e-mail messages within an
+          Exchange organization. Transport rules allow you to:
+        </p>
+        <ul>
+          <li>Apply corporate policies</li>
+          <li>Apply compliance policies</li>
+          <li>Apply content restraints</li>
+          <li>Manage message routing &nbsp;</li>
+        </ul>
+        <p>Each transport rule consists of three components:</p>
+        <ul>
+          <li>
+            Conditions identify the e-mail messages to which a
+            transport policy action are applied.
+          </li>
+          <li>
+            Exceptions identify the e-mail messages which are excluded
+            from a policy, even if the message matches a transport
+            policy condition.
+          </li>
+          <li>
+            Actions modify some aspect of message content or the
+            delivery for e-mail messages that match all the conditions
+            and none of the exceptions of a transport policy.
+          </li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Transport policy exceptions</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Transport policies (also referred to as transport rules)
+          provide an easy, flexible way for administrators to process,
+          filter, store, and modify all e-mail messages within an
+          Exchange organization. Transport rules allow you to:
+        </p>
+        <ul>
+          <li>Apply corporate policies</li>
+          <li>Apply compliance policies</li>
+          <li>Apply content restraints</li>
+          <li>Manage message routing &nbsp;</li>
+        </ul>
+        <p>Each transport rule consists of three components:</p>
+        <ul>
+          <li>
+            Conditions identify the e-mail messages to which a
+            transport policy action are applied.
+          </li>
+          <li>
+            Exceptions identify the e-mail messages which are excluded
+            from a policy, even if the message matches a transport
+            policy condition.
+          </li>
+          <li>
+            Actions modify some aspect of message content or the
+            delivery for e-mail messages that match all the conditions
+            and none of the exceptions of a transport policy.
+          </li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Transport protocol</div></td>
+    <td>
+      <div>
+        <p>
+          A type of protocol that allows two computers to communicate
+          with each other. For example, TCP/IP and IPX/SPX are both
+          transport protocols.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Transport rules</div></td>
+    <td>
+      <div>
+        <p>
+          Transport policies (also referred to as transport rules)
+          provide an easy, flexible way for administrators to process,
+          filter, store, and modify all e-mail messages within an
+          Exchange organization. Transport rules allow you to:
+        </p>
+        <ul>
+          <li>Apply corporate policies</li>
+          <li>Apply compliance policies</li>
+          <li>Apply content restraints</li>
+          <li>Manage message routing &nbsp;</li>
+        </ul>
+        <p>Each transport rule consists of three components:</p>
+        <ul>
+          <li>
+            Conditions identify the e-mail messages to which a
+            transport policy action are applied.
+          </li>
+          <li>
+            Exceptions identify the e-mail messages which are excluded
+            from a policy, even if the message matches a transport
+            policy condition.
+          </li>
+          <li>
+            Actions modify some aspect of message content or the
+            delivery for e-mail messages that match all the conditions
+            and none of the exceptions of a transport policy.
+          </li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Transport Rules agent</div></td>
+    <td>
+      <div>
+        <p>
+          Transport policy agents apply transport policies to e-mails
+          within an Exchange organization. There are two types of
+          transport policy agents in Exchange 2007:
+        </p>
+        <ul>
+          <li>
+            A Transport Rules agent runs on a Hub Transport server and
+            implements policies set by administrators to all e-mail
+            that travels in and out of an Exchange organization.
+          </li>
+          <li>
+            An Edge Rules agent runs on an Edge Transport server and
+            helps control spam and unwanted mail flow within an
+            organization.
+          </li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Triggered update</div></td>
+    <td>
+      <div>
+        <p>
+          With the triggered update method (also known as a flash
+          updates), routers that receive updated (changed) information
+          broadcast those changes immediately rather than waiting for
+          the next reporting interval. With this method, routers
+          broadcast their routing tables periodically, punctuated by
+          special broadcasts if conditions have changed. This method
+          reduces the convergence time.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Trivial File Transfer Protocol (TFTP)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          This data transfer utility provides bi-directional file
+          transfers between two TCP/IP hosts, where one is running the
+          TFTP server software. No user authentication is required.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Trojan horses</div></td>
+    <td>
+      <div>
+        <p>
+          Pieces of software code written expressly to cause problems
+          with servers and workstations. A Trojan horse conceals
+          harmful code inside what looks like a harmless data string
+          or program. Once it is inside a computer, however, it
+          damages data or systems. A Trojan horse is a type of
+          computer virus.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Trunk Cable</div></td>
+    <td>
+      <div>
+        <p>
+          The central cable connecting all of the nodes, either
+          inserted directly into the trunk, or nodes tapping into the
+          trunk using offshoot cables called drop cables. Commonly
+          used in the physical bus topology.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Trusts</div></td>
+    <td>
+      <div>
+        <p>
+          In a one-way trust, accounts in one domain can be given
+          permission to access resources in another domain. In a
+          two-way, trust, permission is given to each domain to access
+          resources in the other domain.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>TTL (Time to Live)</div></td>
+    <td>
+      <div>
+        <p>
+          A name server caches all of the information that it receives
+          during a process known as iterative queries. The amount of
+          time that the data is stored in cache is referred to as Time
+          to Live. The name server administrator of the zone that
+          contains the data determines the TTL for the data. This
+          parameter can be adjusted. The TTL is a maximum hop count.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Tunnel</div></td>
+    <td>
+      <div>
+        <p>
+          A logical connection that carries encapsulated and possibly
+          encrypted data. Encapsulation and encryption make the tunnel
+          a secure and private link for users across a public network
+          such as the internet.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Tunneling</div></td>
+    <td>
+      <div>
+        <p>
+          Tunneling is used primarily to support private traffic
+          through a public communication medium. The most widely known
+          form of tunneling is VPN (Virtual Private Networking). A VPN
+          establishes a secured communications tunnel through an
+          insecure network connecting two systems.
+        </p>
+        <p>
+          Tunnels provide secure communications, they usually provide
+          less than optimal throughput due to the additional overhead
+          of encryption and maintaining the communications link.
+          Tunnels are not directly associated with password theft or
+          protection.
+        </p>
+        <p>L2TP, PPTP, and IPSec are all VPN tunnel protocols.</p>
+      </div>
+    </td>
+  </tr>
+</tbody>
+</table>
+
+### U
+
+### V
+
+### W
+
+### X
+
+### Y
+
+### Z
