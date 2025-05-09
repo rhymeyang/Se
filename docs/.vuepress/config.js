@@ -5,6 +5,9 @@ import { defineUserConfig } from 'vuepress'
 export default defineUserConfig({
   bundler: viteBundler(),
   base: '/Se/',
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
+  ],
   theme: defaultTheme({
     logo: 'logo.png',
     contributors: false,
