@@ -122,6 +122,7 @@ export default defineUserConfig({
             '/CyberDefensePro/7.7.md',
           ],
         },
+
         {
           text: 'CyberDefense Pro - 8.0 Security Management',
           collapsable: true,
@@ -138,6 +139,32 @@ export default defineUserConfig({
             '/CyberDefensePro/9.1.md',
             '/CyberDefensePro/9.2.md',
             '/CyberDefensePro/9.3.md',
+          ],
+        },
+        {
+          text: 'A.0 CompTIA CySA+ CS0-003 - Practice Exams',
+          collapsable: true,
+          children: [
+            '/CyberDefensePro/A1.md',
+            '/CyberDefensePro/A2.md',
+            '/CyberDefensePro/A3.md',
+          ],
+        },
+        {
+          text: 'B.0 TestOut CyberDefense Pro - Practice Exams',
+          collapsable: true,
+          children: [
+            '/CyberDefensePro/B1.md',
+            '/CyberDefensePro/B2.md',
+            '/CyberDefensePro/B3.md',
+          ],
+        },
+        {
+          text: 'Glossary',
+          collapsable: true,
+          children: [
+            '/CyberDefensePro/G.md',
+
           ],
         },
         {
