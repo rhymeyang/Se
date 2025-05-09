@@ -6970,6 +6970,2095 @@ description: some description
 
 ### H
 
+<table cellpadding="0" cellspacing="0">
+<tbody>
+  <tr>
+    <td>
+      <div>HAL (Hardware Abstraction Layer)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Software that makes it easy for operating systems to
+          interact with different types of hardware.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Hard disk</div></td>
+    <td>
+      <div>
+        <p>
+          A magnetic storage device used to store computer data.
+          Workstation computers and servers both have hard disks.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Hardware Abstraction Layer (HAL)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Software that makes it easy for operating systems to
+          interact with different types of hardware.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Hardware Compatibility List (HCL)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A list of hardware devices that have been tested by
+          Microsoft and are known to be compatible with Windows 2000.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Hardware profile</div></td>
+    <td>
+      <div>
+        <p>
+          A registry entry that lists the physical devices and
+          services on your computer that Windows 2000 should enable on
+          startup. Profiles can be created for computers that
+          alternate between two or more hardware configurations.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Hashing algorithms</div></td>
+    <td>
+      <div>
+        <p>
+          Hashing algorithms are used to create a message digest to
+          ensure that data integrity is maintained. A sender creates a
+          message digest by performing the hash function on the data
+          files to be transmitted. The receiver performs the same
+          action on the data received and compares the two message
+          digests. If they are the same then the data was not altered.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>HCL (Hardware Compatibility List)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A list of hardware devices that have been tested by
+          Microsoft and are known to be compatible with Windows 2000.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Header</div></td>
+    <td>
+      <div>
+        <p>
+          The header is the initial section of an IPM which contains
+          addressing and routing information for the e-mail message.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Hello PDU</div></td>
+    <td>
+      <div>
+        <p>
+          A Hello PDU; such as End System Hello (ESH), Intermediate
+          System Hello (ISH), or IS to IS Hello (IIH); establishes and
+          maintain adjacencies.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Heterogenous</div></td>
+    <td>
+      <div>
+        <p>
+          A network that consists of many foreign TCP/IP-based hosts
+          is known as a heterogeneous environment. TCP/IP provides the
+          protocol to connect many foreign computer systems, because
+          each system uses the same protocol.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Hierarchical Storage Management (HSM)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Hierarchical Storage Management (HSM) monitors the way data
+          is used, then automatically moves data between high- and
+          low-cost storage media in a way that will maximize storage
+          utilization. The bulk of an organization's data is kept on
+          slower devices, then a copy of that data is transferred to
+          faster disk drives when needed. This process optimizes
+          utilization by allowing the high-speed disk drives to act as
+          caches for the slower mass storage devices.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>High-level formatting</div></td>
+    <td>
+      <div>
+        <p>
+          A logical formatting process that prepares the disk to be
+          used by a specific file system. It scans the disk and marks
+          bad sectors, creates the partition boot sector, modifies the
+          partition table on the hard disk, creates the File
+          Allocation Table for FAT volumes, and creates the Master
+          File Table for NTFS volumes.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>High-water mark</div></td>
+    <td>
+      <div>
+        <p>
+          A server's highest local USN value for which another server
+          has received updates. For example, if Server2 has received
+          updates from Server1 up to Server1's local USN value 4653,
+          then 4653 is Server2's high-water mark for Server1.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Hives</div></td>
+    <td>
+      <div>
+        <p>
+          Sections of the Registry made up of keys, subkeys, and
+          values, which are saved as files on your hard disk.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>H-node</div></td>
+    <td>
+      <div>
+        <p>
+          A protocol used to support NetBIOS over TCP/IP. It is a
+          combination of the p-node and b-node. The default function
+          of an h-node is a P-node. If it cannot resolve a name
+          through the NetBIOS name server, it uses a broadcast to
+          resolve the name.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Hold time</div></td>
+    <td>
+      <div>
+        <p>
+          The<em class="fs-italicize"> </em> hold time is the amount
+          of time that a neighbor is considered to be functioning
+          properly without a router receiving a packet from the
+          neighbor.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Hold-down method</div></td>
+    <td>
+      <div>
+        <p>
+          With the hold-down method, routers will, for a period of
+          time, "hold" an update that reinstates an expired link. The
+          time period typically reflects the time required to attain
+          convergence on the network. The hold-down timer is reset
+          when the timer runs out or when a network change occurs.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Home directory</div></td>
+    <td>
+      <div>
+        <p>
+          A designated folder that is accessible to the user and can
+          contain his or her files and programs. The home directory is
+          assigned in Active Directory Users and Computers or Local
+          Users and Groups and can be assigned to one user or shared
+          by many.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Hop</div></td>
+    <td>
+      <div>
+        <p>
+          A hop is a stage on an electronic message's journey from
+          sender to receiver.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Host headers</div></td>
+    <td>
+      <div>
+        <p>
+          Alternative names that differentiate multiple Web sites
+          hosted on the same Microsoft Internet Information Server
+          computer. You can allow Web sites to use the same IP address
+          and port number by configuring a unique host header for each
+          site.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Host IDs</div></td>
+    <td>
+      <div>
+        <p>
+          An identifier of a workstation, server, router, or other
+          TCP/IP host within a segment. The network ID must be unique
+          to the network ID.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Host name</div></td>
+    <td>
+      <div>
+        <p>
+          An alias assigned to a computer by an administrator to
+          identify a TCP/IP host. The host name can be any
+          256-character string. Multiple host names can be assigned to
+          the same host. Many utilities can use host names rather than
+          the TCP/IP address. A host name always corresponds to an IP
+          address that is stored in a HOSTS file or in a database on a
+          DNS or NetBIOS name server.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Host name resolution</div></td>
+    <td>
+      <div>
+        <p>
+          The process of mapping TCP/IP host names to IP addresses.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>HOSTS file</div></td>
+    <td>
+      <div>
+        <p>
+          A local text file in the same format as the 4.3 Berkeley
+          Software Distribution (BSD) UNIX\etc\host file that maps
+          host names to IP addresses. This file is used to resolve
+          host names for TCP/IP utilities.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Hot Site</div></td>
+    <td>
+      <div>
+        <p>
+          A hot site is a fault tolerant strategy which provides a
+          redundant work location. If a disaster renders a work site
+          unusable, the effected organization may have a hot site in
+          which to relocate. Hot sites have the following
+          characteristics:
+        </p>
+        <ul>
+          <li>
+            This is a fully configured facility with power, A/C, etc.,
+            fully functional servers and clients that are up-to-date
+            mirroring the production system.
+          </li>
+          <li>
+            A hot site is immediately available in the event of a
+            disaster.
+          </li>
+          <li>
+            The site is expensive to maintain; requires constant
+            maintenance of the hardware, software, data, and
+            applications; and presents a security risk.
+          </li>
+          <li>
+            This facility is necessary when an organization cannot
+            tolerate any downtime.
+          </li>
+        </ul>
+        <p>&nbsp;</p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Hot Spare</div></td>
+    <td>
+      <div>
+        <p>
+          A hot spare is a component that is connected to a system. A
+          hot spare can take over automatically when another component
+          fails.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Hot Swap</div></td>
+    <td>
+      <div>
+        <p>
+          A component that is
+          <i class="fs-italicize">hot-swappable</i> can be removed and
+          replaced while the system is still running.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>HSM (Hierarchical Storage Management)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Hierarchical Storage Management (HSM) monitors the way data
+          is used, then automatically moves data between high- and
+          low-cost storage media in a way that will maximize storage
+          utilization. The bulk of an organization's data is kept on
+          slower devices, then a copy of that data is transferred to
+          faster disk drives when needed. This process optimizes
+          utilization by allowing the high-speed disk drives to act as
+          caches for the slower mass storage devices.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>HTML (Hypertext Markup Language)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A series of rules for formatting documents that you can
+          transfer between platforms. It is the language used to
+          format ASCII text files as pages for the World Wide Web.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>HTTP (Hypertext Transfer Protocol)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The standard protocol for Internet browsing. Using the
+          Hypertext Transfer Protocol (HTTP) with Exchange lets both
+          users and anonymous users access mailboxes, public folders,
+          and address lists by typing the Exchange server's URL into
+          an Internet browser.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>
+        HTTPS (Hypertext Transfer Protocol over Secure Socket Layer)
+      </div>
+    </td>
+    <td>
+      <div>
+        <p>
+          HTTPS is a secure form of HTTP that uses SSL as a sublayer
+          for security.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Hub</div></td>
+    <td>
+      <div>
+        <p>
+          A network device that ties multiple workstations (or other
+          devices) together for communication on a network. A hub can
+          come with 5 ports or more and is basically a repeater of
+          data. Also called a multi-port repeater.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Hub Transport server</div></td>
+    <td>
+      <div>
+        <p>
+          The Hub Transport server is responsible for handling all
+          message delivery in Exchange 2007.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Hyperlink</div></td>
+    <td>
+      <div>
+        <p>
+          A word, phrase, or graphic formatted so that clicking it
+          allows you to display data from another file on your
+          computer, the network, or the Internet.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Hypertext Markup Language (HTML)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A series of rules for formatting documents that you can
+          transfer between platforms. It is the language used to
+          format ASCII text files as pages for the World Wide Web.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Hypertext Transfer Protocol (HTTP)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The standard protocol for Internet browsing. Using the
+          Hypertext Transfer Protocol (HTTP) with Exchange lets both
+          users and anonymous users access mailboxes, public folders,
+          and address lists by typing the Exchange server's URL into
+          an Internet browser.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>
+        Hypertext Transfer Protocol over Secure Socket Layer (HTTPS)
+      </div>
+    </td>
+    <td>
+      <div>
+        <p>
+          HTTPS is a secure form of HTTP that uses SSL as a sublayer
+          for security.
+        </p>
+      </div>
+    </td>
+  </tr>
+</tbody>
+</table>
+
 ### I
 
+<table cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td><div>.INF file</div></td>
+<td>
+  <div>
+    <p>
+      Files that contain the necessary Registry keys for specific
+      policy settings. You use the System Preparation Tool and the
+      Setup Manager Wizard to create .INF files for Windows 2000.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>IAB (Internet Architecture Board)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A technical advisory group of the Internet Society
+      responsible for setting Internet standards including
+      publishing RFC's and overseeing the standards process. This
+      organization governs the Internet Engineering Task Force
+      (IETF), Internet Assigned Number Authority (IANA), and the
+      Internet Research Task Force (IRTF).
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>IAS (Internet Authentication Service)</div>
+</td>
+<td>
+  <div>
+    <p>
+      Software services that furnish authentication and security
+      for dial-in users.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>IBGP (Internal BGP)</div></td>
+<td>
+  <div>
+    <p>
+      Internal BGP (IBGP) is used by BGP to exchange information
+      within the autonomous system.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>
+    ICANN (Internet Corporation for Assigned Names and Numbers)
+  </div>
+</td>
+<td>
+  <div>
+    <p>
+      ICANN, or the Internet Corporation for Assigned Names and
+      Numbers, is a private non-profit corporation tasked with IP
+      address space allocation, protocol assignment, and domain
+      name system management.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>ICMP (Internet Control Message Protocol)</div>
+</td>
+<td>
+  <div>
+    <p>
+      An Internet protocol used to report errors and control
+      messages on behalf of IP. ICMP reports errors and provides
+      feedback on specific conditions. ICMP messages are carried
+      as IP datagrams and therefore are not reliable.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>IDE (Integrated Device Electronics)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A standard electronic interface that allows a computer to
+      communicate with a storage device such as the hard drive or
+      a CD-ROM drive.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>
+    IEEE (Institute of Electrical and Electronics Engineers)
+  </div>
+</td>
+<td>
+  <div>
+    <p>
+      A technical professional group that, among other
+      contributions, develops standards (such as the 802.x series
+      of standards) that often become national and international
+      standards.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>IETF (Internet Engineering Task Force)</div>
+</td>
+<td>
+  <div>
+    <p>
+      This organization works to develop solutions to technical
+      problems as they occur on the Internet. They also work to
+      develop Internet standards and protocols.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>IGMP (Internet Group Management Protocol)</div>
+</td>
+<td>
+  <div>
+    <p>
+      Informs routers that hosts of a certain multicast group are
+      available on a given network. This information is then
+      passed to other routers so that each router that supports
+      multicasting is aware of which host groups are on a
+      particular network. IGMP packets are transported using IP
+      datagrams, and are considered unreliable.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>IGMP message</div></td>
+<td>
+  <div>
+    <p>
+      IGMP messages to exchange information, such as routing
+      diagrams, with other routers.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>IGMP snooping</div></td>
+<td>
+  <div>
+    <p>
+      IGMP snooping enables a switch to detect multicast patterns
+      and multicast traffic in the overall traffic flow on a
+      network; thus making a switch aware of Layer 3. IGMP
+      Snooping listens to multicast join and remove messages to:
+    </p>
+    <ul>
+      <li>Restrict unwanted traffic flow.</li>
+      <li>Allow traffic to flow to the optimal ports.</li>
+    </ul>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>IGP (Interior Gateway Protocol)</div>
+</td>
+<td>
+  <div>
+    <p>
+      Interior Gateway Protocol (IGP) is a routing protocol that
+      exchanges information within an autonomous system and can be
+      controlled by the system in which they operate. The most
+      common examples of IGPs are Routing Information Protocol
+      (RIP), Open Shortest Path First (OSPF), Intermediate
+      System-Intermediate System (IS-IS), and Enhanced Interior
+      Gateway Routing Protocol (EIGRP).
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>IIS (Internet Information Server)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A network server that allows you to send HTML documents
+      using HTTP. IIS installs with Windows 2000 Server. Peer Web
+      Services (PWS) installs with Windows 2000 Professional.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>IMAP4 (Internet Message Access Protocol Version 4)</div>
+</td>
+<td>
+  <div>
+    <p>
+      Like POP3, IMAP4 is a protocol that allows a client to
+      download messages from a server. (It does not allow you to
+      send messages.) IMAP4 is much more powerful than POP3. For
+      example, with IMAP4, you can open all folders in your
+      mailbox, not just the Inbox, as well as public folders on
+      the server.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>IN record</div></td>
+<td>
+  <div>
+    <p>
+      A type of name service record that can be defined by using
+      the DNS Console utility.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>In-band management</div></td>
+<td>
+  <div>
+    <p>
+      In-band management uses a normal network connection with the
+      server for performing management tasks. Tools such as
+      Telnet, Remote Desktop, or SNMP provide in-band server
+      management.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Incremental backup</div></td>
+<td>
+  <div>
+    <p>
+      A backup method that copies to tape only those files that
+      have not been marked by the previous normal or incremental
+      backups. After backing the files to tape, an incremental
+      backup marks each file as having been backed up.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>
+    Individual NTFS permissions (special access permissions)
+  </div>
+</td>
+<td>
+  <div>
+    <p>
+      The NTFS file system provides the ability to assign
+      individual users access rights to files and folders.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Industry Standard Architecture (ISA)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A 16-bit I/O bus slot found on 286 through Pentium machines.
+      ISA buses:
+    </p>
+    <ul>
+      <li>Have DIP switches and jumpers.</li>
+      <li>Have 98 pins.</li>
+      <li>
+        Are backwards compatible with earlier 8-bit designs.
+      </li>
+      <li>
+        Are more likely to be paired with PCI buses rather than
+        being replaced by EISA.
+      </li>
+      <li>Are normally black plastic.</li>
+    </ul>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Infrared (IR)</div></td>
+<td>
+  <div>
+    <p>
+      Infrared (IR) wireless networking employs light waves that
+      are outside of the visible light spectrum. IR networks are
+      very insecure because the signals are not encrypted, and
+      they can be easily intercepted.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Initialization aid</div></td>
+<td>
+  <div>
+    <p>
+      A hardware device that lets you reset the relays on a
+      multi-station access unit.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>
+    Institute of Electrical and Electronics Engineers (IEEE)
+  </div>
+</td>
+<td>
+  <div>
+    <p>
+      A technical professional group that, among other
+      contributions, develops standards (such as the 802.x series
+      of standards) that often become national and international
+      standards.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Integrated Device Electronics (IDE)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A standard electronic interface that allows a computer to
+      communicate with a storage device such as the hard drive or
+      a CD-ROM drive.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Integrated Services Digital Network (ISDN)</div>
+</td>
+<td>
+  <div>
+    <p>
+      ISDN is another alternative to traditional dial-up that can
+      be used to connect to the Internet or to directly
+      communicate with another computer connected to the ISDN
+      network. ISDN is more common in Europe than in the U.S. ISDN
+      can use regular telephone wiring, but must be connected to a
+      special ISDN network. Levels of ISDN service include:
+    </p>
+    <ul>
+      <li>
+        BRI (Basic Rate Interface):
+        <ul>
+          <li>
+            2 64-Kbps bearer (B) channels can transfer data up to
+            128 Kbps. Only one B channel is used during phone use.
+          </li>
+          <li>
+            1 16-Kbps delta (D) channel for connection control.
+          </li>
+        </ul>
+      </li>
+      <li>
+        PRI (Primary Rate Interface):
+        <ul>
+          <li>
+            23 B channels (each at 64 Kbps) for data transmission.
+          </li>
+          <li>
+            1 D channel (at 64 Kbps) for connection control.
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <p>&nbsp;</p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Intel x86 machines</div></td>
+<td>
+  <div>
+    <p>
+      A computer containing an IBM-compatible processor built by
+      Intel, Cyrix, or AMD.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Intelligent Platform Management Interface (IPMI)</div>
+</td>
+<td>
+  <div>
+    <p>
+      The Intelligent Platform Management Interface (IPMI) is a
+      specification for monitoring physical information about a
+      computer.&nbsp;IPMI is an embedded chip on the motherboard,
+      referred to as the baseboard management controller, which
+      provides system information that allows the network
+      administrator to monitor and manage a remote system, even if
+      the remote system is not powered on.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Interactive</div></td>
+<td>
+  <div>
+    <p>
+      A system group that is not used for network administration
+      but automatically includes a user who logs on to the
+      computer locally. Interactive members access resources on
+      the computer at which they are physically sitting by logging
+      on and interacting with that computer.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Interior Gateway Protocol (IGP)</div>
+</td>
+<td>
+  <div>
+    <p>
+      Interior Gateway Protocol (IGP) is a routing protocol that
+      exchanges information within an autonomous system and can be
+      controlled by the system in which they operate. The most
+      common examples of IGPs are Routing Information Protocol
+      (RIP), Open Shortest Path First (OSPF), Intermediate
+      System-Intermediate System (IS-IS), and Enhanced Interior
+      Gateway Routing Protocol (EIGRP).
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Interleave ratio</div></td>
+<td>
+  <div>
+    <p>
+      Sectors on a hard disk are not consecutively numbered.
+      Instead, they are interleaved. this gives the hard disk
+      drive interface time to process the data before the
+      subsequently-numbered sector passes beneath the read/write
+      head. An interleave ratio of 1:1 has no interleave at all, a
+      1:2 ratio means the subsequently-numbered sector is the
+      second sector from the current one, a 1:3 ratio means the
+      next sector is three sectors from the current one, and so
+      on.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Interleaving</div></td>
+<td>
+  <div>
+    <p>
+      Interleaving increases the rate at which data can be written
+      to or read from a memory module by grouping data into
+      contiguous blocks instead of dispersing data intermittently.
+      The following components must be interleaving-enabled in
+      order for interleaving to work:
+    </p>
+    <ul>
+      <li>Motherboard</li>
+      <li>BIOS</li>
+      <li>Memory Module</li>
+    </ul>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Intermediate System to Intermediate System (IS-IS)</div>
+</td>
+<td>
+  <div>
+    <p>
+      Intermediate System to Intermediate System (IS-IS) is an
+      OSI-based link-state routing protocol.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Internal BGP (IBGP)</div></td>
+<td>
+  <div>
+    <p>
+      Internal BGP (IBGP) is used by BGP to exchange information
+      within the autonomous system.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Internal relay</div></td>
+<td>
+  <div>
+    <p>
+      Accepted domains identify the domains for which the
+      organization is solely responsible and the SMTP domains from
+      which the server will accept messages. There are three types
+      of accepted domains in Exchange 2007:
+    </p>
+    <ul>
+      <li>
+        Authoritative is the domain over which the Exchange server
+        has sole responsibility. In a typical environment, the
+        organization will have an e-mail domain of "company.com"
+        which is hosted by the company's e-mail server. If another
+        e-mail system or domain exists in the environment,
+        internal and external relays are employed.
+      </li>
+      <li>
+        An internal relay is an e-mail domain that is hosted by
+        another Active Directory Forest within the Exchange
+        organization. This system uses different e-mail addresses,
+        but all incoming mail goes through the Exchange
+        organization.
+      </li>
+      <li>
+        An external relay accepts e-mail for an external
+        organization and then delivers it to an external entity
+        such as the Internet via the Edge Transport server.
+      </li>
+    </ul>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Internal router</div></td>
+<td>
+  <div>
+    <p>
+      An internal router is located in the same area as all other
+      interfaces. All internal routers with an area have the same
+      are have identical LSDBs.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>International Telecommunications Union (ITU)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A committee that has set most standards related to modems
+      since the late 1980s.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Internet</div></td>
+<td>
+  <div>
+    <p>
+      A general name for the informal system of connected
+      computers all around the world. These computers (and
+      therefore their users) use telephone lines to send and
+      receive data from other computers. In order to send and
+      receive data accurately, the networking software inside the
+      computers uses a set of commonly agreed upon protocols and
+      computer languages.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Internet Architecture Board (IAB)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A technical advisory group of the Internet Society
+      responsible for setting Internet standards including
+      publishing RFC's and overseeing the standards process. This
+      organization governs the Internet Engineering Task Force
+      (IETF), Internet Assigned Number Authority (IANA), and the
+      Internet Research Task Force (IRTF).
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Internet Authentication Service (IAS)</div>
+</td>
+<td>
+  <div>
+    <p>
+      Software services that furnish authentication and security
+      for dial-in users.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Internet clients</div></td>
+<td>
+  <div>
+    <p>
+      A client computer using SMTP, POP3, IMAP4, HTTP, LDAP, MIME,
+      and/or NNTP protocols to connect to Web sites and receive
+      and send Internet mail.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Internet Control Message Protocol (ICMP)</div>
+</td>
+<td>
+  <div>
+    <p>
+      An Internet protocol used to report errors and control
+      messages on behalf of IP. ICMP reports errors and provides
+      feedback on specific conditions. ICMP messages are carried
+      as IP datagrams and therefore are not reliable.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>
+    Internet Corporation for Assigned Names and Numbers (ICANN)
+  </div>
+</td>
+<td>
+  <div>
+    <p>
+      ICANN, or the Internet Corporation for Assigned Names and
+      Numbers, is a private non-profit corporation tasked with IP
+      address space allocation, protocol assignment, and domain
+      name system management.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Internet Engineering Task Force (IETF)</div>
+</td>
+<td>
+  <div>
+    <p>
+      This organization works to develop solutions to technical
+      problems as they occur on the Internet. They also work to
+      develop Internet standards and protocols.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Internet Group Management Protocol (IGMP)</div>
+</td>
+<td>
+  <div>
+    <p>
+      Informs routers that hosts of a certain multicast group are
+      available on a given network. This information is then
+      passed to other routers so that each router that supports
+      multicasting is aware of which host groups are on a
+      particular network. IGMP packets are transported using IP
+      datagrams, and are considered unreliable.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Internet Information Server (IIS)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A network server that allows you to send HTML documents
+      using HTTP. IIS installs with Windows 2000 Server. Peer Web
+      Services (PWS) installs with Windows 2000 Professional.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Internet Layer</div></td>
+<td>
+  <div>
+    <p>
+      The layer in the TCP/IP protocol suite that includes four
+      Internet protocols. They are Internet Protocol, Address
+      Resolution Protocol, Internet Control Message Protocol, and
+      Internet Group Management Protocol.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Internet Message Access Protocol Version 4 (IMAP4)</div>
+</td>
+<td>
+  <div>
+    <p>
+      Like POP3, IMAP4 is a protocol that allows a client to
+      download messages from a server. (It does not allow you to
+      send messages.) IMAP4 is much more powerful than POP3. For
+      example, with IMAP4, you can open all folders in your
+      mailbox, not just the Inbox, as well as public folders on
+      the server.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Internet Protocol (IP)</div></td>
+<td>
+  <div>
+    <p>
+      The protocol in TCP/IP that addresses and sends TCP packets
+      on a network.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Internet Protocol Security (IPSec)</div>
+</td>
+<td>
+  <div>
+    <p>
+      IPSec is a security mechanism that can be used as its own
+      VPN protocol for network to network links or it can serve as
+      the data encryption mechanism for other VPN protocols, such
+      as L2TP.
+    </p>
+    <p>
+      IPSec (Internet Protocol Security) can be used to encrypt
+      any traffic supported by the IP protocol. This includes Web,
+      e-mail, telnet, file transfer, and SNMP traffic as well as
+      countless others. IPSec is fully capable of providing a
+      secure means to communicate for any LAN or Internet based
+      system using TCP/IP.
+    </p>
+
+    <p>
+      IPSec is the most widely deployed VPN technology used for
+      network to network VPN links. IPSec can be used to connect
+      two individual systems, a system to a network, or two
+      networks together. VPNs are used to connect trusted systems
+      together over an untrusted network. The Internet is a common
+      untrusted network used to connect distant networks together.
+    </p>
+    <p>
+      Use IPSec to encrypt data in a VPN tunnel as it passes
+      between two communication partners. Even if someone
+      intercepts the traffic, they will be unable to extract the
+      contents of the messages because they are encrypted.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Internet Protocol version 4 (IPv4)</div>
+</td>
+<td>
+  <div>
+    <p>
+      Internet Protocol version 4 (IPv4) is an address family that
+      is used to identify routing sessions for protocols that use
+      standard IP version 4 address prefixes, such as BGP. In the
+      IPv4 address family:
+    </p>
+    <ul>
+      <li>
+        Unicast or multicast address prefixes can be specified.
+      </li>
+      <li>
+        Unicast routing information is advertised by default when
+        a BGP peer is configured unless the advertisement of
+        unicast IPv4 information is explicitly turned off.
+      </li>
+    </ul>
+    <p></p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Internet Research Task Force (IRTF)</div>
+</td>
+<td>
+  <div>
+    <p>
+      This organization has the responsibility to coordinate all
+      TCP/IP-related research projects.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Internet service provider (ISP)</div>
+</td>
+<td>
+  <div>
+    <p>
+      An ISP (Internet service provider) is a company that
+      provides Internet access and other web related services.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Internet Society (ISOC)</div></td>
+<td>
+  <div>
+    <p>
+      A global organization created in 1992. Responsible for the
+      internetworking technologies and applications of the
+      Internet. It is also responsible for the further development
+      of the standards and protocols that allow the Internet to
+      function.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Internetwork</div></td>
+<td>
+  <div>
+    <p>
+      A network that consists of multiple network segments. Each
+      segment is defined by a separate network address.
+      Internetworks are connected by routers that maintain tables
+      with the addresses of each segment on the network.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>
+    Internetwork Packet Exchange/Sequenced Packet Exchange
+    (IPX/SPX)
+  </div>
+</td>
+<td>
+  <div>
+    <p>
+      IPX/SPX&nbsp; (Internetwork Packet Exchange/Sequenced Packet
+      Exchange) is an older communication protocol used to
+      interconnect clients and servers on a Novell NetWare
+      operating system environment. IPX is a connectionless packet
+      protocol that operates at the Network layer of
+      communication. SPX is
+      <span
+        >a transport layer protocol that sits on top of the IPX
+        layer&nbsp; providing&nbsp;
+      </span>
+      <span
+        >connection-oriented services between network nodes.
+      </span>
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>InterNIC</div></td>
+<td>
+  <div>
+    <p>
+      The Internet organization that has the responsibility to
+      allocate all IP addresses.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Interprocess communications mechanisms</div>
+</td>
+<td>
+  <div>
+    <p>
+      The methods by which tasks and processes to exchange data
+      under a multitasking operating system. Mailboxes, queues,
+      semaphores, shared memory, and signals are all IPC
+      mechanisms.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Interrupt Request Line (IRQ)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A physical line that devices use to send signals to the
+      processor when they want to send or receive information.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Intersite connection object</div>
+</td>
+<td>
+  <div>
+    <p>
+      A connection object whose source and target replication
+      partners exist in different sites.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Intersite replication</div></td>
+<td>
+  <div><p>Replication between sites.</p></div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Intersite Topology Generator (ISTG)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A domain controller whose Knowledge Consistency Checker
+      (KCC) establishes inbound intersite Connection objects for
+      all bridgehead servers in a site.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Intranet</div></td>
+<td>
+  <div>
+    <p>
+      An intranet is a private network that happens to employ
+      Internet information services.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Intrasite connection object</div>
+</td>
+<td>
+  <div>
+    <p>
+      A connection object whose source and target replication
+      partners exist in the same site.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Intrasite replication</div></td>
+<td>
+  <div><p>Replication within a site.</p></div>
+</td>
+</tr>
+<tr>
+<td><div>Inverse lookup</div></td>
+<td>
+  <div>
+    <p>
+      The process used to resolve the host name associated with a
+      known IP address when a host resolver sends a request to a
+      name server.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>IP (Internet Protocol)</div></td>
+<td>
+  <div>
+    <p>
+      The protocol in TCP/IP that addresses and sends TCP packets
+      on a network.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>IP Address</div></td>
+<td>
+  <div>
+    <p>
+      A unique address assigned to each computer (workstation or
+      server) on an IP network so they can communicate with each
+      other. IP addresses are usually written in dotted-decimal
+      notation. Each address is made up of four 'octets' separated
+      by periods. A typical IP address is written in decimal
+      format. An IP address can be assigned permanently to a
+      single computer (static) or assigned on a session basis by a
+      service such as DHCP (dynamic).
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>IP multicasting</div></td>
+<td>
+  <div>
+    <p>
+      IP multicasting is a very efficient and effective tool for
+      transmitting large amounts of data to multiple destinations.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Ipconfig</div></td>
+<td>
+  <div>
+    <p>
+      A TCP/IP utility. Type "ipconfig" at the command prompt to
+      display the TCP/IP information for the computer.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>IPMI (Intelligent Platform Management Interface)</div>
+</td>
+<td>
+  <div>
+    <p>
+      The Intelligent Platform Management Interface (IPMI) is a
+      specification for monitoring physical information about a
+      computer.&nbsp;IPMI is an embedded chip on the motherboard,
+      referred to as the baseboard management controller, which
+      provides system information that allows the network
+      administrator to monitor and manage a remote system, even if
+      the remote system is not powered on.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>IPSec (Internet Protocol Security)</div>
+</td>
+<td>
+  <div>
+    <p>
+      IPSec is a security mechanism that can be used as its own
+      VPN protocol for network to network links or it can serve as
+      the data encryption mechanism for other VPN protocols, such
+      as L2TP.
+    </p>
+    <p>
+      IPSec (Internet Protocol Security) can be used to encrypt
+      any traffic supported by the IP protocol. This includes Web,
+      e-mail, telnet, file transfer, and SNMP traffic as well as
+      countless others. IPSec is fully capable of providing a
+      secure means to communicate for any LAN or Internet based
+      system using TCP/IP.
+    </p>
+
+    <p>
+      IPSec is the most widely deployed VPN technology used for
+      network to network VPN links. IPSec can be used to connect
+      two individual systems, a system to a network, or two
+      networks together. VPNs are used to connect trusted systems
+      together over an untrusted network. The Internet is a common
+      untrusted network used to connect distant networks together.
+    </p>
+    <p>
+      Use IPSec to encrypt data in a VPN tunnel as it passes
+      between two communication partners. Even if someone
+      intercepts the traffic, they will be unable to extract the
+      contents of the messages because they are encrypted.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>IPv4 (Internet Protocol version 4)</div>
+</td>
+<td>
+  <div>
+    <p>
+      Internet Protocol version 4 (IPv4) is an address family that
+      is used to identify routing sessions for protocols that use
+      standard IP version 4 address prefixes, such as BGP. In the
+      IPv4 address family:
+    </p>
+    <ul>
+      <li>
+        Unicast or multicast address prefixes can be specified.
+      </li>
+      <li>
+        Unicast routing information is advertised by default when
+        a BGP peer is configured unless the advertisement of
+        unicast IPv4 information is explicitly turned off.
+      </li>
+    </ul>
+    <p></p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>IPv6</div></td>
+<td>
+  <div>
+    <p>
+      A new packet structure that has 128-bit source and
+      destination IP addresses, which are four times larger than
+      the current Ipv4. Ipv6 also provides for a simplified header
+      format and supports time-dependent traffic for use with
+      voice and video that require specified bandwidth. Ipv6 is
+      also extensible to provide for additional headers if needed.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>
+    IPX/SPX (Internetwork Packet Exchange/Sequenced Packet
+    Exchange)
+  </div>
+</td>
+<td>
+  <div>
+    <p>
+      IPX/SPX&nbsp; (Internetwork Packet Exchange/Sequenced Packet
+      Exchange) is an older communication protocol used to
+      interconnect clients and servers on a Novell NetWare
+      operating system environment. IPX is a connectionless packet
+      protocol that operates at the Network layer of
+      communication. SPX is
+      <span
+        >a transport layer protocol that sits on top of the IPX
+        layer&nbsp; providing&nbsp;
+      </span>
+      <span id="intelliTxt1"
+        >connection-oriented services between network nodes.
+      </span>
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>IRQ (Interrupt Request Line)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A physical line that devices use to send signals to the
+      processor when they want to send or receive information.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>IRTF (Internet Research Task Force)</div>
+</td>
+<td>
+  <div>
+    <p>
+      This organization has the responsibility to coordinate all
+      TCP/IP-related research projects.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>ISA (Industry Standard Architecture)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A 16-bit I/O bus slot found on 286 through Pentium machines.
+      ISA buses:
+    </p>
+    <ul>
+      <li>Have DIP switches and jumpers.</li>
+      <li>Have 98 pins.</li>
+      <li>
+        Are backwards compatible with earlier 8-bit designs.
+      </li>
+      <li>
+        Are more likely to be paired with PCI buses rather than
+        being replaced by EISA.
+      </li>
+      <li>Are normally black plastic.</li>
+    </ul>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>ISCSI</div></td>
+<td>
+  <div>
+    <p>
+      iSCSI is a network protocol that encapsulates storage device
+      communication data into IP packets for transmission over an
+      Ethernet connection allowing IP-connected hosts to access a
+      Storage Area Network (SAN). iSCSI provides the benefits of a
+      FC SAN without the cost of fibre channel hardware. Using
+      Ethernet and iSCSI,&nbsp;you can create a very powerful,
+      very fast SAN using off-the-shelf, commodity-grade Ethernet
+      hardware such as Cat5/5e cabling and Ethernet switches.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>ISDN (Integrated Services Digital Network)</div>
+</td>
+<td>
+  <div>
+    <p>
+      ISDN is another alternative to traditional dial-up that can
+      be used to connect to the Internet or to directly
+      communicate with another computer connected to the ISDN
+      network. ISDN is more common in Europe than in the U.S. ISDN
+      can use regular telephone wiring, but must be connected to a
+      special ISDN network. Levels of ISDN service include:
+    </p>
+    <ul>
+      <li>
+        BRI (Basic Rate Interface):
+        <ul>
+          <li>
+            2 64-Kbps bearer (B) channels can transfer data up to
+            128 Kbps. Only one B channel is used during phone use.
+          </li>
+          <li>
+            1 16-Kbps delta (D) channel for connection control.
+          </li>
+        </ul>
+      </li>
+      <li>
+        PRI (Primary Rate Interface):
+        <ul>
+          <li>
+            23 B channels (each at 64 Kbps) for data transmission.
+          </li>
+          <li>
+            1 D channel (at 64 Kbps) for connection control.
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <p>&nbsp;</p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>IS-IS (Intermediate System to Intermediate System)</div>
+</td>
+<td>
+  <div>
+    <p>
+      Intermediate System to Intermediate System (IS-IS) is an
+      OSI-based link-state routing protocol.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>ISOC (Internet Society)</div></td>
+<td>
+  <div>
+    <p>
+      A global organization created in 1992. Responsible for the
+      internetworking technologies and applications of the
+      Internet. It is also responsible for the further development
+      of the standards and protocols that allow the Internet to
+      function.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>ISP (Internet service provider)</div>
+</td>
+<td>
+  <div>
+    <p>
+      An ISP (Internet service provider) is a company that
+      provides Internet access and other web related services.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>ISTG (Intersite Topology Generator)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A domain controller whose Knowledge Consistency Checker
+      (KCC) establishes inbound intersite Connection objects for
+      all bridgehead servers in a site.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>ITU (International Telecommunications Union)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A committee that has set most standards related to modems
+      since the late 1980s.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>IUSR_computername</div></td>
+<td>
+  <div>
+    <p>
+      The standard Internet guest account that the server uses to
+      allow anonymous connections to your Windows Internet server.
+      When you install IIS or PWS, this file is automatically
+      created.
+    </p>
+  </div>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### J
+
+<table cellpadding="0" cellspacing="0">
+<tbody>
+  <tr>
+    <td><div>.JRS file</div></td>
+    <td>
+      <div>
+        <p>
+          Exchange 2007's database engine is referred to as the
+          Extensible Storage Engine (ESE). ESE is a transactional
+          database that writes information into RAM memory and into a
+          log file. Once it is in the log file, it will be written to
+          disk. There are a number of files used to store information:
+        </p>
+        <ul>
+          <li>
+            An .edb file is located in the actual database itself. All
+            of a user's messages, folders, public folders, contacts,
+            appointment information, etc. is all stored on the .edb
+            file. An .edb file size can exceed multiple GB.
+          </li>
+          <li>
+            A .log file is an ESE transaction log file. All .log files
+            are 1 MB.
+          </li>
+          <li>
+            A .jrs file is a reserve log file which is used to commit
+            any transactions that are still in memory in the event of
+            the server running out of disk space. All .jrs files are 1
+            MB.
+          </li>
+          <li>
+            A .chk file is used to identify which log files have been
+            committed to the database. The size of .chk file varies
+            from 2-3 KB.
+          </li>
+        </ul>
+        <p>
+          The ESE takes the following steps to write information into
+          database files:
+        </p>
+        <ol>
+          <li>
+            The ESE writes a message into memory RAM when it arrives
+            at the server.
+          </li>
+          <li>
+            At the same time that information is written to RAM, it's
+            written into the current .log file. All current log files
+            are named E00.log. The information is written in a
+            sequential format until the log file is full. When the log
+            file is full, it will be renamed.
+          </li>
+          <li>
+            Once it has been committed to the log file, the
+            information is written to the .edb file.
+          </li>
+          <li>
+            The checkpoint file is updated to indicate that the
+            transaction log that has been committed to the database.
+          </li>
+        </ol>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Java</div></td>
+    <td>
+      <div>
+        <p>
+          A programming language designed to let programmers create
+          applications for the Internet. Java applications do not
+          depend on a particular operating system or hardware platform
+          to run.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Journaling</div></td>
+    <td>
+      <div>
+        <p>
+          <span style="font-size: 10pt; font-family: Arial, sans-serif">Journaling is the ability to record and retain all
+            communications in an organization</span><span style="font-family: Arial, sans-serif">.</span>
+        </p>
+      </div>
+    </td>
+  </tr>
+</tbody>
+</table>
+
+### K
+
+<table cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+  <td>
+    <div>KCC (Knowledge Consistency Checker)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A process that runs on each domain controller and creates
+        inbound Connection objects (almost always intrasite
+        Connection objects).
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Keepalive messages</div></td>
+  <td>
+    <div>
+      <p>
+        Keepalive messages act as hello packets to ensure that
+        routers are still responsive.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Kerberos</div></td>
+  <td>
+    <div>
+      <p>
+        Kerberos is an authentication encryption protocol designed
+        to provide security for the initial logon process and
+        service requests. Kerberos uses symmetric key cryptography,
+        employs DES, and provides end-to-end security.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Kernel mode</div></td>
+  <td>
+    <div>
+      <p>
+        A privileged operating mode for the operating system files
+        and processes that interact directly with the computer's
+        hardware.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Key</div></td>
+  <td>
+    <div>
+      <p>
+        A part of the Registry. Keys appear as folders in the
+        Registry window and can contain subkeys and values.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Knowledge Consistency Checker (KCC)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A process that runs on each domain controller and creates
+        inbound Connection objects (almost always intrasite
+        Connection objects).
+      </p>
+    </div>
+  </td>
+</tr>
+</tbody>
+</table>
+
+### L
+
+### M
+
+### N
