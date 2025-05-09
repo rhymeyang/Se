@@ -123,6 +123,24 @@ export default defineUserConfig({
           ],
         },
         {
+          text: 'CyberDefense Pro - 8.0 Security Management',
+          collapsable: true,
+          children: [
+            '/CyberDefensePro/8.1.md',
+            '/CyberDefensePro/8.2.md',
+            '/CyberDefensePro/8.3.md',
+          ],
+        },
+        {
+          text: 'CyberDefense Pro - 9.0 Post-Attack',
+          collapsable: true,
+          children: [
+            '/CyberDefensePro/9.1.md',
+            '/CyberDefensePro/9.2.md',
+            '/CyberDefensePro/9.3.md',
+          ],
+        },
+        {
           text: 'CYB400',
           collapsable: true,
           children: [
