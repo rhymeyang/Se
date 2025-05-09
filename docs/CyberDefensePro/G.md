@@ -605,12 +605,10 @@ description: some description
           is often combined with ESP to achieve integrity and
           confidentiality.
         </p>
-
         <p>&nbsp;</p>
         <p>&nbsp;</p>
       </div>
     </td>
-
   </tr>
   <tr>
     <td><div>Alert</div></td>
