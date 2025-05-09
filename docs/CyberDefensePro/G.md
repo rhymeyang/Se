@@ -3699,6 +3699,2456 @@ description: some description
 
 ### D
 
+<table cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td><div>Daily copy backup</div></td>
+<td>
+  <div>
+    <p>
+      A specific backup type that copies only files and folders
+      that have changed during that day. It does not mark their
+      archive attributes.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>
+    DARPA (Department of Defense Advanced Research Projects
+    Agency)
+  </div>
+</td>
+<td>
+  <div>
+    <p>
+      The agency of the U.S. Department of Defense which created
+      the industry-standard TCP/IP suite of protocols based on
+      packet-switching network experiments conducted in the late
+      1960's and 1970's.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Data definition</div></td>
+<td>
+  <div>
+    <p>
+      The process of creating a database and associated objects,
+      such as tables, indexes, constraints, defaults, rules,
+      procedures, triggers, and views.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Data Encryption Standard (DES)</div>
+</td>
+<td>
+  <div>
+    <p>
+      Data Encryption Standard is a common symmetric cryptography
+      method. It was created in 1972 and re-certified in 1993. DES
+      has a limitation of 56-bit keys and offers little encryption
+      security since it can be easily broken.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Data Link Control (DLC)</div></td>
+<td>
+  <div>
+    <p>
+      A non-routable protocol. Windows NT computers use DLC to
+      connect to IBM mainframes via 3270 terminal emulators and to
+      connect to IBM AS/400 computers via 5250 emulators.
+      Microsoft SNA Server for Windows NT uses DLC to communicate
+      with mainframes on a token ring network. DLC is also used
+      with some HP print devices that are attached to the network
+      through a built-in adapter card.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Data Link Layer (OSI model)</div>
+</td>
+<td>
+  <div>
+    <p>
+      Layer 2 of the OSI reference model. This layer provides
+      reliable transit of data across a physical link. The data
+      link layer is concerned with physical addressing, network
+      topology, line discipline, error notification, ordered
+      delivery of frames, and flow control. The IEEE has divided
+      this layer into two sublayers: the MAC sublayer and the LLC
+      sublayer. Sometimes simply called link layer. Roughly
+      corresponds to the data link control layer of the SNA model.
+      See also application layer, MAC address, network layer,
+      physical layer, presentation layer, session layer, and
+      transport layer.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Data redundancy</div></td>
+<td>
+  <div>
+    <p>
+      Creating and maintaining multiple copies of the same data.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Database</div></td>
+<td>
+  <div>
+    <p>
+      A collection of information, tables, and other objects
+      organized and presented to serve a specific purpose, such as
+      facilitating searching, sorting, and recombining data.
+      Databases are stored in files.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Database replication</div></td>
+<td>
+  <div>
+    <p>
+      The process by which a WINS server can resolve NetBIOS names
+      of hosts registered with another WINS server. For example,
+      if a host on subnet A is registered with a local WINS
+      server, but wants to communicate with a host on subnet B
+      where the host is registered with a different WINS server,
+      the NetBIOS name cannot be resolved unless the two WINS
+      servers have replicated their databases with each other.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Datagram</div></td>
+<td>
+  <div>
+    <p>
+      Another term used to describe a packet. The term is also
+      used to describe the Internet protocol known as the User
+      Datagram Protocol, a connectionless protocol that does not
+      guarantee delivery of datagrams.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>DCOM (Distributed Component Object Model)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A method of configuring a client/server application so that
+      several computers can use it at the same time. DCOM uses
+      remote procedure calls (RPCs) to allow applications to
+      interoperate and communicate with each other.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>DDE (Dynamic Data Exchange)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A system by which applications can share data and commands.
+      Both applications must support DDE.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>DDS (Digital Data Service)</div>
+</td>
+<td>
+  <div>
+    <p>
+      Digital lines to which a computer can connect using a
+      channel service unit/digital service unit (CSU/DSU). These
+      kinds of lines carry 99 percent error-free digital signals
+      at speeds ranging from 2.4 to 56 kilobits per second. DDS
+      lines are normally leased lines rather than on-demand. An
+      exception is Switched 56, which is a system of on-demand
+      (dial-up) 56 Kbps DDS lines.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>DEC (Digital Equipment Corporation)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A computer manufacturing company that makes RISC-based
+      processors such as Alpha.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Default</div></td>
+<td>
+  <div>
+    <p>
+      An action that a system performs, or a characteristic that
+      it displays unless explicitly instructed otherwise.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Default gateway</div></td>
+<td>
+  <div>
+    <p>
+      The gateway you always want to use to communicate with a
+      host on a different network. It receives packets from the
+      local network and transfers them to another gateway on the
+      other network. You specify a default gateway when you
+      configure TCP/IP.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Default route</div></td>
+<td>
+  <div>
+    <p>
+      If a default route is configured, the router will send
+      packets via that route in cases where a dynamic route is not
+      provided. This can be used to create sufficient
+      reachability, especially for route between an edge and the
+      core. Default routes also reduce the burden on network
+      resources caused by dynamic routing.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Default subnet mask</div></td>
+<td>
+  <div>
+    <p>
+      A subnet mask that is used on TCP/IP networks that are not
+      divided into subnets. All TCP/IP hosts require a subnet mask
+      even if the network is a single segment.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Demand paging</div></td>
+<td>
+  <div>
+    <p>
+      A Windows process that moves data between the computer's RAM
+      and a paging file on the hard drive.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Demilitarized Zone (DMZ)</div>
+</td>
+<td>
+  <div>
+    <p>
+      DMZ (Demilitarized Zone) is a buffer subnet. A DMZ should
+      only contain servers that are to be accessed by external
+      visitors. Often it is assumed that any server placed in the
+      DMZ will be compromised. Thus, no mission critical or
+      sensitive systems are located in a DMZ.
+    </p>
+    <p>
+      A domain controller may appear in a DMZ when the DMZ is an
+      entire isolated domain, however this is not common. User
+      workstations are never located in a DMZ. Backup servers,
+      unless specifically deployed for just the DMZ, are never
+      located in a DMZ.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>
+    Department of Defense Advanced Research Projects Agency
+    (DARPA)
+  </div>
+</td>
+<td>
+  <div>
+    <p>
+      The agency of the U.S. Department of Defense which created
+      the industry-standard TCP/IP suite of protocols based on
+      packet-switching network experiments conducted in the late
+      1960's and 1970's.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>DES (Data Encryption Standard)</div>
+</td>
+<td>
+  <div>
+    <p>
+      Data Encryption Standard is a common symmetric cryptography
+      method. It was created in 1972 and re-certified in 1993. DES
+      has a limitation of 56-bit keys and offers little encryption
+      security since it can be easily broken.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Designated Router (DR)</div></td>
+<td>
+  <div>
+    <p>
+      A Designated Router (DR) is a router in a PIM-Sparse Mode
+      tree that initiates the Join/Prune message cascade upstream
+      in response to the IGMP membership information that is
+      received from IGMP hosts.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Destination replication partner</div>
+</td>
+<td>
+  <div>
+    <p>
+      A replication partner that receives updates from a source
+      replication partner. Also called a target replication
+      partner.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Device driver</div></td>
+<td>
+  <div>
+    <p>
+      A software component that allows a hardware device to
+      communicate with the operating system of a computer.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>DFS (Distributed File System)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A file management system that lets users and administrators
+      create a virtual file structure such that a folder or
+      hierarchy of folders appear to contain a collection of files
+      that are, if fact, located on multiple computers or drives
+      connected at various physical locations on the network. A
+      Dfs directory tree helps users to browse through, search
+      for, and access data on the network.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>DHCP (Dynamic Host Configuration Protocol)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A protocol that dynamically assigns IP addresses to each
+      computer on a network.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>DHCP discover</div></td>
+<td>
+  <div>
+    <p>
+      A message that makes a request for an IP lease. The message
+      contains the client's hardware address and computer name, so
+      that DHCP servers know which client sent the request.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>DHCP Manager</div></td>
+<td>
+  <div>
+    <p>A Microsoft utility used to manage DHCP servers.</p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>DHCP offer</div></td>
+<td>
+  <div>
+    <p>
+      All DHCP servers that have valid IP addressing information
+      available send a DHCP offer to the client when the client
+      makes a request.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>DHCP request</div></td>
+<td>
+  <div>
+    <p>
+      The client will initialize TCP/IP and broadcasts a request
+      for the location of a DHCP server and IP addressing
+      information.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>DHCP scope</div></td>
+<td>
+  <div>
+    <p>
+      The ability to set a start and end range for the assignment
+      of IP addresses using DHCP. Addresses can also be excluded
+      from the available addresses as well. The scope is set using
+      the DHCP Console.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Dial-up Networking</div></td>
+<td>
+  <div>
+    <p>
+      A software program that allows a client computer to connect
+      to an external or remote network via modem. It is the client
+      version of RAS. Examples of dial-up networking include
+      connecting from home to a computer at work over the phone
+      lines or connecting with an internet service provider by
+      modem.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Differential backup</div></td>
+<td>
+  <div>
+    <p>
+      A backup process that copies to tape only those files that
+      have not been marked by previous backups. A differential
+      backup does not mark the files after backing them up.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Diffuse Mode (Scatter Mode)</div>
+</td>
+<td>
+  <div>
+    <p>
+      One mode that an infrared device operates in is diffuse mode
+      (also called
+      <i class="fs-italicize">scatter mode</i>), which operates by
+      broadcasting a large beam of light rather than a narrow
+      beam. It does not require line-of-sight connections.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Diffusing Update Algorithm Link-state (DUAL)</div>
+</td>
+<td>
+  <div>
+    <p>
+      Diffusing Update Algorithm Link-state (DUAL) technology
+      makes decisions concerning EIGRP routing computations and
+      guarantees freedom from routing loops. DUAL tracks all
+      routes advertised by neighbors, and uses metrics (also
+      called <i class="fs-italicize">cost</i>) to select the best
+      path and a second best path to reach a destination.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Dig</div></td>
+<td>
+  <div>
+    <p>
+      Dig is the Linux preferred tool for testing name resolution.
+      Dig resolves (looks up) the IP address of a host name.
+      Displays other name resolution-related information such as
+      the DNS server used for the lookup request.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Digital certificates</div></td>
+<td>
+  <div>
+    <p>
+      Encoded computer information that provides verification of
+      the identity of a client or server. These certificates
+      include encoded information that identifies a particular
+      person, company, or computer, and are often used to
+      distribute public encryption keys to recipients.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Digital Data Service (DDS)</div>
+</td>
+<td>
+  <div>
+    <p>
+      Digital lines to which a computer can connect using a
+      channel service unit/digital service unit (CSU/DSU). These
+      kinds of lines carry 99 percent error-free digital signals
+      at speeds ranging from 2.4 to 56 kilobits per second. DDS
+      lines are normally leased lines rather than on-demand. An
+      exception is Switched 56, which is a system of on-demand
+      (dial-up) 56 Kbps DDS lines.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Digital envelope</div></td>
+<td>
+  <div>
+    <p>
+      A method of hiding the content of a message from anyone but
+      the recipient. The sender uses the recipient's public key to
+      encrypt the contents of the message. The recipient uses her
+      own private key to decrypt and read the message.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Digital Equipment Corporation (DEC)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A computer manufacturing company that makes RISC-based
+      processors such as Alpha.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Digital Network Architecture (DNA)</div>
+</td>
+<td>
+  <div>
+    <p>
+      In the mid-1970s, Digital Equipment Corporation developed a
+      protocol suite known as Digital Network Architecture (DNA).
+      It is also known as DECnet. The Physical and Data Link
+      layers of DNA were the predecessors of the Ethernet IEEE
+      802.3 standard.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Digital signature</div></td>
+<td>
+  <div>
+    <p>
+      A method of verifying the sender of a message, but does not
+      encrypt the message itself. The sender uses his own private
+      key to encrypt a digital signature attached to a message.
+      The recipient uses the sender's public key to decrypt the
+      signature and verify the sender's identity.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Digital Subscriber Line (DSL)</div>
+</td>
+<td>
+  <div>
+    <p>
+      DSL or Digital Subscriber Line is a form of high-speed
+      dial-up connection used to connect remote systems to the
+      Internet. DSL operates over existing copper phone lines and
+      is an economical choice for homes and small businesses.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Digital Volt Meter (DVM)</div>
+</td>
+<td>
+  <div>
+    <p>
+      An electrical device that you can use to diagnose cable
+      problems. A DVM can determine if there is a break or short
+      in the cable by testing the resistance (measured in ohms) of
+      the network cable.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Direct Memory Access (DMA)</div>
+</td>
+<td>
+  <div>
+    <p>
+      Direct Memory Access (DMA) channels are conduits used by
+      high-speed devices to communicate directly with RAM,
+      bypassing the CPU.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Directory replication</div></td>
+<td>
+  <div>
+    <p>
+      Directory replication is the process of sharing directory
+      information between servers inside and between sites.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Directory Service Agent (DSA)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A process that runs on a domain controller and provides
+      access to the Active Directory database.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Directory Services Restore Mode</div>
+</td>
+<td>
+  <div>
+    <p>
+      A special safe mode you use to restore the system state data
+      on a domain controller.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Direct-Sequence Spread Spectrum (DSSS)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A type of signalling method, used by a wireless networking
+      architecture, where the transmitter breaks data into pieces
+      and sends the pieces across multiple frequencies in a
+      defined range. DSSS is more susceptible to interference and
+      less secure then other forms of signalling, such as
+      Frequency Hopping Spread Spectrum (FHSS).
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>DirectX APIs</div></td>
+<td>
+  <div>
+    <p>
+      A low-level API that provides fast response to user input.
+      Microsoft designed DirectX specifically to run
+      graphically-intensive computer games. DirectX components are
+      Microsoft DirectDraw, Microsoft DirectPlay, and Microsoft
+      DirectSound.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Disk partition</div></td>
+<td>
+  <div>
+    <p>
+      Also called a partition. A portion of the free space on a
+      hard disk that you format with a file system. Partitions can
+      be either primary or extended.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Distance Vector Multicast Routing Protocol (DVMRP)</div>
+</td>
+<td>
+  <div>
+    <p>
+      Distance Vector Multicast Routing Protocol (DVMRP) is a
+      protocol that shares information between routers to
+      transport IP Multicast packets among networks.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Distance vector routing protocol</div>
+</td>
+<td>
+  <div>
+    <p>
+      Class of routing algorithms that iterate on the number of
+      hops in a route to find a shortest-path spanning tree.
+      Distance vector routing algorithms call for each router to
+      send its entire routing table in each update, but only to
+      its neighbors. Distance vector routing algorithms can be
+      prone to routing loops, but are computationally simpler than
+      link state routing algorithms. Also called Bellman-Ford
+      routing algorithm. See also link state routing algorithm.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Distribute list</div></td>
+<td>
+  <div>
+    <p>
+      A distribute list is a type of access list that is applied
+      to routing updates. Unlike normal access lists, distribute
+      lists can control routing updates no matter their origin.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Distributed applications</div>
+</td>
+<td>
+  <div>
+    <p>
+      Applications that split processing tasks between a client
+      (front-end) and a server (back-end).
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Distributed Component Object Model (DCOM)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A method of configuring a client/server application so that
+      several computers can use it at the same time. DCOM uses
+      remote procedure calls (RPCs) to allow applications to
+      interoperate and communicate with each other.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Distributed File System (DFS)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A file management system that lets users and administrators
+      create a virtual file structure such that a folder or
+      hierarchy of folders appear to contain a collection of files
+      that are, if fact, located on multiple computers or drives
+      connected at various physical locations on the network. A
+      Dfs directory tree helps users to browse through, search
+      for, and access data on the network.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Distributed Management Interface (DMI)</div>
+</td>
+<td>
+  <div>
+    <p>
+      The Distributed Management Interface (DMI) is a standard for
+      organizing information about desktop, notebook, and server
+      computers. DMI is part of the System Management BIOS
+      (SMBIOS) specification which allows data about a system to
+      be stored in the individual system's BIOS. Management
+      software interfaces with the BIOS on a monitored system to
+      gather this information and assemble it into an
+      administrator-specified format such as a report or a
+      database.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Distributed Parity</div></td>
+<td>
+  <div>
+    <p>
+      Distributed parity is a method of data protection used in a
+      RAID 5 configuration. Duplicate data (parity) is placed on
+      multiple disks (distributed) to protect against data loss in
+      the event of a storage disk failure.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Distributed processing</div></td>
+<td>
+  <div>
+    <p>
+      A technique of using both the client and server's processors
+      to complete a task. The client or "front end" accepts input
+      and runs simple calculations, while the server or "back end"
+      handles processes that require more processing power.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Distribution group</div></td>
+<td>
+  <div>
+    <p>
+      A distribution group is a universal group that has been
+      mail-enabled, such as a security group. A distribution group
+      can be used to send an e-mail to a large number of people in
+      an Exchange organization, such as entire departments or
+      groups.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Distribution list</div></td>
+<td>
+  <div>
+    <p>
+      A distribution list contains addresses for individual users,
+      public folders, and other distribution lists. They allow
+      each member to receive a copy of a message sent to the
+      entire list. Applications use distribution lists.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Distribution tree</div></td>
+<td>
+  <div>
+    <p>
+      A distribution tree shows the source of multicast
+      information and the path that multicast traffic use across
+      the network infrastructure.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>DLC (Data Link Control)</div></td>
+<td>
+  <div>
+    <p>
+      A non-routable protocol. Windows NT computers use DLC to
+      connect to IBM mainframes via 3270 terminal emulators and to
+      connect to IBM AS/400 computers via 5250 emulators.
+      Microsoft SNA Server for Windows NT uses DLC to communicate
+      with mainframes on a token ring network. DLC is also used
+      with some HP print devices that are attached to the network
+      through a built-in adapter card.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>DMA (Direct Memory Access)</div>
+</td>
+<td>
+  <div>
+    <p>
+      Direct Memory Access (DMA) channels are conduits used by
+      high-speed devices to communicate directly with RAM,
+      bypassing the CPU.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>DMI (Distributed Management Interface)</div>
+</td>
+<td>
+  <div>
+    <p>
+      The Distributed Management Interface (DMI) is a standard for
+      organizing information about desktop, notebook, and server
+      computers. DMI is part of the System Management BIOS
+      (SMBIOS) specification which allows data about a system to
+      be stored in the individual system's BIOS. Management
+      software interfaces with the BIOS on a monitored system to
+      gather this information and assemble it into an
+      administrator-specified format such as a report or a
+      database.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>DMZ (Demilitarized Zone)</div>
+</td>
+<td>
+  <div>
+    <p>
+      DMZ (Demilitarized Zone) is a buffer subnet. A DMZ should
+      only contain servers that are to be accessed by external
+      visitors. Often it is assumed that any server placed in the
+      DMZ will be compromised. Thus, no mission critical or
+      sensitive systems are located in a DMZ.
+    </p>
+    <p>
+      A domain controller may appear in a DMZ when the DMZ is an
+      entire isolated domain, however this is not common. User
+      workstations are never located in a DMZ. Backup servers,
+      unless specifically deployed for just the DMZ, are never
+      located in a DMZ.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>DNA (Digital Network Architecture)</div>
+</td>
+<td>
+  <div>
+    <p>
+      In the mid-1970s, Digital Equipment Corporation developed a
+      protocol suite known as Digital Network Architecture (DNA).
+      It is also known as DECnet. The Physical and Data Link
+      layers of DNA were the predecessors of the Ethernet IEEE
+      802.3 standard.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>DNS (Domain Name Server)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A server that maintains a database of IP address/computer
+      name mappings. A DNS server can run on Windows NT, Unix, or
+      NetWare (5). The DNS has the responsibility to resolve fully
+      qualified domain names and other host names to IP addresses.
+      In DNS, the clients are called resolvers and the servers are
+      called name servers.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>DNS (Domain Name System)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A hierarchical client/server-based database management
+      system that translates computer names into IP addresses. DNS
+      maps to the application layer and uses UDP and TCP as the
+      underlying protocols. Clients, known as resolvers, contact
+      name servers for the IP address they are seeking.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>DNS Domain</div></td>
+<td>
+  <div>
+    <p>
+      A domain that defines different levels of authority in a
+      hierarchical structure. The highest level is called the root
+      domain. The other levels of domains are currently defined as
+      com, edu, org, net, gov, mil, num, and arpa. Second level
+      domains are any domains defined by companies such as
+      Microsoft.com or Novell.com.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>DNS Service Discovery (DNS-SD)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A service location feature used in Zeroconf networking
+      implementation. DNS-SD allows IP hosts to automatically find
+      available services, such as file servers, printers, and
+      routers. DNS-SD is a Mac OS related feature.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>DNS-SD (DNS Service Discovery)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A service location feature used in Zeroconf networking
+      implementation. DNS-SD allows IP hosts to automatically find
+      available services, such as file servers, printers, and
+      routers. DNS-SD is a Mac OS related feature.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Domain</div></td>
+<td>
+  <div>
+    <p>
+      A logical grouping of computers and users. In a domain, all
+      users have access to a central directory database that
+      stores security and user account information for the domain.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Domain Admins</div></td>
+<td>
+  <div>
+    <p>
+      A built-in global group that is added automatically to the
+      Administrators local group, making all members of Domain
+      Admins group domain administrators.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Domain controller</div></td>
+<td>
+  <div>
+    <p>
+      Windows 2000 domain controllers contain copies of the Active
+      Directory database. They provide a centralized approach to
+      administration and account maintenance.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Domain Dfs</div></td>
+<td>
+  <div>
+    <p>
+      A configuration of Dfs in which Active Directory stores the
+      information about the virtual file structure. Advantages
+      include fault-tolerance.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Domain Guests</div></td>
+<td>
+  <div>
+    <p>
+      A built-in global group in which the Guest user account is a
+      member.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Domain Name</div></td>
+<td>
+  <div>
+    <p>
+      A domain name locates entities (for example, websites) on
+      the Internet. Domain names are managed within a domain name
+      system (DNS), which is a hierarchy that is made up of the
+      following components:
+    </p>
+    <ul>
+      <li>
+        . (dot) domain (also called the<i class="fs-italicize">
+          root </i
+        >domain)
+      </li>
+      <li>Top Level Domains (TLDs) such as .com, .edu, .gov</li>
+      <li>
+        Additional domains such as yahoo.com, microsoft.com, etc.
+      </li>
+    </ul>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Domain Name Server (DNS)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A server that maintains a database of IP address/computer
+      name mappings. A DNS server can run on Windows NT, Unix, or
+      NetWare (5). The DNS has the responsibility to resolve fully
+      qualified domain names and other host names to IP addresses.
+      In DNS, the clients are called resolvers and the servers are
+      called name servers.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Domain Name System (DNS)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A hierarchical client/server-based database management
+      system that translates computer names into IP addresses. DNS
+      maps to the application layer and uses UDP and TCP as the
+      underlying protocols. Clients, known as resolvers, contact
+      name servers for the IP address they are seeking.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Domain partition</div></td>
+<td>
+  <div>
+    <p>
+      An Active Directory partition that stores objects,
+      attribute, and attribute values for a particular domain.
+      Each domain in Active Directory has its own domain
+      partition.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Domain user accounts</div></td>
+<td>
+  <div>
+    <p>
+      User name and password information stored in the Active
+      Directory database on the domain controllers.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Domain Users</div></td>
+<td>
+  <div>
+    <p>
+      Any user account created in a Windows domain is a domain
+      user. Domain Users is a global group.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>DOS</div></td>
+<td>
+  <div><p>See MS-DOS.</p></div>
+</td>
+</tr>
+<tr>
+<td><div>DR (Designated Router)</div></td>
+<td>
+  <div>
+    <p>
+      A Designated Router (DR) is a router in a PIM-Sparse Mode
+      tree that initiates the Join/Prune message cascade upstream
+      in response to the IGMP membership information that is
+      received from IGMP hosts.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Drive mapping</div></td>
+<td>
+  <div>
+    <p>
+      A specific letter used to map a drive or volume on a
+      workstation or server.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>DROTHER</div></td>
+<td>
+  <div>
+    <p>
+      Any other router that is not a DR or a BDR is called a
+      DROTHER. This is simply a term used to describe a non-DR or
+      non-BDR router. It is not technically an OSPF router role.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>DSA (Directory Service Agent)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A process that runs on a domain controller and provides
+      access to the Active Directory database.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>DSL (Digital Subscriber Line)</div>
+</td>
+<td>
+  <div>
+    <p>
+      DSL or Digital Subscriber Line is a form of high-speed
+      dial-up connection used to connect remote systems to the
+      Internet. DSL operates over existing copper phone lines and
+      is an economical choice for homes and small businesses.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>DSSS (Direct-Sequence Spread Spectrum)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A type of signalling method, used by a wireless networking
+      architecture, where the transmitter breaks data into pieces
+      and sends the pieces across multiple frequencies in a
+      defined range. DSSS is more susceptible to interference and
+      less secure then other forms of signalling, such as
+      Frequency Hopping Spread Spectrum (FHSS).
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>DUAL (Diffusing Update Algorithm Link-state)</div>
+</td>
+<td>
+  <div>
+    <p>
+      Diffusing Update Algorithm Link-state (DUAL) technology
+      makes decisions concerning EIGRP routing computations and
+      guarantees freedom from routing loops. DUAL tracks all
+      routes advertised by neighbors, and uses metrics (also
+      called <i class="fs-italicize">cost</i>) to select the best
+      path and a second best path to reach a destination.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Dual Ring</div></td>
+<td>
+  <div>
+    <p>
+      A dual ring is an enhanced version of the ring networking
+      topology. A dual ring network includes two rings; the
+      primary and secondary rings, which increase performance and
+      fault tolerance. A break in one ring in a dual ring
+      configuration has no effect on communications. A decrease in
+      bandwidth might result, but data can be sent on the other
+      ring.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Dual Stack</div></td>
+<td>
+  <div>
+    <p>
+      A method used to allow concurrent support for both IPv4 and
+      IPv6 within the same network.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Dual-boot</div></td>
+<td>
+  <div>
+    <p>
+      The ability to boot a computer with either one of two
+      operating systems. Both operating systems must be loaded on
+      the computer. At bootup a menu prompts the user to load the
+      operating system the computer should use.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Duplex (Simplex)</div></td>
+<td>
+  <div>
+    <p>
+      Simplex and duplex are methods of communication
+      transmission. Simplex is the one-way transmission of a
+      signal across a medium. Duplex is the two-way transmission
+      of a signals across a medium. There are two types of duplex
+      transmission; half-duplex and full-duplex. Half-duplex
+      allows transmission of signals, one party at a time.
+      Full-duplex allows transmission and reception of signals to
+      occur concurrently.
+    </p>
+    <p>&nbsp;</p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>DVM (Digital Volt Meter)</div>
+</td>
+<td>
+  <div>
+    <p>
+      An electrical device that you can use to diagnose cable
+      problems. A DVM can determine if there is a break or short
+      in the cable by testing the resistance (measured in ohms) of
+      the network cable.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>DVMRP (Distance Vector Multicast Routing Protocol)</div>
+</td>
+<td>
+  <div>
+    <p>
+      Distance Vector Multicast Routing Protocol (DVMRP) is a
+      protocol that shares information between routers to
+      transport IP Multicast packets among networks.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Dynamic Data Exchange (DDE)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A system by which applications can share data and commands.
+      Both applications must support DDE.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Dynamic disk</div></td>
+<td>
+  <div>
+    <p>
+      A disk device managed by Windows 2000 Disk Management.
+      Dynamic disks do not contain partitions or logical drives.
+      They can contain only dynamic volumes created with Disk
+      Management. They cannot be accessed by earlier version of
+      Windows or by MS-DOS.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Dynamic distribution group</div>
+</td>
+<td>
+  <div>
+    <p>
+      A dynamic distribution group is an Exchange distribution
+      group whose membership is defined by the results of a query
+      which is executed every time a message is sent to the group.
+      This is optimal for environments in which people move groups
+      or buildings often and e-mail groups need to be able to
+      accommodate changes as they occur.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td>
+  <div>Dynamic Host Configuration Protocol (DHCP)</div>
+</td>
+<td>
+  <div>
+    <p>
+      A protocol that dynamically assigns IP addresses to each
+      computer on a network.
+    </p>
+  </div>
+</td>
+</tr>
+<tr>
+<td><div>Dynamic routing</div></td>
+<td>
+  <div>
+    <p>
+      Dynamic routing is an addressing method that senses changes
+      in the network topology and responds accordingly without
+      administrator involvement. Dynamic routers:
+    </p>
+    <ul>
+      <li>
+        Propagate changes and shifts in the network topology to
+        each router in the network, causing the routing tables on
+        each router to always be up to date.
+      </li>
+      <li>
+        Are responsible for all networks to which they are
+        connected.
+      </li>
+      <li>
+        Employ additional processes or services to exchange
+        routing information between routers.
+      </li>
+    </ul>
+  </div>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### E
+
+<table cellpadding="0" cellspacing="0">
+<tbody>
+  <tr>
+    <td><div>.EDB file</div></td>
+    <td>
+      <div>
+        <p>
+          Exchange 2007's database engine is referred to as the
+          Extensible Storage Engine (ESE). ESE is a transactional
+          database that writes information into RAM memory and into a
+          log file. Once it is in the log file, it will be written to
+          disk. There are a number of files used to store information:
+        </p>
+        <ul>
+          <li>
+            An .edb file is located in the actual database itself. All
+            of a user's messages, folders, public folders, contacts,
+            appointment information, etc. is all stored on the .edb
+            file. An .edb file size can exceed multiple GB.
+          </li>
+          <li>
+            A .log file is an ESE transaction log file. All .log files
+            are 1 MB.
+          </li>
+          <li>
+            A .jrs file is a reserve log file which is used to commit
+            any transactions that are still in memory in the event of
+            the server running out of disk space. All .jrs files are 1
+            MB.
+          </li>
+          <li>
+            A .chk file is used to identify which log files have been
+            committed to the database. The size of .chk file varies
+            from 2-3 KB.
+          </li>
+        </ul>
+        <p>
+          The ESE takes the following steps to write information into
+          database files:
+        </p>
+        <ol>
+          <li>
+            The ESE writes a message into memory RAM when it arrives
+            at the server.
+          </li>
+          <li>
+            At the same time that information is written to RAM, it's
+            written into the current .log file. All current log files
+            are named E00.log. The information is written in a
+            sequential format until the log file is full. When the log
+            file is full, it will be renamed.
+          </li>
+          <li>
+            Once it has been committed to the log file, the
+            information is written to the .edb file.
+          </li>
+          <li>
+            The checkpoint file is updated to indicate that the
+            transaction log that has been committed to the database.
+          </li>
+        </ol>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>EAP (Extensible Authentication Protocol)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          EAP is an authentication protocol (an extension of PPP). It
+          is a set of interface standards that provide various
+          authentication methods (smartcards, biometrics, and digital
+          certificates), define access definitions, providing
+          protection mechanisms and custom solutions, and does not
+          maintain a database of user accounts and passwords.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>EAPoL (Extensible Authentication Protocol over LAN)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The Extensible Authentication Protocol over LAN is used for
+          authentication of 802.1X port access control over either
+          wired or wireless LANs.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Eavesdropping</div></td>
+    <td>
+      <div>
+        <p>
+          Eavesdropping is the act of capturing and examining traffic
+          on a network cable. Eavesdropping is the primary security
+          vulnerability of networking systems using 802.11 technology.
+          On wireless networks, eavesdropping is made more difficult
+          by using WEP keys.
+        </p>
+        <p>
+          Fiber optic cable is the most resistant to tapping and
+          eavesdropping. Fiber optic cable transmits light pulses
+          rather than electricity to communicate. Thus, it is not
+          susceptible to most forms of interference or wire tapping
+          technologies. ThickNet (10Base5 coax), 10Base2 (ThinNet
+          coax), and 10BaseT (STP and UTP) are very susceptible to
+          tapping and eavesdropping.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>EBGP (External BGP)</div></td>
+    <td>
+      <div>
+        <p>
+          External BGP (EBGP) is used by BGP to route information
+          between autonomous systems.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Edge Rules agent</div></td>
+    <td>
+      <div>
+        <p>
+          Transport policy agents apply transport policies to e-mails
+          within an Exchange organization. There are two types of
+          transport policy agents in Exchange 2007:
+        </p>
+        <ul>
+          <li>
+            A Transport Rules agent runs on a Hub Transport server and
+            implements policies set by administrators to all e-mail
+            that travels in and out of an Exchange organization.
+          </li>
+          <li>
+            An Edge Rules agent runs on an Edge Transport server and
+            helps control spam and unwanted mail flow within an
+            organization.
+          </li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Edge Transport server</div></td>
+    <td>
+      <div>
+        <p>
+          The Edge Transport server handles all Internet-facing mail
+          flow and provides Simple Mail Transfer Protocol (SMTP) relay
+          and smart host services for the Exchange 2007 organization.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>EDirectory</div></td>
+    <td>
+      <div>
+        <p>
+          NetWare 4.<i class="fs-italicize">x</i> and higher uses a
+          directory service called
+          <i class="fs-italicize">eDirectory</i> (formerly called
+          Novell Directory Services (NDS)). User accounts are
+          configured in the directory. eDirectory can also run on
+          other servers such as Windows and Linux.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Effective permission</div></td>
+    <td>
+      <div>
+        <p>
+          The combined rights a user has to perform specific network
+          functions and access network resources.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>EGP (Exterior Gateway Protocol)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Exterior Gateway Protocol (EGP) is a routing protocol that
+          exchanges routing information between autonomous systems.
+          BGP is the most common EGP protocol.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>EIDE (Enhanced Integrated Drive Electronics)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A standard electronic interface that allows a computer to
+          communicate with a storage device such as the hard drive or
+          a CD-ROM drive.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>EISA (Extended Industry Standard Architecture)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A 32-bit I/O bus slot providing compatibility with 386
+          through Pentium machines. EISA buses:
+        </p>
+        <ul>
+          <li>Have a maximum throughput rate of 33 MB/s.</li>
+          <li>
+            Offer <i class="fs-italicize">bus mastering</i> which is a
+            mini-processor on the expansion card. The mini-processor
+            assumes the task from the CPU of transferring data to and
+            from memory.
+          </li>
+          <li>Offer a second row of pins to a standard ISA bus.</li>
+          <li>Provide backward compatibility with ISA cards.</li>
+          <li>
+            Allow EISA cards to take advantage of both rows of pins
+            (the 32-bit data path) to improve transfer rates and
+            increase addressable memory.
+          </li>
+          <li>
+            Allow for automatic configuration of system resources
+            (addresses, DMA channels and IRQs).
+          </li>
+          <li>Support sharing of system resources.</li>
+          <li>
+            Allow multiple EISA cards to share the same interrupt.
+          </li>
+          <li>
+            EISA supports multiprocessing by allowing more than one
+            CPU to share the bus.
+          </li>
+          <li>Are usually black, though they are sometimes white.</li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Electromagnetic Interference (EMI)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The disruption of one electronic device, caused by an
+          electromagnetic field (in the radio frequency spectrum)
+          generated by another electronic device.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>E-mail Address policies</div></td>
+    <td>
+      <div>
+        <p>
+          E-mail Address policies are used to generate e-mail
+          addresses for Exchange recipients within an Exchange 2007
+          organization. Policies can be used to generate e-mail
+          addresses for a number of environments, such as SMTP, X400,
+          Lotus Notes, or Novell GroupWise.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>E-mail client</div></td>
+    <td>
+      <div>
+        <p>
+          An e-mail client is a software application that supports
+          specific protocols and provides the user with an interface
+          to a server.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Emergency Repair Disk (ERD)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A backup disk that can provide the necessary files to bring
+          back the Windows operating system in the case of a disk
+          disaster running the Windows operating system. You create an
+          ERD using Windows 2000.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>EMI (Electromagnetic Interference)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The disruption of one electronic device, caused by an
+          electromagnetic field (in the radio frequency spectrum)
+          generated by another electronic device.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Encapsulating Security Payload (ESP)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Encapsulating Security Payload (ESP) is one of two services
+          comprising IPSec. ESP supports both authentication of the
+          sender and is used primarily to encrypt and secure the data
+          transferred between IPSec partners.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Encapsulation</div></td>
+    <td>
+      <div>
+        <p>
+          The process of adding an additional header to a packet
+          before transporting the packet onto the network. For
+          example, NetBIOS can be encapsulated with an IP header.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Encryption</div></td>
+    <td>
+      <div>
+        <p>
+          A security technique that uses a cryptographic algorithm to
+          encode information so that only someone with the proper key
+          can unencode it.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Enhanced Integrated Drive Electronics (EIDE)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A standard electronic interface that allows a computer to
+          communicate with a storage device such as the hard drive or
+          a CD-ROM drive.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Enhanced Small Device Interface (ESDI)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A type of hard disk that uses CHS addressing and has a 1024
+          cylinder limitation. ESDI hard disks are predecessors of the
+          newer IDE disks.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>ERD (Emergency Repair Disk)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A backup disk that can provide the necessary files to bring
+          back the Windows operating system in the case of a disk
+          disaster running the Windows operating system. You create an
+          ERD using Windows 2000.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>ErrorControl levels</div></td>
+    <td>
+      <div>
+        <p>
+          The values Windows uses to determine what to do in case of
+          an error in loading or initializing drivers. The levels are
+          0x0 (ignore the error), 0x1 (display an error message then
+          ignore the error), 0x2 (use the LastKnownGood control set
+          and restart), 0x3 (stop the boot sequence and display an
+          error message).
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>ESDI (Enhanced Small Device Interface)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A type of hard disk that uses CHS addressing and has a 1024
+          cylinder limitation. ESDI hard disks are predecessors of the
+          newer IDE disks.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>ESE (Extensible Storage Engine)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Exchange 2007's database engine is referred to as the
+          Extensible Storage Engine (ESE). ESE is a transactional
+          database that writes information into RAM memory and into a
+          log file. Once it is in the log file, it will be written to
+          disk. There are a number of files used to store information:
+        </p>
+        <ul>
+          <li>
+            An .edb file is located in the actual database itself. All
+            of a user's messages, folders, public folders, contacts,
+            appointment information, etc. is all stored on the .edb
+            file. An .edb file size can exceed multiple GB.
+          </li>
+          <li>
+            A .log file is an ESE transaction log file. All .log files
+            are 1 MB.
+          </li>
+          <li>
+            A .jrs file is a reserve log file which is used to commit
+            any transactions that are still in memory in the event of
+            the server running out of disk space. All .jrs files are 1
+            MB.
+          </li>
+          <li>
+            A .chk file is used to identify which log files have been
+            committed to the database. The size of .chk file varies
+            from 2-3 KB.
+          </li>
+        </ul>
+        <p>
+          The ESE takes the following steps to write information into
+          database files:
+        </p>
+        <ol>
+          <li>
+            The ESE writes a message into memory RAM when it arrives
+            at the server.
+          </li>
+          <li>
+            At the same time that information is written to RAM, it's
+            written into the current .log file. All current log files
+            are named E00.log. The information is written in a
+            sequential format until the log file is full. When the log
+            file is full, it will be renamed.
+          </li>
+          <li>
+            Once it has been committed to the log file, the
+            information is written to the .edb file.
+          </li>
+          <li>
+            The checkpoint file is updated to indicate that the
+            transaction log that has been committed to the database.
+          </li>
+        </ol>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>ESP (Encapsulating Security Payload)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Encapsulating Security Payload (ESP) is one of two services
+          comprising IPSec. ESP supports both authentication of the
+          sender and is used primarily to encrypt and secure the data
+          transferred between IPSec partners.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Ethernet</div></td>
+    <td>
+      <div>
+        <p>
+          One of the major families of network architectures. The
+          structure of all Ethernet networks is based on the bus
+          topology. Most Ethernet networks use baseband signaling and
+          CSMA/CD as a media access method.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Event ID</div></td>
+    <td>
+      <div>
+        <p>
+          The identification for the event that displays in the Event
+          Detail window in the Event Viewer.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Event log</div></td>
+    <td>
+      <div>
+        <p>
+          Any of three log files in which Windows records monitored
+          events such as errors, warnings, and the success or failure
+          of tasks. Event logs include the system, security, and
+          application logs. You can view these logs in the Event
+          Viewer.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Event Viewer</div></td>
+    <td>
+      <div>
+        <p>
+          An administration tool that provides information about such
+          events as errors, warnings, and the success or failure of
+          tasks.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Everyone</div></td>
+    <td>
+      <div>
+        <p>
+          A special group or identity that includes all users and can
+          be used to assign permissions that all users in a domain
+          hold in common, including guests and users from other
+          domains.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Exchange 2007 Management Console</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The Exchange 2007 Management Console is a graphic interface
+          used to manage an Exchange environment. It has been
+          simplified from previous versions of Exchange so it now
+          focuses only on the most commonly executed tasks. Additional
+          tasks that could traditionally only be performed in REGEDIT
+          or ADSIEDIT were also added to the Exchange Management
+          Console to improve ease of use.
+        </p>
+        <p>
+          In Exchange 2003, the information shown in the tree-pane was
+          dependent on the configuration of your Exchange Server. This
+          pane is now static in Exchange 2007 Management Console so no
+          matter how many servers you have, what options have been
+          chosen, or what has been installed, the tree-pane will
+          always be the same.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Exchange ActiveSync</div></td>
+    <td>
+      <div>
+        <p>
+          Exchange ActiveSync is a protocol used by Internet-enabled
+          mobile devices to send and retrieve Exchange data.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Exchange Management Console</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The Exchange Management Console is the graphical
+          administration tool. It is comprised of a three-paned view
+          that includes a tree view, results, and an actions pane. It
+          cannot perform many of the administrative tasks that can be
+          performed in the Exchange Management Shell.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Exchange Management PowerShell</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The Exchange 2007 Management Shell environment allows
+          administrators to perform all of their tasks from a command
+          line environment, thus making it easier to automate tasks.
+          The PowerShell must be installed before Exchange 2007 is
+          fully installed, then extensions are installed to the
+          PowerShell during Exchange 2007 installation to create the
+          Exchange 2007 PowerShell environment. The PowerShell uses
+          with verb/noun-based syntax and is the primary platform for
+          all administration; the graphical interface is simply
+          running atop of the command shell.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Exchange Management Shell</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The Exchange 2007 Management Shell environment allows
+          administrators to perform all of their tasks from a command
+          line environment, thus making it easier to automate tasks.
+          The PowerShell must be installed before Exchange 2007 is
+          fully installed, then extensions are installed to the
+          PowerShell during Exchange 2007 installation to create the
+          Exchange 2007 PowerShell environment. The PowerShell uses
+          with verb/noun-based syntax and is the primary platform for
+          all administration; the graphical interface is simply
+          running atop of the command shell.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Exchange PowerShell</div></td>
+    <td>
+      <div>
+        <p>
+          Microsoft Exchange Management Shell (Windows PowerShell) is
+          a command line environment designed for automating
+          administration and maintenance. The Exchange Management
+          Shell is the primary management interface of 2007.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Exchange storage group</div></td>
+    <td>
+      <div>
+        <p>
+          A Microsoft Exchange storage group is a collection of
+          Exchange stores (databases). A Recovery Storage Group (RSG)
+          is a special storage group used for recovering Mailbox
+          stores.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Executive Services</div></td>
+    <td>
+      <div>
+        <p>
+          The central component of Windows network architecture. It
+          includes the managers and device drivers that run in kernel
+          mode.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Extended Industry Standard Architecture (EISA)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A 32-bit I/O bus slot providing compatibility with 386
+          through Pentium machines. EISA buses:
+        </p>
+        <ul>
+          <li>Have a maximum throughput rate of 33 MB/s.</li>
+          <li>
+            Offer <i class="fs-italicize">bus mastering</i> which is a
+            mini-processor on the expansion card. The mini-processor
+            assumes the task from the CPU of transferring data to and
+            from memory.
+          </li>
+          <li>Offer a second row of pins to a standard ISA bus.</li>
+          <li>Provide backward compatibility with ISA cards.</li>
+          <li>
+            Allow EISA cards to take advantage of both rows of pins
+            (the 32-bit data path) to improve transfer rates and
+            increase addressable memory.
+          </li>
+          <li>
+            Allow for automatic configuration of system resources
+            (addresses, DMA channels and IRQs).
+          </li>
+          <li>Support sharing of system resources.</li>
+          <li>
+            Allow multiple EISA cards to share the same interrupt.
+          </li>
+          <li>
+            EISA supports multiprocessing by allowing more than one
+            CPU to share the bus.
+          </li>
+          <li>Are usually black, though they are sometimes white.</li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Extended partition</div></td>
+    <td>
+      <div>
+        <p>
+          A partition you create from free space on a hard disk and
+          can be subdivided into logical drives. You can have only one
+          extended partition on a single hard disk.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Extensible Authentication Protocol (EAP)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          EAP is an authentication protocol (an extension of PPP). It
+          is a set of interface standards that provide various
+          authentication methods (smartcards, biometrics, and digital
+          certificates), define access definitions, providing
+          protection mechanisms and custom solutions, and does not
+          maintain a database of user accounts and passwords.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Extensible Authentication Protocol over LAN (EAPoL)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The Extensible Authentication Protocol over LAN is used for
+          authentication of 802.1X port access control over either
+          wired or wireless LANs.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Extensible Storage Engine (ESE)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Exchange 2007's database engine is referred to as the
+          Extensible Storage Engine (ESE). ESE is a transactional
+          database that writes information into RAM memory and into a
+          log file. Once it is in the log file, it will be written to
+          disk. There are a number of files used to store information:
+        </p>
+        <ul>
+          <li>
+            An .edb file is located in the actual database itself. All
+            of a user's messages, folders, public folders, contacts,
+            appointment information, etc. is all stored on the .edb
+            file. An .edb file size can exceed multiple GB.
+          </li>
+          <li>
+            A .log file is an ESE transaction log file. All .log files
+            are 1 MB.
+          </li>
+          <li>
+            A .jrs file is a reserve log file which is used to commit
+            any transactions that are still in memory in the event of
+            the server running out of disk space. All .jrs files are 1
+            MB.
+          </li>
+          <li>
+            A .chk file is used to identify which log files have been
+            committed to the database. The size of .chk file varies
+            from 2-3 KB.
+          </li>
+        </ul>
+        <p>
+          The ESE takes the following steps to write information into
+          database files:
+        </p>
+        <ol>
+          <li>
+            The ESE writes a message into memory RAM when it arrives
+            at the server.
+          </li>
+          <li>
+            At the same time that information is written to RAM, it's
+            written into the current .log file. All current log files
+            are named E00.log. The information is written in a
+            sequential format until the log file is full. When the log
+            file is full, it will be renamed.
+          </li>
+          <li>
+            Once it has been committed to the log file, the
+            information is written to the .edb file.
+          </li>
+          <li>
+            The checkpoint file is updated to indicate that the
+            transaction log that has been committed to the database.
+          </li>
+        </ol>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Exterior Gateway Protocol (EGP)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Exterior Gateway Protocol (EGP) is a routing protocol that
+          exchanges routing information between autonomous systems.
+          BGP is the most common EGP protocol.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>External BGP (EBGP)</div></td>
+    <td>
+      <div>
+        <p>
+          External BGP (EBGP) is used by BGP to route information
+          between autonomous systems.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>External relay</div></td>
+    <td>
+      <div>
+        <p>
+          Accepted domains identify the domains for which the
+          organization is solely responsible and the SMTP domains from
+          which the server will accept messages. There are three types
+          of accepted domains in Exchange 2007:
+        </p>
+        <ul>
+          <li>
+            Authoritative is the domain over which the Exchange server
+            has sole responsibility. In a typical environment, the
+            organization will have an e-mail domain of "company.com"
+            which is hosted by the company's e-mail server. If another
+            e-mail system or domain exists in the environment,
+            internal and external relays are employed.
+          </li>
+          <li>
+            An internal relay is an e-mail domain that is hosted by
+            another Active Directory Forest within the Exchange
+            organization. This system uses different e-mail addresses,
+            but all incoming mail goes through the Exchange
+            organization.
+          </li>
+          <li>
+            An external relay accepts e-mail for an external
+            organization and then delivers it to an external entity
+            such as the Internet via the Edge Transport server.
+          </li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Extranet</div></td>
+    <td>
+      <div>
+        <p>
+          An extranet is a division of a private network that is
+          accessible to a limited number of external users, such as
+          business partners, suppliers, and certain customers.
+        </p>
+      </div>
+    </td>
+  </tr>
+</tbody>
+</table>
 
 ### F
