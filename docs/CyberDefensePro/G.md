@@ -6152,3 +6152,824 @@ description: some description
 </table>
 
 ### F
+
+<table cellpadding="0" cellspacing="0">
+<tbody>
+  <tr>
+    <td><div>Failback</div></td>
+    <td>
+      <div>
+        <p>
+          Failback is the process of moving services back to the
+          original server when it comes back online.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Failover</div></td>
+    <td>
+      <div>
+        <p>
+          Failover is the process of moving services from a failed
+          server to another available server.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>FAT (File Allocation Table)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A file system that is required for Windows 95 and MS-DOS
+          based computers.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>FAT32</div></td>
+    <td>
+      <div>
+        <p>
+          A 32-bit file allocation table which was first shipped with
+          Windows 95. FAT32 supports large volumes and is more
+          efficient than the 16-bit FAT system.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>FC (Fibre Channel)</div></td>
+    <td>
+      <div>
+        <p>
+          Fibre Channel (FC) is an integrated set of standards
+          developed to provide a reliable method for quickly
+          transferring large amounts of data. FC is the recommended
+          method of implementing a shared disk array because of its
+          high bandwidth and high capacity. FC communication can also
+          be used to link workstations, mainframes, and other
+          peripherals.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>FCIP</div></td>
+    <td>
+      <div>
+        <p>
+          Fibre Channel over IP (FCIP) is an IP-based storage
+          networking technology developed by the Internet Engineering
+          Task Force (IETF). FCIP enables the transmission of data to
+          and from FC storage devices over standard Ethernet copper
+          cabling and switches.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>FD (Feasible Distance)</div></td>
+    <td>
+      <div>
+        <p>
+          The Feasible Distance (FD) is the lowest total cost to a
+          destination network.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>FDDI (Fiber Distributed Data Interface)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A standard produced by the American National Standards
+          Committee for transmitting data on fiber optic lines. FDDI
+          is based on token ring topology and can support a large
+          network over large geographic areas.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>FDISK</div></td>
+    <td>
+      <div>
+        <p>
+          An MS-DOS utility you can use to create a primary partition
+          or logical drive on a hard disk.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Feasible Distance (FD)</div></td>
+    <td>
+      <div>
+        <p>
+          The Feasible Distance (FD) is the lowest total cost to a
+          destination network.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>FHSS (Frequency Hopping Spread Spectrum)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A type of signalling method, used by a wireless networking
+          architecture, where a narrow frequency band 'hops' data
+          signals in a predictable sequence from frequency to
+          frequency over a wide band of frequencies. Because FHSS hops
+          between frequencies, it can avoid interference on one cable
+          as it shifts to another. Hopping between frequencies
+          increases transmission security by making eavesdropping and
+          data capture more difficult. Because FHSS shifts
+          automatically between frequencies, it can avoid interference
+          that may be on a single frequency.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Fiber Distributed Data Interface (FDDI)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A standard produced by the American National Standards
+          Committee for transmitting data on fiber optic lines. FDDI
+          is based on token ring topology and can support a large
+          network over large geographic areas.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Fiber optic cable</div></td>
+    <td>
+      <div>
+        <p>
+          Fiber optic cable uses glass strands to transmit light
+          pulses rather than electricity to communicate. Thus, it is
+          not susceptible to most forms of interference or wire taping
+          technologies. The biggest disadvantage to fiber optic cable
+          is the high cost of the cable,&nbsp; its components and
+          installation.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Fibre Channel (FC)</div></td>
+    <td>
+      <div>
+        <p>
+          Fibre Channel (FC) is an integrated set of standards
+          developed to provide a reliable method for quickly
+          transferring large amounts of data. FC is the recommended
+          method of implementing a shared disk array because of its
+          high bandwidth and high capacity. FC communication can also
+          be used to link workstations, mainframes, and other
+          peripherals.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Fibre Channel over IP (FCIP)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Fibre Channel over IP (FCIP) is an IP-based storage
+          networking technology developed by the Internet Engineering
+          Task Force (IETF). FCIP enables the transmission of data to
+          and from FC storage devices over standard Ethernet copper
+          cabling and switches.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>File Allocation Table (FAT)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A file system that is required for Windows 95 and MS-DOS
+          based computers.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>File and Print Services for NetWare (FPNW)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A software component that allows NetWare clients to access
+          file and print services on a Windows 2000 server.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>File transfer protocol (FTP)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          This protocol provides bi-directional file transfers between
+          two TCP/IP hosts. These hosts must be running FTP software.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>File-level security</div></td>
+    <td>
+      <div>
+        <p>
+          Security that is applied to individual files and folders on
+          a local computer.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Final partition</div></td>
+    <td>
+      <div>
+        <p>
+          The final partition is the domain naming context partition
+          in Exchange 2007. This is used to hold all of the user
+          accounts, groups, and computer accounts. If mail-enabled
+          context is used, then it is stored in the final partition.
+          The domain naming context stores the largest amount of
+          information in a typical employment.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Finger service</div></td>
+    <td>
+      <div>
+        <p>
+          A TCP/IP service that allows you to gather system
+          information from a remote computer.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Firewall</div></td>
+    <td>
+      <div>
+        <p>
+          A firewall is the best device to deploy to protect your
+          private network from a public untrusted network. Firewalls
+          are used to control traffic entering and leaving your
+          trusted network environment. Firewalls can manage traffic
+          based on source or destination IP address, port number,
+          service protocol, application or service type, user account,
+          and even traffic content.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Firewire</div></td>
+    <td>
+      <div>
+        <p>
+          Firewire is a type of media (cable and connectors) that
+          interface between computers to create a network.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Firmware</div></td>
+    <td>
+      <div>
+        <p>
+          Computer instructions contained in programmable read-only
+          memory (PROM). Firmware comes as part of a hardware device
+          such as a printer or modem.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Flash updates</div></td>
+    <td>
+      <div>
+        <p>
+          With the triggered update method (also known as a flash
+          updates), routers that receive updated (changed) information
+          broadcast those changes immediately rather than waiting for
+          the next reporting interval. With this method, routers
+          broadcast their routing tables periodically, punctuated by
+          special broadcasts if conditions have changed. This method
+          reduces the convergence time.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Floating static route</div></td>
+    <td>
+      <div>
+        <p>
+          A floating static route is a static route whose
+          administrative distance has been manually configured to be
+          greater than the administrative distance of dynamic routes;
+          thus making it less desirable than the dynamic route it
+          supports.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Foreign connector</div></td>
+    <td>
+      <div>
+        <p>
+          A Foreign connector is a logical object that controls the
+          sending of messages to non-SMTP mail systems or to fax
+          systems.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Forest</div></td>
+    <td>
+      <div>
+        <p>
+          In Windows 2000, a forest is collection of one or more
+          domains linked with two-way transitive trusts and sharing a
+          common schema, configuration, and global catalog.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Format</div></td>
+    <td>
+      <div>
+        <p>
+          To set up partitions and volumes on a hard disk that will
+          use file system such as FAT or NTFS.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Forward lookup</div></td>
+    <td>
+      <div>
+        <p>
+          The query process in which DNS domain names are resolved to
+          IP addresses. In contrast, reverse lookup is the query
+          process in which IP addresses are resolved to domain names.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Forwarder</div></td>
+    <td>
+      <div>
+        <p>
+          Forwarders are designated DNS servers that accept and
+          resolve recursively all queries regarding external or
+          off-site addresses. Other servers are configured to send all
+          such queries to the forwarder.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>FPNW (File and Print Services for NetWare)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A software component that allows NetWare clients to access
+          file and print services on a Windows 2000 server.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>FQDN (Fully Qualified Domain Names)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Host names inside domains that are added to the beginning of
+          the domain name. For example, any name given that is placed
+          in front of Microsoft.com, such as support.Microsoft.com, is
+          a fully qualified domain name.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Frame type</div></td>
+    <td>
+      <div>
+        <p>
+          A setting that controls how a network adapter card formats
+          the data you want to send over the network. Ethernet network
+          can operate using various frame types. Ethernet frames are
+          between 64 and 1518 bytes in length. For two computers to
+          communicate, they must use the same frame type. These are
+          the four Ethernet frame types: Ethernet 802.3, Ethernet
+          802.2, Ethernet II, and Ethernet SNAP.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Frequency Hopping Spread Spectrum (FHSS)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A type of signalling method, used by a wireless networking
+          architecture, where a narrow frequency band 'hops' data
+          signals in a predictable sequence from frequency to
+          frequency over a wide band of frequencies. Because FHSS hops
+          between frequencies, it can avoid interference on one cable
+          as it shifts to another. Hopping between frequencies
+          increases transmission security by making eavesdropping and
+          data capture more difficult. Because FHSS shifts
+          automatically between frequencies, it can avoid interference
+          that may be on a single frequency.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Front end</div></td>
+    <td>
+      <div>
+        <p>
+          The client in the client/server computing model. It provides
+          an interface for the user to enter requests, formats user
+          requests so that the server understands them, and displays
+          data from the server.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>FTP (File transfer protocol)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          This protocol provides bi-directional file transfers between
+          two TCP/IP hosts. These hosts must be running FTP software.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Full Mesh</div></td>
+    <td>
+      <div>
+        <p>
+          A mesh topology exists when there are multiple paths between
+          any two nodes on a network. Mesh topologies are created
+          using point-to-point connections. A full Mesh topology
+          connects every node in a point-to-point connection with
+          every other node. Full mesh topologies are usually
+          impractical because the number of connections increases
+          dramatically with every new node added to the network.
+          However, a full mesh topology becomes more practical through
+          the implementation of an ad-hoc wireless network.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Full-mesh iBGP</div></td>
+    <td>
+      <div>
+        <p>
+          Full-mesh iBGP is an iBGP network in which each BGP speaker
+          has a neighbor statement containing updated information for
+          all other iBGP speakers in the AS.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Fully Qualified Domain Names (FQDN)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Host names inside domains that are added to the beginning of
+          the domain name. For example, any name given that is placed
+          in front of Microsoft.com, such as support.Microsoft.com, is
+          a fully qualified domain name.
+        </p>
+      </div>
+    </td>
+  </tr>
+</tbody>
+</table>
+
+### G
+
+<table cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+  <td><div>Gateway</div></td>
+  <td>
+    <div>
+      <p>
+        A gateway is a generic term used to describe any device that
+        connects one administratively managed network with another.
+        For example, a gateway connects a business network to the
+        Internet. The gateway device controls the flow of data
+        between the two networks. In addition, the term<i
+          class="fs-italicize"
+        >
+          gateway </i
+        >is often used to describe a specialized device that
+        translates data sent between two networks using different
+        protocols.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Gateway Services for NetWare (GSNW)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A Windows 2000 service that allows a Windows 2000 server to
+        use file and print resources on a NetWare server.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Global catalog server</div></td>
+  <td>
+    <div>
+      <p>
+        A Windows 2000 domain controller that stores at least
+        partial replicas of each partition in the forest. The
+        partial replicas are read-only and make it possible to
+        search the Active Directory database on a forest-wide basis.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Gopher</div></td>
+  <td>
+    <div>
+      <p>
+        A protocol that makes it easier to browse resources on the
+        Internet by displaying Internet resources in a menu
+        structure.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>GPC (Group Policy Container)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        The portion of a Group Policy Object (GPO) that is stored in
+        Active Directory.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>GPO (Group Policy Object)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        An Active Directory object that contains user-specific
+        and/or computer-specific settings that Windows 2000 must
+        enforce.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Gpotool.exe</div></td>
+  <td>
+    <div>
+      <p>
+        A command-line Windows 2000 Server Resource Kit tool that
+        lets you check replication status of Group Policy Objects
+        (GPOs) on a computer.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Gpresult.exe</div></td>
+  <td>
+    <div>
+      <p>
+        A command-line Windows 2000 Server Resource Kit tool that
+        lists the group policy settings applied to a particular user
+        or computer.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>GPT (Group Policy Template)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        The portion of a Group Policy Object (GPO) that is stored on
+        the domain controller's file system.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Group account</div></td>
+  <td>
+    <div>
+      <p>
+        A group of users that have common privileges only in the
+        domain which they were created. Local groups can contain
+        both users and global groups. Global groups are lists of
+        user accounts from within a single domain. A global group
+        can include user accounts from only the domain in which the
+        global group was created.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Group Policy</div></td>
+  <td>
+    <div>
+      <p>
+        The primary Windows 2000 desktop administration feature. Use
+        Group Policy to create Group Policy objects to control and
+        manage users' computing environments. This includes desktop
+        features such as Start menu options, shortcuts, and
+        available applications, as well as security settings, home
+        folder assignments, auditing, and more.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Group Policy Container (GPC)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        The portion of a Group Policy Object (GPO) that is stored in
+        Active Directory.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Group Policy Creator Owners Group</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A domain global group that lets members create Group Policy
+        Objects (GPOs) within the domain.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Group Policy Object (GPO)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        An Active Directory object that contains user-specific
+        and/or computer-specific settings that Windows 2000 must
+        enforce.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Group Policy Snap-In</div></td>
+  <td>
+    <div>
+      <p>
+        A Microsoft Management Console (MMC) snap-in that lets you
+        view and edit settings for a Group Policy Object (GPO). Also
+        called the Group Policy Editor.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Group Policy Template (GPT)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        The portion of a Group Policy Object (GPO) that is stored on
+        the domain controller's file system.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>GSNW (Gateway Services for NetWare)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A Windows 2000 service that allows a Windows 2000 server to
+        use file and print resources on a NetWare server.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Guest</div></td>
+  <td>
+    <div>
+      <p>
+        A built-in account that is used to give occasional users the
+        ability to log on and access limited resources.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Guests</div></td>
+  <td>
+    <div>
+      <p>
+        Members of the local Guest group on workstations and servers
+        have limited rights. They can maintain a profile on a
+        Windows 2000 workstation, but they cannot manage local
+        groups.
+      </p>
+    </div>
+  </td>
+</tr>
+</tbody>
+</table>
+
+### H
+
+### I
+
+### J
