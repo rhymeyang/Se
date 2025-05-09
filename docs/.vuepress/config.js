@@ -6,7 +6,7 @@ export default defineUserConfig({
   bundler: viteBundler(),
   base: '/Se/',
   theme: defaultTheme({
-    logo: '/images/leaf.svg',
+    logo: 'logo.png',
     contributors: false,
     navbar: [
       {
@@ -155,8 +155,7 @@ export default defineUserConfig({
           collapsable: true,
           children: [
             '/CyberDefensePro/B1.md',
-            '/CyberDefensePro/B2.md',
-            '/CyberDefensePro/B3.md',
+            '/CyberDefensePro/B2.md',         
           ],
         },
         {
@@ -164,7 +163,6 @@ export default defineUserConfig({
           collapsable: true,
           children: [
             '/CyberDefensePro/G.md',
-
           ],
         },
         {
