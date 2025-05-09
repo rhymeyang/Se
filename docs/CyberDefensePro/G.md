@@ -8291,6 +8291,7 @@ description: some description
       intercepts the traffic, they will be unable to extract the
       contents of the messages because they are encrypted.
     </p>
+
   </div>
 </td>
 </tr>
@@ -8617,6 +8618,7 @@ description: some description
       intercepts the traffic, they will be unable to extract the
       contents of the messages because they are encrypted.
     </p>
+
   </div>
 </td>
 </tr>
@@ -9059,6 +9061,5555 @@ description: some description
 
 ### L
 
+<table cellpadding="0" cellspacing="0">
+<tbody>
+  <tr>
+    <td><div>.LOG file</div></td>
+    <td>
+      <div>
+        <p>
+          Exchange 2007's database engine is referred to as the
+          Extensible Storage Engine (ESE). ESE is a transactional
+          database that writes information into RAM memory and into a
+          log file. Once it is in the log file, it will be written to
+          disk. There are a number of files used to store information:
+        </p>
+        <ul>
+          <li>
+            An .edb file is located in the actual database itself. All
+            of a user's messages, folders, public folders, contacts,
+            appointment information, etc. is all stored on the .edb
+            file. An .edb file size can exceed multiple GB.
+          </li>
+          <li>
+            A .log file is an ESE transaction log file. All .log files
+            are 1 MB.
+          </li>
+          <li>
+            A .jrs file is a reserve log file which is used to commit
+            any transactions that are still in memory in the event of
+            the server running out of disk space. All .jrs files are 1
+            MB.
+          </li>
+          <li>
+            A .chk file is used to identify which log files have been
+            committed to the database. The size of .chk file varies
+            from 2-3 KB.
+          </li>
+        </ul>
+        <p>
+          The ESE takes the following steps to write information into
+          database files:
+        </p>
+        <ol>
+          <li>
+            The ESE writes a message into memory RAM when it arrives
+            at the server.
+          </li>
+          <li>
+            At the same time that information is written to RAM, it's
+            written into the current .log file. All current log files
+            are named E00.log. The information is written in a
+            sequential format until the log file is full. When the log
+            file is full, it will be renamed.
+          </li>
+          <li>
+            Once it has been committed to the log file, the
+            information is written to the .edb file.
+          </li>
+          <li>
+            The checkpoint file is updated to indicate that the
+            transaction log that has been committed to the database.
+          </li>
+        </ol>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>L2F (Layer 2 Forwarding Protocol)</div>
+    </td>
+    <td>
+      <div>
+        <p>L2F is a VPN protocol which offers no data encryption.</p>
+        <p>
+          L2F was combined with PPTP, creating L2TP. Support for IPSec
+          was added, and the result is a very versatile, nearly
+          universally interoperable VPN protocol that provides solid
+          authentication and reliable data encryption.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>L2TP (Layer Two Tunneling Protocol)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          L2TP (Layer 2 Tunneling Protocol) is the VPN protocol that
+          typically employs IPSec as its data encryption mechanism.
+          L2TP is the recommended VPN protocol to use on dial-up VPN
+          connections.
+        </p>
+        <p>
+          L2TP was created by combining PPTP and L2F and adding in
+          support for IPSec. The result is a very versatile, nearly
+          universally interoperable VPN protocol that provides solid
+          authentication and reliable data encryption.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>LAN (Local area network)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A group of closely located computers or peripherals
+          connected so that they can interact with each other as a
+          network.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>LAPM (Link Access Procedure for Modems)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A Data Link layer protocol called Link Access Procedure for
+          Modems (LAPM) used by newer modems for error detection. LAPM
+          is implemented in the modem hardware. LAPM is described by
+          ITU's V.42 standard.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Layer 2 Forwarding Protocol (L2F)</div>
+    </td>
+    <td>
+      <div>
+        <p>L2F is a VPN protocol which offers no data encryption.</p>
+        <p>
+          L2F was combined with PPTP, creating L2TP. Support for IPSec
+          was added, and the result is a very versatile, nearly
+          universally interoperable VPN protocol that provides solid
+          authentication and reliable data encryption.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Layer 3 switch</div></td>
+    <td>
+      <div>
+        <p>
+          A layer 3 switch operates at the Network layer reading the
+          logical address and making forwarding and receiving
+          decisions. Contrast this with most switches that operate at
+          the Data Link layer which read the MAC address.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Layer Two Tunneling Protocol (L2TP)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          L2TP (Layer 2 Tunneling Protocol) is the VPN protocol that
+          typically employs IPSec as its data encryption mechanism.
+          L2TP is the recommended VPN protocol to use on dial-up VPN
+          connections.
+        </p>
+        <p>
+          L2TP was created by combining PPTP and L2F and adding in
+          support for IPSec. The result is a very versatile, nearly
+          universally interoperable VPN protocol that provides solid
+          authentication and reliable data encryption.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Layered Service Provider (LSP)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A Layered Service Provider (LSP) distributes link-state
+          information and defines the characteristics of an IS-IS
+          router.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>LCR (Local Continuous Replication)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Local Continuous Replication (LCR) is a cluster
+          implementation which maintains a copy of the production
+          storage group on a second set of disks that are connected to
+          the same server using built-in asynchronous log shipping and
+          log replay technology.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>LDAP (Lightweight Directory Access Protocol)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A lightweight protocol that clients such as Outlook Express
+          use to look up and search for addresses in an online
+          directory. It also allows a user to add, edit, and delete
+          information from the directory.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Lease</div></td>
+    <td>
+      <div>
+        <p>
+          The period of time for which a dynamically assigned IP
+          address remains valid for a DHCP client. Before the end of
+          the lease, the client has to renew the lease or be assigned
+          a new lease by DHCP.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Legacy streaming</div></td>
+    <td>
+      <div>
+        <p>
+          Legacy streaming is the traditional method of backup for
+          Exchange environments. When a legacy streaming backup is
+          initiated:
+        </p>
+        <ol>
+          <li>
+            The backup application will notify the database engine
+            that a backup is being started.
+          </li>
+          <li>
+            The database engine creates a file that will be used as a
+            marker that the backup is occurring.
+          </li>
+          <li>The backup application freezes the database.</li>
+          <li>The backup application backs up the database.</li>
+          <li>
+            The backup application copies the marker file which
+            contains any additional transactions and log files which
+            took place during the backup.
+          </li>
+        </ol>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Licensing mode</div></td>
+    <td>
+      <div>
+        <p>
+          The way you pay to use an application or operating system.
+          You can choose Per Server or Per Seat licensing for Windows
+          2000.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Lightweight Directory Access Protocol (LDAP)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A lightweight protocol that clients such as Outlook Express
+          use to look up and search for addresses in an online
+          directory. It also allows a user to add, edit, and delete
+          information from the directory.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Line Printer Daemon (LPD)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A service residing on a UNIX print server that receives
+          print jobs from clients using the LPR utility.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Line Printer Daemon/Line Print Remote (LPD/LPR)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          LPD/LPR is the most widely-used cross platform print
+          protocol. LPD/LPR establishes connection between printing
+          devices and workstations. LPD is usually loaded on the
+          printing device. LPR is usually loaded onto the client
+          workstation.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Line Printer Queue (LPQ)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          This utility obtains the status of a print queue on a host
+          running the Line Printing Daemon (LPD) service.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Line Printer Remote (LPR)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A utility on a client that allows it to send print jobs to
+          the Line Printer Daemon on the server.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Link Access Procedure for Modems (LAPM)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A Data Link layer protocol called Link Access Procedure for
+          Modems (LAPM) used by newer modems for error detection. LAPM
+          is implemented in the modem hardware. LAPM is described by
+          ITU's V.42 standard.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Link state routing protocol</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Routing algorithm in which each router broadcasts or
+          multicasts information regarding the cost of reaching each
+          of its neighbors to all nodes in the internetwork. Link
+          state algorithms create a consistent view of the network and
+          are therefore not prone to routing loops, but they achieve
+          this at the cost of relatively greater computational
+          difficulty and more widespread traffic (compared with
+          distance vector routing algorithms). Compare with distance
+          vector routing algorithm.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Linked mailbox</div></td>
+    <td>
+      <div>
+        <p>
+          Linked mailboxes are used in environments in which there are
+          multiple forests (known as resource forests). When a linked
+          mailbox is created, a mailbox and a disabled user account
+          are created in the forest which hosts the Exchange
+          organization. Once the mailbox has been created, it is then
+          linked or associated with a user account that resides in the
+          second forest. In order to assign an account from the second
+          forest to the mailbox, a trust relationship must exist
+          between the domain that contains the Exchange server and the
+          domain in which the user account resides.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Link-local Multicast Name Resolution (LLMNR)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Link-local Multicast Name Resolution (LLMNR) enables IP
+          hosts to perform IP address-to-host name resolution without
+          a DNS server. LLMNR is feature used in Zeroconf networking
+          and is being developed by Microsoft.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Linux</div></td>
+    <td>
+      <div>
+        <p>
+          A popular (freely-distributable open source) operating
+          system that runs on multiple hardware platforms.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>LLC (Logical Link Control)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          In the OSI model, the Logical Link Control (LLC) layer is
+          one of two sublayers of the Data-Link layer. The LLC manages
+          traffic (flow and error control) over the physical medium.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>LLMNR (Link-local Multicast Name Resolution)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Link-local Multicast Name Resolution (LLMNR) enables IP
+          hosts to perform IP address-to-host name resolution without
+          a DNS server. LLMNR is feature used in Zeroconf networking
+          and is being developed by Microsoft.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>LMHOSTS file</div></td>
+    <td>
+      <div>
+        <p>
+          An ASCII text file that associates IP addresses to computer
+          names outside the local subnet. In Windows 2000, the Lmhost
+          file is located in systemroot \System32\Drivers\Etc. You
+          must manually update the LMHOSTS file.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Load balancing</div></td>
+    <td>
+      <div>
+        <p>
+          Load balancing is the capability of a router to distribute
+          traffic over all of its network ports that are the same
+          metric from the destination address.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Local area network (LAN)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A group of closely located computers or peripherals
+          connected so that they can interact with each other as a
+          network.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Local Continuous Replication (LCR)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Local Continuous Replication (LCR) is a cluster
+          implementation which maintains a copy of the production
+          storage group on a second set of disks that are connected to
+          the same server using built-in asynchronous log shipping and
+          log replay technology.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Local GPO</div></td>
+    <td>
+      <div>
+        <p>
+          A Group Policy Object (GPO) stored on the local computer.
+          Every Windows 2000 computer has exactly one local GPO.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Local group</div></td>
+    <td>
+      <div>
+        <p>
+          Groups used to provide users with permissions to access a
+          network resource and to provide rights to perform system
+          tasks.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Local Host</div></td>
+    <td>
+      <div>
+        <p>
+          Addresses in the 127.0.0.0 range are reserved to refer to
+          the local host (in other words "this" host or the host
+          you're currently working at).
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Local preference attribute</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The local preference (type code 5) is a well-known
+          discretionary BGP attribute that describes the preferred
+          exit path from an AS. Local preferences are configured by
+          assigning a number between 1 and 100; higher values
+          representing higher preference over lower values.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Local routing table</div></td>
+    <td>
+      <div>
+        <p>
+          A neighbor table contains a list of neighbors with which it
+          has a BGP connection.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Local update sequence number</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The USN of the local domain controller when an Active
+          Directory update is made.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Local user accounts</div></td>
+    <td>
+      <div>
+        <p>
+          User name and password information stored in the directory
+          database of the local computer.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Local user profile</div></td>
+    <td>
+      <div>
+        <p>A profile stored on a user's local workstation.</p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Log file</div></td>
+    <td>
+      <div>
+        <p>
+          A text file that contains detailed information about the
+          backup procedures you perform with Windows Backup. Other
+          processes, such as the Performance Monitor, also generate
+          log files.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Log off</div></td>
+    <td>
+      <div>
+        <p>
+          The process by which a user disconnects from a network and
+          closes connections to mapped drives and printers.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Log on</div></td>
+    <td>
+      <div>
+        <p>
+          The process by which a user gains access to a network by
+          providing security credentials (usually a user name and
+          password).
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Logical Link Control (LLC)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          In the OSI model, the Logical Link Control (LLC) layer is
+          one of two sublayers of the Data-Link layer. The LLC manages
+          traffic (flow and error control) over the physical medium.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Logoff script</div></td>
+    <td>
+      <div>
+        <p>A script that executes when a user logs off.</p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Logon script</div></td>
+    <td>
+      <div>
+        <p>A script that executes when a user logs on.</p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Long file name</div></td>
+    <td>
+      <div>
+        <p>
+          A name for a file or folder that includes more characters
+          than the standard MS-DOS 8.3 filename convention.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Loopback address</div></td>
+    <td>
+      <div>
+        <p>
+          A reserved IP address, 127.0.0.1, that is used to perform
+          loopback functions.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Loopback Processing Mode</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A mode of processing Active Directory-based Group Policy
+          Objects (GPOs) in which computer-specific settings replace
+          or take precedence over user-specific settings.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>LostAndFound container</div></td>
+    <td>
+      <div>
+        <p>
+          An Active Directory container that holds objects that no
+          longer have a valid parent container. For example, this
+          could happen if an object is created on one domain
+          controller while simultaneously the object's container is
+          deleted or renamed on another domain controller.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Low-level disk formatting</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A hard disk formatting process, usually performed by the
+          disk manufacturer, that defines the basic physical structure
+          of the disk. It runs a surface analysis to test the disk
+          heads, defines sectors and assigns sector IDs, temporarily
+          fills each sector, identifies bad sectors on the drive, and
+          defines the interleave ratio.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>LPD (Line Printer Daemon)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A service residing on a UNIX print server that receives
+          print jobs from clients using the LPR utility.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>LPD/LPR (Line Printer Daemon/Line Print Remote)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          LPD/LPR is the most widely-used cross platform print
+          protocol. LPD/LPR establishes connection between printing
+          devices and workstations. LPD is usually loaded on the
+          printing device. LPR is usually loaded onto the client
+          workstation.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>LPQ (Line Printer Queue)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          This utility obtains the status of a print queue on a host
+          running the Line Printing Daemon (LPD) service.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>LPR (Line Printer Remote)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A utility on a client that allows it to send print jobs to
+          the Line Printer Daemon on the server.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>LSP (Layered Service Provider)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A Layered Service Provider (LSP) distributes link-state
+          information and defines the characteristics of an IS-IS
+          router.
+        </p>
+      </div>
+    </td>
+  </tr>
+</tbody>
+</table>
+
 ### M
 
+<table cellpadding="0" cellspacing="0">
+<tbody>
+  <tr>
+    <td><div>.MSI file</div></td>
+    <td>
+      <div>
+        <p>
+          A file with extension MSI that contains software
+          installation instructions and data for use with the Windows
+          Installer service.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>.MST file</div></td>
+    <td>
+      <div>
+        <p>
+          A file with the .MST extension that can be applied to a
+          Windows Installer package (.MSI file) to customize it. Also
+          called a software modification file.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>MAC (Media Access Control) Address</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A unique hardware address that is assigned to each device by
+          the vendor. For example, a LAN adapter has a unique MAC
+          address that is permanent to the adapter card.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>MADCAP (multicast addressing server)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          MADCAP is a multicast addressing server, which provides
+          multicast address allocation.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>MADMAN MIB</div></td>
+    <td>
+      <div>
+        <p>
+          Madman.mib is the Management Information Base (MIB) for
+          Simple Network Management Protocol (SNMP) Mail and Directory
+          Management (MADMAN). Windows NT Performance Monitor counters
+          are made available as MIB objects that can be monitored
+          through SNMP.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Mail Exchanger (MX) record</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A DNS resource record that you can define in DNS. The MX
+          records specify a mail exchanger for a domain name: a host
+          that will either process or forward mail for the domain
+          name.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Mailbox delivery queue</div></td>
+    <td>
+      <div>
+        <p>
+          Mailbox delivery queues only exist on Hub Transport servers
+          in Exchange 2007. They hold messages for recipients whose
+          mailbox data is stored on a Mailbox server within the same
+          site as the Hub Transport server. More than one mailbox
+          delivery queue can exist on a Hub Transport server.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Mailbox server</div></td>
+    <td>
+      <div>
+        <p>
+          The Mailbox server in Exchange 2007 contains the mailbox and
+          public folder databases.&nbsp;The Mailbox server role in
+          Exchange 2007 supports multiple storage groups and multiple
+          stores, making it possible to have up to 50 storage groups
+          and up to 5 stores (databases) per storage group. The
+          maximum number of stores on a single Exchange server is
+          limited to 50.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Mailbox-enabled user</div></td>
+    <td>
+      <div>
+        <p>
+          A mailbox-enabled user is an Active Directory user that has
+          a mailbox that is hosted on one of the mailbox servers
+          within an Exchange organization. A mailbox-enabled user can
+          logon to the domain and access resources on the network
+          according to the permissions and groups to which they are
+          assigned. Mailbox-enabled users are the most common type of
+          Exchange recipient.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Mail-enabled contacts</div></td>
+    <td>
+      <div>
+        <p>
+          Mail-enabled contacts are used to make it easier for users
+          within an Exchange organization to locate the contact
+          details of people outside of your organization.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Mail-enabled user</div></td>
+    <td>
+      <div>
+        <p>
+          A mail-enabled user is an Active Directory user the has an
+          e-mail address associated with their account, but whose
+          mailbox is stored on an external mail system. For example, a
+          contractor who is working for the organization but is using
+          their own e-mail address.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Malware</div></td>
+    <td>
+      <div>
+        <p>
+          Another name for virus, which is a program that has no
+          useful purpose, but attempts to spread itself to other
+          systems and often damages resources on the systems where it
+          is found.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Management domains</div></td>
+    <td>
+      <div>
+        <p>
+          Management domains are the network subdivisions specified in
+          the X.400 international messaging standard. Management
+          domains include Administration Management Domains (ADMDs)
+          and Private Management Domains (PRMDs).
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Management Information Base (MIB)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A database containing the data gathered by SNMP agents which
+          monitor network traffic and components.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Management Information Bases (MIBs)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A set of manageable objects representing various types of
+          information about a network device, such as the number of
+          active sessions or the version of the network operating
+          system software that is running on a host.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Mandatory user profile</div></td>
+    <td>
+      <div>
+        <p>
+          A pre-configured user profile that the user cannot change,
+          including desktop arrangement, screen saver, printer
+          connections, and so on. One mandatory profile can be
+          assigned to many users.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>MAPI (Messaging Application Programming Interface)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A set of standard commands developed by Microsoft. Messaging
+          services use these commands to communicate with other
+          MAPI-compliant applications.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Mapping</div></td>
+    <td>
+      <div>
+        <p>
+          Making an association between two different elements, such
+          as computer names and IP addresses, drives and drive
+          letters, and so on.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Master Boot Record (MBR)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The area of the hard disk containing the partition table for
+          the drive and the specialized executable code necessary to
+          boot the computer.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>MAU (Multistation Access Unit)</div>
+    </td>
+    <td>
+      <div>
+        <p>The central connecting point for a token ring network.</p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>MAU (Multi-station Access Unit)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A hub or concentrator that connects a group of computers to
+          a local area network in token ring topology.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>MBR (Master Boot Record)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The area of the hard disk containing the partition table for
+          the drive and the specialized executable code necessary to
+          boot the computer.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>MD5 (Message-Digest algorithm 5)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Message-Digest algorithm 5 (MD5) is a cryptographic
+          authentication method that prevents unauthorized routing
+          messages from unapproved sources in EIGRP.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>MDBEF (Message Database Encoding Format)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          MDBEF is the internal format for e-mail messages in
+          Exchange. The Exchange directory database (Dir.edb) is based
+          on (but not entirely identical to) the International
+          Telecommunications Union's X.500 directory recommendations.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>MED attribute</div></td>
+    <td>
+      <div>
+        <p>
+          The MultiExist-Discriminator (MED) (type code 4) is an
+          optional, nontransitive BGP attribute (also known as a
+          metric) that communicates to neighbors the preferred path
+          for information to be sent to them.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Media (Transmission Media)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          In the realm of information technology, transmission media
+          refers to the cables and wires through which signals (such
+          as electric current or light impulse) are transmitted
+          through a network.
+        </p>
+        <p>&nbsp;</p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Media Access Control (MAC) Address</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A unique hardware address that is assigned to each device by
+          the vendor. For example, a LAN adapter has a unique MAC
+          address that is permanent to the adapter card.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Media tester</div></td>
+    <td>
+      <div>
+        <p>
+          Use a media tester to make sure that a cable is unbroken and
+          that all cables are connected to the correct pins inside the
+          connector.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Member server</div></td>
+    <td>
+      <div>
+        <p>
+          An Windows 2000 Server computer that is not a domain
+          controller. Member servers provide file and print services
+          for the network.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Memory Interleaving</div></td>
+    <td>
+      <div>
+        <p>
+          Interleaving increases the rate at which data can be written
+          to or read from a memory module by grouping data into
+          contiguous blocks instead of dispersing data intermittently.
+          The following components must be interleaving-enabled in
+          order for interleaving to work:
+        </p>
+        <ul>
+          <li>Motherboard</li>
+          <li>BIOS</li>
+          <li>Memory Module</li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Mesh</div></td>
+    <td>
+      <div>
+        <p>
+          Mesh is a network topology that exists when there are
+          multiple paths between any two nodes on a network. Mesh
+          topologies are created using point-to-point connections.
+          This increases the network's fault tolerance because
+          alternate paths can be used when one path fails. Two
+          variations of mesh topologies exist:
+        </p>
+        <ul>
+          <li>Partial Mesh--Some redundant paths exist.</li>
+          <li>
+            Full Mesh--Every node has a point-to-point connection with
+            every other node.
+          </li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Message Database Encoding Format (MDBEF)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          MDBEF is the internal format for e-mail messages in
+          Exchange. The Exchange directory database (Dir.edb) is based
+          on (but not entirely identical to) the International
+          Telecommunications Union's X.500 directory recommendations.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Message queue</div></td>
+    <td>
+      <div>
+        <p>
+          In the Exchange 2007 messaging environment, messages are
+          placed in queues as they wait to be sent. Queues are stored
+          in an Extensible Storage Engine (ESE) databases which reside
+          on Hub Transport servers. Exchange 2007 queues can hold up
+          to a million messages, so in the event of a Hub Transport
+          server failure, the database can be retrieved and mounted
+          onto another Hub Transport server, at which point the queued
+          messages will be sent to their recipients.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Message-Digest algorithm 5 (MD5)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Message-Digest algorithm 5 (MD5) is a cryptographic
+          authentication method that prevents unauthorized routing
+          messages from unapproved sources in EIGRP.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Messaging Application Programming Interface (MAPI)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A client access specification that enables clients to
+          communicate with a messaging system. It is implemented as a
+          subsystem in the Windows operating system. Microsoft and
+          many other vendors support this standard.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>MIB (Management Information Base)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A database containing the data gathered by SNMP agents which
+          monitor network traffic and components.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>MIBs (Management Information Bases)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A set of manageable objects representing various types of
+          information about a network device, such as the number of
+          active sessions or the version of the network operating
+          system software that is running on a host.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Microcom Network Protocol (MNP)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A company called Microcom introduced a series of standards
+          for early modems that described error detection techniques.
+          The standards were called MNP Class 2, Class 3, and Class 4.
+          This standard became popular with several modem
+          manufacturers
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Microkernel</div></td>
+    <td>
+      <div>
+        <p>
+          The part of the operating system that handles vital
+          low-level processes. These include deferred procedure calls,
+          first-level interrupt handling, thread scheduling, and so
+          on.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Microsoft Certificate Server</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A certificate server for issuing and administering in-house
+          digital certificates that let you authenticate the identity
+          of visitors to your Web sites. It also lets you enable SSL
+          encryption.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Microsoft Cluster Servers</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Microsoft Cluster servers are fault-tolerant servers that
+          use two separate nodes.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Microsoft Download Service (MSDN)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A bulletin board sponsored by Microsoft. Check the MSDN for
+          support information and downloadable code.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Microsoft Exchange Mailbox store</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A<i class="fs-italicize"> </i>store<i class="fs-italicize">
+          </i
+          >is a database of Microsoft Exchange information. There are
+          two types of Exchange stores:
+        </p>
+        <ul>
+          <li>
+            A Mailbox store holds the information that comprise
+            mailboxes in Exchange&nbsp;2007, such as data, data
+            definitions, indexes, checksums, and flags. Sent and
+            received e-mails are held in the mailbox store.
+          </li>
+          <li>
+            A Public Folder store holds information that can be shared
+            by users. Messages posted to public folders are held in
+            the public folder store.
+          </li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Microsoft Exchange Management Console</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The Exchange Management Console is the graphical
+          administration tool. It is comprised of a three-paned view
+          that includes a tree view, results, and an actions pane. It
+          cannot perform many of the administrative tasks that can be
+          performed in the Exchange Management Shell.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Microsoft Exchange Management Shell</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Microsoft Exchange Management Shell (Windows PowerShell) is
+          a command line environment designed for automating
+          administration and maintenance. The Exchange Management
+          Shell is the primary management interface of 2007.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Microsoft Exchange PowerShell</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Microsoft Exchange Management Shell (Windows PowerShell) is
+          a command line environment designed for automating
+          administration and maintenance. The Exchange Management
+          Shell is the primary management interface of 2007.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Microsoft Exchange Public store</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A<i class="fs-italicize"> </i>store<i class="fs-italicize">
+          </i
+          >is a database of Microsoft Exchange information. There are
+          two types of Exchange stores:
+        </p>
+        <ul>
+          <li>
+            A Mailbox store holds the information that comprise
+            mailboxes in Exchange&nbsp;2007, such as data, data
+            definitions, indexes, checksums, and flags. Sent and
+            received e-mails are held in the mailbox store.
+          </li>
+          <li>
+            A Public Folder store holds information that can be shared
+            by users. Messages posted to public folders are held in
+            the public folder store.
+          </li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Microsoft Exchange recovery storage group</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A Microsoft Exchange storage group is a collection of
+          Exchange stores (databases). A Recovery Storage Group (RSG)
+          is a special storage group used for recovering Mailbox
+          stores.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Microsoft Exchange storage group</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A Microsoft Exchange storage group is a collection of
+          Exchange stores (databases). A Recovery Storage Group (RSG)
+          is a special storage group used for recovering Mailbox
+          stores.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Microsoft Exchange store</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A<i class="fs-italicize"> </i>store<i class="fs-italicize">
+          </i
+          >is a database of Microsoft Exchange information. There are
+          two types of Exchange stores:
+        </p>
+        <ul>
+          <li>
+            A Mailbox store holds the information that comprise
+            mailboxes in Exchange&nbsp;2007, such as data, data
+            definitions, indexes, checksums, and flags. Sent and
+            received e-mails are held in the mailbox store.
+          </li>
+          <li>
+            A Public Folder store holds information that can be shared
+            by users. Messages posted to public folders are held in
+            the public folder store.
+          </li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Microsoft Internet Explorer</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          An application that includes not only a Web browser but also
+          a set of tools that integrates it with Microsoft Windows
+          95/98, NT, and 2000.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Microsoft Internet Information Server</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A Windows NT Server file and application server designed to
+          host Internet sites. IIS is integrated with Windows 2000
+          Server.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Microsoft Management Console (MMC)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A common framework for a variety of Windows 2000
+          administrative tools. It provides no functionality of its
+          own.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Microsoft Technet</div></td>
+    <td>
+      <div>
+        <p>
+          A compact disc from Microsoft that contains information to
+          help you administer and troubleshoot networks.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Microsoft Transaction Server (MTS)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A processing system for creating and distributing Web
+          applications using Active Server Pages. It tracks unique
+          transactions, and ensures that each component of a process
+          must be completed in order for the transaction to succeed.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Microsoft Web site</div></td>
+    <td>
+      <div>
+        <p>
+          The Internet site that you can use to read information about
+          Microsoft products or reach Microsoft support.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Migration</div></td>
+    <td>
+      <div>
+        <p>
+          The process of transferring files, folders, and account
+          information from a NetWare server to a Windows 2000 server.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Millions of Instructions Per Second (MIPS)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A measure of performance. Many computer companies use MIPS
+          to measure the cost of computing. MIPS is also the name of a
+          company that makes RISC processors.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>MIME (Multipurpose Internet Mail Extensions)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          MIME's primary purpose is allowing users to send attachments
+          along with e-mail messages through the Internet. With MIME,
+          you can use several different character sets, as well as
+          binary data.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>MIPS (Millions of Instructions Per Second)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A measure of performance. Many computer companies use MIPS
+          to measure the cost of computing. MIPS is also the name of a
+          company that makes RISC processors.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Mirrored volume</div></td>
+    <td>
+      <div>
+        <p>
+          A mirrored volume stores data to two duplicate disks
+          simultaneously. It provides fault tolerance because if one
+          disk fails, data is preserved on the other disk, and the
+          system switches immediately from the failed disk to the
+          functioning disk to maintain service. Mirrored volumes:
+        </p>
+        <ul>
+          <li>
+            Provide fault tolerance. Data is available even if one
+            disk in the set fails.
+          </li>
+          <li>Do not increase performance.</li>
+          <li>Require two disks.</li>
+          <li>
+            Have a 50% overhead. Data is written twice, meaning that
+            half of the disk space is used to store the second copy of
+            the data.
+          </li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Mirroring</div></td>
+    <td>
+      <div>
+        <p>
+          Mirroring is a data protection method. To mirror data is to
+          duplicate and store it in a separate location.&nbsp;
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>MMC (Microsoft Management Console)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A common framework for a variety of Windows 2000
+          administrative tools. It provides no functionality of its
+          own.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>M-node</div></td>
+    <td>
+      <div>
+        <p>
+          A NetBIOS node that provides support over TCP/IP. The M-node
+          is a combination of B-nodes and P-Nodes. The default is to
+          function as a B-node.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>MNP (Microcom Network Protocol)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A company called Microcom introduced a series of standards
+          for early modems that described error detection techniques.
+          The standards were called MNP Class 2, Class 3, and Class 4.
+          This standard became popular with several modem
+          manufacturers
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Modem</div></td>
+    <td>
+      <div>
+        <p>
+          A modem is a device that modulates and demodulates signals
+          being sent and received across transmission media (telephone
+          wire). For example, computer data is in digital form, which
+          must be converted to analog. To receive data, the modem
+          reconverts the signal back to digital form.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>MPR (Multiple Provider Router)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A component that allows computers to use file and print
+          resources on the network by routing requests to the correct
+          redirector or provider.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>MSAU (Multistation Access Unit)</div>
+    </td>
+    <td>
+      <div>
+        <p>The central connecting point for a token ring network.</p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>MSDN (Microsoft Download Service)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A bulletin board sponsored by Microsoft. Check the MSDN for
+          support information and downloadable code.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>MSDP (Multicast Source Discovery Protocol)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Multicast Source Discovery Protocol (MSDP) is a mechanism
+          that connects multiple PIM-SM domains; allowing the
+          discovery of multicast sources in other domains.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>MSN (The Microsoft Network)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          An online network sponsored by Microsoft. You can find
+          answers to technical questions, read articles about
+          Microsoft products, chat with other users, and much more.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>MTS (Microsoft Transaction Server)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A processing system for creating and distributing Web
+          applications using Active Server Pages. It tracks unique
+          transactions, and ensures that each component of a process
+          must be completed in order for the transaction to succeed.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Multicast</div></td>
+    <td>
+      <div>
+        <p>
+          Multicast is a transmission method that transmits packets
+          from a single device to a specific set of hosts. It is
+          optimal for transmitting voice and video applications and
+          streaming video.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Multicast addressing server (MADCAP)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          MADCAP is a multicast addressing server, which provides
+          multicast address allocation.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Multicast scope</div></td>
+    <td>
+      <div>
+        <p>
+          A range of multicast group IP addresses available to be
+          leased to multicast clients by DHCP. Addresses are in the
+          Class D address range -- 224.0.0.0 to 239.255.255.255 -- are
+          reserved for use in IP multicasting.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Multicast Source Discovery Protocol (MSDP)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Multicast Source Discovery Protocol (MSDP) is a mechanism
+          that connects multiple PIM-SM domains; allowing the
+          discovery of multicast sources in other domains.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Multi-homed</div></td>
+    <td>
+      <div>
+        <p>
+          The ability of a router to function using both static and
+          dynamic routing. For example, you can configure a Windows
+          2000 computer with multiple network adapters and route
+          between the two cards. Computers configured in this fashion
+          are known as multihomed computers.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Multihoming</div></td>
+    <td>
+      <div>
+        <p>
+          Multihoming is the term used to describe an AS that has more
+          than one connection to the Internet. If an organization
+          performs multihoming with BGP, it is accomplished in one of
+          the following ways:
+        </p>
+        <ul>
+          <li>Each ISP only passes a default route to the AS.</li>
+          <li>
+            Each ISP only passes a default route and provider-owned
+            specific routes to the AS.
+          </li>
+          <li>Each ISP passes all routes to the AS.</li>
+        </ul>
+        <p></p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Multi-master replication model</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A replication model in which updates can be made to any of
+          several domain controllers (masters). The master that
+          receives the update then replicates its updates to other
+          domain controllers. Windows 2000 uses this replication
+          model.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Multiple master domain model</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          In this Windows NT domain model, user accounts are
+          distributed among more than one master domain and the
+          domains communicate via trust relationships. In this model a
+          user can log on from any domain because pass-through
+          authentication sends the request to the user's home domain.
+          This model is typically used for large companies that want
+          centralized administration. Each network user account is
+          created in one of the master domains. Other domains in the
+          network are resource domains, which are usually created at
+          the department level.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Multiple Provider Router (MPR)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A component that allows computers to use file and print
+          resources on the network by routing requests to the correct
+          redirector or provider.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Multiple Universal Naming Convention Provider (MUP)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A component that allows a remote computer to accept paths
+          and filenames written in UNC format. The MUP keeps the UNC
+          list so that the client computer does not have to rewrite
+          the UNC names for each redirector on the network.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Multiplexer</div></td>
+    <td>
+      <div>
+        <p>
+          A communications device that combines signals for
+          transmission over a single transmission medium. A
+          multiplexer is sometimes called a mux.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Multiprotocol BGP</div></td>
+    <td>
+      <div>
+        <p>
+          Multiprotocol BGP is an enhanced extension of BGP that has
+          the ability to carry IP multicast routes.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Multipurpose Internet Mail Extensions (MIME)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          MIME's primary purpose is allowing users to send attachments
+          along with e-mail messages through the Internet. With MIME,
+          you can use several different character sets, as well as
+          binary data.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Multistation Access Unit (MAU)</div>
+    </td>
+    <td>
+      <div>
+        <p>The central connecting point for a token ring network.</p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Multi-station Access Unit (MAU)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A hub or concentrator that connects a group of computers to
+          a local area network in token ring topology.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Multistation Access Unit (MSAU)</div>
+    </td>
+    <td>
+      <div>
+        <p>The central connecting point for a token ring network.</p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Multitasking</div></td>
+    <td>
+      <div>
+        <p>
+          In multitasking operating systems, the processor is
+          time-sliced across tasks, devoting a certain amount of
+          processing time to each task. The processor then alternates
+          between tasks until they have all been completed. This
+          process occurs so rapidly that the computer appears to be
+          working on multiple tasks at one time.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Multithreading</div></td>
+    <td>
+      <div>
+        <p>
+          An operating system feature that allows more than one
+          process to work at the same time. For example, Winnt32.exe
+          can decompress and copy files at the same time, since each
+          task is a separate thread.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>MUP (Multiple Universal Naming Convention Provider)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A component that allows a remote computer to accept paths
+          and filenames written in UNC format. The MUP keeps the UNC
+          list so that the client computer does not have to rewrite
+          the UNC names for each redirector on the network.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>MX (Mail Exchanger) record</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A DNS resource record that you can define in DNS. The MX
+          records specify a mail exchanger for a domain name: a host
+          that will either process or forward mail for the domain
+          name.
+        </p>
+      </div>
+    </td>
+  </tr>
+</tbody>
+</table>
+
 ### N
+
+<table cellpadding="0" cellspacing="0">
+<tbody>
+  <tr>
+    <td><div>Name resolution</div></td>
+    <td>
+      <div>
+        <p>
+          The process by which host names (such as Computer1) are
+          translated to numerical IP addresses (such as 192.168.35.2).
+          The principle means of name resolution in Windows 2000 is
+          DNS. WINS may be used for some name resolution when earlier
+          versions of Windows are still part of the network..
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Name Service (NS) record</div>
+    </td>
+    <td>
+      <div>
+        <p>A name service record that is placed in a DNS server.</p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Named pipes</div></td>
+    <td>
+      <div>
+        <p>
+          A mechanism that processes use to communicate with each
+          other locally or remotely.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Namespace</div></td>
+    <td>
+      <div>
+        <p>
+          A group of unique labels for objects in a shared computing
+          environment. For example, the DNS database is a a tree
+          structure called the domain namespace. Each domain (node) is
+          named and can contain subdomains. The domain name identifies
+          the position of the domain in relation to its parent domain.
+          A group of contiguous names in such a structure constitutes
+          a namespace.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>NAS (Network-Attached Storage)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Network-Attached Storage (NAS) is another method of adding
+          storage capacity to a network. A NAS system plugs directly
+          into the network in the same way that workstations and other
+          peripherals do. A NAS device is typically a pared down file
+          server consisting of:
+        </p>
+        <ul>
+          <li>A RAID array with terabytes of storage space.</li>
+          <li>A motherboard (logic board).</li>
+          <li>
+            One or more network interface cards. Multiple interface
+            cards allow you to perform adapter teaming.
+          </li>
+          <li>A minimal network operating system.</li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>NAT (Network Address Translation)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The process of converting the IP addresses used in private
+          network (such as an intranet) to Internet IP addresses. This
+          increases the number addresses available within the the
+          intranet without reducing the number of available Internet
+          addresses.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>NBMA (NonBroadcast MultiAccess)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          An NonBroadcast MultiAccess (NBMA) network is a network that
+          interconnects multiple routers but does not have broadcast
+          capabilities (examples are Frame Relay, X.25, and ATM).
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>NBTSTAT</div></td>
+    <td>
+      <div>
+        <p>
+          A Microsoft utility that checks the state of current NetBIOS
+          over TCP/IP connections. It also updates the LMHOSTS cache,
+          and determines your registered name and scope ID. The
+          utility is also used for troubleshooting and pre-loading the
+          NetBIOS name cache.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>NDIS (Network Device Interface Specification) 4.0</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A set of software rules that specify how protocols
+          communicate with device drivers. All NDIS-compatible cards
+          and drivers can communicate with each other without needing
+          to use specifically tailored protocols.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>NDS (NetWare Directory Services)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          NDS lets you display a list of shared objects and servers in
+          a NetWare network. The NDS tree shows the available
+          resources as a hierarchical list.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Neighbor discovery/recovery</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Neighbor discovery/recovery is a mechanism that enables
+          routers to dynamically learn about the other routers on
+          their directly attached networks. Neighbor
+          discovery/recovery:
+        </p>
+        <ul>
+          <li>
+            Allows routers to know when neighbors become unreachable
+            or inoperative.
+          </li>
+          <li>Has low overhead.</li>
+          <li>
+            Periodically sends and receives small hello packets to and
+            from neighboring routers. If hello packets start to not be
+            received from a particular router, neighbor
+            discovery/recovery will assume that the router is not
+            functioning.
+          </li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>NET command</div></td>
+    <td>
+      <div>
+        <p>
+          This command accepts several command arguments that control
+          functions such as logon, logoff, and resource connections.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>NetBEUI (NetBIOS Extended User Interface)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A protocol supported by all Microsoft products. It has a
+          small stack size, excellent data transfer rates, and is
+          compatible with all Microsoft networks. It cannot be routed,
+          and it is not compatible with non-Microsoft networks.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>NetBIOS (Network Basic Input/Output System)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A program that allows computers to share resources on a
+          network. Each computer has a unique NetBIOS name that
+          provides applications with a common set of commands for
+          requesting the lower-level network services that are
+          necessary to transmit information between network resources.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>NetBIOS applications</div></td>
+    <td>
+      <div>
+        <p>
+          A utility that checks the state of current NetBIOS over
+          TCP/IP connections. It is also used to update the LMHOSTS
+          cache and determine your registered name and scope ID.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>NetBIOS Extended User Interface (NetBEUI)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A protocol supported by all Microsoft products. It has a
+          small stack size, excellent data transfer rates, and is
+          compatible with all Microsoft networks. It cannot be routed,
+          and it is not compatible with non-Microsoft networks.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>NetBIOS name cache</div></td>
+    <td>
+      <div>
+        <p>
+          A local cache containing the NetBIOS names that the local
+          computer has recently resolved. Having the IP address in
+          cache eliminates the need for extraneous broadcasts on the
+          network.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>NetBIOS name resolution</div></td>
+    <td>
+      <div>
+        <p>
+          The process of successfully mapping a computer's NetBIOS
+          name to an IP address. Before an IP address can be resolved
+          to a hardware address, a computer's NetBIOS computer name
+          must be resolved to an IP address.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>NetBIOS scope</div></td>
+    <td>
+      <div>
+        <p>
+          The NetBIOS scope parameter is configured on the remote
+          host. The scope ID must match the scope ID on your Microsoft
+          clients or they will not be able to communicate with
+          NetBIOS.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>NetDDE (Network Dynamic Share)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A Win32 service that can share processes with other Win32
+          services. It is a service registered under the Services
+          subkey in the Registry.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>NetShow Player</div></td>
+    <td>
+      <div>
+        <p>
+          Software that runs on the client computer and lets you play,
+          start, and stop audio, illustrated audio (slide show), and
+          full-motion video files.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Netstat</div></td>
+    <td>
+      <div>
+        <p>
+          A Microsoft utility that displays the protocol statistics
+          and the current state of TCP/IP connections.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>NetWare</div></td>
+    <td>
+      <div><p>Networking software from Novell.</p></div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>NetWare Directory Services (NDS)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          NDS lets you display a list of shared objects and servers in
+          a NetWare network. The NDS tree shows the available
+          resources as a hierarchical list.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Network</div></td>
+    <td>
+      <div>
+        <p>
+          A system group that is not used for network administration.
+          It includes any user who is currently connected from another
+          computer on the network to a shared resource on your
+          computer.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Network Address Translation (NAT)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The process of converting the IP addresses used in private
+          network (such as an intranet) to Internet IP addresses. This
+          increases the number addresses available within the the
+          intranet without reducing the number of available Internet
+          addresses.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Network architecture</div></td>
+    <td>
+      <div>
+        <p>
+          A standardized set of physical and data link layer protocols
+          that serve as the network's foundation upon which other
+          protocol layers can function.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Network Basic Input/Output System (NetBIOS)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A program that allows computers to share resources on a
+          network. Each computer has a unique NetBIOS name that
+          provides applications with a common set of commands for
+          requesting the lower-level network services that are
+          necessary to transmit information between network resources.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Network Device Interface Specification (NDIS) 4.0</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A set of software rules that specify how protocols
+          communicate with device drivers. All NDIS-compatible cards
+          and drivers can communicate with each other without needing
+          to use specifically tailored protocols.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Network Dynamic Share (NetDDE)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A Win32 service that can share processes with other Win32
+          services. It is a service registered under the Services
+          subkey in the Registry.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Network ID</div></td>
+    <td>
+      <div>
+        <p>
+          The network ID identifies the TCP/IP hosts that are located
+          on the same physical network. Any hosts that are on the same
+          physical network must be assigned the same network ID in
+          order to communicate.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Network Interface Layer</div></td>
+    <td>
+      <div>
+        <p>
+          The base of the Department of Defense (DOD) model. This
+          layer has the responsibility to place frames on the wire and
+          retrieve frames from the wire.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Network Layer</div></td>
+    <td>
+      <div>
+        <p>
+          Layer 3 of the OSI reference model. This layer provides
+          connectivity and path selection between two end systems. The
+          network layer is the layer at which routing occurs.
+          Corresponds roughly with the path control layer of the SNA
+          model. See also application layer, data link layer, physical
+          layer, presentation layer, session layer, and transport
+          layer.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Network Monitor</div></td>
+    <td>
+      <div>
+        <p>
+          A Windows troubleshooting tool. It monitors the information
+          in frames which are transferred over the network to or from
+          the local computer.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Network News Transfer Protocol (NNTP)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A protocol that provides access to Internet newsgroups. It
+          allows a client to read messages sent to newsgroups and
+          makes it possible for hosts to replicate articles back and
+          forth.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Network number</div></td>
+    <td>
+      <div>
+        <p>
+          The unique number that the NWLink IPX/SPX protocol uses to
+          identify a specific part of the network. Also called an
+          external network number.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Network printer</div></td>
+    <td>
+      <div>
+        <p>
+          A printer connected to the network and registered as a
+          shared resource.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Network protocols</div></td>
+    <td>
+      <div>
+        <p>
+          Protocols that allow computers to communicate with each
+          other over a network. For example, AppleTalk and NetBEUI are
+          network protocols.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Network Service Access Point (NSAP)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A Network Service Access Point (NSAP) is used to identify
+          routers and build the topology table in IS-IS.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Network Time Protocol (NTP)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          NTP is used to communicate time synchronization information
+          between systems on a network.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Network-Attached Storage (NAS)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Network-Attached Storage (NAS) is another method of adding
+          storage capacity to a network. A NAS system plugs directly
+          into the network in the same way that workstations and other
+          peripherals do. A NAS device is typically a pared down file
+          server consisting of:
+        </p>
+        <ul>
+          <li>A RAID array with terabytes of storage space.</li>
+          <li>A motherboard (logic board).</li>
+          <li>
+            One or more network interface cards. Multiple interface
+            cards allow you to perform adapter teaming.
+          </li>
+          <li>A minimal network operating system.</li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>New Technology File System (NTFS)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A Windows NT file system that provides secure and robust
+          file access. File and folder names can be up to 255
+          characters (long file names). Permissions can be assigned to
+          individual files and folders. Windows 2000 updates NTFS with
+          new features.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Newsreader</div></td>
+    <td>
+      <div>
+        <p>
+          A client that uses NNTP to read postings in Internet
+          newsgroups.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Next-hop attribute</div></td>
+    <td>
+      <div>
+        <p>
+          The next-hop (type code 3) is a well-known mandatory BGP
+          attribute that indicates the next-hop IP address that can be
+          used to reach a destination.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>NNTP (Network News Transfer Protocol)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A protocol that provides access to Internet newsgroups. It
+          allows a client to read messages sent to newsgroups and
+          makes it possible for hosts to replicate articles back and
+          forth.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Node</div></td>
+    <td>
+      <div>
+        <p>
+          A node is a device that acts as a connection point within a
+          network. Nodes can be used for redistributing or forwarding
+          data or providing services to other devices or programs.
+          Node and host, in the network context, are often used
+          interchangeably.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Node prioritization</div></td>
+    <td>
+      <div>
+        <p>
+          The priority assigned to each computer (values between 0 and
+          8) in a token ring. Computers with higher priority levels
+          get first rights to the token. Computers that perform
+          critical network functions may need higher priority.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Nonauthoritative restore</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A restoration method which uses the Backup utility to return
+          the Active Directory database to the state it was in before
+          the back up. Windows 2000 automatically performs a
+          consistency check on and re-indexes the Active Directory
+          database. It then updates Active Directory and File
+          Replication service (FRS) with data from the server's
+          replication partners.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Nonbackbone area</div></td>
+    <td>
+      <div>
+        <p>
+          A regular area (also known as nonbackbone area)does not
+          allow traffic to pass through it. The regular area's primary
+          function is to connect users and resources.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>NonBroadcast MultiAccess (NBMA)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          An NonBroadcast MultiAccess (NBMA) network is a network that
+          interconnects multiple routers but does not have broadcast
+          capabilities (examples are Frame Relay, X.25, and ATM).
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Non-local GPO</div></td>
+    <td>
+      <div>
+        <p>
+          A Group Policy Object (GPO) stored in Active Directory.
+          Settings in a non-local GPO can be applied to users and
+          computers throughout the network. Also called an Active
+          Directory-based (GPO).
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Non-paged pool system memory</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The part of operating system memory that remains in physical
+          memory instead of being swapped into virtual memory.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Non-preemptive multitasking</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A system in which each application currently running a
+          process voluntarily passes control of the CPU to another
+          application between processes. Also called cooperative
+          multitasking.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Nontransit AS peering</div></td>
+    <td>
+      <div>
+        <p>
+          Nontransit AS peering provides access to a single EBGP peer;
+          excluding all other EBGP peers. This is optimal for
+          scenarios in which a customer is connected to two ISP's
+          networks and wishes to have each ISP's customers use their
+          own connections for communication.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Normal backup</div></td>
+    <td>
+      <div>
+        <p>
+          A backup method that backs up selected files and folders,
+          and marks their archive attributes.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Not So Stubby Area (NSSA)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A Not So Stubby Area (NSSA) is similar to a stub area
+          because it does not allow external ASBR routes, but it does
+          allow ASBR routes that originate from within the area. These
+          ASBR routes are flagged as Type 7 LSA packets (NSSA type LSA
+          packets).
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Notification messages</div></td>
+    <td>
+      <div>
+        <p>
+          Notification messages are transmitted when errors have been
+          detected.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>NS (Name Service) record</div>
+    </td>
+    <td>
+      <div>
+        <p>A name service record that is placed in a DNS server.</p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>NSAP (Network Service Access Point)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A Network Service Access Point (NSAP) is used to identify
+          routers and build the topology table in IS-IS.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>NSLOOKUP</div></td>
+    <td>
+      <div>
+        <p>
+          A Microsoft utility used to diagnose problems with DNS.
+          Users can interact with the DNS server, and this utility can
+          be used to display resource records on DNS servers,
+          including UNIX DNS servers.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>NSSA (Not So Stubby Area)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A Not So Stubby Area (NSSA) is similar to a stub area
+          because it does not allow external ASBR routes, but it does
+          allow ASBR routes that originate from within the area. These
+          ASBR routes are flagged as Type 7 LSA packets (NSSA type LSA
+          packets).
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>NT Hardware Qualifier (NTHQ)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A Windows NT utility which checks the hardware installed on
+          an Intel x86 computer before you begin installing Windows
+          NT. This helps you prevent problems during installation.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>NT Virtual DOS Machine (NTVDM)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A specialized environment that allows MS-DOS and Win16
+          applications to run under Windows NT.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Ntdetect.com</div></td>
+    <td>
+      <div>
+        <p>
+          This program has the responsibility to pass hardware
+          configuration information to the NTLDR program.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Ntdos.sys</div></td>
+    <td>
+      <div>
+        <p>The NTVDM equivalent of the MSDOS.SYS in MS-DOS.</p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>NTDS Performance Object</div></td>
+    <td>
+      <div>
+        <p>
+          An object in System Monitor which represents Directory
+          Services and can be monitored to observe the performance of
+          Active Directory.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>NTFS (New Technology File System)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A Windows NT file system that provides secure and robust
+          file access. File and folder names can be up to 255
+          characters (long file names). Permissions can be assigned to
+          individual files and folders. Windows 2000 updates NTFS with
+          new features.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>NTFS partition</div></td>
+    <td>
+      <div>
+        <p>A partition formatted with the NTFS file system.</p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>NTHQ (NT Hardware Qualifier)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A Windows NT utility which checks the hardware installed on
+          an Intel x86 computer before you begin installing Windows
+          NT. This helps you prevent problems during installation.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Ntio.sys</div></td>
+    <td>
+      <div>
+        <p>The NTVDM equivalent to the IO.SYS in MS-DOS.</p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Ntldr</div></td>
+    <td>
+      <div>
+        <p>
+          The Windows NT operating system loader. During the startup
+          phase, the pre-boot sequence locates the boot partition of
+          the hard disk. NTLDR (the boot loader) is then loaded and
+          initialized from the boot sector. This program switches the
+          processor to the 32-bit flat memory mode, starts the
+          appropriate minifile system, and reads the Boot.ini file.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>NTP (Network Time Protocol)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          NTP is used to communicate time synchronization information
+          between systems on a network.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>NTVDM (NT Virtual DOS Machine)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A specialized environment that allows MS-DOS and Win16
+          applications to run under Windows NT.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Ntvdm.exe</div></td>
+    <td>
+      <div>
+        <p>
+          The executable that emulates MS-DOS and manages an NTVDM. It
+          runs in kernel mode.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>NWLink</div></td>
+    <td>
+      <div>
+        <p>
+          The Microsoft implementation of Novell's IPX/SPX protocol.
+          It is a communications protocol that helps Windows 2000 and
+          NetWare operate in a single environment. Client Services for
+          NetWare is also needed to complete the connection.
+        </p>
+      </div>
+    </td>
+  </tr>
+</tbody>
+</table>
+
+### O
+
+<table cellpadding="0" cellspacing="0">
+<tbody>
+  <tr>
+    <td><div>Object</div></td>
+    <td>
+      <div>
+        <p>
+          A discrete piece of information, such as a graphic, chart,
+          or paragraph of text, that you can create in one application
+          and link or embed into a file created in another
+          application.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Object Linking and Embedding (OLE)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A standard for embedding objects and text in electronic
+          documents.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Octet</div></td>
+    <td>
+      <div>
+        <p>
+          A term used to describe 8 bits in an IP address. An IP
+          address consists of a 4 octet address. An octet is separated
+          by periods. The octet represents a decimal number in the
+          range of 0-255 known as dotted decimal notation.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>ODR (On-Demand Routing)</div></td>
+    <td>
+      <div>
+        <p>
+          On-Demand Routing (ODR) uses the Cisco Discovery Protocol
+          (CDP) to transfer network information between routers. ODR
+          makes it possible to find the following types of
+          characteristics about neighboring devices:
+        </p>
+        <ul>
+          <li>Device type</li>
+          <li>IP address</li>
+          <li>Cisco IOS version being run</li>
+          <li>Network capabilities</li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>OEM (Original Equipment Manufacturer)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A company that uses parts of other company's products to
+          create its own products.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Offline defragmentation</div></td>
+    <td>
+      <div>
+        <p>
+          A defragmentation method you perform manually using NTDSUTIL
+          when the computer is not connected to the network. It
+          rearranges the data in the Active Directory database,
+          compresses the file, and creates a compact, new file.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Off-site storage</div></td>
+    <td>
+      <div>
+        <p>
+          Backup tapes stored at a location different from the
+          business location.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>OLE (Object Linking and Embedding)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A standard for embedding objects and text in electronic
+          documents.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>OLE DB</div></td>
+    <td>
+      <div>
+        <p>
+          An application programming interface (API) that lets COM
+          applications access data from an OLE DB provider without
+          regard to the data storage format of the provider. For
+          example, the provider could be a database, a spreadsheet, or
+          text files.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Omni-directional Antenna</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Wireless networks require antennas for sending and receiving
+          transmitted signals. An omni-directional antenna disperses a
+          radio frequency wave in an equal 360-degree pattern. This
+          type of antenna is used to provide access to many clients in
+          a radius.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>On-Demand Routing (ODR)</div></td>
+    <td>
+      <div>
+        <p>
+          On-Demand Routing (ODR) uses the Cisco Discovery Protocol
+          (CDP) to transfer network information between routers. ODR
+          makes it possible to find the following types of
+          characteristics about neighboring devices:
+        </p>
+        <ul>
+          <li>Device type</li>
+          <li>IP address</li>
+          <li>Cisco IOS version being run</li>
+          <li>Network capabilities</li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Online defragmentation</div></td>
+    <td>
+      <div>
+        <p>
+          A defragmentation method that the Extensible Storage engine
+          performs automatically at regular intervals, following the
+          garbage collection process. It rearranges the data in the
+          Active Directory database, but does not compress the data or
+          reduce the size of the database file.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>On-site storage</div></td>
+    <td>
+      <div>
+        <p>Backup tapes stored at the business location.</p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Open Graphics Language (OpenGL)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The standard software interface you can use on any hardware
+          or software platform to create high-quality graphics.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Open message</div></td>
+    <td>
+      <div>
+        <p>
+          The first message sent by each side of an established TCP
+          session is an open message. Open messages exchange
+          information on how to set up a session
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Open Shortest Path First (OSPF)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A routing protocol like RIP. This routing protocol
+          periodically exchanges routes to known networks among
+          dynamic routers. If a route changes, other routers are
+          automatically informed of the change. Dynamic routing
+          requires a protocol such as Open Shortest Path First.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Open Systems Interconnection (OSI) model</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          It includes the Application, Presentation, Session,
+          Transport, Network, Data Link, and Physical layers, which
+          correspond to the model created by the International
+          Standards Organization (ISO).
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>OpenGL (Open Graphics Language)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The standard software interface you can use on any hardware
+          or software platform to create high-quality graphics.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Origin attribute</div></td>
+    <td>
+      <div>
+        <p>
+          The origin (type code 1) is a well-known mandatory BGP
+          attribute used to describe the origination of information in
+          transit.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Original Equipment Manufacturer (OEM)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A company that uses parts of other company's products to
+          create its own products.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Originating domain controller</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The domain controller on which an Active Directory update
+          was originally made.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Originating update</div></td>
+    <td>
+      <div>
+        <p>
+          An update to the Active Directory update that is made
+          directly rather than through replication. For example, if
+          BSmith's password is changed on Server1 then replicated to
+          Server2, the originating update was made on Server1.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Originating update sequence number</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The local USN of the domain controller on which an Active
+          Directory update was originally made.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Oscilloscope</div></td>
+    <td>
+      <div>
+        <p>
+          An electronic device that displays signal voltage
+          information. You can use an oscilloscope to detect shorts,
+          breaks, bends, or crimps in a network cable. Oscilloscopes
+          can also indicate attenuation problems (loss of signal
+          power).
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>OSI (Open Systems Interconnection) model</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          It includes the Application, Presentation, Session,
+          Transport, Network, Data Link, and Physical layers, which
+          correspond to the model created by the International
+          Standards Organization (ISO).
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>OSPF (Open Shortest Path First)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A routing protocol like RIP. This routing protocol
+          periodically exchanges routes to known networks among
+          dynamic routers. If a route changes, other routers are
+          automatically informed of the change. Dynamic routing
+          requires a protocol such as Open Shortest Path First.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Outlook Anywhere</div></td>
+    <td>
+      <div>
+        <p>
+          Outlook Web Access (OWA) provides browser access to e-mail.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Out-of-band management</div></td>
+    <td>
+      <div>
+        <p>
+          Out-of-band management uses communication channels and
+          methods that are different from those used by the server to
+          communicate with normal network clients. With out-of-band
+          management, you separate server management traffic from
+          normal network traffic. You might also use unique tools that
+          allow you to communicate with a server before the operating
+          system loads or if the server is unresponsive to normal
+          network communications.
+        </p>
+      </div>
+    </td>
+  </tr>
+</tbody>
+</table>
+
+### P
+
+<table cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td><div>Packet</div></td>
+      <td>
+        <div>
+          <p>
+            The term used to describe information that is
+            compartmentalized for transport across the network. For
+            example, the IP protocol has a packet structure that
+            contains the Source IP address, Destination IP Address,
+            Protocol type, Checksum, data, and so on.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>Packet filtering firewall</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            A packet filtering firewall filters packets based on source
+            and destination addresses, ports, and service protocols.
+            This type of firewall uses ACLs or filter rules to control
+            traffic. It operates at OSI layer 3 (Network layer), Offers
+            high performance because it only examines addressing
+            information in the packet header and it is subject to DoS
+            and buffer overflow attacks.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>Packet InterNet Groper (PING)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            A TCP/IP utility that verifies TCP/IP is configured
+            correctly and that another host is available.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Packet Switching</div></td>
+      <td>
+        <div>
+          <p>
+            A packet switched network allows data to be broken up into
+            packets. Packets are transmitted along the most efficient
+            route to the destination. Packet switching is ideal for
+            transmitting data that can handle transmission delays, as is
+            often the case with Web pages and e-mail.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Page</div></td>
+      <td>
+        <div>
+          <p>
+            A contiguous, fixed-length block of virtual addresses. It is
+            copied from memory to disk and back during paging
+            operations. Windows 2000 uses 4 KB blocks to map physical
+            and virtual memory addresses. SQL Server allocates database
+            space in 8K pages.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>Page Description Languages (PDL)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            A program that tells a printer how printed output should
+            appear on a page. PostScript and TrueType are two different
+            PDLs.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Paging file</div></td>
+      <td>
+        <div>
+          <p>
+            Pagefile.sys. A file on a hard disk that Windows 2000 uses
+            to transfer information in and out of RAM and virtual
+            memory. Also called a swap file or a virtual memory page
+            file.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>PAN (Personal Area Network)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            A personal area network is the interconnection of
+            components, such as laptops, personal digital assistants,
+            printers, mice, keyboards, and other Bluetooth equipped
+            devices, using some form of wireless technology within a
+            personal range (typically 10 meters).
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>PAP (Password Authentication Protocol)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            One of the less-secure protocols, where the username and
+            password are sent in clear text for authentication
+            increasing the chance of&nbsp; interception. PAP should be
+            used only when no other form of authentication is supported.
+            PAP protocols are supported by multiple platforms, including
+            Microsoft and Linux.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Partial Mesh</div></td>
+      <td>
+        <div>
+          <p>
+            A mesh topology exists when there are multiple paths between
+            any two nodes on a network. Mesh topologies are created
+            using point-to-point connections. In a partial mesh
+            topology, some redundant paths exist.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Partial replica</div></td>
+      <td>
+        <div>
+          <p>
+            A replica that contains only selected attributes of objects
+            on which a searches are likely to be performed. Partial
+            replicas are read-only.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Partition</div></td>
+      <td>
+        <div>
+          <p>
+            A portion of the free space on a hard disk that you format
+            with a file system. Partitions can be either primary or
+            extended.
+          </p>
+          <p>
+            A partition can also refer to a division (part) of the
+            Active Directory database. In this case, it is called an
+            Active Directory partition or directory partition.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Passive interface</div></td>
+      <td>
+        <div>
+          <p>
+            Passive interfaces stop the routing process from
+            participating out of a particular interface. The interface
+            still listens and receives network traffic, but the
+            interface does not participate, advertise, or generate any
+            traffic for a given protocol. Passive interfaces are often
+            used with protocol migration or redistribution.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>Pass-through authentication</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            The process by which users log on to the network from
+            computers or domains in which they have no account.
+            Pass-through authentication allows a user with an account on
+            one domain to access the entire network. Pass-through
+            authentication can occur when a user logs on to a trusted
+            domain or connects to a resource in a trusting domain.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Password</div></td>
+      <td>
+        <div>
+          <p>
+            A credential used to verify a user's request to log on to
+            the network. A password is associated with a user account
+            name and both are used during the authentication process.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>Password Authentication Protocol (PAP)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            One of the less-secure protocols, where the username and
+            password are sent in clear text for authentication
+            increasing the chance of&nbsp; interception. PAP should be
+            used only when no other form of authentication is supported.
+            PAP protocols are supported by multiple platforms, including
+            Microsoft and Linux.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>PCI (Peripheral Component Interconnect)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            A 32 or 64-bit bus providing compatibility with both 486 and
+            Pentium machines. PCI buses:
+          </p>
+          <ul>
+            <li>Have a maximum throughput rate of 133 MB/s.</li>
+            <li>
+              Are processor independent (the CPU and the PCI bus can
+              process concurrently).
+            </li>
+            <li>
+              Use a divisor to synchronize the system bus speed and the
+              PCI bus speed.
+            </li>
+            <li>
+              Are most commonly 5V, but specifications provide for 3V
+              and dual-voltage cards.
+            </li>
+            <li>
+              Can support ISA and EISA; however if PCI and ISA share a
+              bus, then the use of one disables the other.
+            </li>
+            <li>Are plug-and-play.</li>
+            <li>Are normally white plastic.</li>
+            <li>
+              Are available in 64-bit as well as 32-bit. 64-bit PCI
+              cards are often backwards compatible with 32-bit PCI
+              slots.
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>PCIe</div></td>
+      <td>
+        <div>
+          <p>
+            PCI Express is the latest expansion bus standard, replacing
+            AGP in newer systems.
+          </p>
+          <ul>
+            <li>
+              PCI Express has a maximum throughput rate of 8 GB/s.
+            </li>
+            <li>
+              Rather than a shared bus, each PCIe slot links to a switch
+              which prioritizes and routes data through a point-to-point
+              dedicated connection and provides a serial full-duplex
+              method of transmission.
+            </li>
+            <li>
+              Data is transferred in packets, allowing data to be
+              transferred more quickly.
+            </li>
+            <li>
+              PCI Express is a serial communications channel made up of
+              two differential wire pairs that provide 2.5 GB/s in each
+              direction. Up to 32 of these lanes may be combined in x2,
+              x4, x8, x16 and x32 configurations, creating a parallel
+              interface of independently controlled serial links,
+              providing up to 4GB/s transfer speeds.
+            </li>
+            <li>
+              The slots are different lengths because of the different
+              lane configurations.
+            </li>
+            <li>
+              PCI Express offers greatly increased speed and higher
+              quality service.
+            </li>
+            <li>
+              The bandwidth of the switch backplane determines the total
+              capacity of a PCI Express implementation.
+            </li>
+            <li>
+              Each device on the bus can create a point-to-point
+              connection with another device.
+            </li>
+            <li>
+              PCI Express is backwards compatible and allows legacy PCI
+              technology to be run in the same system.
+            </li>
+            <li>
+              Originally called "Third Generation I/O" (3GIO), PCI
+              Express is software compatible with PCI, but not plug
+              compatible.
+            </li>
+            <li>
+              PCI Express is most commonly used for video cards in
+              modern computer systems.
+            </li>
+            <li>
+              PCI Express supports Scalable Link Interface (SLI) video.
+              SLI allows two instances of the same graphics card to be
+              linked together to provide amazing graphic performance.
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>PCI-X</div></td>
+      <td>
+        <div>
+          <p>
+            The PCI-X specification is a high-performance enhancement to
+            the conventional PCI bus specification.
+          </p>
+          <ul>
+            <li>PCI-X has a maximum throughput rate of 1.06 GB/s.</li>
+            <li>
+              PCI-X provides maximum clock frequencies of 266 MHz and
+              533 MHz increasing transfer rates up to 4.3 GB/s.
+            </li>
+            <li>
+              PCI-X 1.0 improved the efficiency of the PCI bus itself
+              and the devices attached to it by providing new features
+              such as split transactions and transaction byte counts.
+            </li>
+            <li>
+              PCI-X 2.0 adds additional features for systems reliability
+              to minimize errors at high speeds and keep up with other
+              advances made to such as RAID, Fiber Channel, and iSCSI
+              architectures.
+            </li>
+            <li>PCI-X is used primarily in server systems.</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>PCONSOLE</div></td>
+      <td>
+        <div>
+          <p>
+            A GSNW or CSNW utility that allows you to manage NetWare
+            print servers from a Windows 2000 client computer.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>PDA (Personal Digital Assistant)</div>
+      </td>
+      <td>
+        <div>
+          <p>Any portable hand-held device used for computing.</p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>PDC (Primary Domain Controller)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            A PDC holds all security and account information for a
+            Windows NT domain and is responsible to communicate all
+            changes to the BDCs.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>PDL (Page Description Languages)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            A program that tells a printer how printed output should
+            appear on a page. PostScript and TrueType are two different
+            PDLs.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>PDM (Protocol-Dependent Modules)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            A Protocol-Dependent Module (PDM) is used by EIGRP to carry
+            out the requirements specific to independent protocols.
+            PDMs:
+          </p>
+          <ul>
+            <li>Operate completely independent of one another.</li>
+            <li>
+              Learn from other sources to make decisions about adding
+              routes.
+            </li>
+            <li>
+              Offer support for various routed protocols (e.g. IP, IPX,
+              and AppleTalk).
+            </li>
+            <li>
+              Carry information from the routing table to the topology
+              table.
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>PEAP (Protected Extensible Authentication Protocol)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            PEAP (an extension of EAP) is one of the most effective
+            wireless security solutions.&nbsp; PEAP provides
+            authentication, including passwords. PEAP, provides the
+            following two options:
+          </p>
+          <ul>
+            <li>
+              PEAP-EAP-TLS. This method uses certificates (either on the
+              local system or on a smart card).
+            </li>
+            <li>
+              PEAP-MS-CHAP v2. This method uses certificates on the
+              server, but passwords on the client. Use this method when
+              the client does not have a certificate.
+            </li>
+          </ul>
+          <p>&nbsp;</p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Peer-to-peer network</div></td>
+      <td>
+        <div>
+          <p>
+            A network in which every computer on the network is equal in
+            providing and requesting resources. These networks have no
+            central administration and only share-level security.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Per seat licensing</div></td>
+      <td>
+        <div>
+          <p>
+            A licensing mode that requires you to buy a license for
+            every client computer that will connect to resources on the
+            server running Windows 2000.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Per server licensing</div></td>
+      <td>
+        <div>
+          <p>
+            A licensing mode that requires you to buy a license for each
+            server that will be running Windows 2000.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>Peripheral Component Interconnect (PCI)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            A 32 or 64-bit bus providing compatibility with both 486 and
+            Pentium machines. PCI buses:
+          </p>
+          <ul>
+            <li>Have a maximum throughput rate of 133 MB/s.</li>
+            <li>
+              Are processor independent (the CPU and the PCI bus can
+              process concurrently).
+            </li>
+            <li>
+              Use a divisor to synchronize the system bus speed and the
+              PCI bus speed.
+            </li>
+            <li>
+              Are most commonly 5V, but specifications provide for 3V
+              and dual-voltage cards.
+            </li>
+            <li>
+              Can support ISA and EISA; however if PCI and ISA share a
+              bus, then the use of one disables the other.
+            </li>
+            <li>Are plug-and-play.</li>
+            <li>Are normally white plastic.</li>
+            <li>
+              Are available in 64-bit as well as 32-bit. 64-bit PCI
+              cards are often backwards compatible with 32-bit PCI
+              slots.
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>PERL (Practical Extraction and Report Language)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            An interpreted script language that includes UNIX facilities
+            with C. It is faster and easier to code than other
+            languages, but works best for small, limited applications.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>Permanent Virtual Circuit (PVC)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            A virtual circuit that provides permanent access to the
+            network like a permanent physical connection. Leasing a PVC
+            is cheaper than leasing a permanent physical connection
+            because the physical circuit is not dedicated to a single
+            PVC and can be used to carry data from other virtual
+            circuits.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Permissions</div></td>
+      <td>
+        <div>
+          <p>
+            The rights granted to a user or group to access files and
+            folders on a Windows 2000 computer or a network. These
+            permissions may reside in the local computer's security
+            database or in the Active Directory database of a domain
+            controller on the network.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Persistent route</div></td>
+      <td>
+        <div>
+          <p>
+            A static route entry or entry in a router that is stored in
+            the registry. Static routes are stored in memory unless you
+            specify through the Bp parameter that the route is
+            persistent. When you restart a Windows 2000 computer, you
+            will need to re-create all non-persistent routes.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>Personal Area Network (PAN)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            A personal area network is the interconnection of
+            components, such as laptops, personal digital assistants,
+            printers, mice, keyboards, and other Bluetooth equipped
+            devices, using some form of wireless technology within a
+            personal range (typically 10 meters).
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>Personal Digital Assistant (PDA)</div>
+      </td>
+      <td>
+        <div>
+          <p>Any portable hand-held device used for computing.</p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>Personal Web Server (PWS)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            If you install Microsoft Internet Information Server on a
+            computer running Windows 2000 Professional, it installs as
+            Microsoft Personal Web Server (PWS). PWS is not a full
+            Internet server, but you can use it to publish content on
+            your local LAN, or to remotely administer an IIS server.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Phonebook entry</div></td>
+      <td>
+        <div>
+          <p>
+            A list of the settings Dial-Up Networking uses to connect a
+            client to a remote computer. The entry includes information
+            such as the country code, area code, phone number, name of
+            the remote computer, and so on.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Physical Layer</div></td>
+      <td>
+        <div>
+          <p>
+            The lowest layer in the seven-layer OSI model that
+            represents the hardware on a network. The physical layer is
+            the adapter card and the physical media that transport
+            protocols across the network.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>PIF (Program Information File)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            A text file that contains the information Windows needs to
+            run MS-DOS applications, such as the path and filename of
+            the executable file.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Piggyback attack</div></td>
+      <td>
+        <div>
+          <p>
+            Entering a secured building immediately behind another
+            employee without authenticating yourself is a piggyback
+            attack.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>PIM (Protocol Independent Multicast)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            Protocol Independent Multicast (PIM) is a very important
+            multicast routing protocol that tells the router to ignore
+            any Layer 3 protocol when making multicast-routing decisions
+            (e.g. OSPF and EIGRP). PIM:
+          </p>
+          <ul>
+            <li>
+              Uses the routing table that is populated by the unicast
+              routing protocol in its multicast routing calculations.
+            </li>
+            <li>Does not send routing updates between PIM routers.</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>PIM Dense Mode (PIM-DM)</div></td>
+      <td>
+        <div>
+          <p>
+            PIM Dense Mode (PIM-DM) is a push method controlled by the
+            source to push multicast information. PIM-DM:
+          </p>
+          <ul>
+            <li>
+              Is used when there are many clients requesting the same
+              multicast information.
+            </li>
+            <li>
+              Builds shortest-path trees by flooding multicast traffic
+              domain wide, then prunes back the branches of the tree
+              where no receivers are present.
+            </li>
+            <li>Generally has poor scaling properties.</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>PIM Source Specific Multicast (PIM-SSM)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            PIM Source Specific Multicast (PIM-SSM) builds trees that
+            are rooted in just one source. PIM-SSM:
+          </p>
+          <ul>
+            <li>
+              Sources (S) transmit an IP datagram to an SSM destination
+              address (G).
+            </li>
+            <li>
+              Receivers can receive data by subscribing to channel
+              (S,G).
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>PIM Sparse Mode (PIM-SM)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            PIM Sparse Mode (PIM-SM) is a client-initiated pull method
+            to get multicast information. PIM-SM:
+          </p>
+          <ul>
+            <li>Is used when there are few sources of information.</li>
+            <li>Uses a shared tree.</li>
+            <li>Requires an RP to be defined.</li>
+            <li>
+              Requires multicast sources and receivers to register with
+              their local RP.
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>PIM-DM (PIM Dense Mode)</div></td>
+      <td>
+        <div>
+          <p>
+            PIM Dense Mode (PIM-DM) is a push method controlled by the
+            source to push multicast information. PIM-DM:
+          </p>
+          <ul>
+            <li>
+              Is used when there are many clients requesting the same
+              multicast information.
+            </li>
+            <li>
+              Builds shortest-path trees by flooding multicast traffic
+              domain wide, then prunes back the branches of the tree
+              where no receivers are present.
+            </li>
+            <li>Generally has poor scaling properties.</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>PIM-SM (PIM Sparse Mode)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            PIM Sparse Mode (PIM-SM) is a client-initiated pull method
+            to get multicast information. PIM-SM:
+          </p>
+          <ul>
+            <li>Is used when there are few sources of information.</li>
+            <li>Uses a shared tree.</li>
+            <li>Requires an RP to be defined.</li>
+            <li>
+              Requires multicast sources and receivers to register with
+              their local RP.
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>PIM-SSM (PIM Source Specific Multicast)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            PIM Source Specific Multicast (PIM-SSM) builds trees that
+            are rooted in just one source. PIM-SSM:
+          </p>
+          <ul>
+            <li>
+              Sources (S) transmit an IP datagram to an SSM destination
+              address (G).
+            </li>
+            <li>
+              Receivers can receive data by subscribing to channel
+              (S,G).
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>PING (Packet Internet Groper)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            A TCP/IP utility that verifies TCP/IP is configured
+            correctly and that another host is available.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>Plain Old Telephone Service (POTS)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            POTS refers to the telephone system. Early on, Internet
+            connectivity was accomplished with a modem converting
+            digital signals into analog for transmission via POTS.
+            Newer, better, and faster methods are quickly replacing POTS
+            as a signal transport medium.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>P-node</div></td>
+      <td>
+        <div>
+          <p>
+            A peer to peer protocol that uses NetBIOS over TCP/IP. The
+            P-node uses a NetBIOS name server (NBNS) such as WINS to
+            resolve NetBIOS names and does not use broadcasts. It will
+            query the name server directly. All computers using P-node
+            must be configured with the IP address of the NBNS.
+            Computers can communicate as long as the NBNS is working.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>Point to Point Protocol (PPP)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            A protocol designed as an enhancement to the original SLIP
+            specification. PPP is a data link protocol that provides a
+            standard protocol for sending packets across a point to
+            point network link.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Pointer (PTR) record</div></td>
+      <td>
+        <div>
+          <p>
+            A special resource record that is added to DNS to associate
+            the IP addresses and the corresponding host name. Part of
+            the administration of a DNS name server is ensuring that
+            pointer records are created for hosts.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>Point-to-Point Protocol over Ethernet (PPPoE)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            PPPoE is a variation of Point-to-Point Protocol (PPP) that
+            sends PPP packets over an Ethernet network and an "always
+            on" WAN link (DSL or cable modem, for example) rather than
+            over a dial-up connection. In this way, Internet service
+            providers can install PPP-based remote access servers and
+            require remote clients to establish a connection before
+            being granted access to the Internet. This lets Internet
+            usage be better tracked and regulated. PPP over Ethernet
+            automatically discovers the remote access server using
+            broadcast messages.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>Point-to-Point Tunneling Protocol (PPTP)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            A protocol that allows a remote user to connect to the
+            network over the Internet so that a company does not have to
+            lease dedicated lines.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Poison message queue</div></td>
+      <td>
+        <div>
+          <p>
+            Poison message queues are used to isolate messages that
+            contain potentially harmful errors caused by an Exchange
+            2007 system failure. This queue is only viewable in the case
+            that such messages have been directed to the poison message
+            queue. Delivery of all messages within the poison message
+            queue is suspended. If a message is deemed unharmful, it
+            will be passed to the submission queue. All other messages
+            within the poison message queue are deleted.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Poison reverse</div></td>
+      <td>
+        <div>
+          <p>
+            Using the split horizon with poison reverse method (also
+            called poison reverse or route poisoning), routers continue
+            to send information about routes back to the next hop
+            router, but advertise the path as unreachable. If the next
+            hop router notices that the route is still reachable, it
+            ignores the information. If, however, the path timeout has
+            been reached, the route is immediately set to unreachable
+            (16 hops for RIP).
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>POP3 (Post Office Protocol Version 3)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            A mail-drop protocol designed to work with clients that are
+            not always connected to the network. It allows a mail server
+            to receive mail messages and store them on a server until
+            the client comes back on line and requests them.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Port</div></td>
+      <td>
+        <div>
+          <p>
+            Network ports are logical connections, provided by the TCP
+            or UDP protocols at the Transport layer, for use by
+            protocols in the upper layers of the OSI model. The TCP/IP
+            protocol stack uses port numbers to determine what protocol
+            incoming traffic should be directed to. &nbsp;Some ICANN
+            specified categories for ports are listed below:
+          </p>
+          <ul>
+            <li>
+              Well Known -- Port numbers range from 0 to 1023 and are
+              assigned for specific protocols and services.
+            </li>
+            <li>
+              Registered -- Port numbers range from 1024 to 49151 and
+              are specifically assigned, by ICANN, for newly created
+              network services.
+            </li>
+            <li>
+              Dynamic, Private, or High -- Port numbers range from
+              49,152 to 65,535 and are assigned when a network service
+              establishes contact and released when the session ends.
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>POSIX</div></td>
+      <td>
+        <div>
+          <p>
+            A standard for versions of UNIX and UNIX-like operating
+            systems. POSIX allows developers to create applications that
+            meet certain US Federal standards.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>POST (Power On Self-Test)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            The first stage in the Windows NT boot process, during which
+            the system checks to make sure all necessary hardware
+            components and memory are in place and functioning
+            correctly.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>Post Office Protocol Version 3 (POP3)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            A mail-drop protocol designed to work with clients that are
+            not always connected to the network. It allows a mail server
+            to receive mail messages and store them on a server until
+            the client comes back on line and requests them.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>PostScript</div></td>
+      <td>
+        <div>
+          <p>
+            A programming language developed by Adobe that determines
+            how a page will look when you print it.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>POTS (Plain Old Telephone Service)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            POTS refers to the telephone system. Early on, Internet
+            connectivity was accomplished with a modem converting
+            digital signals into analog for transmission via POTS.
+            Newer, better, and faster methods are quickly replacing POTS
+            as a signal transport medium.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>Power On Self-Test (POST)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            The first stage in the Windows NT boot process, during which
+            the system checks to make sure all necessary hardware
+            components and memory are in place and functioning
+            correctly.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Power Users</div></td>
+      <td>
+        <div>
+          <p>
+            Users that can perform user functions on workstations and
+            servers. They can also create user accounts and modify the
+            accounts they have created. Power users can also add user
+            accounts to the built-in groups Users, Guests, and Power
+            Users.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>PowerPC</div></td>
+      <td>
+        <div>
+          <p>
+            An open-standard microprocessor architecture that uses RISC
+            instead of Intel x86 processors. IBM, Motorola, and Apple
+            worked together to develop the PowerPC.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>PPP (Point to Point Protocol)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            A protocol designed as an enhancement to the original SLIP
+            specification. PPP is a data link protocol that provides a
+            standard protocol for sending packets across a point to
+            point network link.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>PPPoE (Point-to-Point Protocol over Ethernet)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            PPPoE is a variation of Point-to-Point Protocol (PPP) that
+            sends PPP packets over an Ethernet network and an "always
+            on" WAN link (DSL or cable modem, for example) rather than
+            over a dial-up connection. In this way, Internet service
+            providers can install PPP-based remote access servers and
+            require remote clients to establish a connection before
+            being granted access to the Internet. This lets Internet
+            usage be better tracked and regulated. PPP over Ethernet
+            automatically discovers the remote access server using
+            broadcast messages.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>PPTP (Point-to-Point Tunneling Protocol)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            A protocol that allows a remote user to connect to the
+            network over the Internet so that a company does not have to
+            lease dedicated lines.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>Practical Extraction and Report Language (PERL)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            An interpreted script language that includes UNIX facilities
+            with C. It is faster and easier to code than other
+            languages, but works best for small, limited applications.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Preemptive multitasking</div></td>
+      <td>
+        <div>
+          <p>
+            The ability of the Windows 2000 operating system to service
+            multiple requests of the CPU by preempting a task to execute
+            another task.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>Preferred bridgehead server</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            A domain controller that can potentially be chosen as a
+            bridgehead server.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Presentation Layer</div></td>
+      <td>
+        <div>
+          <p>
+            Layer 6 of the OSI reference model. This layer ensures that
+            information sent by the application layer of one system will
+            be readable by the application layer of another. The
+            presentation layer is also concerned with the data
+            structures used by programs, and therefore negotiates data
+            transfer syntax for the application layer. Corresponds
+            roughly with the presentation services layer of the SNA
+            model. See also application layer, data link layer, network
+            layer, physical layer, session layer, and transport layer.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>Primary Domain Controller (PDC)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            A PDC holds all security and account information for a
+            Windows NT domain and is responsible to communicate all
+            changes to the BDCs.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>
+          Primary Domain Controller (PDC) Emulator operations master
+        </div>
+      </td>
+      <td>
+        <div>
+          <p>
+            An operations master that simulates a Windows NT 4.0 Primary
+            Domain Controller (PDC). Also called a PDC Emulator master.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Primary ID</div></td>
+      <td>
+        <div>
+          <p>
+            The ID assigned to a specific user for auditing purposes.
+            With the impersonation (or client) ID, this information
+            tells a system administrator who is using which network
+            functions.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Primary partition</div></td>
+      <td>
+        <div>
+          <p>
+            The partition of a hard disk that the operating system uses.
+            One basic hard disk can have up to four primary partitions.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Print audit policy</div></td>
+      <td>
+        <div>
+          <p>
+            A list of the types of print events you want to record in
+            your auditing logs. Print audit policies should include both
+            file and object access.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Print device</div></td>
+      <td>
+        <div>
+          <p>
+            In the Windows 2000 environment, the hardware that produces
+            printed output (what the rest of the world calls a printer).
+            When the term "printer" is used, it refers to the software
+            interface between the operating system and the print device.
+            The print devices are connected to print servers or client
+            computers that have the correct printing software installed
+            on it.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Print driver</div></td>
+      <td>
+        <div>
+          <p>
+            A piece of software that translates the graphics commands in
+            documents into a language the print device can understand.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Print forms</div></td>
+      <td>
+        <div>
+          <p>
+            A description of and location for a specific size of paper
+            in a particular tray in the print device.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Print monitor</div></td>
+      <td>
+        <div>
+          <p>
+            A component of the print spooler that controls access to and
+            monitors the status of a specific print device.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Print Operators</div></td>
+      <td>
+        <div>
+          <p>
+            A special group of users that have been given the necessary
+            rights to manage a printer or printers.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Print permissions</div></td>
+      <td>
+        <div>
+          <p>
+            Specific printing-related rights you assign to users. There
+            are four levels of printer permissions that can be assigned,
+            including Print, Manage Documents, and Manage Printers.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Print processor</div></td>
+      <td>
+        <div>
+          <p>
+            A component of the print spooler that works in conjunction
+            with a print driver to despool the spooled print jobs.
+            Despooling is the process of reading the contents from a
+            spool file and converting the print data into a format the
+            print device can understand.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Print queue</div></td>
+      <td>
+        <div>
+          <p>
+            In the Windows 2000 environment, a list of print jobs
+            waiting to be processed by the printer and printed by the
+            print device. This terminology is a little different from
+            other operating systems such as NetWare. In NetWare, the
+            print queue is a directory on a server that holds print jobs
+            waiting to be printed and has configurable properties and
+            settings.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Print router</div></td>
+      <td>
+        <div>
+          <p>
+            A component of the print spooler that receives print jobs
+            from the remote print provider and routes them to the
+            appropriate print processor.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Print services</div></td>
+      <td>
+        <div>
+          <p>
+            Software components that reside on the print server. They
+            receive print jobs from clients and send them on to the
+            spooler.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Print spooler</div></td>
+      <td>
+        <div>
+          <p>
+            A collection of DLLs that receive, process, schedule, and
+            distribute print jobs. Every print job goes through the
+            print spooler.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Printer</div></td>
+      <td>
+        <div>
+          <p>
+            In the Windows 2000 environment, the "printer" is the
+            software interface between the operating system and the
+            print device. The printer determines how a print job travels
+            to the print devices. A single printer can send print jobs
+            to multiple print devices. Multiple printers can send jobs
+            to a single print device.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Printer port</div></td>
+      <td>
+        <div>
+          <p>
+            An I/O port through which the printer and computer
+            communicate.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Printing pool</div></td>
+      <td>
+        <div>
+          <p>
+            A technique that helps you use the available resources more
+            efficiently in a high traffic printing environment. In a
+            printing pool, the print server directs new print jobs to
+            the print device with the lightest load.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Private key</div></td>
+      <td>
+        <div>
+          <p>
+            The private (secret) member of a cryptographic key pair
+            associated with a public key algorithm. The private key can
+            be used to decrypt data that has been encrypted using the
+            public key.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>Private Management Domain (PRMD)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            A PRMD is a private company that controls an X.400
+            management domain. These domains are the backbone for
+            transferring electronic messages. PRMDs handle internal
+            messages and communicate with each other through ADMDs.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Private Network</div></td>
+      <td>
+        <div>
+          <p>
+            A LAN or WAN for private individual or group use which may
+            or may not be secure. Examples include home and organization
+            (small business, corporate, institute, government) networks.
+            <i class="fs-italicize">Intranets </i>and<i
+              class="fs-italicize"
+            >
+              extranets</i
+            >, although related to the Internet, are private networks.
+            Both an extranet and intranet are tightly controlled, and
+            made available only to select organizations. An extranet is
+            made available to the public and an intranet is made
+            available internally.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>PRMD (Private Management Domain)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            A PRMD is a private company that controls an X.400
+            management domain. These domains are the backbone for
+            transferring electronic messages. PRMDs handle internal
+            messages and communicate with each other through ADMDs.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Process isolation</div></td>
+      <td>
+        <div>
+          <p>
+            Lets you run each application separately. This means that if
+            one application fails, it can't affect the other
+            applications running on your server.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Processor</div></td>
+      <td>
+        <div>
+          <p>
+            The logic circuitry that responds to instructions and runs
+            the computer. Also called a CPU (central processing unit).
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Processor queue length</div></td>
+      <td>
+        <div>
+          <p>
+            How long the processor queue is. A counter measures how many
+            threads are requesting processor time at once.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>Program Information File (PIF)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            A text file that contains the information Windows needs to
+            run MS-DOS applications, such as the path and filename of
+            the executable file.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Promiscuous mode</div></td>
+      <td>
+        <div>
+          <p>
+            The ability for an adapter card to view packets travelling
+            across the network. A LAN adapter must support promiscuous
+            mode if it is used to monitor network traffic.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Promote</div></td>
+      <td>
+        <div>
+          <p>
+            The process of changing a Windows 2000 member server into a
+            domain controller. The process transfers an up-to-date copy
+            of the Active Directory database from a current domain
+            controller to the new domain controller.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>Protected Extensible Authentication Protocol (PEAP)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            PEAP (an extension of EAP) is one of the most effective
+            wireless security solutions.&nbsp; PEAP provides
+            authentication, including passwords. PEAP, provides the
+            following two options:
+          </p>
+          <ul>
+            <li>
+              PEAP-EAP-TLS. This method uses certificates (either on the
+              local system or on a smart card).
+            </li>
+            <li>
+              PEAP-MS-CHAP v2. This method uses certificates on the
+              server, but passwords on the client. Use this method when
+              the client does not have a certificate.
+            </li>
+          </ul>
+          <p>&nbsp;</p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Protocol</div></td>
+      <td>
+        <div>
+          <p>
+            Conventions or rules for sending data across a network.
+            These conventions may deal with content, format, timing,
+            sequencing, and error control.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>Protocol Independent Multicast (PIM)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            Protocol Independent Multicast (PIM) is a very important
+            multicast routing protocol that tells the router to ignore
+            any Layer 3 protocol when making multicast-routing decisions
+            (e.g. OSPF and EIGRP). PIM:
+          </p>
+          <ul>
+            <li>
+              Uses the routing table that is populated by the unicast
+              routing protocol in its multicast routing calculations.
+            </li>
+            <li>Does not send routing updates between PIM routers.</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Protocol stacks</div></td>
+      <td>
+        <div>
+          <p>
+            Protocol stacks are installed and configured versions of
+            protocols that connectors use to communicate. For example,
+            the X.400 Connector uses TCP/IP, TP4/CLNP, and/or X.25.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>Protocol-Dependent Modules (PDM)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            A Protocol-Dependent Module (PDM) is used by EIGRP to carry
+            out the requirements specific to independent protocols.
+            PDMs:
+          </p>
+          <ul>
+            <li>Operate completely independent of one another.</li>
+            <li>
+              Learn from other sources to make decisions about adding
+              routes.
+            </li>
+            <li>
+              Offer support for various routed protocols (e.g. IP, IPX,
+              and AppleTalk).
+            </li>
+            <li>
+              Carry information from the routing table to the topology
+              table.
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Proxy</div></td>
+      <td>
+        <div>
+          <p>
+            A computer on the network that keeps a cache of resolved
+            names and responds to queries for names outside the local
+            subnet.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Proxy server</div></td>
+      <td>
+        <div>
+          <p>
+            A computer on the network that keeps a cache of resolved
+            names and responds to queries for names outside the local
+            subnet.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>PSTN (Public Switched Telephone Network)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            The network you use when you make a typical telephone call.
+            It is a worldwide, circuit-switched, analog network.
+            Computers connect to the PSTN through a modem. The PSTN can
+            be used on an on-demand (dial-up) basis or a circuit can be
+            leased permanently as a dedicated line.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>PTR (Pointer) record</div></td>
+      <td>
+        <div>
+          <p>
+            A special resource record that is added to DNS to associate
+            the IP addresses and the corresponding host name. Part of
+            the administration of a DNS name server is ensuring that
+            pointer records are created for hosts.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Public folder</div></td>
+      <td>
+        <div>
+          <p>
+            Public folders provide a simple and efficient way to
+            collect, organize, and share Exchange 2007 collaborative
+            applications such as calendars, contact lists, task lists,
+            and message lists.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Public key</div></td>
+      <td>
+        <div>
+          <p>
+            The public (non-secret) member of a cryptographic key pair
+            associated with public key algorithm. When the public key is
+            used to encrypt data, the corresponding private key is
+            necessary to decrypt it.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>Public key infrastructure</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            Also called PKI. The policies and software relating to
+            digital certificates and public and private keys. It
+            includes digital certificates and certification authorities
+            the guarantee the identity the parties involved in an
+            electronic transaction.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Public Network</div></td>
+      <td>
+        <div>
+          <p>
+            A large collection of unrelated computers, with each node on
+            the network having a unique address. The Internet, for
+            example, is a public network. Because computers are
+            unrelated and many companies and individuals share the same
+            communication media, the public network is by nature
+            insecure.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>Public Switched Telephone Network (PSTN)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            The network you use when you make a typical telephone call.
+            It is a worldwide, circuit-switched, analog network.
+            Computers connect to the PSTN through a modem. The PSTN can
+            be used on an on-demand (dial-up) basis or a circuit can be
+            leased permanently as a dedicated line.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Pull feed</div></td>
+      <td>
+        <div>
+          <p>
+            In a pull feed, a computer connects to a host at scheduled
+            times and requests any new information.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Pull partners</div></td>
+      <td>
+        <div>
+          <p>
+            A WINS server that pulls (requests) WINS database entries
+            from its push partners. The pull partner pulls new WINS
+            database entries by requesting entries with a higher version
+            number than the last entry it received during the last
+            replication from that push partner.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Punch-down block</div></td>
+      <td>
+        <div>
+          <p>
+            A punch-down block is typically used in telephone wiring
+            cabinets to connect individual strands of twisted pair
+            wires. For example, the punch-down block connects the
+            outside phone lines to inside extensions or phone plugs at
+            the demark (where the local network ends and the telephone
+            company's network begins). You use a punch-down tool to
+            attach wires to the punch down block.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><div>Push feed</div></td>
+      <td>
+        <div>
+          <p>
+            In a push feed, the computer containing replicated
+            information connects to its partners at specified intervals
+            and uploads new information.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>PVC (Permanent Virtual Circuit)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            A virtual circuit that provides permanent access to the
+            network like a permanent physical connection. Leasing a PVC
+            is cheaper than leasing a permanent physical connection
+            because the physical circuit is not dedicated to a single
+            PVC and can be used to carry data from other virtual
+            circuits.
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div>PWS (Personal Web Server)</div>
+      </td>
+      <td>
+        <div>
+          <p>
+            If you install Microsoft Internet Information Server on a
+            computer running Windows 2000 Professional, it installs as
+            Microsoft Personal Web Server (PWS). PWS is not a full
+            Internet server, but you can use it to publish content on
+            your local LAN, or to remotely administer an IIS server.
+          </p>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### Q
+
+
