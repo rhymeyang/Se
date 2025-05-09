@@ -19985,8 +19985,739 @@ description: some description
 
 ### W
 
+<table cellpadding="0" cellspacing="0">
+<tbody>
+  <tr>
+    <td><div>WAN (Wide Area Network)</div></td>
+    <td>
+      <div>
+        <p>
+          A network whose computers and servers are geographically far
+          apart but still connected.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>WAP (Wireless Application Protocol)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          WAP (Wireless Application Protocol) access points privacy,
+          integrity, and authentication to wireless client devices and
+          using WTLS (Wireless Transport Layer Security). WTLS is a
+          wireless security services protocol. It protects data
+          between the wireless hub/router/access point and all
+          wireless NICs.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Warm Site</div></td>
+    <td>
+      <div>
+        <p>
+          A warm site is a fault tolerant strategy which provides a
+          redundant work location. If a disaster renders a work site
+          unusable, the effected organization may have a warm site in
+          which to relocate. Warm sites have the following
+          characteristics:
+        </p>
+        <ul>
+          <li>
+            This is a facility readily available with power, A/C, and
+            computers, but the applications may not be installed or
+            configured.
+          </li>
+          <li>
+            Extra communications links and other data elements that
+            commonly take a long time to order and install will be
+            present.
+          </li>
+          <li>
+            The warm site is considerably cheaper than a hot (fully
+            operational) site.
+          </li>
+          <li>
+            Lower administrative and maintenance resources consumed.
+          </li>
+        </ul>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Weight attribute</div></td>
+    <td>
+      <div>
+        <p>
+          The weight is a mandatory, optional (Cisco-proprietary) BGP
+          attribute that allows a preferred path from a router to a
+          specific network to be configured on a local router only.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Well-known discretionary attribute</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The well-known discretionary attribute is understood by all
+          BGP implementations, but its presence is not mandatory.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Well-known ports</div></td>
+    <td>
+      <div>
+        <p>
+          Also called commonly-used ports. Ports numbers below 256 are
+          defined as commonly used ports. Some of these ports are 21
+          (FTP), 23 (Telnet), and 53 (Domain Name Service).
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>WEP (Wired Equivalent Privacy)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          WEP (Wired Equivalent Privacy) was designed to provide
+          wireless networks the same type of protection that cables
+          provide on a wired network. WEP requires that authorized
+          users have a valid WEP key to communicate with the access
+          point. Likewise, cables provide this type of protection in
+          that a client can only communicate with a hub or router if
+          they have an active network cable connected to them.
+        </p>
+        <p>
+          On a wireless network that is employing WEP (Wired
+          Equivalent Privacy), only users with the correct WEP key are
+          allowed to authenticate through the WAP (Wireless
+          Application Protocol) access points. That's the whole point
+          of WEP, to prevent unauthorized users by employing a
+          wireless session key for access.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Wide Area Network (WAN)</div></td>
+    <td>
+      <div>
+        <p>
+          A network whose computers and servers are geographically far
+          apart but still connected.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Windows 95</div></td>
+    <td>
+      <div>
+        <p>
+          An operating system that runs on client computers. It is not
+          a networking operating system.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Windows 98</div></td>
+    <td>
+      <div>
+        <p>
+          An operating system that runs on client computers. It is not
+          a networking operating system.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Windows Backup</div></td>
+    <td>
+      <div>
+        <p>
+          A backup solution for Windows that allows you to transfer
+          files to and from tape. You can either perform backups
+          manually or schedule an unattended backup.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Windows for Workgroups</div></td>
+    <td>
+      <div>
+        <p>
+          An operating system that runs on client computers. It is not
+          a networking operating system.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Windows Installer package</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A file with the .MSI extension that contains software
+          installation instructions and data for use with the Windows
+          Installer service.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Windows Installer Service</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A Windows 2000 service that uses Windows Installer packages
+          (MSI files) to automate software installation and
+          re-installation.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Windows Internet Naming Service (WINS)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A component of Microsoft Windows NT Server that resolves
+          NetBIOS names into IP addresses for computers and resources
+          on the network using a dynamically-updated database.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Windows Media Player</div></td>
+    <td>
+      <div>
+        <p>
+          An application that lets you use streaming audio,
+          illustrated audio, and video to download real-time content
+          from the Internet.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Windows NT</div></td>
+    <td>
+      <div>
+        <p>
+          An operating system from Microsoft that you can use for both
+          client and server computers. The two types of Windows NT are
+          Windows NT Server and Windows NT Workstation.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Windows NT Diagnostics</div></td>
+    <td>
+      <div>
+        <p>
+          A program that provides a graphical interface to view
+          computer hardware and operating system information. It is
+          used to gather information to help troubleshoot hardware and
+          memory problems.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Windows NT Executive</div></td>
+    <td>
+      <div>
+        <p>
+          The collective name for the Windows NT subsystems and
+          components that run in kernel mode. These include the
+          Executive Services, Microkernel, and HAL.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Windows NT Server</div></td>
+    <td>
+      <div>
+        <p>
+          A file and application server product from Microsoft that
+          allows applications and files to be stored on it. The latest
+          Windows NT server version is 4.0.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Windows NT Workstation</div></td>
+    <td>
+      <div>
+        <p>
+          A desktop operating system that can function alone or also
+          be part of a network in a workgroup or Windows NT Server
+          domain environment.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Windows Scripting Host (WSH)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A scripting host that lets you run scripts, batch files, and
+          command files from the command prompt or the Windows
+          desktop.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Windows socket service (Winsock)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Winsock provides a standard application programming
+          interface to transport protocols such as TCP/IP and IPX.
+          Network applications can use this interface to use the
+          services of the TCP/IP protocol stack.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Windows Sockets</div></td>
+    <td>
+      <div>
+        <p>
+          An NWLink API that provides an interface for communication
+          between NetWare Loadable Modules (IPX/SPX sockets) and
+          TCP/IP protocols.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Windows Sockets applications</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The Windows Sockets service provides a standard application
+          programming interface (API) to different transport protocols
+          such as IPX and TCP/IP. Applications that take advantage of
+          this service are known as Windows Sockets applications.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Windows-on-Windows (WOW)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Win16 on Win32. A 32-bit program inside Windows NT that lets
+          you run Win16 applications. WOW works inside an NTVDM.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Winipcfg</div></td>
+    <td>
+      <div>
+        <p>
+          A Microsoft Windows NT utility that is used to verify a
+          TCP/IP configuration. For Windows 2000, use the IPCONFIG
+          utility.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Winnt.exe</div></td>
+    <td>
+      <div>
+        <p>
+          The executable you use to install Windows 2000 on a computer
+          that does not have a previous version of Windows 95, 98, or
+          NT installed.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Winnt32.exe</div></td>
+    <td>
+      <div>
+        <p>
+          The executable you use to re-install or upgrade Windows 2000
+          on a computer that already has Windows 95, 98, or NT
+          installed.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>WINS (Windows Internet Naming Service)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A component of Microsoft Windows NT Server that resolves
+          NetBIOS names into IP addresses for computers and resources
+          on the network using a dynamically-updated database.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>WINS Manager</div></td>
+    <td>
+      <div>
+        <p>
+          A Microsoft utility that is used to manage the Microsoft
+          Windows Internet Name Service. With this utility, you can
+          make configuration changes to your WINS server such as
+          disabling logging or configuring static mappings.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Winsock (Windows socket service)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Winsock provides a standard application programming
+          interface to transport protocols such as TCP/IP and IPX.
+          Network applications can use this interface to use the
+          services of the TCP/IP protocol stack.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Wire crimper</div></td>
+    <td>
+      <div>
+        <p>
+          A tool used to attach cable connectors to bare wires (by
+          crimping), such as when you are making your own cables.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Wired Equivalent Privacy (WEP)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          WEP (Wired Equivalent Privacy) was designed to provide
+          wireless networks the same type of protection that cables
+          provide on a wired network. WEP requires that authorized
+          users have a valid WEP key to communicate with the access
+          point. Likewise, cables provide this type of protection in
+          that a client can only communicate with a hub or router if
+          they have an active network cable connected to them.
+        </p>
+        <p>
+          On a wireless network that is employing WEP (Wired
+          Equivalent Privacy), only users with the correct WEP key are
+          allowed to authenticate through the WAP (Wireless
+          Application Protocol) access points. That's the whole point
+          of WEP, to prevent unauthorized users by employing a
+          wireless session key for access.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Wireless</div></td>
+    <td>
+      <div>
+        <p>
+          Wireless networking uses radio waves or infrared light (with
+          the air as the transmission medium) to send data between
+          hosts. Wireless networks are common in homes, businesses,
+          airports, and hotels. Most wireless networks connect into
+          larger wired networks (such as LANs) which are in turn
+          connected to the Internet.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Wireless Application Protocol (WAP)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          WAP (Wireless Application Protocol) access points privacy,
+          integrity, and authentication to wireless client devices and
+          using WTLS (Wireless Transport Layer Security). WTLS is a
+          wireless security services protocol. It protects data
+          between the wireless hub/router/access point and all
+          wireless NICs.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Workgroup</div></td>
+    <td>
+      <div>
+        <p>
+          A peer-to-peer network where each Windows 2000 workstation
+          is a member of a logical grouping of computers. The
+          workgroup model has no central user account database or
+          computer that validates a logon. Each Windows 2000
+          workstation in a workgroup must contain accounts for every
+          person who needs to gain access to resources on that
+          workstation. Workgroups are convenient for very small
+          networks, but because there is no central database for
+          maintaining accounts, administration is difficult.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Workstation-only backup</div></td>
+    <td>
+      <div>
+        <p>
+          A backup technique that allows users to back up the critical
+          information they store on their own local computer. Each
+          computer needs its own backup device and storage media.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>World Wide Web</div></td>
+    <td>
+      <div>
+        <p>
+          A graphically-based and user-friendly part of the Internet.
+          You need a software application called an Internet browser
+          (to view the information on the World Wide Web. The World
+          Wide Web uses the Hypertext Transfer Protocol (HTTP) to
+          connect a system of graphical pages, called Web sites,
+          formatted using Hypertext Markup Language (HTML).
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Worms</div></td>
+    <td>
+      <div>
+        <p>
+          Pieces of software code written expressly to cause problems
+          with servers and workstations by "tunneling" through the
+          data and code on the hard drive. Worms are a type of
+          computer virus.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>WOW (Windows-on-Windows)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Win16 on Win32. A 32-bit program inside Windows NT that lets
+          you run Win16 applications. WOW works inside an NTVDM.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Write-ahead log</div></td>
+    <td>
+      <div>
+        <p>
+          A method of logging transactions. Using this method, the log
+          is always written to disk before the data.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>WSH (Windows Scripting Host)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A scripting host that lets you run scripts, batch files, and
+          command files from the command prompt or the Windows
+          desktop.
+        </p>
+      </div>
+    </td>
+  </tr>
+</tbody>
+</table>
+
 ### X
+
+<table cellpadding="0" cellspacing="0">
+<tbody>
+  <tr>
+    <td><div>X.400 standard</div></td>
+    <td>
+      <div>
+        <p>
+          The X.400 standard contains guidelines for exchanging
+          messages electronically. It includes rules for addressing
+          messages as well as an addressing scheme that uses
+          management domains, originator/recipient names, and other
+          information to uniquely identify users within the hierarchy
+          of the organization.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>X.500</div></td>
+    <td>
+      <div>
+        <p>
+          X.500 is a set of recommendations from the International
+          Telecommunications Union. It lays out the rules that allow
+          combining local directory services into one global
+          directory.
+        </p>
+      </div>
+    </td>
+  </tr>
+</tbody>
+</table>
 
 ### Y
 
 ### Z
+
+<table cellpadding="0" cellspacing="0">
+<tbody>
+  <tr>
+    <td><div>ZAP File</div></td>
+    <td>
+      <div>
+        <p>
+          A text file that references a conventional setup program.
+          The ZAP file can be distributed to network users using
+          Active Directory-based Group Policy Objects (GPOs).
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Zeroconf</div></td>
+    <td>
+      <div>
+        <p>
+          Zero Configuration Networking (Zeroconf) is a
+          standards-based initiative of an IETF working groups whose
+          goals are to:
+        </p>
+        <ul>
+          <li>
+            Make current computer network administration easier by
+            performing configuration tasks automatically without the
+            need for network services such as DNS or DHCP
+          </li>
+          <li>
+            Enable the creation and implementation of a new generation
+            of network related products
+          </li>
+          <li>
+            Accomplish all of this without disrupting the existing
+            network infrastructure of large networks
+          </li>
+        </ul>
+        <p>
+          With Zeroconf, you should be able to connect two computers
+          and automatically have them be able to communicate. You
+          should also be able to set up a small network (even a
+          network with multiple subnets or connected to the Internet)
+          by simply connecting devices and without performing any
+          additional configuration tasks.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Zone</div></td>
+    <td>
+      <div>
+        <p>
+          A portion of the DNS namespace made up of a single domain or
+          of a domain and subdomains that are administered as a
+          single, separate entity.
+        </p>
+        <p>
+          A particular name server is responsible for each zone. The
+          name server stores all address mappings for the domain name
+          space with the zone. It also answers client queries for
+          those names.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Zone transfer</div></td>
+    <td>
+      <div>
+        <p>
+          The process of replicating updates to the zone information
+          among multiple DNS servers. Regular zone transfers are
+          necessary because as computers and other devices are added
+          to or removed from a network, host names and IP addresses
+          change.
+        </p>
+      </div>
+    </td>
+  </tr>
+</tbody>
+</table>
