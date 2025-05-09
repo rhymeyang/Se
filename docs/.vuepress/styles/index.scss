@@ -1,10 +1,66 @@
-/* .vuepress/styles/index.scss */
-
+/* 火焰主题覆盖样式：应用你的自定义变量 */
 :root {
-    --c-brand: #F4511E; /* 主色调 */
-    --c-accent: #FFB300; /* 强调色 */
-    --c-bg: #FFF8F1; /* 背景色 */
-    --c-text: #2D2D2D; /* 主要文字颜色 */
-    --c-text-light: #6D6D6D; /* 次要文字颜色 */
+    --c-brand: #F4511E;        // 主色（橙红）
+    --c-accent: #FFB300;       // 强调色（亮橘）
+    --c-bg: #FFF8F1;           // 背景米白
+    --c-text: #2D2D2D;         // 正文文字
+    --c-text-light: #6D6D6D;   // 次级文字
+  }
+  
+  /* 整体背景与文字 */
+  html, body {
+    background-color: var(--c-bg);
+    color: var(--c-text);
+  }
+  
+  /* 链接配色 */
+  a {
+    color: var(--c-brand);
+    text-decoration: none;
+  
+    &:hover {
+      color: var(--c-accent);
+      text-decoration: underline;
+    }
+  }
+  
+  /* 导航栏颜色 */
+  .navbar {
+    background-color: var(--c-brand);
+  }
+  
+  .navbar .site-name,
+  .navbar .nav-links a {
+    color: white !important;
+  }
+  
+  .navbar .nav-links a.router-link-active {
+    color: var(--c-accent) !important;
+  }
+  
+  /* 按钮样式 */
+  .vp-button {
+    background-color: var(--c-brand);
+    border-color: var(--c-brand);
+    color: white;
+  
+    &:hover {
+      background-color: var(--c-accent);
+      border-color: var(--c-accent);
+    }
+  }
+  
+  /* 提示块配色 */
+  .custom-block.tip {
+    border-left: 0.4rem solid var(--c-brand);
+    background-color: #fff4e6;
+  }
+  
+  .custom-block.warning {
+    border-left: 0.4rem solid #ffa000;
+  }
+  
+  .custom-block.danger {
+    border-left: 0.4rem solid #d32f2f;
   }
   
