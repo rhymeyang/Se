@@ -1287,3 +1287,2428 @@ description: some description
 </table>
 
 ### B
+
+<table cellpadding="0" cellspacing="0">
+<tbody>
+  <tr>
+    <td><div>Back end</div></td>
+    <td>
+      <div>
+        <p>
+          The server where database operations occur. The back end
+          fulfills client requests by receiving structured
+          requests from the client, processing the requests, and
+          returning the results. It is usually more powerful than
+          the client.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Backbone area</div></td>
+    <td>
+      <div>
+        <p>
+          A backbone area acts as a hub for inter-area transit
+          traffic and the distribution of routing information
+          between areas. All OSPF networks have at least one
+          backbone area, also known as an
+          <em class="fs-italicize">area 0</em>.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Backbone router</div></td>
+    <td>
+      <div>
+        <p>
+          A backbone router is located in the perimeter of the
+          backbone area. Backbone routers:
+        </p>
+        <ul>
+          <li>
+            Maintain OSPF routing information using the same
+            procedures and algorithms as internal routers.
+          </li>
+          <li>
+            Have at least one interface that is connected to area
+            0.
+          </li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Backup Designated Router (BDR)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          On each subnet, a single OSPF router is identified as
+          the Backup Designated Router (BDR). The BDR becomes the
+          Designated Router (DR) if the DR becomes unavailable.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Backup Domain Controller (BDC)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A server containing a replicated copy of the domain
+          database. Each Windows NT domain will have one PDC
+          (Primary Domain Controller) with zero or more BDCs
+          (backup domain controllers).
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Backup log</div></td>
+    <td>
+      <div>
+        <p>
+          A text file that records backup operations. The log is
+          helpful when restoring data. You can print it or read it
+          in a text editor.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Backup marker</div></td>
+    <td>
+      <div>
+        <p>
+          Windows Backup can set a backup marker, also known as
+          the archive attribute, indicating that the file has been
+          backed up.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Backup Operators</div></td>
+    <td>
+      <div>
+        <p>
+          A group that has permission to perform backups on a
+          system. This group should have only sufficient rights to
+          perform a backup. They typically use the Windows backup
+          software.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Backup set</div></td>
+    <td>
+      <div>
+        <p>
+          A term used to describe a group of files or folders on a
+          single volume from a single backup operation. A group of
+          tapes is called a family set.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Baseband</div></td>
+    <td>
+      <div>
+        <p>
+          Baseband signalling allows one signal at a time on the
+          network medium (cabling).
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Baseline</div></td>
+    <td>
+      <div>
+        <p>
+          A server baseline is a snapshot of the performance
+          statistics of your server that is used as a logical
+          basis for future comparison.&nbsp;Server baselines
+          enable you to effectively monitor the performance of
+          your system to determine when changes negatively impact
+          performance or when systems need upgrading or replacing.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Baselining</div></td>
+    <td>
+      <div>
+        <p>
+          Documenting a network's average performance statistics
+          over time.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Basic authentication</div></td>
+    <td>
+      <div>
+        <p>
+          An authentication method that requires the user to enter
+          a valid username and password for a Windows user
+          account. This information passes between the server and
+          client in clear text.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Basic disk</div></td>
+    <td>
+      <div>
+        <p>
+          A physical disk containing primary partitions, extended
+          partitions, or logical drives. Using Windows NT 4.0 or
+          earlier, you can create RAID-5 volumes for basic disks;
+          they can also be spanned, mirrored, or part of a stripe
+          set. MS-DOS can access basic disks. Compare dynamic
+          disk.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Basic multicast</div></td>
+    <td>
+      <div>
+        <p>
+          Basic multicast supports multicast applications within
+          an enterprise campus. It is an interactive, intra-domain
+          form of multicast that provides integrity within a
+          network when combined with a reliable multicast
+          transport such as PGM.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Batch file</div></td>
+    <td>
+      <div>
+        <p>
+          A set of commands used to perform a specific operation
+          on a computer.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Baud rate</div></td>
+    <td>
+      <div>
+        <p>
+          The number of bits per second that are physically
+          signaled over a communication medium. The term "baud"
+          originally referred to the number of dots per second
+          that could be signaled using Morse code over particular
+          telegraph systems. The unit of measure was named after
+          J.M.E. Baudot, the developer of the first printer for
+          telegraph systems.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>BDC (Backup Domain Controller)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A server containing a replicated copy of the domain
+          database. Each Windows NT domain will have one PDC
+          (Primary Domain Controller) with zero or more BDCs
+          (backup domain controllers).
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>BDR (Backup Designated Router)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          On each subnet, a single OSPF router is identified as
+          the Backup Designated Router (BDR). The BDR becomes the
+          Designated Router (DR) if the DR becomes unavailable.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Best information</div></td>
+    <td>
+      <div>
+        <p>
+          Using the split horizon method (also called best
+          information), routers keep track of where the
+          information about a route came from. Routers do not
+          report route information to the routers on that path. In
+          other words, routers do not report information back to
+          the router from which their information originated.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>BGP (Border Gateway Protocol)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Border Gateway Protocol (BGP) is a policy-based,
+          interautonomous system routing protocol that exchanges
+          reachability information with other BGP systems.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>BGP Address Family Identifier (AFI)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The Cisco BGP Address Family Identifier (AFI) model was
+          introduced with multiprotocol BGP. It is designed to be
+          scalable and modular, and to support multiple AFI and
+          Subsequent Address Family Identifier (SAFI)
+          configurations.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>BGP attributes</div></td>
+    <td>
+      <div>
+        <p>
+          BGP attributes are used to select the best path to be
+          entered into the routing table and propagated to the BGP
+          neighbors. BGP attributes can be well-known mandatory,
+          well-known discretionary, optional transitive, or
+          optional nontransitive. The following definitions are
+          used to define BGP attributes:
+        </p>
+        <ul>
+          <li>
+            Well-known attributes are standard. All
+            implementations of BGP support standard attributes.
+            <ul>
+              <li>
+                Well-known mandatory attributes have to be present
+                in all implementations of BGP.
+              </li>
+              <li>
+                Well-known discretionary attributes are
+                implemented according to the needs of individual
+                implementations of BGP.
+              </li>
+            </ul>
+          </li>
+          <li>
+            Optional attributes are non-standard, meaning they are
+            specific to particular implementations of BGP.
+            <ul>
+              <li>
+                Optional transitive attributes are transmitted
+                between two or more autonomous systems.
+              </li>
+              <li>
+                Optional nontransitive attributes remain in a
+                single autonomous system.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>BGP peer</div></td>
+    <td>
+      <div>
+        <p>
+          A BGP peer (also called a neighbor) is a BGP speaker
+          that is configured to form a neighbor relationship with
+          another BGP speaker. Neighbor relationships allow BGP
+          speakers to directly exchange BGP routing information
+          with one another.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>BGP peer group</div></td>
+    <td>
+      <div>
+        <p>
+          A BGP peer group consists of the neighbors of a router
+          that is being configured. All routers in a BGP peer
+          group have the same update policies; thus allowing
+          updates to be generated only once for the entire peer
+          group.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>BGP speaker</div></td>
+    <td>
+      <div><p>A BGP speaker is any router that runs BGP.</p></div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>BGP synchronization rule</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The BGP synchronization rule states that a BGP router
+          cannot use or advertise a route that it has learned from
+          internal BGP (iBGP) to an external neighbor unless it
+          has also been established through an internal gateway
+          protocol, such as RIP or OSPF.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Bidirectional PIM</div></td>
+    <td>
+      <div>
+        <p>
+          Bidirectional PIM explicitly builds shared
+          bi-directional trees. Bidirectional PDM:
+        </p>
+        <ul>
+          <li>Never builds a shortest path tree.</li>
+          <li>May have longer end-to-end delays than PIM-SM.</li>
+          <li>
+            Is scalable because it needs no source-specific state.
+          </li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Binary compatible</div></td>
+    <td>
+      <div>
+        <p>
+          An application that runs on any Windows-supported
+          platform, not only on the hardware for which it was
+          originally compiled.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>
+        Binary Synchronous Communications Protocol (BISYNC)
+      </div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A Data Link layer protocol for synchronous communication
+          devices.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Bindery</div></td>
+    <td>
+      <div>
+        <p>
+          The system that networks running Novell NetWare use to
+          validate user accounts and passwords. It is the
+          equivalent of the directory database in Windows NT.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Binding</div></td>
+    <td>
+      <div>
+        <p>
+          The process of assigning services to network components.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>
+        BISYNC (Binary Synchronous Communications Protocol)
+      </div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A Data Link layer protocol for synchronous communication
+          devices.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Bit</div></td>
+    <td>
+      <div>
+        <p>
+          The smallest unit of data a computer uses. A bit is a
+          binary value, either a 0 or a 1.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Bluetooth</div></td>
+    <td>
+      <div>
+        <p>
+          A proposed standard of the IEEE 802.15 committee,
+          designed to allow people to connect in PAN (personal
+          area network) configurations using cell phones, PDAs
+          (personal digital assistants), printers, mice, keyboards
+          and other Bluetooth equipped devices.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>B-node</div></td>
+    <td>
+      <div>
+        <p>
+          A type of broadcast used by NetBIOS over TCP/IP. The
+          B-node uses UDP datagrams to broadcast for name
+          registration and resolution. B-node broadcasts are
+          usually not forwarded by routers, and only computers on
+          the local network can respond.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Body parts</div></td>
+    <td>
+      <div>
+        <p>
+          Body parts are the codes for the text, data, and other
+          information included in an e-mail message.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Boot disk</div></td>
+    <td>
+      <div>
+        <p>
+          A floppy disk containing an operating system that is
+          used to boot up a PC in the absence of the PC's
+          operating system.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Boot partition</div></td>
+    <td>
+      <div>
+        <p>
+          The partition on a hard drive where the Windows
+          operating system files reside.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Boot.ini</div></td>
+    <td>
+      <div>
+        <p>
+          A file that builds the Boot Loader Operating System
+          Selection menu. The screen that is displayed is known as
+          the boot loader screen and allows a user to select an
+          operating system from the screen. If no selection is
+          made, NTLDR loads the operating system specified by the
+          default parameter in the Boot.ini file. To change the
+          default entry, you must edit the Boot.ini file.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>BootP (Bootstrap Protocol)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          BootP is used to discover the IP address of a device
+          with a known MAC address. BootP is an enhancement to
+          RARP, and is more commonly implemented than RARP. As its
+          name implies, BootP is used by computers as they boot to
+          receive an IP address from a BootP server. The BootP
+          address request packet sent by the host is answered by
+          the server.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Bootstrap Protocol (BootP)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          BootP is used to discover the IP address of a device
+          with a known MAC address. BootP is an enhancement to
+          RARP, and is more commonly implemented than RARP. As its
+          name implies, BootP is used by computers as they boot to
+          receive an IP address from a BootP server. The BootP
+          address request packet sent by the host is answered by
+          the server.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Bootstrap Router (BSR)</div></td>
+    <td>
+      <div>
+        <p>
+          A Bootstrap Router (BSR) is a capability that was added
+          in PIM version 2 to automate and simplify the Auto-RP
+          process. It is enabled by default in Cisco IOS releases
+          supporting PIMv2.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Border Gateway Protocol (BGP)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Border Gateway Protocol (BGP) is a policy-based,
+          interautonomous system routing protocol that exchanges
+          reachability information with other BGP systems.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Bottleneck</div></td>
+    <td>
+      <div>
+        <p>
+          A bottleneck is a point in a system of processes that
+          does not have the capacity to perform the functions
+          required of it. This lack of processing capacity impedes
+          overall information flow and negatively impacts the
+          performance of the whole system. Changes in the system,
+          including increased volume, can cause bottlenecks.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Bounce</div></td>
+    <td>
+      <div>
+        <p>
+          The longest acceptable round-trip time for a test
+          message to travel between the monitor's home server and
+          the target server.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Boundary layer</div></td>
+    <td>
+      <div>
+        <p>
+          Parts of the network architecture that provide a common
+          programming interface. Programmers can use these
+          components to create independently-coded drivers and
+          other programs which extend the operating system's
+          abilities. Boundary layers in Windows include the
+          Transport Driver Interface (TDI) and the Network Device
+          Interface Specification (NDIS) 4.0.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Bridge</div></td>
+    <td>
+      <div>
+        <p>
+          A data forwarding device that provides data transfer at
+          the data link layer in the OSI model. A bridge is not
+          used as much in networks because routers have assumed
+          the responsibility for routing data at the network layer
+          of the OSI model.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Bridgehead server</div></td>
+    <td>
+      <div>
+        <p>
+          A domain controller that participates in intersite
+          replication.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Broadband</div></td>
+    <td>
+      <div>
+        <p>
+          Broadband signalling divides the network medium
+          (cabling) into multiple channels, allowing several
+          signals to traverse the medium at the same time.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Broadcast</div></td>
+    <td>
+      <div>
+        <p>
+          In broadcast transmission, a single device transits a
+          message to all of the other devices in a given address
+          range. Broadcast messages can be received by all hosts
+          on the subnet, all subnets, or all hosts on all subnets.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Broadcast domain</div></td>
+    <td>
+      <div>
+        <p>
+          The portion of the network that can receive a broadcast.
+          Not all routers have the capability to forward
+          broadcasts. Those that do usually disable this feature
+          and keep the broadcast on the local network.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Broadcast storm</div></td>
+    <td>
+      <div>
+        <p>
+          A broadcast storm occurs when so many messages are
+          broadcast across the network at the same time that they
+          exceed the network's bandwidth.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Broadcasts</div></td>
+    <td>
+      <div>
+        <p>
+          A request from the source host for a name query request
+          on the local network. Each computer on the local network
+          receives the broadcast and checks its local NetBIOS
+          table to see if it owns the requested name.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Brouter</div></td>
+    <td>
+      <div>
+        <p>
+          A device that combines the features of a bridge and a
+          router. For data packets that use a non-routable
+          network/transport protocol, a brouter acts like a
+          bridge. For data packets that use a routable
+          network/transport protocol, a brouter acts like a
+          router.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Browser</div></td>
+    <td>
+      <div>
+        <p>
+          A software application you use to display pages from the
+          World Wide Web.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>BSR (Bootstrap Router)</div></td>
+    <td>
+      <div>
+        <p>
+          A Bootstrap Router (BSR) is a capability that was added
+          in PIM version 2 to automate and simplify the Auto-RP
+          process. It is enabled by default in Cisco IOS releases
+          supporting PIMv2.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Built-in account</div></td>
+    <td>
+      <div>
+        <p>
+          A built-in account is an account already created by
+          Windows. The Guest account and the Administrator account
+          are built-in accounts.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Built-in capabilities</div></td>
+    <td>
+      <div>
+        <p>
+          Built-in groups are predefined groups that have
+          predetermined set of user rights.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Bus</div></td>
+    <td>
+      <div>
+        <p>
+          Bus is a network topology that consists of a trunk cable
+          with nodes either inserted directly into the trunk, or
+          nodes tapping into the trunk using offshoot cables
+          called drop cables.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Byte</div></td>
+    <td>
+      <div>
+        <p>
+          A unit of information made up of eight bits. Usually, a
+          byte represents a character.
+        </p>
+      </div>
+    </td>
+  </tr>
+</tbody>
+</table>
+
+### C
+
+<table cellpadding="0" cellspacing="0">
+<tbody>
+  <tr>
+    <td><div>.CDF file</div></td>
+    <td>
+      <div>
+        <p>
+          Channel Definition Format files. Text files that contain
+          a personalized index for a Web site, so you can download
+          only the content that interests you. Using a .CDF
+          converts a Web site into a channel.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>.CHK file</div></td>
+    <td>
+      <div>
+        <p>
+          Exchange 2007's database engine is referred to as the
+          Extensible Storage Engine (ESE). ESE is a transactional
+          database that writes information into RAM memory and
+          into a log file. Once it is in the log file, it will be
+          written to disk. There are a number of files used to
+          store information:
+        </p>
+        <ul>
+          <li>
+            An .edb file is located in the actual database itself.
+            All of a user's messages, folders, public folders,
+            contacts, appointment information, etc. is all stored
+            on the .edb file. An .edb file size can exceed
+            multiple GB.
+          </li>
+          <li>
+            A .log file is an ESE transaction log file. All .log
+            files are 1 MB.
+          </li>
+          <li>
+            A .jrs file is a reserve log file which is used to
+            commit any transactions that are still in memory in
+            the event of the server running out of disk space. All
+            .jrs files are 1 MB.
+          </li>
+          <li>
+            A .chk file is used to identify which log files have
+            been committed to the database. The size of .chk file
+            varies from 2-3 KB.
+          </li>
+        </ul>
+        <p>
+          The ESE takes the following steps to write information
+          into database files:
+        </p>
+        <ol>
+          <li>
+            The ESE writes a message into memory RAM when it
+            arrives at the server.
+          </li>
+          <li>
+            At the same time that information is written to RAM,
+            it's written into the current .log file. All current
+            log files are named E00.log. The information is
+            written in a sequential format until the log file is
+            full. When the log file is full, it will be renamed.
+          </li>
+          <li>
+            Once it has been committed to the log file, the
+            information is written to the .edb file.
+          </li>
+          <li>
+            The checkpoint file is updated to indicate that the
+            transaction log that has been committed to the
+            database.
+          </li>
+        </ol>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>.CSV file</div></td>
+    <td>
+      <div><p>A comma-delimited text file.</p></div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Cache</div></td>
+    <td>
+      <div>
+        <p>
+          A file that contains host information needed to resolve
+          names outside of authoritative domains. It also contains
+          names and addresses of root name servers.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Cache Manager</div></td>
+    <td>
+      <div>
+        <p>
+          A part of the I/O Manager that improves a computer's
+          performance by temporarily storing files in memory
+          instead of reading and writing them to the hard disk.
+          The Cache Manager uses virtual address space to cache
+          data.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>CAL (Client Access License)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A client access license permits a client to connect to a
+          Windows 2000 server.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Callback</div></td>
+    <td>
+      <div>
+        <p>
+          A remote access server configuration that provides
+          network security by restricting network access to a
+          specified list of phone numbers. When a client calls the
+          server, the server hangs up, then calls the client back
+          at the appropriate phone number.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Canonical Name (CNAME) record</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Enables you to associate more than one host name with an
+          IP address. This concept is also referred to as
+          aliasing.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>
+        Carrier Sense Media Access/Collision Avoidance (CSMA/CA)
+      </div>
+    </td>
+    <td>
+      <div>
+        <p>
+          CSMA/CA is the technology used by Ethernet and wireless
+          networks to control media access and avoid (rather than
+          detect) collisions. CSMA/CD works as follows:
+        </p>
+        <ul>
+          <li>
+            If a host detects traffic on the network, it
+            experiences a longer back-off time than hosts on a
+            wired network before attempting to transmit again.
+          </li>
+          <li>
+            Every transmission must be acknowledged. As every
+            frame is acknowledged by the receiving host, other
+            hosts receive a message indicating that they must wait
+            to transmit.
+          </li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>
+        Carrier Sense Multiple Access with Collision Detection
+        (CSMA/CD)
+      </div>
+    </td>
+    <td>
+      <div>
+        <p>
+          CSMA/CD is the technology used by Ethernet. CSMA/CD
+          works as follows:
+        </p>
+        <ol>
+          <li>
+            The system listens for traffic, if the line is clear
+            it begins transmitting.
+          </li>
+          <li>
+            During the transmission, the system listens for
+            collisions.
+          </li>
+          <li>
+            If no collisions are detected, the communication
+            succeeds. If collisions are detected, an interrupt jam
+            signal is broadcast to stop all transmissions. Each
+            system waits a random amount of time before starting
+            over at step 1.
+          </li>
+        </ol>
+
+        <p></p>
+      </div>
+    </td>
+
+  </tr>
+  <tr>
+    <td>
+      <div>CAS (Client Access server)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Client Access server role is required in every Exchange
+          2007 organization because it supports the client
+          applications Outlook Web Access and Exchange ActiveSync
+          and also the Post Office Protocol version 3 (POP3), and
+          Internet Message Access Protocol version 4rev1 (IMAP4)
+          protocols.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Cascading physical star</div></td>
+    <td>
+      <div>
+        <p>
+          A logical ring topology created with the FDDI standard.
+          In this topology, single-attachment hubs connect
+          single-attachment stations to a network.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Case sensitive</div></td>
+    <td>
+      <div>
+        <p>
+          All capital and lower-case characters must be typed
+          exactly as they appear. For example, if the password was
+          "Himalayas" and you typed "himalayas," you would not be
+          allowed to log on.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>CCR (Local Continuous Replication)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Cluster Continuous Replication (CCR) combines the
+          asynchronous log shipping and replay technology of
+          Exchange 2007 with the failover and management features
+          provided by the Microsoft&nbsp;Windows Cluster service.
+          CCR does not have a single point of failure and provides
+          high availability by replicating data on a passive node,
+          so the clustered Mailbox server can operate on either
+          node at any time.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>CD File System (CDFS)</div></td>
+    <td>
+      <div>
+        <p>
+          A read-only file system for CD-ROMs, supported by
+          Windows 2000.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>CDFS (CD File System)</div></td>
+    <td>
+      <div>
+        <p>
+          A read-only file system for CD-ROMs, supported by
+          Windows 2000.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Central Processing Unit (CPU)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The logic circuitry that responds to instructions and
+          runs the computer. Also called a processor.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Centralized computing</div></td>
+    <td>
+      <div>
+        <p>
+          A configuration in which all the data and applications
+          are stored and executed on a mainframe computer. The
+          terminals act only to accept keystrokes on the keyboard
+          and display data from the mainframe computer.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Centralized network administration</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The ability to manage network resources from a
+          centralized database location. The Windows 2000
+          directory service provides the capability to manage
+          resources centrally.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Certificate</div></td>
+    <td>
+      <div>
+        <p>
+          A digitally signed statement issued by a Certification
+          Authority (CA). It contains a public key and certifies
+          that a specific person, organization, device, or service
+          is the only holder of the corresponding private key.
+          Certificates commonly use the ITU-T X.509 international
+          standard.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Certificate authority</div></td>
+    <td>
+      <div>
+        <p>
+          A certificate authority (CA) is the component of the
+          public key infrastructure entrusted to issue, store, and
+          revoke certificates. A certificate authority accepts
+          certificate requests, verifies the information provided
+          by the requester, creates and digitally signs the
+          certificate, and issues the certificate to the
+          requester. It also revokes certificates and publishes a
+          certificate revocation list (CRL).
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Certificate Revocation List (CRL)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Digital certificates usually expire after one year, but
+          CAs can revoke certificates earlier for various reasons.
+          All revoked certificates are stored in the certification
+          revocation list, which is open to all users. This allows
+          users to check the list to verify whether a given
+          certificate is valid.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Certificate Services</div></td>
+    <td>
+      <div>
+        <p>
+          The Microsoft Windows 2000 component that lets a system
+          administrator create a certificate authority to issue,
+          revoke, and manage digital certificates as part of a
+          public key infrastructure.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Certification Authority server</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A Certification Authority server creates new encryption
+          keys for clients and publishes public keys for users.
+          The Exchange KM Server is a Certification Authority
+          server.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>CGI (Common Gateway Interface)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A software program that allows Web servers to send data
+          to an application and receive information back from the
+          application, regardless of the operating system the
+          application is running under.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>CGMP(Cisco Group Management Protocol)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Cisco Group Management Protocol (CGMP) is a Cisco
+          proprietary protocol that works between the router and
+          the switch. In CGMP, the switch only allows multicast
+          traffic to flow through specific ports according to
+          client data from the router instead of flooding data
+          across all ports. CGMP:
+        </p>
+        <ul>
+          <li>
+            Enables routers to inform each of their
+            directly-connected switches of IGMP registrations from
+            hosts accessible through the switch.
+          </li>
+          <li>
+            Forwards multicast traffic only to ports on which the
+            requesting routers are located.
+          </li>
+          <li>
+            Is the most common multicast switching solution.
+          </li>
+          <li>
+            Is based on a client/server model in which the router
+            acts as a server and the switch acts as a client.
+          </li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>
+        Challenge Handshake Authentication Protocol (CHAP)
+      </div>
+    </td>
+    <td>
+      <div>
+        <p>
+          CHAP is an authentication encryption protocol designed
+          to protect passwords while in transit from a client to
+          the logon server.
+        </p>
+
+        <p>
+          CHAP periodically verifies the identity of a peer using
+          a three-way handshake. CHAP ensures that the same client
+          or system exists throughout a communication session by
+          repeatedly and randomly re-testing the validated system.
+          This test involves the security server sending a
+          challenge message to the client. The client then
+          performs a one-way hash function on the challenge and
+          returns the result to the security server. The security
+          server performs its own function on the challenge and
+          compares its result with that received from the client.
+          If they don't match the session is terminated.
+        </p>
+      </div>
+    </td>
+
+  </tr>
+  <tr>
+    <td>
+      <div>Channel Service Unit/Data Service Unit (CSU/DSU)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A hardware device that converts a digital data frame
+          from a LAN format into a WAN format and vice versa.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Channels</div></td>
+    <td>
+      <div>
+        <p>
+          Web sites that you can customize with a .CDF file to
+          give you only the information that you want to see. When
+          you subscribe to a channel, Internet Explorer monitors
+          the Web sites included in the channel and downloads only
+          the information that fits the channel's parameters.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>
+        CHAP (Challenge Handshake Authentication Protocol)
+      </div>
+    </td>
+    <td>
+      <div>
+        <p>
+          CHAP is an authentication encryption protocol designed
+          to protect passwords while in transit from a client to
+          the logon server.
+        </p>
+
+        <p>
+          CHAP periodically verifies the identity of a peer using
+          a three-way handshake. CHAP ensures that the same client
+          or system exists throughout a communication session by
+          repeatedly and randomly re-testing the validated system.
+          This test involves the security server sending a
+          challenge message to the client. The client then
+          performs a one-way hash function on the challenge and
+          returns the result to the security server. The security
+          server performs its own function on the challenge and
+          compares its result with that received from the client.
+          If they don't match the session is terminated.
+        </p>
+      </div>
+    </td>
+
+  </tr>
+  <tr>
+    <td><div>Character set</div></td>
+    <td>
+      <div>
+        <p>
+          A set of 256 letters, digits, and symbols specific to a
+          country or language. The character set selected during
+          SQL installation specifies the characters SQL Server
+          will recognize in the various data types. The first 128
+          values are called printable characters, and the last 128
+          values are called extended characters. Printable
+          characters are the same for each set; extended
+          characters vary from set to set. See also Unicode
+          characters.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Checkpoint</div></td>
+    <td>
+      <div>
+        <p>
+          A marked point in a SQL transaction log. It represents a
+          point at which completed transactions and modified
+          database pages were written to disk.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Chkdsk</div></td>
+    <td>
+      <div>
+        <p>
+          An MS-DOS utility you can use to scan and repair both
+          FAT and Windows NT NTFS volumes.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>CIDR (Classless Inter-Domain Routing)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A technique used to collapse Class C entries into a
+          single entry corresponding to all the Class IDs that are
+          being used by that organization. This allows companies
+          to use many Class C addresses rather than requesting a
+          Class B address, since the availability of IP addresses
+          is scarce.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Circuit Switching</div></td>
+    <td>
+      <div>
+        <p>
+          A circuit switched network uses a dedicated connection
+          between sites. Circuit switching is ideal for
+          transmitting data that must arrive quickly in the order
+          it is sent, as is the case with real-time audio and
+          video.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Circuit-level Gateway</div></td>
+    <td>
+      <div>
+        <p>
+          A circuit-level gateway monitors traffic between trusted
+          hosts and un-trusted hosts via virtual circuits or
+          sessions. A circuit-level gateway:
+        </p>
+        <ul>
+          <li>Verifies sequencing of session packets.</li>
+          <li>
+            Hides the private network from the public network.
+          </li>
+          <li>
+            Does not filter packets. Rather it allows or denies
+            sessions.
+          </li>
+        </ul>
+        <p>&nbsp;</p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Circular logging</div></td>
+    <td>
+      <div>
+        <p>
+          Circular logging is a logging method in which older logs
+          are overwritten with new logging information. This
+          method saves disk space but does not provide as much
+          fault tolerance.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Cisco Group Management Protocol (CGMP)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Cisco Group Management Protocol (CGMP) is a Cisco
+          proprietary protocol that works between the router and
+          the switch. In CGMP, the switch only allows multicast
+          traffic to flow through specific ports according to
+          client data from the router instead of flooding data
+          across all ports. CGMP:
+        </p>
+        <ul>
+          <li>
+            Enables routers to inform each of their
+            directly-connected switches of IGMP registrations from
+            hosts accessible through the switch.
+          </li>
+          <li>
+            Forwards multicast traffic only to ports on which the
+            requesting routers are located.
+          </li>
+          <li>
+            Is the most common multicast switching solution.
+          </li>
+          <li>
+            Is based on a client/server model in which the router
+            acts as a server and the switch acts as a client.
+          </li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Class A address</div></td>
+    <td>
+      <div>
+        <p>
+          An IP address range that is assigned to networks with
+          very large numbers of hosts. The Class A address assigns
+          the high order bit to zero. The next seven bits complete
+          the network ID portion of the address. The remaining 24
+          bits make up the host ID. The address range for the
+          first octet (8 bits) is 1-126.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Class B address</div></td>
+    <td>
+      <div>
+        <p>
+          An IP address range that is assigned to networks with
+          medium to large networks. The Class B address assigns
+          the two high order bits to binary 1 0 . The next 14 bits
+          complete the network ID. The last 16 bits are used for
+          the host ID. The address range for the first octet (8
+          bits) is 128 B 191.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Class C address</div></td>
+    <td>
+      <div>
+        <p>
+          An IP address range that is used for small local area
+          networks. The Class C address assigns the three high
+          order bits to binary 1 1 0. The next 21 bits are used to
+          complete the network ID. The last 8 bits are used to
+          represent the network ID. The address range for the
+          first octet (8 bits) is 192 B223.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Classful IP addresses</div></td>
+    <td>
+      <div>
+        <p>
+          Classful addresses are IP addresses that use the default
+          subnet mask.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Classful routing protocols</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Classful routing protocols do not include default subnet
+          mask information in routing updates. The default subnet
+          mask is used to identify the network and host portions
+          of the address. Classful routing protocols are:
+        </p>
+        <ul>
+          <li>Interior Gateway Routing Protocol (IGRP)</li>
+          <li>Routing Information Protocol version 1(RIPv1)</li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Classless Inter-Domain Routing (CIDR)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A technique used to collapse Class C entries into a
+          single entry corresponding to all the Class IDs that are
+          being used by that organization. This allows companies
+          to use many Class C addresses rather than requesting a
+          Class B address, since the availability of IP addresses
+          is scarce.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Classless IP addresses</div></td>
+    <td>
+      <div>
+        <p>
+          Classless addresses are IP addresses that use a custom
+          mask value to separate network and host portions of the
+          IP address.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Classless routing protocols</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Classless routing protocols use a custom mask value to
+          separate network and host portions of the IP address.
+          They are considered to be second-generation protocols
+          because they improve on the limitations of classful
+          protocols. The most common routing protocols are:
+        </p>
+        <ul>
+          <li>
+            Enhanced Interior gateway Routing Protocol (EIGRP)
+          </li>
+          <li>
+            Intermediate System-to-Intermediate System (IS-IS)
+          </li>
+          <li>Open Shortest Path First (OSPF)</li>
+          <li>Routing Information Protocol version 2 (RIPv2)</li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Client</div></td>
+    <td>
+      <div>
+        <p>
+          A computer that uses files and resources from another
+          computer on a network. Also called a workstation.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Client Access License (CAL)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A client access license permits a client to connect to a
+          Windows 2000 server.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Client Access server (CAS)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Client Access server role is required in every Exchange
+          2007 organization because it supports the client
+          applications Outlook Web Access and Exchange ActiveSync
+          and also the Post Office Protocol version 3 (POP3), and
+          Internet Message Access Protocol version 4rev1 (IMAP4)
+          protocols.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Client Service for NetWare (CSNW)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A service included with Windows 2000 that allows a
+          Windows workstation to use file and print resources
+          residing on NetWare servers.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Client-based administration tools</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Tools that allow you to perform several network
+          administration tasks from a Windows 95/98 or Windows
+          2000 Professional workstation, such as creating users
+          and groups, sharing folders, and assigning permissions
+          to access resources.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>ClipBook Viewer</div></td>
+    <td>
+      <div>
+        <p>
+          A Windows shared resource that uses OLE to store up to
+          127 pieces of information, each called a ClipBook Viewer
+          Page. Users can create and share these pages for use in
+          OLE applications.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>CLNS (Connectionless Network Service)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Connectionless Network Service (CLNS) is an address
+          family that is used to identify routing sessions for
+          protocols that use standard network service access point
+          (NSAP) address prefixes, such as BGP.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Cluster Continuous Replication (CCR)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Cluster Continuous Replication (CCR) combines the
+          asynchronous log shipping and replay technology of
+          Exchange 2007 with the failover and management features
+          provided by the Microsoft&nbsp;Windows Cluster service.
+          CCR does not have a single point of failure and provides
+          high availability by replicating data on a passive node,
+          so the clustered Mailbox server can operate on either
+          node at any time.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Clustering</div></td>
+    <td>
+      <div>
+        <p>
+          A situation in which groups of independent computers
+          work together as a single system.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>CNAME (Canonical Name) record</td>
+    <td>
+      <div>
+        <p>
+          Enables you to associate more than one host name with an
+          IP address. This concept is also referred to as
+          aliasing.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Coaxial Cable</div></td>
+    <td>
+      <div>
+        <p>
+          Coaxial cable is a type of network transmission media.
+          It is an older technology that is usually implemented
+          with a bus topology. It is not suitable for ring or star
+          topologies because the ends of the cable must be
+          terminated. It is composed of two conductors, which
+          share a common axis, within a single cable.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Cold Site</div></td>
+    <td>
+      <div>
+        <p>
+          A cold site is a fault tolerant strategy which provides
+          a redundant work location. If a disaster renders a work
+          site unusable, the effected organization may have a cold
+          site in which to relocate. Cold sites have the following
+          characteristics:
+        </p>
+        <ul>
+          <li>
+            This is the least ready of alternative site types, but
+            it is probably the most common.
+          </li>
+          <li>
+            The site is ready for equipment to be brought in
+            during an emergency because there is no hardware on
+            site.
+          </li>
+          <li>
+            The site might have electrical power and HVAC, but it
+            may or may not have communication links.
+          </li>
+          <li>
+            A cold site is low cost, and may be better than
+            nothing.
+          </li>
+          <li>
+            A cold site often offers a false sense of security.
+            The actual amount of work involved in getting a cold
+            site up and running might be more than expected and
+            might take too long to adequately keep the business
+            running.
+          </li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Cold Spare</div></td>
+    <td>
+      <div>
+        <p>
+          A cold spare is a component that sits on the shelf until
+          there is a failure. Cold spares obviously need more time
+          to implement recovery, but they don't have the
+          maintenance requirements of hot spares.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>COM (Component Object Model)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A method that allows objects to communicate with each
+          other. It is the basis for both OLE and ActiveX.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Command line switches</div></td>
+    <td>
+      <div>
+        <p>
+          Codes you can use at the command prompt when starting an
+          application or installation program to customize the way
+          the program runs.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>Command prompt</td>
+    <td>
+      <div>
+        <p>
+          The 32-bit Windows command-line interface similar to the
+          MS-DOS prompt. You can use it to start programs and type
+          Windows commands.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Common Gateway Interface (CGI)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A software program that allows Web servers to send data
+          to an application and receive information back from the
+          application, regardless of the operating system the
+          application is running under.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>Community</td>
+    <td>
+      <div>
+        <p>
+          A community is a group that contains hosts that are
+          running the SNMP service. These communities are
+          identified by a community name and provide the first
+          level of security and context checking for agents.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>Community attribute</td>
+    <td>
+      <div>
+        <p>
+          The community (type code 8) is an optional BGP
+          transitive attribute that filters incoming or outgoing
+          routes. BGP communities are routes that share some
+          common properties and policies, which allows routers to
+          act on the community as a whole rather than on
+          individual routes.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Complete trust domain model</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          In this Windows NT network model, every domain on the
+          network trusts every other domain. No single domain has
+          control over the other domains. The complete trust model
+          distributes administration of users, groups, domains,
+          and resources among different departments rather than
+          using a centralized approach.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Component Object Model (COM)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A method that allows objects to communicate with each
+          other. It is the basis for both OLE and ActiveX.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>Computer account</td>
+    <td>
+      <div>
+        <p>
+          An account entry in the local SAM database or the Active
+          Directory domain database that identifies a computer
+          (workstation) as part of a domain.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Configuration container</div></td>
+    <td>
+      <div>
+        <p>
+          The configuration container is used to store information
+          about the configuration of the Active Directory
+          environment in Exchange 2007, such as site configuration
+          and areas of optimal connectivity. When AD is employed
+          over a WAN, a site for each end of the WAN link is
+          defined along with the site link that represents the WAN
+          connection. Exchange 2007 uses this site information to
+          route messages within the environment. The configuration
+          container also contains additional Exchange
+          configuration such as the definition of the connectors
+          within the environment, the accepted domains, and which
+          servers hold which roles.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Configuration partition</div></td>
+    <td>
+      <div>
+        <p>
+          An Active Directory partition that stores the domain,
+          site, and replication structure of a Windows 2000
+          network.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Connection object</div></td>
+    <td>
+      <div>
+        <p>
+          An Active Directory object that represents a
+          uni-directional connection between a source and target
+          replication partner over which Active Directory data is
+          replicated.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Connectionless communication</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Connectionless communications assume an existing link
+          between devices and allow transmission without extensive
+          session establishment. Connectionless communications use
+          no error checking, session establishment, or
+          acknowledgements. Connectionless protocols allow quick,
+          efficient communication at the risk of data errors and
+          packet loss. Connectionless protocols are a good choice
+          where speed is important and smaller chunks of data are
+          being sent.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Connectionless Network Service (CLNS)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Connectionless Network Service (CLNS) is an address
+          family that is used to identify routing sessions for
+          protocols that use standard network service access point
+          (NSAP) address prefixes, such as BGP.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Connection-oriented communication</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Connection-oriented communication does not assume that
+          there is an existing link between devices.
+          Connection-oriented communications use error
+          detection/correction, session establishment, or
+          acknowledgements, and, if necessary, retransmission.
+          Connection-oriented communication provides a more
+          reliable communication when are delivery is more
+          important than speed and is a good method to use when
+          larger chunks of data are being sent.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>Console</td>
+    <td>
+      <div>
+        <p>
+          The Microsoft Management Console (MMC) is a graphical
+          interface for the administration of Windows 2000 and
+          some earlier Microsoft operating systems. It
+          accommodates various "snap-in" tools.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Console tree</div></td>
+    <td>
+      <div>
+        <p>
+          The left pane of the Microsoft Management Console (MMC).
+          It shows a hierarchical structure of functions and/or
+          objects.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Control Panel</div></td>
+    <td>
+      <div>
+        <p>
+          A Windows utility that displays other utilities that are
+          used to manage the local computer.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Convergence</div></td>
+    <td>
+      <div>
+        <p>
+          A routing metric is a value used by routing protocols to
+          determine the length of paths within a network.
+          Different routing protocols use various measurements to
+          calculate metrics, such as:
+        </p>
+        <ul>
+          <li>Bandwidth</li>
+          <li>Network delay</li>
+          <li>Hop count</li>
+          <li>Interface speed</li>
+          <li>Path cost</li>
+          <li>Load</li>
+          <li>MTU</li>
+          <li>Reliability</li>
+          <li>Communication cost</li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Cookie</div></td>
+    <td>
+      <div>
+        <p>
+          Marker downloaded from Internet servers and stored on
+          the hard drives of client computers. Cookies store
+          information about your preferences, browser settings,
+          location, and so on. They identify you (or your browser)
+          to Web sites.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Cooperative multitasking</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A system in which each application currently running a
+          process voluntarily passes control of the CPU to another
+          application between processes. It is also called
+          non-preemptive multitasking.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Copy backup</div></td>
+    <td>
+      <div>
+        <p>
+          A specific type of backup that backs up selected files
+          and folders but does not mark their archive attributes.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>CPU (Central Processing Unit)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The logic circuitry that responds to instructions and
+          runs the computer. Also called a processor.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>CRC (Cyclic Redundancy Checking)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Cyclic redundancy checking is a method used to verify
+          correct transmission and reception of data that has been
+          sent across a network.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Creator Owner</div></td>
+    <td>
+      <div>
+        <p>
+          A built-in group that is used for network
+          administration. It includes the user that created or
+          took ownership of a resource.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>CRL (Certificate Revocation List)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Digital certificates usually expire after one year, but
+          CAs can revoke certificates earlier for various reasons.
+          All revoked certificates are stored in the certification
+          revocation list, which is open to all users. This allows
+          users to check the list to verify whether a given
+          certificate is valid.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>Crossover cable</td>
+    <td>
+      <div>
+        <p>
+          A cable connecting one hub with another hub or with a
+          repeater in a network.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>
+        CSMA/CA (Carrier Sense Media Access/Collision Avoidance)
+      </div>
+    </td>
+    <td>
+      <div>
+        <p>
+          CSMA/CA is the technology used by Ethernet and wireless
+          networks to control media access and avoid (rather than
+          detect) collisions. CSMA/CD works as follows:
+        </p>
+        <ul>
+          <li>
+            If a host detects traffic on the network, it
+            experiences a longer back-off time than hosts on a
+            wired network before attempting to transmit again.
+          </li>
+          <li>
+            Every transmission must be acknowledged. As every
+            frame is acknowledged by the receiving host, other
+            hosts receive a message indicating that they must wait
+            to transmit.
+          </li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+        CSMA/CD (Carrier Sense Multiple Access with Collision
+        Detection)
+    </td>
+    <td>
+      <div>
+        <p>
+          CSMA/CD is the technology used by Ethernet. CSMA/CD
+          works as follows:
+        </p>
+        <ol>
+          <li>
+            The system listens for traffic, if the line is clear
+            it begins transmitting.
+          </li>
+          <li>
+            During the transmission, the system listens for
+            collisions.
+          </li>
+          <li>
+            If no collisions are detected, the communication
+            succeeds. If collisions are detected, an interrupt jam
+            signal is broadcast to stop all transmissions. Each
+            system waits a random amount of time before starting
+            over at step 1.
+          </li>
+        </ol>
+        <p></p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>CSNW (Client Service for NetWare)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A service included with Windows 2000 that allows a
+          Windows workstation to use file and print resources
+          residing on NetWare servers.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>CSR subsystem</td>
+    <td>
+      <div>
+        <p>
+          The Windows subsystem that supports 32- and 16-bit
+          Windows and MS-DOS applications within Windows 2000.
+          Also called the Win32 subsystem, client/server
+          subsystem, or CSRSS.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>CSU/DSU (Channel Service Unit/Data Service Unit)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A hardware device that converts a digital data frame
+          from a LAN format into a WAN format and vice versa.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>Custom subnet mask</td>
+    <td>
+      <div>
+        <p>
+          A subnet mask that is defined by a network
+          administrator. Each host on a TCP/IP network requires a subnet mask. If a custom subnet mask is not used, then a default subnet mask is automatically used.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Cyclic Redundancy Checking (CRC)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Cyclic redundancy checking is a method used to verify
+          correct transmission and reception of data that has been sent across a network.
+        </p>
+      </div>
+    </td>
+  </tr>
+</tbody>
+</table>
+
+### D
+
+### E
+
+### F
