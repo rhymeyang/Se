@@ -19041,7 +19041,947 @@ description: some description
 
 ### U
 
+<table cellpadding="0" cellspacing="0">
+<tbody>
+  <tr>
+    <td>
+      <div>UDF (Uniqueness Database File)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A database containing supplementary information for a
+          Windows 2000 answer file. For example, a UDF may contain the
+          unique IDs, user data, and other information that varies for
+          each installation.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>UDP (User Datagram Protocol)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The is a connectionless communications service that does not
+          guarantee delivery of packets. Applications using UDP
+          typically deliver small amounts of data and the application
+          has the responsibility for reliable delivery.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Unattended installation</div></td>
+    <td>
+      <div>
+        <p>
+          A method of installing Windows 2000 using an answer file
+          that automates the installation so you do not have to be
+          physically present at the computer during the installation.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>UNC (Universal Naming Convention)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A standardized convention used for describing network
+          servers. UNC names start with two backslashes followed by
+          the server computer name, and then the shared folder name.
+          For example, \\server_name\users\%username%
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Unicast</div></td>
+    <td>
+      <div>
+        <p>
+          Unicast is a transmission method in which packets are sent
+          from a single host to a single host.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Unicode characters</div></td>
+    <td>
+      <div>
+        <p>
+          The set of letters, numbers, and symbols that SQL Server
+          recognizes in the nchar, nvarchar, and ntext data types. It
+          includes characters for most languages. Unicode is related
+          to character sets, but is not the same thing, having some
+          200 times as many possible values and requiring twice the
+          storage space.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Unified Messaging server</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The Unified Messaging server automates and integrates voice,
+          e-mail, and fax communications in a single store within the
+          Exchange environment which is accessible through either
+          telephone or the computer. The Unified Messaging server
+          communicates with an IP-based phone system which directs all
+          voicemails to the Unified Messaging server. All voicemails
+          are converted to windows media audio files which are then
+          sent to the user's Mailbox server and stored as attachments
+          in an e-mail. The Unified Messaging server also supports
+          voice-prompt calendar and planning services.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Uniform Resource Locator (URL)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The address of a World Wide Web page, graphic file, or
+          program file on the Internet. Each resource has an exclusive
+          address (URL) that allows your computer to find and display
+          it. The URL includes the code for the transfer protocol,
+          plus the unique name of the Web server containing the page.
+          For example, http://www.universal.com/widgets uses the
+          Hypertext Transfer Protocol (http://) to connect to a
+          specific server (www.universal.com) and display a specific
+          Web page (/widgets).
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Uninterruptible Power Supply (UPS)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A power supply that is typically used on file servers to
+          provide battery backup power in case of a power failure. The
+          UPS provides power to a server until an emergency shutdown
+          of the system can occur.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Uniqueness Database File (UDF)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A database containing supplementary information for a
+          Windows 2000 answer file. For example, a UDF may contain the
+          unique IDs, user data, and other information that varies for
+          each installation.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Universal Naming Convention (UNC)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A standardized convention used for describing network
+          servers. UNC names start with two backslashes followed by
+          the server computer name, and then the shared folder name.
+          For example, \\server_name\users\%username%
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Universal Serial Bus (USB)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A Universal Serial Bus (USB) is a type of media (cable and
+          connectors) that interface between computer and external
+          devices (hubs, audio players, joysticks, keyboards,
+          telephones, scanners, and printers). A network can be
+          created by linking USB cables between multiple computers.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>UNIX</div></td>
+    <td>
+      <div>
+        <p>
+          An operating system invented at Bell Labs in 1969. UNIX is a
+          non-proprietary operating system, so there are many
+          independently-produced versions of UNIX, called "flavors."
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>UNIX LPD print server</div></td>
+    <td>
+      <div>
+        <p>
+          A server running the line printer daemon (LPD) service,
+          which allows you to print documents from a remote computer.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Unreachable queue</div></td>
+    <td>
+      <div>
+        <p>
+          Unreachable queues hold messages that cannot be routed to
+          their destination due to configuration changes or modified
+          routing paths in Exchange 2007. Each transport server can
+          have only one unreachable queue.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Unshielded Twisted Pair (UTP)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Twisted pair cables support a wide variety of fast, modern
+          network standards. Twisted pair cabling is composed of&nbsp;
+          two wires that carry the data signals. PVC plastic
+          insulation surrounds each wire. Two wires are twisted to
+          reduce the effects of electromagnetic interference and
+          crosstalk. Because the wires are twisted, EMI should affect
+          both wires equally and can be cancelled out. Multiple wire
+          pairs are bundled together in an outer sheath. Twisted pair
+          cable can be classified according to the makeup of the outer
+          sheath. Unshielded Twisted Pair (UTP) does not have a
+          grounded outer copper shield. UTP cables are easier to work
+          with and are less expensive than shielded cables.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Update messages</div></td>
+    <td>
+      <div>
+        <p>
+          Update messages notify all routers in a network of any
+          updates that have been made within the network.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>Update Sequence Number (USN)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Servers track directory changes using Update Sequence
+          Numbers (USNs). Each server keeps track of the changes it
+          has already received or made. When a server requests changes
+          from another server, they compare USNs. If the numbers are
+          the same, neither server makes any changes. If one server's
+          number is higher than another, the server with the lower
+          number requests the changes corresponding to the higher
+          numbers.
+        </p>
+        <p>
+          In Windows 2000, a USN is a server-specific 64-bit counter
+          that increases each time that domain controller's Active
+          Directory database is updated. See also local update
+          sequence number and originating update sequence number.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>UPS (Uninterruptible Power Supply)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A power supply that is typically used on file servers to
+          provide battery backup power in case of a power failure. The
+          UPS provides power to a server until an emergency shutdown
+          of the system can occur.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Up-to-date vector</div></td>
+    <td>
+      <div>
+        <p>
+          A server's highest originating USN received from a
+          particular originating domain controller. For example, if
+          Server1 has received originating updates from Server6
+          corresponding to Server6's local USN value 4653, then
+          Server1's up-to-date vector for Server6 is Server6-4653.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>URL (Uniform Resource Locator)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The address of a World Wide Web page, graphic file, or
+          program file on the Internet. Each resource has an exclusive
+          address (URL) that allows your computer to find and display
+          it. The URL includes the code for the transfer protocol,
+          plus the unique name of the Web server containing the page.
+          For example, http://www.universal.com/widgets uses the
+          Hypertext Transfer Protocol (http://) to connect to a
+          specific server (www.universal.com) and display a specific
+          Web page (/widgets).
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>USB (Universal Serial Bus)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          A Universal Serial Bus (USB) is a type of media (cable and
+          connectors) that interface between computer and external
+          devices (hubs, audio players, joysticks, keyboards,
+          telephones, scanners, and printers). A network can be
+          created by linking USB cables between multiple computers.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>User account</div></td>
+    <td>
+      <div>
+        <p>
+          A user name and password that allows a user to log on to a
+          domain or a local computer and gain access to resources.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>User Datagram Protocol (UDP)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The is a connectionless communications service that does not
+          guarantee delivery of packets. Applications using UDP
+          typically deliver small amounts of data and the application
+          has the responsibility for reliable delivery.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>User Manager for Domains</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          The Windows NT tool used to manage the security for domains,
+          member servers, and workstations. If the computer is not
+          configured as a domain controller, User Manager is
+          installed. Windows 2000 uses Active Directory Users and
+          Computers instead.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>User mode</div></td>
+    <td>
+      <div>
+        <p>
+          A mode in which applications run. User mode confines each
+          application to its own address space and does not allow any
+          application to access the computer's hardware directly.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>User profile</div></td>
+    <td>
+      <div>
+        <p>
+          A file that specifies which Windows 2000 elements are loaded
+          by the system when a user logs on. Included are program
+          items, screen colors, network connections, printer
+          connections, mouse settings, window size, and window
+          position.
+        </p>
+        <p>
+          When a user logs on for the first time from a Windows-based
+          client, the operating system creates a default profile for
+          that user. A user profile can also be customized to restrict
+          what users see in their interface and have available when
+          they log on.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>User rights</div></td>
+    <td>
+      <div>
+        <p>
+          The rights that a user has been granted to access files,
+          printers, and applications in a Windows environment.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>User rights policy</div></td>
+    <td>
+      <div>
+        <p>
+          An account policy in Windows NT that manages the assignment
+          of rights to groups and user accounts.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Username</div></td>
+    <td>
+      <div>
+        <p>
+          A the name given to a user's account in a Windows
+          environment. Each user account must have a username and
+          password.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>Users</div></td>
+    <td>
+      <div>
+        <p>
+          A user in a local group is someone who has been given
+          permission to access a network resource such as access to a
+          folder, file, or printer.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>USN (Update Sequence Number)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Servers track directory changes using Update Sequence
+          Numbers (USNs). Each server keeps track of the changes it
+          has already received or made. When a server requests changes
+          from another server, they compare USNs. If the numbers are
+          the same, neither server makes any changes. If one server's
+          number is higher than another, the server with the lower
+          number requests the changes corresponding to the higher
+          numbers.
+        </p>
+        <p>
+          In Windows 2000, a USN is a server-specific 64-bit counter
+          that increases each time that domain controller's Active
+          Directory database is updated. See also local update
+          sequence number and originating update sequence number.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>UTP (Unshielded Twisted Pair)</div>
+    </td>
+    <td>
+      <div>
+        <p>
+          Twisted pair cables support a wide variety of fast, modern
+          network standards. Twisted pair cabling is composed of&nbsp;
+          two wires that carry the data signals. PVC plastic
+          insulation surrounds each wire. Two wires are twisted to
+          reduce the effects of electromagnetic interference and
+          crosstalk. Because the wires are twisted, EMI should affect
+          both wires equally and can be cancelled out. Multiple wire
+          pairs are bundled together in an outer sheath. Twisted pair
+          cable can be classified according to the makeup of the outer
+          sheath. Unshielded Twisted Pair (UTP) does not have a
+          grounded outer copper shield. UTP cables are easier to work
+          with and are less expensive than shielded cables.
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><div>UUENCODE</div></td>
+    <td>
+      <div>
+        <p>
+          UUENCODE was the first widely-used format for binary
+          attachments. It is still an alternative to MIME. It comes in
+          several different flavors, due to different implementations,
+          but it characteristically sends attachments as encoded 7-bit
+          text strings.
+        </p>
+      </div>
+    </td>
+  </tr>
+</tbody>
+</table>
+
 ### V
+
+<table cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+  <td><div>Values</div></td>
+  <td>
+    <div>
+      <p>
+        In the Registry, values contain the value name, the type of
+        data the value uses, and the value. Both keys and subkeys
+        can contain values.
+      </p>
+      <p>
+        In Active Directory, properties common to all objects
+        contain values that correspond to a single user, computer,
+        and so on.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>VDD (Virtual Device Driver)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        Component that an NTVDM uses to intercept the calls an
+        MS-DOS application makes to the computer's hardware and send
+        them to the Win32 system instead. The application behaves as
+        if it interacts directly with the hardware device.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Vector-based routing protocol</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A routing protocol that uses a vector of nearest routers to
+        create a routing table.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>VGA (Video Graphics Array)</div>
+  </td>
+  <td>
+    <div>
+      <p>A display system that is the standard for PC computers.</p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Video Graphics Array (VGA)</div>
+  </td>
+  <td>
+    <div>
+      <p>A display system that is the standard for PC computers.</p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Virtual Device Driver (VDD)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        Component that an NTVDM uses to intercept the calls an
+        MS-DOS application makes to the computer's hardware and send
+        them to the Win32 system instead. The application behaves as
+        if it interacts directly with the hardware device.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Virtual directory</div></td>
+  <td>
+    <div>
+      <p>
+        A feature of Microsoft Internet Information Server that lets
+        you include information from other folders (besides the
+        designated home directory) in your Web, FTP, and other sites
+        without physically copying the material.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Virtual LAN (VLAN)</div></td>
+  <td>
+    <div>
+      <p>
+        Use a switch to create virtual LANs (VLANs). The various
+        ports on a switch can be assigned to a specific VLAN to
+        create logically distinct networks on the same physical
+        network topology.
+      </p>
+      <p>
+        VLANs reduce the likelihood of traffic interception because
+        the switch creating the VLANs transmits traffic only over
+        the specific port hosting the intended recipient of a
+        message. Thus, eavesdropping on any given segment will
+        reveal only the traffic occurring on that specific segment
+        rather than from the entire network. VLANs decrease
+        broadcast traffic and allow the connection of geographically
+        separate systems into the same network. VLANs usually reduce
+        collisions.
+      </p>
+      <p>
+        Routers, gateways, and hubs do not support the creation of
+        VLANs.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Virtual link</div></td>
+  <td>
+    <div>
+      <p>
+        A virtual link is a link that allows for discontinuous area
+        0s to be connected. Virtual links also all disconnected
+        areas to be connected to area 0.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Virtual memory</div></td>
+  <td>
+    <div>
+      <p>
+        A Windows technique of using hard disk space like RAM.
+        Windows uses a paging file to store information that would
+        otherwise be stored in RAM. Virtual memory allows you to run
+        more applications simultaneously than your system's RAM
+        would normally allow.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Virtual Memory Manager (VMM)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A component of the virtual memory architecture in Windows
+        NT. It intercepts data storage requests from an application,
+        figures out how much space is needed for the data, then
+        gives the data an unused memory address in either virtual or
+        physical memory. With the VMM, an application does not have
+        to keep track of how the physical memory is organized.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Virtual memory page file</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        Pagefile.sys. A file on a hard disk that Windows uses to
+        transfer information in and out of RAM and virtual memory.
+        Also called a swap file or a paging file.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Virtual private network</div></td>
+  <td>
+    <div>
+      <p>
+        Sometimes called a VPN. A VPN is the extension of a private
+        network over a shared or public network such as the
+        Internet. It makes use of encrypted and authenticated links
+        that provide remote access and routed connections between
+        private networks or computers.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Virtual Private Network (VPN)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        Sometimes called a VPN. A VPN is the extension of a private
+        network over a shared or public network such as the
+        Internet. It makes use of encrypted and authenticated links
+        that provide remote access and routed connections between
+        private networks or computers.
+      </p>
+      <script>
+        (function () {
+          function c() {
+            var b = a.contentDocument || a.contentWindow.document;
+            if (b) {
+              var d = b.createElement("script");
+              d.innerHTML =
+                "window.__CF$cv$params={r:'93d3a8133d8d39c5',t:'MTc0NjgxOTUwMC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
+              b.getElementsByTagName("head")[0].appendChild(d);
+            }
+          }
+          if (document.body) {
+            var a = document.createElement("iframe");
+            a.height = 1;
+            a.width = 1;
+            a.style.position = "absolute";
+            a.style.top = 0;
+            a.style.left = 0;
+            a.style.border = "none";
+            a.style.visibility = "hidden";
+            document.body.appendChild(a);
+            if ("loading" !== document.readyState) c();
+            else if (window.addEventListener)
+              document.addEventListener("DOMContentLoaded", c);
+            else {
+              var e = document.onreadystatechange || function () {};
+              document.onreadystatechange = function (b) {
+                e(b);
+                "loading" !== document.readyState &&
+                  ((document.onreadystatechange = e), c());
+              };
+            }
+          }
+        })();
+      </script>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Virtual server</div></td>
+  <td>
+    <div>
+      <p>
+        An independent Web, FTP, or other site hosted on a Microsoft
+        Internet Information Server. You can configure each virtual
+        server independently, as if it were a physically separate
+        server.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Virus</div></td>
+  <td>
+    <div>
+      <p>
+        A virus is the common name for a program that has no useful
+        purpose, but attempts to spread itself to other systems and
+        often damages resources on the systems where it is found.
+        Viruses are a serious threat to computer systems, especially
+        if they are connected to the Internet. It is often a minimal
+        requirement to have an anti-virus scanner installed on every
+        machine of a secured network to protect against viruses.
+      </p>
+      <p>
+        E-mail is the most common means of virus distribution. Often
+        viruses will employ self-contained SMTP servers to
+        facilitate self-replication and distribution over the
+        Internet. Viruses are able to spread quickly and broadly by
+        exploiting the communication infrastructure of Internet
+        e-mail. For this reason, it is important to keep your
+        anti-virus software updated so as to block any possible
+        attempt of viruses to infect your systems or to spread to
+        other systems from your system.
+      </p>
+      <p>
+        Floppy disks, downloaded music files, and commercial
+        software CDs all have the potential to spread viruses, but
+        they are not as common as e-mail.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>VLAN (Virtual LAN)</div></td>
+  <td>
+    <div>
+      <p>
+        Use a switch to create virtual LANs (VLANs). The various
+        ports on a switch can be assigned to a specific VLAN to
+        create logically distinct networks on the same physical
+        network topology.
+      </p>
+      <p>
+        VLANs reduce the likelihood of traffic interception because
+        the switch creating the VLANs transmits traffic only over
+        the specific port hosting the intended recipient of a
+        message. Thus, eavesdropping on any given segment will
+        reveal only the traffic occurring on that specific segment
+        rather than from the entire network. VLANs decrease
+        broadcast traffic and allow the connection of geographically
+        separate systems into the same network. VLANs usually reduce
+        collisions.
+      </p>
+      <p>
+        Routers, gateways, and hubs do not support the creation of
+        VLANs.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>VMM (Virtual Memory Manager)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        A component of the virtual memory architecture in Windows
+        NT. It intercepts data storage requests from an application,
+        figures out how much space is needed for the data, then
+        gives the data an unused memory address in either virtual or
+        physical memory. With the VMM, an application does not have
+        to keep track of how the physical memory is organized.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Volume</div></td>
+  <td>
+    <div>
+      <p>
+        A partition or several partitions you have formatted to use
+        a file system such as FAT or NTFS.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td><div>Volume set</div></td>
+  <td>
+    <div>
+      <p>
+        A method of combining areas on different hard drives into a
+        single volume. Data fills each part of the volume before
+        filling the next.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>Volume Shadow Copy Service (VSS)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        Volume Shadow Copy Service (VSS) is a component of Windows
+        Server 2003 that takes a point-in-time snapshot of files on
+        the disk. By enabling VSS, you can quickly back up and
+        restore files.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>VPN (Virtual Private Network)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        Sometimes called a VPN. A VPN is the extension of a private
+        network over a shared or public network such as the
+        Internet. It makes use of encrypted and authenticated links
+        that provide remote access and routed connections between
+        private networks or computers.
+      </p>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>
+    <div>VSS (Volume Shadow Copy Service)</div>
+  </td>
+  <td>
+    <div>
+      <p>
+        Volume Shadow Copy Service (VSS) is a component of Windows
+        Server 2003 that takes a point-in-time snapshot of files on
+        the disk. By enabling VSS, you can quickly back up and
+        restore files.
+      </p>
+    </div>
+  </td>
+</tr>
+</tbody>
+</table>
 
 ### W
 
