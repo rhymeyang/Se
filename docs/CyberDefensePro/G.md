@@ -1106,12 +1106,10 @@ description: some description
           is often combined with ESP to achieve integrity and
           confidentiality.
         </p>
-
         <p>&nbsp;</p>
         <p>&nbsp;</p>
       </div>
     </td>
-
   </tr>
   <tr>
     <td><div>Authoritative domain</div></td>
@@ -2359,11 +2357,9 @@ description: some description
             over at step 1.
           </li>
         </ol>
-
         <p></p>
       </div>
     </td>
-
   </tr>
   <tr>
     <td>
@@ -2629,7 +2625,6 @@ description: some description
           to protect passwords while in transit from a client to
           the logon server.
         </p>
-
         <p>
           CHAP periodically verifies the identity of a peer using
           a three-way handshake. CHAP ensures that the same client
@@ -2645,7 +2640,6 @@ description: some description
         </p>
       </div>
     </td>
-
   </tr>
   <tr>
     <td>
@@ -2687,7 +2681,6 @@ description: some description
           to protect passwords while in transit from a client to
           the logon server.
         </p>
-
         <p>
           CHAP periodically verifies the identity of a peer using
           a three-way handshake. CHAP ensures that the same client
@@ -2703,7 +2696,6 @@ description: some description
         </p>
       </div>
     </td>
-
   </tr>
   <tr>
     <td><div>Character set</div></td>
