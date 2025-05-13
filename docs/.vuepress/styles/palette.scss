@@ -1,20 +1,23 @@
+// 主色调（强化用神火）
+// 原：$theme-color: #F4511E;
+$theme-color: #E53935; // 更纯的烈焰红色，更有冲击力
 
-// .vuepress/styles/palette.scss
+// 链接颜色（辅助用神火）
+// 原：$accent-color: #FFB300;
+$accent-color: #FB8C00; // 去土偏黄，改为亮橙火色，更适合九紫离火格局
 
-// 主色调，使用火焰的橙红色（大约 #F4511E 或 #FF6F00）
-$theme-color: #F4511E;
+// 背景色（去土化）
+// 原：$background-color: #FFF8F1;
+$background-color: #FFF3E0; // 米橙偏火色，保留温暖不养土
 
-// 链接颜色（可选）
-$accent-color: #FFB300;
-
-// 背景色（可选）
-$background-color: #FFF8F1;
-
-// 标题颜色（可选）
+// 正文标题颜色
 $text-color: #2D2D2D;
-$gray-text-color: #6D6D6D;
+$gray-text-color: rgba(45, 45, 45, 0.56); // 用 root 变量统一灰阶感
 
-// 可选：导航高亮、代码块等配色
-$navbar-background-color: #F4511E;
+// 导航栏背景与文字颜色（继续火红）
+$navbar-background-color: #E53935; // 同主色调一致性
 $navbar-text-color: #ffffff;
-$code-block-bg: #fff3e0;
+
+// 代码块背景（火感中性色）
+// 原：#fff3e0 → 保留或轻微加强
+$code-block-bg: #FFE0B2; // 更暖亮的火米色背景，适合 code 区块的聚焦感
